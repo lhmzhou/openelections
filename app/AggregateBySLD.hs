@@ -72,8 +72,8 @@ main = do
     Left err ->
       E.throw $ MiscException ("SLD Parse Failure: " <> (T.pack $ show err))
     Right x -> return x
-  let precincts       = fmap precinct pVotes
-      precinctsBySLDs = FL.fold precinctsBySLDF (V.zip slds precincts)
+  let withSLDs        = V.zip slds pVotes
+      precinctsBySLDs = FL.fold precinctsBySLDF withSLDs
   putStrLn $ show $ precinctsBySLDs
   return ()
 
@@ -92,6 +92,13 @@ type PrecinctsBySLD = M.Map SLD (S.Set T.Text)
 data ProcessedPrecincts = ProcessedPrecincts { precinctsBySLD :: PrecinctsBySLD
                                              , votesByPrecinct :: VotesByPrecinct
                                              } deriving (Show)
+
+
+precinctsBySLDF :: FL.Fold (SLD, PrecinctVote) PrecinctsBySLD
+precinctsBySLDF = fmap (fmap S.fromList . M.fromList) $ MR.mapReduceFold
+  (MR.filterUnpack ((/= NonSLD) . fst))
+  (MR.assign fst (precinct . snd))
+  (MR.foldAndLabel FL.list (\sld ps -> (sld, ps)))
 
 
 
@@ -126,11 +133,6 @@ parseSLD office districtM = do
             <> "\""
         Just d -> Right $ sldFromOffice d
 
-precinctsBySLDF :: FL.Fold (SLD, T.Text) PrecinctsBySLD
-precinctsBySLDF = fmap (fmap S.fromList . M.fromList) $ MR.mapReduceFold
-  (MR.filterUnpack ((/= NonSLD) . fst))
-  (MR.assign fst snd)
-  (MR.foldAndLabel FL.list (\sld ps -> (sld, ps)))
 
 
 --thinkOne :: V.Vector PrecinctVote -> ProcessedPrecincts 
