@@ -1,0 +1,43 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 631e3aecd2fa50a1d38076e49f1e23f1060926c7faebb877a7a4b5c918796f44
+
+name:                open-elections
+version:             0.1.0.0
+synopsis:            open-elections data re-processor
+category:            Data
+homepage:            https://github.com/blueripple/open-elections#readme
+bug-reports:         https://github.com/blueripple/open-elections/issues
+author:              Adam Conner-Sax
+maintainer:          adam_conner_sax@yahoo.com
+copyright:           2019 Adam Conner-Sax
+license:             BSD3
+build-type:          Simple
+extra-source-files:
+    ChangeLog.md
+    Readme.md
+
+source-repository head
+  type: git
+  location: https://github.com/blueripple/open-elections
+
+executable AggregateBySLD
+  main-is: AggregateBySLD.hs
+  other-modules:
+      Paths_open_elections
+  hs-source-dirs:
+      app
+  build-depends:
+      base
+    , bytestring
+    , cassava
+    , containers
+    , foldl
+    , map-reduce-folds
+    , text
+    , vector
+  default-language: Haskell2010
