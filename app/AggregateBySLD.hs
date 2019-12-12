@@ -72,9 +72,11 @@ main = do
     Left err ->
       E.throw $ MiscException ("SLD Parse Failure: " <> (T.pack $ show err))
     Right x -> return x
-  let withSLDs        = V.zip slds pVotes
-      precinctsBySLDs = FL.fold precinctsBySLDF withSLDs
+  let withSLDs = V.zip slds pVotes
+      allF = (,) <$> precinctsBySLDF <*> FL.premap snd tvboFromPrecincts
+      (precinctsBySLDs, vboPrecinct) = FL.fold allF withSLDs
   putStrLn $ show $ precinctsBySLDs
+  putStrLn $ show $ vboPrecinct
   return ()
 
 data Candidate = Candidate { cName :: T.Text, cParty :: T.Text }
@@ -100,7 +102,14 @@ precinctsBySLDF = fmap (fmap S.fromList . M.fromList) $ MR.mapReduceFold
   (MR.assign fst (precinct . snd))
   (MR.foldAndLabel FL.list (\sld ps -> (sld, ps)))
 
+totalVotesByOfficeF :: FL.Fold (T.Text, Int) (M.Map T.Text Int)
+totalVotesByOfficeF = fmap M.fromList $ MR.mapReduceFold
+  MR.noUnpack
+  (MR.assign fst snd)
+  (MR.foldAndLabel FL.sum (\office votes -> (office, votes)))
 
+tvboFromPrecincts =
+  FL.premap (\pv -> (office pv, votes pv)) totalVotesByOfficeF
 
 hasWord x y = not . T.null . snd $ T.breakOn y x
 
