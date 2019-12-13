@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 631e3aecd2fa50a1d38076e49f1e23f1060926c7faebb877a7a4b5c918796f44
+-- hash: 5eb107a7df0b568d61f648d355501bb8beb6f28d9527d4cdf4b1fdbdda7615e2
 
 name:                open-elections
 version:             0.1.0.0
@@ -36,6 +36,7 @@ executable AggregateBySLD
     , bytestring
     , cassava
     , containers
+    , directory
     , foldl
     , map-reduce-folds
     , text
