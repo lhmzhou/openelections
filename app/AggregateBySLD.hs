@@ -16,12 +16,15 @@ import           Data.Maybe                     ( isJust
                                                 , fromMaybe
                                                 )
 import           Data.Ord                       ( Ordering )
-import qualified Data.Set                      as S
+import qualified Data.Set                      as Set
 import qualified Data.Text                     as T
 import qualified Data.Text.IO                  as T
 import qualified Data.Char                     as TC
+import qualified Data.ByteString               as B
 import qualified Data.ByteString.Lazy          as BL
+--import qualified Data.ByteString.Char8          as BC
 import qualified Data.Vector                   as V
+import           Data.Word                      ( Word8 )
 import           Text.Read                      ( readMaybe )
 
 import           Control.Applicative            ( (<|>) )
@@ -35,6 +38,12 @@ import qualified Control.MapReduce             as MR
 import           GHC.Generics                   ( Generic )
 import           Data.Typeable                  ( Typeable )
 import qualified System.Directory              as SD
+
+import qualified Streamly.Prelude              as S
+import qualified Streamly                      as S
+import qualified Streamly.Internal.FileSystem.File
+                                               as SF
+import qualified Streamly.Data.Fold            as SFL
 
 data MyException = MiscException T.Text deriving (Show, Typeable)
 
@@ -55,13 +64,13 @@ data PrecinctVote =
   PrecinctVote { county :: !T.Text
                , precinct :: !T.Text
                , districtM :: !(Maybe Int)
-               , pVote :: CandidateVote
+               , pVote :: !CandidateVote
                } deriving (Generic, Show)
 
-type PKey = (T.Text, T.Text) -- (county, precinct)
+data PKey = PKey { pkCounty :: !T.Text, pkPrecinct :: !T.Text } deriving (Show, Eq, Ord)
 
 pKey :: PrecinctVote -> PKey
-pKey pv = (county pv, precinct pv)
+pKey pv = PKey (county pv) (precinct pv)
 
 instance C.FromNamedRecord PrecinctVote where
   parseNamedRecord m = PrecinctVote
@@ -233,7 +242,7 @@ parseFiles fps = do
     mconcat
       <$> (forM fps $ \fp -> do
             putStrLn $ "loading/parsing \"" ++ fp ++ "\""
-            precinctCSV <- BL.readFile fp
+            precinctCSV <- fileToBS fp
             case C.decodeByName @PrecinctVote precinctCSV of
               Left err -> E.throw
                 $ MiscException ("CSV Parse Failure: " <> (T.pack $ show err))
@@ -245,7 +254,26 @@ parseFiles fps = do
     Right x -> return x
   return $ V.zip slds pVotes
 
-data Candidate = Candidate { cName :: T.Text, cParty :: T.Text }
+fileToBS :: FilePath -> IO BL.ByteString
+fileToBS fp =
+  let eol   = fromIntegral $ TC.ord '\n' :: Word8
+      dq    = fromIntegral $ TC.ord '"' :: Word8
+      sp    = fromIntegral $ TC.ord ' ' :: Word8
+      lines = S.splitWithSuffix (== eol) SFL.toList
+      badLine :: [Word8] -> Bool
+      badLine x =
+        let (befQS, afterQS) = B.breakSubstring "\" " $ B.pack x
+        in  (B.null afterQS) || (B.last befQS == dq)
+  in  fmap BL.fromChunks
+      $ S.toList
+      $ S.map B.pack
+      $ S.filter badLine
+      $ lines
+      $ SF.toBytes fp
+
+
+
+data Candidate = Candidate { cName :: !T.Text, cParty :: !T.Text }
 
 type VotesByCandidate = M.Map T.Text Int -- votes by candidate
 
@@ -253,7 +281,7 @@ type VotesByOffice = M.Map T.Text VotesByCandidate
 
 type VotesByPrecinct = M.Map T.Text VotesByOffice
 
-data SLD a = House Int a | Senate Int a deriving (Show, Eq, Ord, Functor)
+data SLD a = House !Int !a | Senate !Int !a deriving (Show, Eq, Ord, Functor)
 
 isHouse (House _ _) = True
 isHouse _           = False
@@ -261,7 +289,7 @@ isHouse _           = False
 isSenate (Senate _ _) = True
 isSenate _            = False
 
-type PrecinctsBySLD = M.Map (SLD ()) (S.Set PKey)
+type PrecinctsBySLD = M.Map (SLD ()) (Set.Set PKey)
 type SLDsByPrecinct a = M.Map PKey [SLD a]
 
 data ProcessedPrecincts = ProcessedPrecincts { precinctsBySLD :: PrecinctsBySLD
@@ -320,7 +348,7 @@ precinctVotesToSLDVotes sldsByP pv = case M.lookup (pKey pv) sldsByP of
     return $ fmap (withSLD pv) slds
 
 precinctsBySLDF :: FL.Fold (Maybe (SLD Int), PrecinctVote) PrecinctsBySLD
-precinctsBySLDF = fmap (fmap S.fromList . M.fromList) $ MR.mapReduceFold
+precinctsBySLDF = fmap (fmap Set.fromList . M.fromList) $ MR.mapReduceFold
   (MR.filterUnpack (isJust . fst))
   (MR.assign (fromJust . fst) (pKey . snd))
   (MR.foldAndLabel FL.list (\sld ps -> (sldLabel sld, ps)))

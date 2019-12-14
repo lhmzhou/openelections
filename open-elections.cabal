@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5eb107a7df0b568d61f648d355501bb8beb6f28d9527d4cdf4b1fdbdda7615e2
+-- hash: 622d99d1c9c2ba8716321704719c62c00407a389cb09597be4908d9d631e2be1
 
 name:                open-elections
 version:             0.1.0.0
@@ -39,6 +39,7 @@ executable AggregateBySLD
     , directory
     , foldl
     , map-reduce-folds
+    , streamly >=0.7
     , text
     , vector
   default-language: Haskell2010

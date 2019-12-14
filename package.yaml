@@ -23,6 +23,7 @@ executables:
       - directory
       - foldl
       - map-reduce-folds
+      - streamly >= 0.7
       - text
       - vector
       
