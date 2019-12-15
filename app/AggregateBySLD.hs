@@ -153,7 +153,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = iaConfig
+  let stateConfig = txConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -372,7 +372,7 @@ votesBySLDF sldsByP = MR.mapReduceFold
   )
 
 vbSLDHeader :: T.Text =
-  "State Legislative District,Office,Candidate,Party,Votes"
+  "State Legislative District,Office,Party,Candidate,Votes"
 
 vbSLDtoCSV :: (SLD (), CandidateVote) -> T.Text
 vbSLDtoCSV (sld, (CandidateVote o n p v)) =
