@@ -8,6 +8,7 @@
 module Main where
 
 import qualified Data.Csv                      as C
+import qualified Data.Csv.Streaming            as CS
 import           Data.Csv                       ( (.:) )
 import qualified Data.List                     as L
 import qualified Data.Map                      as M
@@ -15,10 +16,14 @@ import           Data.Maybe                     ( isJust
                                                 , fromJust
                                                 , fromMaybe
                                                 )
+import qualified Data.Bifunctor                as BF
+import           Data.Either                    ( isRight )
 import           Data.Ord                       ( Ordering )
+import           Data.Monoid                    ( Any(..) )
 import qualified Data.Set                      as Set
 import qualified Data.Text                     as T
 import qualified Data.Text.IO                  as T
+import qualified Data.Text.Encoding            as T
 import qualified Data.Char                     as TC
 import qualified Data.ByteString               as B
 import qualified Data.ByteString.Lazy          as BL
@@ -29,8 +34,10 @@ import           Text.Read                      ( readMaybe )
 
 import           Control.Applicative            ( (<|>) )
 import           Control.Monad                  ( when
+                                                , join
                                                 , forM
                                                 )
+import           Control.Monad.IO.Class         ( MonadIO(liftIO) )
 import qualified Control.Exception             as E
 import qualified Control.Foldl                 as FL
 import qualified Control.MapReduce             as MR
@@ -38,6 +45,7 @@ import qualified Control.MapReduce             as MR
 import           GHC.Generics                   ( Generic )
 import           Data.Typeable                  ( Typeable )
 import qualified System.Directory              as SD
+import qualified System.IO                     as SI
 
 import qualified Streamly.Prelude              as S
 import qualified Streamly                      as S
@@ -75,7 +83,7 @@ pKey pv = PKey (county pv) (precinct pv)
 instance C.FromNamedRecord PrecinctVote where
   parseNamedRecord m = PrecinctVote
                        <$> m .: "county"
-                       <*> m .: "precinct"
+                       <*> (fmap (T.filter (/= ' ') . T.toUpper) $ m .: "precinct")
                        <*> (fmap (readMaybe @Int . L.filter TC.isDigit) $ m .: "district")
                        <*> (CandidateVote
                             <$> m .: "office"
@@ -93,7 +101,10 @@ fixOffice pv@(PrecinctVote c p dM (CandidateVote o n pa v)) = case dM of
     dM
     (CandidateVote (o <> ": district " <> (T.pack $ show d)) n pa v)
 
-data StateConfig = StateConfig { getFilePaths :: IO ([FilePath], [FilePath]) }
+data StateConfig = StateConfig { getFilePaths :: IO ([FilePath], [FilePath])
+                               , bySLDFile :: FilePath
+                               , logFileM :: Maybe FilePath
+                               }
 
 gaConfig = StateConfig
   (do
@@ -106,27 +117,49 @@ gaConfig = StateConfig
           $ L.filter (L.isPrefixOf "20180522__ga__primary__") allFiles
     return (elexFiles, backupFiles)
   )
+  "results/GA_VotesByStateLegislativeDistrict.csv"
+  (Just "logs/GA.log")
 
 
 txConfig = StateConfig
   (do
-    let dir = "openelections-data-tx/2018/counties/"
-        addDir f = dir ++ f
-    allFiles <- SD.listDirectory dir
-    let elexFiles = fmap addDir
-          $ L.filter (L.isPrefixOf "20181106__tx__general__") allFiles
-        backupFiles = fmap addDir
-          $ L.filter (L.isPrefixOf "20180306__tx__primary__") allFiles
+    let elexFiles =
+          ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
+        backupFiles =
+          ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
     return (elexFiles, backupFiles)
   )
+  "results/TX_VotesByStateLegislativeDistrict.csv"
+  (Just "logs/TX.log")
+
+iaConfig = StateConfig
+  (do
+    let elexFiles =
+          ["openelections-data-ia/2018/20181106__ia__general__precinct.csv"]
+        backupFiles =
+          [ "openelections-data-ia/2018/20180605__ia__primary__precinct.csv"
+          , "openelections-data-ia/2016/20161108__ia__general__precinct.csv"
+          ]
+    return (elexFiles, backupFiles)
+  )
+  "results/IA_VotesByStateLegislativeDistrict.csv"
+  (Just "logs/IA.log")
 
 main :: IO ()
 main = do
-  let stateConfig = txConfig
+  let stateConfig = gaConfig
+      log         = maybe (T.hPutStrLn SI.stderr)
+                          (\fp msg -> T.appendFile fp (msg <> "\n"))
+                          (logFileM stateConfig)
+      removeIfExists fp = do
+        b <- SD.doesFileExist fp
+        when b $ SD.removeFile fp
+        return ()
+  maybe (return ()) removeIfExists (logFileM stateConfig)
   (elexFiles, backupPrecFiles) <- getFilePaths stateConfig
-  parsedElection'              <- parseFiles elexFiles
+  parsedElection'              <- parseFiles log elexFiles
   let parsedElection = fmap (\(a, b) -> (a, fixOffice b)) parsedElection'
-  parsedBackup <- parseFiles backupPrecFiles
+  parsedBackup <- parseFiles log backupPrecFiles
   putStrLn $ "constructing backup dictionary of precinct -> SLD mappings"
   backupSLDsBP <- case FL.foldM sldsByPrecinctFM parsedBackup of
     Left err -> E.throw $ MiscException
@@ -148,15 +181,10 @@ main = do
       Right x -> return x
   putStrLn $ "pass 1 complete.\npass 2: votesBySLD and vboHouse, vboSenate"
   putStrLn $ "Backfilling primary dictionary:"
-  updatedSLDsByPrecinct <- backfillDictionary sldsByPrecinct backupSLDsBP
-  votesBySLD            <-
-    case
-      FL.foldM (votesBySLDFM updatedSLDsByPrecinct) (fmap snd parsedElection)
-    of
-      Left err -> E.throw
-        $ MiscException ("Vote re-allocation error: " <> (T.pack $ show err))
-      Right x -> return x
-  let votesF =
+  updatedSLDsByPrecinct <- backfillDictionary log sldsByPrecinct backupSLDsBP
+  let votesBySLD =
+        FL.fold (votesBySLDF updatedSLDsByPrecinct) (fmap snd parsedElection)
+      votesF =
         (,)
           <$> FL.prefilter (isHouse . fst) tvboFromSLDF
           <*> FL.prefilter (isSenate . fst) tvboFromSLDF
@@ -165,15 +193,15 @@ main = do
       pVsHouse      = M.differenceWith voteComp vboPrecinct vboHouse
       pVsSenate     = M.differenceWith voteComp vboPrecinct vboSenate
       houseVsSenate = M.differenceWith voteComp vboHouse vboSenate
-  putStrLn $ "Precinct vs House:\n" ++ show pVsHouse
-  putStrLn $ "Precinct vs Senate:\n" ++ show pVsSenate
-  putStrLn $ "House vs Senate:\n" ++ show houseVsSenate
+  log $ T.pack $ "Precinct vs House:\n" ++ show pVsHouse
+  log $ T.pack $ "Precinct vs Senate:\n" ++ show pVsSenate
+  log $ T.pack $ "House vs Senate:\n" ++ show houseVsSenate
   let output = vbSLDHeader <> "\n" <> T.intercalate
         "\n"
         (fmap vbSLDtoCSV $ L.sortBy outputCompare $ L.filter outputFilter
                                                              votesBySLD
         )
-  T.writeFile "VotesByStateLegistiveDistrict.csv" output
+  T.writeFile (bySLDFile stateConfig) output
   return ()
 
 outputFilter :: (SLD (), CandidateVote) -> Bool
@@ -190,10 +218,11 @@ outputCompare (sldA, (CandidateVote oA nA _ _)) (sldB, (CandidateVote oB nB _ _)
 
 
 backfillDictionary
-  :: SLDsByPrecinct Double
+  :: (T.Text -> IO ())
+  -> SLDsByPrecinct Double
   -> SLDsByPrecinct Double
   -> IO (SLDsByPrecinct Double)
-backfillDictionary electionD backupD = do
+backfillDictionary log electionD backupD = do
   let
     missingHouse  = L.null . L.filter isHouse
     missingSenate = L.null . L.filter isSenate
@@ -201,18 +230,18 @@ backfillDictionary electionD backupD = do
     multiSenate   = (> 1) . L.length . L.filter isSenate
     addFromBackup isType (p, slds) =
       case fmap (L.filter isType) (M.lookup p backupD) of
-        Nothing ->
-          E.throw
-            $  MiscException
+        Nothing -> do
+          log
             $  "Failed to find precinct=\""
             <> (T.pack $ show p)
             <> "\" in backup dictionary."
-        Just [] ->
-          E.throw
-            $  MiscException
+          return (p, [])
+        Just [] -> do
+          log
             $  "Backup entry for precinct=\""
             <> (T.pack $ show p)
             <> "\" is also empty."
+          return (p, [])
         Just newSLDs -> return (p, slds ++ newSLDs)
 
     findF =
@@ -235,39 +264,58 @@ backfillDictionary electionD backupD = do
   return newSLDsByPrecinct
 
 
+parseFiles log fps = fmap V.fromList $ S.toList $ parseFiles' log fps
 
-parseFiles :: [FilePath] -> IO (V.Vector (Maybe (SLD Int), PrecinctVote))
-parseFiles fps = do
-  pVotes <-
-    mconcat
-      <$> (forM fps $ \fp -> do
-            putStrLn $ "loading/parsing \"" ++ fp ++ "\""
-            precinctCSV <- fileToBS fp
-            case C.decodeByName @PrecinctVote precinctCSV of
-              Left err -> E.throw
-                $ MiscException ("CSV Parse Failure: " <> (T.pack $ show err))
-              Right (_, v) -> return v
-          )
-  slds <- case (sequence $ fmap parseSLDFromPV pVotes) of
-    Left err ->
-      E.throw $ MiscException ("SLD Parse Failure: " <> (T.pack $ show err))
-    Right x -> return x
-  return $ V.zip slds pVotes
+parseFiles'
+  :: (T.Text -> IO ()) -> [FilePath] -> S.Serial (Maybe (SLD Int), PrecinctVote)
+parseFiles' log fps = do
+  let saveErr = either log (const $ return ())
+{-      
+  saveErr <- liftIO $ case errPathM of
+    Nothing      -> return $ either (T.hPutStrLn SI.stderr) (const $ return ())
+    Just logPath -> return $ either (T.appendFile logPath) (const $ return ())
+-}
+  S.mapMaybe (either (const Nothing) Just)
+    $ S.tap (SFL.drainBy saveErr)
+    $ S.concatMap parseFile'
+    $ S.fromList fps
 
-fileToBS :: FilePath -> IO BL.ByteString
-fileToBS fp =
-  let eol   = fromIntegral $ TC.ord '\n' :: Word8
-      dq    = fromIntegral $ TC.ord '"' :: Word8
-      sp    = fromIntegral $ TC.ord ' ' :: Word8
-      lines = S.splitWithSuffix (== eol) SFL.toList
-      badLine :: [Word8] -> Bool
-      badLine x =
-        let (befQS, afterQS) = B.breakSubstring "\" " $ B.pack x
-        in  (B.null afterQS) || (B.last befQS == dq)
+
+parseFile'
+  :: FilePath -> S.Serial (Either T.Text (Maybe (SLD Int), PrecinctVote))
+parseFile' fp = do
+  liftIO $ putStrLn $ "loading/parsing \"" ++ fp ++ "\""
+  precinctCSV <- liftIO $ fileToBS
+    ["county", "Senator", "Senate", "Representative", "Governor"]
+    fp
+  recsPV <- liftIO $ case CS.decodeByName @PrecinctVote precinctCSV of
+    Left err -> E.throw
+      $ MiscException ("CSV Header Parse Failure: " <> (T.pack $ show err))
+    Right (_, pvRecords) -> return pvRecords
+  let addSLD pv = do
+        sld <- parseSLDFromPV pv
+        return (sld, pv)
+      locateError err = T.pack (fp ++ ": " ++ err)
+      unfoldF rs = case rs of
+        CS.Nil _         _   -> Nothing
+        r      `CS.Cons` rs' -> Just (join $ BF.bimap locateError addSLD r, rs')
+  S.unfoldr unfoldF recsPV
+
+
+fileToBS :: [T.Text] -> FilePath -> IO BL.ByteString
+fileToBS wordsText fp =
+  let eol     = fromIntegral $ TC.ord '\n' :: Word8
+      dq      = fromIntegral $ TC.ord '"' :: Word8
+      wordsBS = fmap T.encodeUtf8 wordsText
+      lines   = S.splitWithSuffix (== eol) SFL.toList
+      goodLine :: [Word8] -> Bool
+      goodLine x =
+        let hasWord bs w = not $ B.null $ snd $ B.breakSubstring w bs
+        in  getAny $ mconcat $ fmap (Any . hasWord (B.pack x)) wordsBS
   in  fmap BL.fromChunks
       $ S.toList
       $ S.map B.pack
-      $ S.filter badLine
+      $ S.filter goodLine
       $ lines
       $ SF.toBytes fp
 
@@ -296,21 +344,19 @@ data ProcessedPrecincts = ProcessedPrecincts { precinctsBySLD :: PrecinctsBySLD
                                              , votesByPrecinct :: VotesByPrecinct
                                              } deriving (Show)
 
-votesBySLDFM
-  :: SLDsByPrecinct Double
-  -> FL.FoldM (Either T.Text) PrecinctVote [(SLD (), CandidateVote)]
-votesBySLDFM sldsByP = MR.mapReduceFoldM
-  (MR.UnpackM $ precinctVotesToSLDVotes sldsByP)
-  (MR.generalizeAssign $ MR.Assign
+votesBySLDF
+  :: SLDsByPrecinct Double -> FL.Fold PrecinctVote [(SLD (), CandidateVote)]
+votesBySLDF sldsByP = MR.mapReduceFold
+  (MR.Unpack $ precinctVotesToSLDVotes sldsByP)
+  (MR.Assign
     (\(sld, pvote) ->
       ( (sld, candOffice pvote, candName pvote, candParty pvote)
       , candVotes pvote
       )
     )
   )
-  (MR.generalizeReduce $ MR.foldAndLabel
-    FL.sum
-    (\(sld, co, cn, cp) v -> (sld, CandidateVote co cn cp v))
+  (MR.foldAndLabel FL.sum
+                   (\(sld, co, cn, cp) v -> (sld, CandidateVote co cn cp v))
   )
 
 vbSLDHeader :: T.Text =
@@ -338,14 +384,12 @@ sumDistrictData slds =
     (fmap sldData slds)
 
 precinctVotesToSLDVotes
-  :: SLDsByPrecinct Double
-  -> PrecinctVote
-  -> Either T.Text [(SLD (), CandidateVote)]
+  :: SLDsByPrecinct Double -> PrecinctVote -> [(SLD (), CandidateVote)]
 precinctVotesToSLDVotes sldsByP pv = case M.lookup (pKey pv) sldsByP of
-  Nothing   -> Left $ "No SLDs found for precinct=\"" <> (precinct pv) <> "\"."
-  Just slds -> do
+  Nothing -> [] -- Left $ "No SLDs found for precinct=\"" <> (precinct pv) <> "\"."
+  Just slds ->
     let withSLD pv sld = (sldLabel sld, scaleVotes (sldData sld) $ pVote pv)
-    return $ fmap (withSLD pv) slds
+    in  fmap (withSLD pv) slds
 
 precinctsBySLDF :: FL.Fold (Maybe (SLD Int), PrecinctVote) PrecinctsBySLD
 precinctsBySLDF = fmap (fmap Set.fromList . M.fromList) $ MR.mapReduceFold
@@ -409,11 +453,12 @@ parseSLDFromPV pv =
 
 parseSLD :: T.Text -> Maybe Int -> Int -> Either T.Text (Maybe (SLD Int))
 parseSLD office districtM votes = do
-  let officeHas = hasWord (T.toUpper office)
-      isState   = officeHas "STATE"
-      isHouse   = officeHas "REPRESENTATIVE"
-      isSenate  = officeHas "SENATOR"
-      isSLD     = isState && (isHouse || isSenate)
+  let officeHas      = hasWord (T.toUpper office)
+      isState        = officeHas "STATE"
+      isUnitedStates = officeHas "UNITED STATES"
+      isHouse        = officeHas "REPRESENTATIVE"
+      isSenate       = officeHas "SENATOR" || officeHas "SENATE"
+      isSLD          = isState && not isUnitedStates && (isHouse || isSenate)
   case isSLD of
     False -> return Nothing
     True  -> do
