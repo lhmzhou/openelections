@@ -1,15 +1,17 @@
 State Legislative District,Office,Candidate,Party,Votes
-House 1,Governor,DEM,Lupe Valdez,7311
-House 1,Governor,LIB,Mark Jay Tippetts,346
-House 1,Governor,REP,Greg Abbott,25221
+House 1,Governor,,OVER VOTES,2
+House 1,Governor,,UNDER VOTES,142
+House 1,Governor,DEM,Lupe Valdez,11993
+House 1,Governor,LIB,Mark Jay Tippetts,566
+House 1,Governor,REP,Greg Abbott,40539
 House 2,Governor,DEM,Lupe Valdez,10314
 House 2,Governor,LIB,Mark Jay Tippetts,708
 House 2,Governor,REP,Greg Abbott,47220
 House 3,Governor,,Over Votes,1
-House 3,Governor,,Under Votes,290
-House 3,Governor,DEM,Lupe Valdez,11736
-House 3,Governor,LIB,Mark Jay Tippetts,649
-House 3,Governor,REP,Greg Abbott,44231
+House 3,Governor,,Under Votes,338
+House 3,Governor,DEM,Lupe Valdez,14190
+House 3,Governor,LIB,Mark Jay Tippetts,772
+House 3,Governor,REP,Greg Abbott,49671
 House 4,Governor,,OVER VOTES,2
 House 4,Governor,,Over Votes,3
 House 4,Governor,,UNDER VOTES,118
@@ -20,32 +22,34 @@ House 4,Governor,REP,Greg Abbott,45952
 House 5,Governor,,Cast Votes,8814
 House 5,Governor,,Overvotes,0
 House 5,Governor,,Undervotes,14
-House 5,Governor,DEM,Lupe Valdez,12746
-House 5,Governor,LIB,Mark Jay Tippetts,491
-House 5,Governor,LIB,Mark Jay Tippetts ,98
-House 5,Governor,REP,Greg Abbott,38757
-House 5,Governor,REP,Gregg Abbott,5761
+House 5,Governor,DEM,Lupe  Valdez,1028
+House 5,Governor,DEM,Lupe Valdez,16227
+House 5,Governor,LIB,Mark Jay Tippetts,683
+House 5,Governor,LIB,Mark Jay Tippetts ,142
+House 5,Governor,REP,Greg  Abbott,2816
+House 5,Governor,REP,Greg Abbott,53163
+House 5,Governor,REP,Gregg Abbott,8777
 House 6,Governor,DEM,Lupe Valdez,31629
 House 6,Governor,LIB,Mark Jay Tippetts,1367
 House 6,Governor,REP,Greg Abbott,80279
 House 7,Governor,,Over Votes,0
-House 7,Governor,,Under Votes,88
-House 7,Governor,DEM,Lupe Valdez,1724
-House 7,Governor,LIB,Mark Jay Tippetts,145
-House 7,Governor,REP,Greg Abbott,8284
+House 7,Governor,,Under Votes,115
+House 7,Governor,DEM,Lupe Valdez,2177
+House 7,Governor,LIB,Mark Jay Tippetts,194
+House 7,Governor,REP,Greg Abbott,11638
 House 8,Governor,,OVER VOTES,0
 House 8,Governor,,UNDER VOTES,71
-House 8,Governor,DEM,Lupe Valdez,4563
-House 8,Governor,LIB,Mark Jay Tippetts,240
-House 8,Governor,REP,Greg Abbott,19289
+House 8,Governor,DEM,Lupe Valdez,10026
+House 8,Governor,LIB,Mark Jay Tippetts,535
+House 8,Governor,REP,Greg Abbott,39369
 House 9,Governor,,Greg Abbott,6132
 House 9,Governor,,Lupe Valdez,1366
 House 9,Governor,,Mark Jay Tippetts,44
 House 9,Governor,,Over Votes,6
-House 9,Governor,,Under Votes,145
-House 9,Governor,DEM,Lupe Valdez,7962
-House 9,Governor,LIB,Mark Jay Tippetts,331
-House 9,Governor,REP,Greg Abbott,26967
+House 9,Governor,,Under Votes,268
+House 9,Governor,DEM,Lupe Valdez,10343
+House 9,Governor,LIB,Mark Jay Tippetts,450
+House 9,Governor,REP,Greg Abbott,38282
 House 10,Governor,,Over Votes,0
 House 10,Governor,,Under Votes,46
 House 10,Governor,DEM,Lupe Valdez,16637
@@ -60,9 +64,11 @@ House 12,Governor,,OVER VOTES,1
 House 12,Governor,,Over Votes,0
 House 12,Governor,,UNDER VOTES,124
 House 12,Governor,,Under Votes,294
+House 12,Governor,DEM,Lupe  Valdez,1286
 House 12,Governor,DEM,Lupe Valdez,13699
-House 12,Governor,LIB,Mark Jay Tippetts,537
-House 12,Governor,REP,Greg Abbott,30575
+House 12,Governor,LIB,Mark Jay Tippetts,576
+House 12,Governor,REP,Greg  Abbott,3344
+House 12,Governor,REP,Greg Abbott,30578
 House 13,Governor,,Greg Abbott,6674
 House 13,Governor,,Lupe Valdez,1855
 House 13,Governor,,Mark Jay Tippetts,102
@@ -70,30 +76,30 @@ House 13,Governor,,OVER VOTES,2
 House 13,Governor,,Over Votes,0
 House 13,Governor,,UNDER VOTES,149
 House 13,Governor,,Under Votes,126
-House 13,Governor,DEM,Lupe Valdez,7462
-House 13,Governor,LIB,Mark Jay Tippetts,462
-House 13,Governor,REP,Greg Abbott,30787
+House 13,Governor,DEM,Lupe Valdez,11188
+House 13,Governor,LIB,Mark Jay Tippetts,668
+House 13,Governor,REP,Greg Abbott,51352
 House 14,Governor,,Over Votes,0
 House 14,Governor,,Under Votes,536
 House 14,Governor,DEM,Lupe Valdez,19856
 House 14,Governor,LIB,Mark Jay Tippetts,1124
 House 14,Governor,REP,Greg Abbott,27496
 House 15,Governor,,Over Votes,1
-House 15,Governor,,Under Votes,528
-House 15,Governor,DEM,Lupe Valdez,19381
-House 15,Governor,LIB,Mark Jay Tippetts,1074
-House 15,Governor,REP,Greg Abbott,48113
+House 15,Governor,,Under Votes,621
+House 15,Governor,DEM,Lupe Valdez,23026
+House 15,Governor,LIB,Mark Jay Tippetts,1236
+House 15,Governor,REP,Greg Abbott,55563
 House 16,Governor,,Over Votes,0
-House 16,Governor,,Under Votes,478
-House 16,Governor,DEM,Lupe Valdez,11042
-House 16,Governor,LIB,Mark Jay Tippetts,729
-House 16,Governor,REP,Greg Abbott,47473
+House 16,Governor,,Under Votes,500
+House 16,Governor,DEM,Lupe Valdez,11619
+House 16,Governor,LIB,Mark Jay Tippetts,764
+House 16,Governor,REP,Greg Abbott,50069
 House 17,Governor,,Overvotes,0
-House 17,Governor,,Under Votes,39
-House 17,Governor,DEM,Lupe Valdez,17103
-House 17,Governor,IND,Mark Jay Tippetts,50
+House 17,Governor,,Under Votes,42
+House 17,Governor,DEM,Lupe Valdez,17216
+House 17,Governor,IND,Mark Jay Tippetts,52
 House 17,Governor,LIB,Mark Jay Tippetts,922
-House 17,Governor,REP,Greg Abbott,31731
+House 17,Governor,REP,Greg Abbott,32118
 House 18,Governor,,Over Votes,1
 House 18,Governor,,Under Votes,150
 House 18,Governor,DEM,Lupe Valdez,10676
@@ -101,105 +107,167 @@ House 18,Governor,LIB,Mark Jay Tippetts,553
 House 18,Governor,REP,Greg Abbott,36448
 House 19,Governor,,Over Votes,0
 House 19,Governor,,Under Votes,115
-House 19,Governor,DEM,Lupe Valdez,9538
-House 19,Governor,LIB,Mark Jay Tippetts,557
-House 19,Governor,REP,Greg Abbott,50240
+House 19,Governor,DEM,Lupe Valdez,8565
+House 19,Governor,LIB,Mark Jay Tippetts,490
+House 19,Governor,REP,Greg Abbott,44161
 House 20,Governor,,Over Votes,0
-House 20,Governor,,Under Votes,164
-House 20,Governor,DEM,Lupe Valdez,4588
-House 20,Governor,LIB,Mark Jay Tippetts,381
-House 20,Governor,REP,Greg Abbott,17400
+House 20,Governor,,Under Votes,573
+House 20,Governor,DEM,Lupe Valdez,21236
+House 20,Governor,LIB,Mark Jay Tippetts,1547
+House 20,Governor,REP,Greg Abbott,59716
 House 21,Governor,,OVER VOTES,3
+House 21,Governor,,Over Votes,0
 House 21,Governor,,UNDER VOTES,120
-House 21,Governor,DEM,Lupe Valdez,4348
-House 21,Governor,LIB,Mark Jay Tippetts,214
-House 21,Governor,REP,Greg Abbott,21724
+House 21,Governor,,Under Votes,0
+House 21,Governor,DEM,Lupe Valdez,11671
+House 21,Governor,LIB,Mark Jay Tippetts,551
+House 21,Governor,REP,Greg Abbott,45324
+House 22,Governor,,Over Votes,0
+House 22,Governor,,Under Votes,0
+House 22,Governor,DEM,Lupe Valdez,27193
+House 22,Governor,LIB,Mark Jay Tippetts,414
+House 22,Governor,REP,Greg Abbott,15399
+House 23,Governor,,Over Votes,0
+House 23,Governor,,Under Votes,79
+House 23,Governor,DEM,Lupe Valdez,23308
+House 23,Governor,LIB,Mark Jay Tippetts,1000
+House 23,Governor,REP,Greg Abbott,34504
+House 24,Governor,DEM,Lupe Valdez,18466
+House 24,Governor,LIB,Mark Jay Tippetts,1220
+House 24,Governor,REP,Greg Abbott,50105
 House 25,Governor,,Over Votes,0
-House 25,Governor,,Under Votes,201
-House 25,Governor,DEM,Lupe Valdez,10633
-House 25,Governor,LIB,Mark Jay Tippetts,579
-House 25,Governor,REP,Greg Abbott,30184
+House 25,Governor,,Under Votes,366
+House 25,Governor,DEM,Lupe Valdez,13306
+House 25,Governor,LIB,Mark Jay Tippetts,685
+House 25,Governor,REP,Greg Abbott,37889
 House 26,Governor,,Over Votes,0
-House 26,Governor,,Under Votes,552
-House 26,Governor,DEM,Lupe Valdez,16602
-House 26,Governor,LIB,Mark Jay Tippetts,566
-House 26,Governor,REP,Greg Abbott,22600
-House 27,Governor,,Over Votes,1
-House 27,Governor,,Under Votes,333
-House 27,Governor,DEM,Lupe Valdez,13178
-House 27,Governor,LIB,Mark Jay Tippetts,467
-House 27,Governor,REP,Greg Abbott,14230
+House 26,Governor,,Under Votes,862
+House 26,Governor,DEM,Lupe Valdez,29029
+House 26,Governor,LIB,Mark Jay Tippetts,905
+House 26,Governor,REP,Greg Abbott,36899
+House 27,Governor,,Over Votes,2
+House 27,Governor,,Under Votes,817
+House 27,Governor,DEM,Lupe Valdez,42795
+House 27,Governor,LIB,Mark Jay Tippetts,975
+House 27,Governor,REP,Greg Abbott,21429
 House 28,Governor,,Over Votes,0
-House 28,Governor,,Under Votes,19
-House 28,Governor,DEM,Lupe Valdez,879
-House 28,Governor,LIB,Mark Jay Tippetts,16
-House 28,Governor,REP,Greg Abbott,432
+House 28,Governor,,Under Votes,742
+House 28,Governor,DEM,Lupe Valdez,34749
+House 28,Governor,LIB,Mark Jay Tippetts,1206
+House 28,Governor,REP,Greg Abbott,47166
 House 29,Governor,,Over Votes,0
 House 29,Governor,,Under Votes,365
 House 29,Governor,DEM,Lupe Valdez,28903
 House 29,Governor,LIB,Mark Jay Tippetts,1058
 House 29,Governor,REP,Greg Abbott,40189
-House 30,Governor,,Cast Votes:,6119
+House 30,Governor,,Cast Votes:,12238
+House 30,Governor,,OVER VOTES,0
 House 30,Governor,,Overvotes:,0
-House 30,Governor,,Undervotes:,56
-House 30,Governor,DEM,Lupe Valdez,3356
-House 30,Governor,LIB,Mark Jay Tippetts,218
-House 30,Governor,REP,Greg Abbott,14587
+House 30,Governor,,UNDER VOTES,157
+House 30,Governor,,Undervotes:,112
+House 30,Governor,DEM,Lupe Valdez,12294
+House 30,Governor,LIB,Mark Jay Tippetts,602
+House 30,Governor,REP,Greg Abbott,41027
 House 31,Governor,,Ballots Cast,3958
+House 31,Governor,,Greg Abbott,509
+House 31,Governor,,Lupe Valdez,938
+House 31,Governor,,Mark Jay Tippetts,8
 House 31,Governor,,Over Votes,2
 House 31,Governor,,Under Votes,425
-House 31,Governor,DEM,Lupe Valdez,14119
-House 31,Governor,LIB,Mark Jay Tippetts,285
-House 31,Governor,LIB,Mark Jay Tippetts ,3
-House 31,Governor,REP,Greg Abbott,13881
-House 31,Governor,REP,Gregg Abbott,499
+House 31,Governor,DEM,Lupe  Valdez,2761
+House 31,Governor,DEM,Lupe Valdez,15066
+House 31,Governor,LIB,Mark Jay Tippetts,352
+House 31,Governor,LIB,Mark Jay Tippetts ,13
+House 31,Governor,REP,Greg  Abbott,5045
+House 31,Governor,REP,Greg Abbott,13889
+House 31,Governor,REP,Gregg Abbott,1053
+House 32,Governor,,Over Votes,1
+House 32,Governor,,Under Votes,455
+House 32,Governor,DEM,Lupe Valdez,20413
+House 32,Governor,LIB,Mark Jay Tippetts,820
+House 32,Governor,REP,Greg Abbott,31191
 House 33,Governor,,OVER VOTES,6
 House 33,Governor,,UNDER VOTES,534
 House 33,Governor,DEM,Lupe Valdez,26831
 House 33,Governor,LIB,Mark Jay Tippetts,1400
 House 33,Governor,REP,Greg Abbott,56584
+House 34,Governor,,Over Votes,1
+House 34,Governor,,Under Votes,431
+House 34,Governor,DEM,Lupe Valdez,19307
+House 34,Governor,LIB,Mark Jay Tippetts,492
+House 34,Governor,REP,Greg Abbott,21727
 House 35,Governor,,Over Votes,7
-House 35,Governor,,Under Votes,252
-House 35,Governor,DEM,Lupe Valdez,6778
-House 35,Governor,LIB,Mark Jay Tippetts,174
-House 35,Governor,REP,Greg Abbott,8320
-House 37,Governor,,Over Votes,10
-House 37,Governor,,Under Votes,858
-House 37,Governor,DEM,Lupe Valdez,15640
-House 37,Governor,LIB,Mark Jay Tippetts,446
-House 37,Governor,REP,Greg Abbott,10928
-House 38,Governor,,Over Votes,16
-House 38,Governor,,Under Votes,598
-House 38,Governor,DEM,Lupe Valdez,16108
-House 38,Governor,LIB,Mark Jay Tippetts,399
-House 38,Governor,REP,Greg Abbott,12947
+House 35,Governor,,Under Votes,555
+House 35,Governor,DEM,Lupe Valdez,18432
+House 35,Governor,LIB,Mark Jay Tippetts,334
+House 35,Governor,REP,Greg Abbott,13538
+House 36,Governor,,Over Votes,2
+House 36,Governor,,Under Votes,490
+House 36,Governor,DEM,Lupe Valdez,20913
+House 36,Governor,LIB,Mark Jay Tippetts,359
+House 36,Governor,REP,Greg Abbott,10228
+House 37,Governor,,Over Votes,11
+House 37,Governor,,Under Votes,887
+House 37,Governor,DEM,Lupe Valdez,16397
+House 37,Governor,LIB,Mark Jay Tippetts,470
+House 37,Governor,REP,Greg Abbott,11365
+House 38,Governor,,Over Votes,18
+House 38,Governor,,Under Votes,672
+House 38,Governor,DEM,Lupe Valdez,18816
+House 38,Governor,LIB,Mark Jay Tippetts,469
+House 38,Governor,REP,Greg Abbott,14722
+House 39,Governor,,Over Votes,1
+House 39,Governor,,Under Votes,563
+House 39,Governor,DEM,Lupe Valdez,20178
+House 39,Governor,LIB,Mark Jay Tippetts,349
+House 39,Governor,REP,Greg Abbott,11486
+House 40,Governor,,Over Votes,1
+House 40,Governor,,Under Votes,420
+House 40,Governor,DEM,Lupe Valdez,19165
+House 40,Governor,LIB,Mark Jay Tippetts,316
+House 40,Governor,REP,Greg Abbott,10381
+House 41,Governor,,Over Votes,0
+House 41,Governor,,Under Votes,398
+House 41,Governor,DEM,Lupe Valdez,22025
+House 41,Governor,LIB,Mark Jay Tippetts,486
+House 41,Governor,REP,Greg Abbott,18108
+House 42,Governor,DEM,Lupe Valdez,22248
+House 42,Governor,LIB,Mark Jay Tippetts,413
+House 42,Governor,REP,Greg Abbott,11518
 House 43,Governor,,Over Votes,1
-House 43,Governor,,Under Votes,226
-House 43,Governor,DEM,Lupe  Valdez,2210
-House 43,Governor,DEM,Lupe Valdez,8834
-House 43,Governor,LIB,Mark Jay Tippetts,376
-House 43,Governor,REP,Greg  Abbott,4523
-House 43,Governor,REP,Greg Abbott,15727
+House 43,Governor,,Under Votes,252
+House 43,Governor,DEM,Lupe  Valdez,2248
+House 43,Governor,DEM,Lupe Valdez,14087
+House 43,Governor,LIB,Mark Jay Tippetts,503
+House 43,Governor,REP,Greg  Abbott,4798
+House 43,Governor,REP,Greg Abbott,22092
 House 44,Governor,,Under Votes,369
-House 44,Governor,DEM,Lupe Valdez,17265
-House 44,Governor,LIB,Mark Jay Tippetts,854
-House 44,Governor,REP,Greg Abbott,36284
+House 44,Governor,DEM,Lupe Valdez,21065
+House 44,Governor,LIB,Mark Jay Tippetts,1053
+House 44,Governor,REP,Greg Abbott,49988
 House 45,Governor,DEM,Lupe Valdez,39487
 House 45,Governor,Greg Abbott,REP,4327
 House 45,Governor,LIB,Mark Jay Tippetts,2144
 House 45,Governor,Lupe Valdez,DEM,1349
 House 45,Governor,Mark Jay Tippetts ,LIB,115
 House 45,Governor,REP,Greg Abbott,37895
+House 52,Governor,,Over Votes,0
+House 52,Governor,,Under Votes,616
+House 52,Governor,DEM,Lupe Valdez,34775
+House 52,Governor,LIB,Mark Jay Tippetts,1844
+House 52,Governor,REP,Greg Abbott,35791
 House 53,Governor,,OVER VOTES,0
 House 53,Governor,,Over Votes,0
 House 53,Governor,,UNDER VOTES,27
-House 53,Governor,,Under Votes,274
-House 53,Governor,DEM,Lupe  Valdez,377
-House 53,Governor,DEM,Lupe Valdez,7016
-House 53,Governor,LIB,Mark Jay Tippetts,506
+House 53,Governor,,Under Votes,325
+House 53,Governor,DEM,Lupe  Valdez,733
+House 53,Governor,DEM,Lupe Valdez,16519
+House 53,Governor,LIB,Mark Jay Tippetts,637
+House 53,Governor,LIB,Mark Jay Tippetts ,332
 House 53,Governor,LIB,Mary Jay Tippetts,23
-House 53,Governor,REP,Greg  Abbott,1916
-House 53,Governor,REP,Greg Abbott,31322
+House 53,Governor,REP,Greg  Abbott,3020
+House 53,Governor,REP,Greg Abbott,39073
+House 53,Governor,REP,Gregg Abbott,24114
 House 54,Governor,,Over Votes,3
 House 54,Governor,,Under Votes,258
 House 54,Governor,DEM,Lupe Valdez,21323
@@ -220,20 +288,31 @@ House 57,Governor,,UNDER VOTES,237
 House 57,Governor,DEM,Lupe Valdez,11039
 House 57,Governor,LIB,Mark Jay Tippetts,435
 House 57,Governor,REP,Greg Abbott,40811
+House 58,Governor,DEM,Lupe Valdez,11209
+House 58,Governor,LIB,Mark J. Tippetts,774
+House 58,Governor,LIB,Mark Jay Tippetts,106
+House 58,Governor,REP,Greg Abbott,47433
+House 59,Governor,,Greg Abbott,2274
+House 59,Governor,,Lupe Valdez,368
+House 59,Governor,,Mark Jay Tippetts,33
+House 59,Governor,,Over Votes,0
+House 59,Governor,,Under Votes,197
 House 59,Governor,DEM,Lupe  Valdez,705
-House 59,Governor,DEM,Lupe Valdez,2073
+House 59,Governor,DEM,Lupe Valdez,7122
 House 59,Governor,DEM,Lupe Valdez ,657
-House 59,Governor,LIB,Mark Jay Tippetts,227
+House 59,Governor,LIB,Mark Jay Tippetts,535
 House 59,Governor,LIB,Mark Jay Tippetts ,46
 House 59,Governor,REP,Greg  Abbott,4932
-House 59,Governor,REP,Greg Abbott,10356
+House 59,Governor,REP,Greg Abbott,25543
 House 59,Governor,REP,Greg Abbott ,4722
 House 60,Governor,,Cast Votes,18860
 House 60,Governor,,Overvotes,0
 House 60,Governor,,Undervotes,108
-House 60,Governor,DEM,Lupe Valdez,5489
-House 60,Governor,LIB,Mark Jay Tippetts,412
-House 60,Governor,REP,Greg Abbott,32430
+House 60,Governor,DEM,Lupe  Valdez,291
+House 60,Governor,DEM,Lupe Valdez,9890
+House 60,Governor,LIB,Mark Jay Tippetts,803
+House 60,Governor,REP,Greg  Abbott,2649
+House 60,Governor,REP,Greg Abbott,58226
 House 60,Governor,REP,Gregg Abbott,2774
 House 61,Governor,,Over Votes,0
 House 61,Governor,,Under Votes,682
@@ -254,20 +333,20 @@ House 62,Governor,REP,Greg Abbott,32562
 House 62,Governor,REP,Over Votes,0
 House 62,Governor,REP,Under Votes,93
 House 63,Governor,,Over Votes,9
-House 63,Governor,,Under Votes,426
-House 63,Governor,DEM,Lupe Valdez,21775
-House 63,Governor,LIB,Mark Jay Tippetts,1409
-House 63,Governor,REP,Greg Abbott,49156
+House 63,Governor,,Under Votes,457
+House 63,Governor,DEM,Lupe Valdez,23965
+House 63,Governor,LIB,Mark Jay Tippetts,1548
+House 63,Governor,REP,Greg Abbott,54902
 House 64,Governor,,Over Votes,9
-House 64,Governor,,Under Votes,454
-House 64,Governor,DEM,Lupe Valdez,29164
-House 64,Governor,LIB,Mark Jay Tippetts,1502
-House 64,Governor,REP,Greg Abbott,34521
-House 65,Governor,,Over Votes,9
-House 65,Governor,,Under Votes,357
-House 65,Governor,DEM,Lupe Valdez,27006
-House 65,Governor,LIB,Mark Jay Tippetts,1368
-House 65,Governor,REP,Greg Abbott,29886
+House 64,Governor,,Under Votes,481
+House 64,Governor,DEM,Lupe Valdez,30589
+House 64,Governor,LIB,Mark Jay Tippetts,1597
+House 64,Governor,REP,Greg Abbott,37462
+House 65,Governor,,Over Votes,10
+House 65,Governor,,Under Votes,365
+House 65,Governor,DEM,Lupe Valdez,27709
+House 65,Governor,LIB,Mark Jay Tippetts,1389
+House 65,Governor,REP,Greg Abbott,30389
 House 66,Governor,,OVER VOTES,7
 House 66,Governor,,UNDER VOTES,721
 House 66,Governor,DEM,Lupe Valdez,30668
@@ -278,21 +357,26 @@ House 67,Governor,,UNDER VOTES,785
 House 67,Governor,DEM,Lupe Valdez,33094
 House 67,Governor,LIB,Mark Jay Tippetts,1481
 House 67,Governor,REP,Greg Abbott,39751
+House 68,Governor,,Greg Abbott,677
+House 68,Governor,,Lupe Valdez,220
+House 68,Governor,,Mark Jay Tippetts,12
 House 68,Governor,,OVER VOTES,1
 House 68,Governor,,Over Votes,0
 House 68,Governor,,UNDER VOTES,37
-House 68,Governor,,Under Votes,15
-House 68,Governor,DEM,Lupe  Valdez,332
-House 68,Governor,DEM,Lupe Valdez,4908
-House 68,Governor,Dem,Lupe Valdez,217
-House 68,Governor,LIB,Mark Jay Tippetts,442
+House 68,Governor,,Under Votes,28
+House 68,Governor,DEM,Lupe  Valdez,570
+House 68,Governor,DEM,Lupe Valdez,5852
+House 68,Governor,Dem,Lupe Valdez,310
+House 68,Governor,LIB,Mark Jay Tippetts,527
 House 68,Governor,LIB,Mark Jay Tippetts ,11
-House 68,Governor,Lib,Mark Jay Tippetts,14
-House 68,Governor,REP,Greg  Abbott,2147
-House 68,Governor,REP,Greg Abbott,21596
+House 68,Governor,Lib,Mark Jay Tippetts,17
+House 68,Governor,REP,Greg  Abbott,3439
+House 68,Governor,REP,Greg Abbott,26390
 House 68,Governor,REP,Greg Abbott ,12284
-House 68,Governor,REP,Gregg Abbott,182
-House 68,Governor,Rep,Greg Abbott,877
+House 68,Governor,REP,Gregg Abbott,299
+House 68,Governor,REP,Over Votes,0
+House 68,Governor,REP,Under Votes,16
+House 68,Governor,Rep,Greg Abbott,1161
 House 69,Governor,,Greg Abbott,331
 House 69,Governor,,Lupe Valdez,101
 House 69,Governor,,Mark Jay Tippetts,4
@@ -313,30 +397,34 @@ House 70,Governor,REP,Greg Abbott,55977
 House 71,Governor,,OVER VOTES,3
 House 71,Governor,,Over Votes,0
 House 71,Governor,,UNDER VOTES,46
-House 71,Governor,,Under Votes,330
-House 71,Governor,DEM,Lupe Valdez,9722
-House 71,Governor,LIB,Mark Jay Tippetts,697
-House 71,Governor,REP,Greg Abbott,32069
-House 72,Governor,,Cast Votes,488
+House 71,Governor,,Under Votes,386
+House 71,Governor,DEM,Lupe Valdez,10444
+House 71,Governor,LIB,Mark Jay Tippetts,781
+House 71,Governor,REP,Greg Abbott,38519
+House 72,Governor,,Cast Votes,976
 House 72,Governor,,Over Votes,0
 House 72,Governor,,Overvotes,0
-House 72,Governor,,Under Votes,5
-House 72,Governor,,Undervotes,4
-House 72,Governor,DEM,Lupe Valdez,2544
-House 72,Governor,LIB,Mark Jay Tippetts,198
-House 72,Governor,REP,Greg Abbott,10650
+House 72,Governor,,Under Votes,376
+House 72,Governor,,Undervotes,8
+House 72,Governor,DEM,Lupe Valdez,11201
+House 72,Governor,LIB,Mark Jay Tippetts,717
+House 72,Governor,REP,Greg Abbott,38771
 House 73,Governor,,OVER VOTES,0
 House 73,Governor,,UNDER VOTES,115
 House 73,Governor,DEM,Lupe Valdez,18028
 House 73,Governor,LIB,Mark Jay Tippetts,1359
 House 73,Governor,REP,Greg Abbott,62711
 House 73,Governor,REP,Gregg Abbott,3380
-House 74,Governor,DEM,Lupe Valdez,3942
-House 74,Governor,LIB,Mark Jay Tippetts,194
-House 74,Governor,REP,Greg Abbott,6303
-House 80,Governor,DEM,Lupe Valdez,4656
-House 80,Governor,LIB,Mark Jay Tippetts,88
-House 80,Governor,REP,Greg Abbott,3674
+House 74,Governor,DEM,Lupe  Valdez,5241
+House 74,Governor,DEM,Lupe Valdez,13908
+House 74,Governor,LIB,Mark Jay Tippetts,529
+House 74,Governor,REP,Greg  Abbott,5993
+House 74,Governor,REP,Greg Abbott,12326
+House 80,Governor,,Over Votes,1
+House 80,Governor,,Under Votes,111
+House 80,Governor,DEM,Lupe Valdez,19775
+House 80,Governor,LIB,Mark Jay Tippetts,344
+House 80,Governor,REP,Greg Abbott,14017
 House 81,Governor,,Over Votes,1
 House 81,Governor,,Under Votes,480
 House 81,Governor,DEM,Lupe  Valdez,284
@@ -346,26 +434,26 @@ House 81,Governor,REP,Greg  Abbott,1150
 House 81,Governor,REP,Greg Abbott,27535
 House 82,Governor,,OVER VOTES,0
 House 82,Governor,,UNDER VOTES,14
-House 82,Governor,DEM,Lupe Valdez,8897
-House 82,Governor,LIB,Mark Jay Tippetts,724
-House 82,Governor,REP,Greg Abbott,36921
+House 82,Governor,DEM,Lupe Valdez,9414
+House 82,Governor,LIB,Mark Jay Tippetts,752
+House 82,Governor,REP,Greg Abbott,39296
 House 83,Governor,,OVER VOTES,0
 House 83,Governor,,Over Votes,0
-House 83,Governor,,UNDER VOTES,34
+House 83,Governor,,UNDER VOTES,41
 House 83,Governor,,Under Votes,376
-House 83,Governor,DEM,Lupe Valdez,10808
-House 83,Governor,LIB,Mark Jay Tippetts,1032
-House 83,Governor,REP,Greg Abbott,41179
+House 83,Governor,DEM,Lupe Valdez,11422
+House 83,Governor,LIB,Mark Jay Tippetts,1062
+House 83,Governor,REP,Greg Abbott,44003
 House 84,Governor,,Over Votes,0
 House 84,Governor,,Under Votes,463
-House 84,Governor,DEM,Lupe Valdez,17481
-House 84,Governor,LIB,Mark Jay Tippetts,1192
-House 84,Governor,REP,Greg Abbott,28096
+House 84,Governor,DEM,Lupe Valdez,17513
+House 84,Governor,LIB,Mark Jay Tippetts,1194
+House 84,Governor,REP,Greg Abbott,28123
 House 85,Governor,,Over Votes,0
-House 85,Governor,,Under Votes,209
-House 85,Governor,DEM,Lupe Valdez,7967
-House 85,Governor,LIB,Mark Jay Tippetts,245
-House 85,Governor,REP,Greg Abbott,9413
+House 85,Governor,,Under Votes,437
+House 85,Governor,DEM,Lupe Valdez,22848
+House 85,Governor,LIB,Mark Jay Tippetts,661
+House 85,Governor,REP,Greg Abbott,33861
 House 86,Governor,,Gregg Abbott,2788
 House 86,Governor,,Lupe Valdez,957
 House 86,Governor,,Mark Jay Tippetts ,28
@@ -388,11 +476,13 @@ House 88,Governor,,Over Votes,0
 House 88,Governor,,UNDER VOTES,95
 House 88,Governor,,Under Votes,76
 House 88,Governor,DEM,Lupe  Valdez,1028
-House 88,Governor,DEM,Lupe Valdez,4284
-House 88,Governor,LIB,Mark Jay Tippetts,460
+House 88,Governor,DEM,Lupe Valdez,4944
+House 88,Governor,LIB,Mark Jay Tippetts,496
 House 88,Governor,LIB,Mark Jay Tippetts ,26
+House 88,Governor,LIB .,Mark Jay Tippetts,1
+House 88,Governor,OEM,Lupe Valdez,32
 House 88,Governor,REP,Greg  Abbott,4949
-House 88,Governor,REP,Greg Abbott,24549
+House 88,Governor,REP,Greg Abbott,27550
 House 88,Governor,REP,Gregg Abbott,550
 House 88,Governor,REP,Over Votes,1
 House 88,Governor,REP,Under Votes,50
@@ -402,10 +492,10 @@ House 89,Governor,DEM,Lupe Valdez,28399
 House 89,Governor,LIB,Mark Jay Tippetts,1442
 House 89,Governor,REP,Greg Abbott,46785
 House 90,Governor,,Over Votes,1
-House 90,Governor,,Under Votes,467
-House 90,Governor,DEM,Lupe Valdez,17630
-House 90,Governor,LIB,Mark Jay Tippetts,326
-House 90,Governor,REP,Greg Abbott,5506
+House 90,Governor,,Under Votes,501
+House 90,Governor,DEM,Lupe Valdez,19327
+House 90,Governor,LIB,Mark Jay Tippetts,370
+House 90,Governor,REP,Greg Abbott,6004
 House 91,Governor,,Over Votes,4
 House 91,Governor,,Under Votes,544
 House 91,Governor,DEM,Lupe Valdez,18737
@@ -413,19 +503,19 @@ House 91,Governor,LIB,Mark Jay Tippetts,1093
 House 91,Governor,REP,Greg Abbott,35653
 House 92,Governor,,Over Votes,2
 House 92,Governor,,Under Votes,587
-House 92,Governor,DEM,Lupe Valdez,25283
+House 92,Governor,DEM,Lupe Valdez,25284
 House 92,Governor,LIB,Mark Jay Tippetts,1241
-House 92,Governor,REP,Greg Abbott,33790
-House 93,Governor,,Over Votes,4
-House 93,Governor,,Under Votes,449
-House 93,Governor,DEM,Lupe Valdez,21678
-House 93,Governor,LIB,Mark Jay Tippetts,926
-House 93,Governor,REP,Greg Abbott,25914
+House 92,Governor,REP,Greg Abbott,33791
+House 93,Governor,,Over Votes,6
+House 93,Governor,,Under Votes,531
+House 93,Governor,DEM,Lupe Valdez,24461
+House 93,Governor,LIB,Mark Jay Tippetts,1089
+House 93,Governor,REP,Greg Abbott,32607
 House 94,Governor,,Over Votes,2
-House 94,Governor,,Under Votes,602
-House 94,Governor,DEM,Lupe Valdez,24301
-House 94,Governor,LIB,Mark Jay Tippetts,1248
-House 94,Governor,REP,Greg Abbott,34758
+House 94,Governor,,Under Votes,643
+House 94,Governor,DEM,Lupe Valdez,25799
+House 94,Governor,LIB,Mark Jay Tippetts,1307
+House 94,Governor,REP,Greg Abbott,35670
 House 95,Governor,,Over Votes,3
 House 95,Governor,,Under Votes,516
 House 95,Governor,DEM,Lupe Valdez,31582
@@ -433,34 +523,34 @@ House 95,Governor,LIB,Mark Jay Tippetts,696
 House 95,Governor,REP,Greg Abbott,11199
 House 96,Governor,,Over Votes,2
 House 96,Governor,,Under Votes,562
-House 96,Governor,DEM,Lupe Valdez,28446
-House 96,Governor,LIB,Mark Jay Tippetts,1065
-House 96,Governor,REP,Greg Abbott,35290
-House 97,Governor,,Over Votes,7
-House 97,Governor,,Under Votes,583
-House 97,Governor,DEM,Lupe Valdez,23605
-House 97,Governor,LIB,Mark Jay Tippetts,1162
-House 97,Governor,REP,Greg Abbott,33157
-House 98,Governor,,Over Votes,2
-House 98,Governor,,Under Votes,556
-House 98,Governor,DEM,Lupe Valdez,17095
-House 98,Governor,LIB,Mark Jay Tippetts,1122
-House 98,Governor,REP,Greg Abbott,46750
-House 99,Governor,,Over Votes,0
-House 99,Governor,,Under Votes,21
-House 99,Governor,DEM,Lupe Valdez,870
-House 99,Governor,LIB,Mark Jay Tippetts,33
-House 99,Governor,REP,Greg Abbott,876
+House 96,Governor,DEM,Lupe Valdez,28555
+House 96,Governor,LIB,Mark Jay Tippetts,1066
+House 96,Governor,REP,Greg Abbott,35375
+House 97,Governor,,Over Votes,10
+House 97,Governor,,Under Votes,694
+House 97,Governor,DEM,Lupe Valdez,27720
+House 97,Governor,LIB,Mark Jay Tippetts,1352
+House 97,Governor,REP,Greg Abbott,38026
+House 98,Governor,,Over Votes,4
+House 98,Governor,,Under Votes,729
+House 98,Governor,DEM,Lupe Valdez,23684
+House 98,Governor,LIB,Mark Jay Tippetts,1593
+House 98,Governor,REP,Greg Abbott,59011
+House 99,Governor,,Over Votes,6
+House 99,Governor,,Under Votes,537
+House 99,Governor,DEM,Lupe Valdez,20560
+House 99,Governor,LIB,Mark Jay Tippetts,1094
+House 99,Governor,REP,Greg Abbott,38489
 House 100,Governor,,Over Votes,8
 House 100,Governor,,Under Votes,437
 House 100,Governor,DEM,Lupe Valdez,30826
 House 100,Governor,LIB,Mark Jay Tippetts,989
 House 100,Governor,REP,Greg Abbott,9706
 House 101,Governor,,Over Votes,2
-House 101,Governor,,Under Votes,193
-House 101,Governor,DEM,Lupe Valdez,9157
-House 101,Governor,LIB,Mark Jay Tippetts,234
-House 101,Governor,REP,Greg Abbott,4444
+House 101,Governor,,Under Votes,509
+House 101,Governor,DEM,Lupe Valdez,28105
+House 101,Governor,LIB,Mark Jay Tippetts,775
+House 101,Governor,REP,Greg Abbott,14579
 House 102,Governor,,Over Votes,5
 House 102,Governor,,Under Votes,638
 House 102,Governor,DEM,Lupe Valdez,28728
@@ -481,11 +571,11 @@ House 105,Governor,,Under Votes,495
 House 105,Governor,DEM,Lupe Valdez,23822
 House 105,Governor,LIB,Mark Jay Tippetts,841
 House 105,Governor,REP,Greg Abbott,20714
-House 106,Governor,,Over Votes,10
-House 106,Governor,,Under Votes,421
-House 106,Governor,DEM,Lupe Valdez,28756
-House 106,Governor,LIB,Mark Jay Tippetts,1514
-House 106,Governor,REP,Greg Abbott,46591
+House 106,Governor,,Over Votes,11
+House 106,Governor,,Under Votes,459
+House 106,Governor,DEM,Lupe Valdez,31545
+House 106,Governor,LIB,Mark Jay Tippetts,1660
+House 106,Governor,REP,Greg Abbott,51719
 House 107,Governor,,Over Votes,3
 House 107,Governor,,Under Votes,504
 House 107,Governor,DEM,Lupe Valdez,26658
@@ -532,15 +622,15 @@ House 115,Governor,DEM,Lupe Valdez,28553
 House 115,Governor,LIB,Mark Jay Tippetts,1185
 House 115,Governor,REP,Greg Abbott,27504
 House 116,Governor,,OVER VOTES,1
-House 116,Governor,,UNDER VOTES,470
-House 116,Governor,DEM,Lupe Valdez,28979
-House 116,Governor,LIB,Mark Tippetts,924
-House 116,Governor,REP,Greg Abbott,15894
+House 116,Governor,,UNDER VOTES,487
+House 116,Governor,DEM,Lupe Valdez,29789
+House 116,Governor,LIB,Mark Tippetts,947
+House 116,Governor,REP,Greg Abbott,16195
 House 117,Governor,,OVER VOTES,0
-House 117,Governor,,UNDER VOTES,447
-House 117,Governor,DEM,Lupe Valdez,27259
-House 117,Governor,LIB,Mark Tippetts,937
-House 117,Governor,REP,Greg Abbott,24716
+House 117,Governor,,UNDER VOTES,485
+House 117,Governor,DEM,Lupe Valdez,29463
+House 117,Governor,LIB,Mark Tippetts,1020
+House 117,Governor,REP,Greg Abbott,27596
 House 118,Governor,,OVER VOTES,1
 House 118,Governor,,UNDER VOTES,477
 House 118,Governor,DEM,Lupe Valdez,21934
@@ -558,24 +648,24 @@ House 120,Governor,LIB,Mark Tippetts,791
 House 120,Governor,REP,Greg Abbott,15750
 House 121,Governor,,OVER VOTES,0
 House 121,Governor,,UNDER VOTES,623
-House 121,Governor,DEM,Lupe Valdez,30933
+House 121,Governor,DEM,Lupe Valdez,30935
 House 121,Governor,LIB,Mark Tippetts,1499
-House 121,Governor,REP,Greg Abbott,41224
+House 121,Governor,REP,Greg Abbott,41226
 House 122,Governor,,OVER VOTES,0
-House 122,Governor,,UNDER VOTES,644
-House 122,Governor,DEM,Lupe Valdez,34134
-House 122,Governor,LIB,Mark Tippetts,1628
-House 122,Governor,REP,Greg Abbott,58936
+House 122,Governor,,UNDER VOTES,645
+House 122,Governor,DEM,Lupe Valdez,34307
+House 122,Governor,LIB,Mark Tippetts,1637
+House 122,Governor,REP,Greg Abbott,59159
 House 123,Governor,,OVER VOTES,0
-House 123,Governor,,UNDER VOTES,594
-House 123,Governor,DEM,Lupe Valdez,31149
-House 123,Governor,LIB,Mark Tippetts,958
-House 123,Governor,REP,Greg Abbott,17120
+House 123,Governor,,UNDER VOTES,595
+House 123,Governor,DEM,Lupe Valdez,31227
+House 123,Governor,LIB,Mark Tippetts,961
+House 123,Governor,REP,Greg Abbott,17142
 House 124,Governor,,OVER VOTES,0
-House 124,Governor,,UNDER VOTES,445
-House 124,Governor,DEM,Lupe Valdez,27940
-House 124,Governor,LIB,Mark Tippetts,861
-House 124,Governor,REP,Greg Abbott,17984
+House 124,Governor,,UNDER VOTES,451
+House 124,Governor,DEM,Lupe Valdez,28443
+House 124,Governor,LIB,Mark Tippetts,872
+House 124,Governor,REP,Greg Abbott,18276
 House 125,Governor,,OVER VOTES,1
 House 125,Governor,,UNDER VOTES,519
 House 125,Governor,DEM,Lupe Valdez,28298
@@ -631,6 +721,11 @@ House 135,Governor,,UNDERVOTES,436
 House 135,Governor,DEM,Lupe Valdez,26674
 House 135,Governor,LIB,Mark Jay Tippetts,856
 House 135,Governor,REP,Greg Abbott,28839
+House 136,Governor,,Over Votes,0
+House 136,Governor,,Under Votes,652
+House 136,Governor,DEM,Lupe Valdez,39498
+House 136,Governor,LIB,Mark Jay Tippetts,2361
+House 136,Governor,REP,Greg Abbott,37284
 House 137,Governor,,OVERVOTES,0
 House 137,Governor,,UNDERVOTES,323
 House 137,Governor,DEM,Lupe Valdez,15771
@@ -701,13 +796,6 @@ House 150,Governor,,UNDERVOTES,507
 House 150,Governor,DEM,Lupe Valdez,26648
 House 150,Governor,LIB,Mark Jay Tippetts,954
 House 150,Governor,REP,Greg Abbott,43738
-Senate 1,Governor,,Over Votes,6
-Senate 1,Governor,,Under Votes,233
-Senate 1,Governor,DEM,Lupe Valdez,63035
-Senate 1,Governor,LIB,Mark Jay Tippetts,2742
-Senate 1,Governor,LIB,Mark Jay Tippetts ,98
-Senate 1,Governor,REP,Greg Abbott,181275
-Senate 1,Governor,REP,Gregg Abbott,5761
 Senate 2,Governor,,Cast Votes,8814
 Senate 2,Governor,,Greg Abbott,1606
 Senate 2,Governor,,Lupe Valdez,301
@@ -736,13 +824,6 @@ Senate 3,Governor,,Under Votes,1021
 Senate 3,Governor,DEM,Lupe Valdez,51134
 Senate 3,Governor,LIB,Mark Jay Tippetts,2651
 Senate 3,Governor,REP,Greg Abbott,216977
-Senate 4,Governor,,OVERVOTES,0
-Senate 4,Governor,,Over Votes,2
-Senate 4,Governor,,UNDERVOTES,405
-Senate 4,Governor,,Under Votes,1088
-Senate 4,Governor,DEM,Lupe Valdez,48646
-Senate 4,Governor,LIB,Mark Jay Tippetts,2768
-Senate 4,Governor,REP,Greg Abbott,149887
 Senate 5,Governor,,Greg Abbott,6674
 Senate 5,Governor,,Lupe Valdez,1855
 Senate 5,Governor,,Mark Jay Tippetts,102
@@ -750,14 +831,9 @@ Senate 5,Governor,,OVER VOTES,1
 Senate 5,Governor,,Over Votes,0
 Senate 5,Governor,,UNDER VOTES,218
 Senate 5,Governor,,Under Votes,701
-Senate 5,Governor,DEM,Lupe Valdez,36029
+Senate 5,Governor,DEM,Lupe Valdez,36040
 Senate 5,Governor,LIB,Mark Jay Tippetts,1985
-Senate 5,Governor,REP,Greg Abbott,81112
-Senate 6,Governor,,OVERVOTES,9
-Senate 6,Governor,,UNDERVOTES,1997
-Senate 6,Governor,DEM,Lupe Valdez,93519
-Senate 6,Governor,LIB,Mark Jay Tippetts,1538
-Senate 6,Governor,REP,Greg Abbott,40727
+Senate 5,Governor,REP,Greg Abbott,81144
 Senate 7,Governor,,OVERVOTES,5
 Senate 7,Governor,,UNDERVOTES,2336
 Senate 7,Governor,DEM,Lupe Valdez,119227
@@ -780,23 +856,6 @@ Senate 10,Governor,,Under Votes,3107
 Senate 10,Governor,DEM,Lupe Valdez,136924
 Senate 10,Governor,LIB,Mark Jay Tippetts,5168
 Senate 10,Governor,REP,Greg Abbott,148751
-Senate 11,Governor,,OVERVOTES,1
-Senate 11,Governor,,Over Votes,0
-Senate 11,Governor,,UNDERVOTES,732
-Senate 11,Governor,,Under Votes,411
-Senate 11,Governor,DEM,Lupe Valdez,66499
-Senate 11,Governor,LIB,Mark Jay Tippetts,2713
-Senate 11,Governor,REP,Greg Abbott,110160
-Senate 12,Governor,,Over Votes,29
-Senate 12,Governor,,Under Votes,1319
-Senate 12,Governor,DEM,Lupe Valdez,84342
-Senate 12,Governor,LIB,Mark Jay Tippetts,4731
-Senate 12,Governor,REP,Greg Abbott,136119
-Senate 13,Governor,,OVERVOTES,15
-Senate 13,Governor,,UNDERVOTES,1976
-Senate 13,Governor,DEM,Lupe Valdez,122763
-Senate 13,Governor,LIB,Mark Jay Tippetts,2096
-Senate 13,Governor,REP,Greg Abbott,30023
 Senate 14,Governor,DEM,Lupe Valdez,10407
 Senate 14,Governor,LIB,Mark Jay Tippetts,640
 Senate 14,Governor,REP,Greg Abbott,16351
@@ -817,117 +876,18 @@ Senate 17,Governor,,Under Votes,1268
 Senate 17,Governor,DEM,Lupe Valdez,138731
 Senate 17,Governor,LIB,Mark Jay Tippetts,5253
 Senate 17,Governor,REP,Greg Abbott,167347
-Senate 18,Governor,,Cast Votes:,6119
-Senate 18,Governor,,OVER VOTES,2
-Senate 18,Governor,,OVERVOTES,0
-Senate 18,Governor,,Over Votes,0
-Senate 18,Governor,,Overvotes,0
-Senate 18,Governor,,Overvotes:,0
-Senate 18,Governor,,UNDER VOTES,149
-Senate 18,Governor,,UNDERVOTES,99
-Senate 18,Governor,,Under Votes,165
-Senate 18,Governor,,Undervotes:,56
-Senate 18,Governor,DEM,Lupe Valdez,24115
-Senate 18,Governor,IND,Mark Jay Tippetts,50
-Senate 18,Governor,LIB,Mark Jay Tippetts,1083
-Senate 18,Governor,REP,Greg Abbott,72434
-Senate 19,Governor,,OVER VOTES,1
-Senate 19,Governor,,UNDER VOTES,1291
-Senate 19,Governor,DEM,Lupe  Valdez,190
-Senate 19,Governor,DEM,Lupe Valdez,85107
-Senate 19,Governor,LIB,Mark Jay Tippetts,396
-Senate 19,Governor,LIB,Mark Tippetts,2172
-Senate 19,Governor,REP,Greg  Abbott,1158
-Senate 19,Governor,REP,Greg Abbott,72217
-Senate 20,Governor,,Over Votes,1
-Senate 20,Governor,,Under Votes,226
-Senate 20,Governor,DEM,Lupe Valdez,4635
-Senate 20,Governor,LIB,Mark Jay Tippetts,74
-Senate 20,Governor,LIB,Mark Jay Tippetts ,2
-Senate 20,Governor,REP,Greg Abbott,4945
-Senate 20,Governor,REP,Gregg Abbott,104
-Senate 21,Governor,,Ballots Cast,3958
-Senate 21,Governor,,OVER VOTES,0
-Senate 21,Governor,,Over Votes,2
-Senate 21,Governor,,UNDER VOTES,39
-Senate 21,Governor,,Under Votes,522
-Senate 21,Governor,DEM,Lupe  Valdez,2210
-Senate 21,Governor,DEM,Lupe Valdez,36536
-Senate 21,Governor,LIB,Mark Jay Tippetts,1301
-Senate 21,Governor,LIB,Mark Jay Tippetts ,1
-Senate 21,Governor,LIB,Mark Tippetts,34
-Senate 21,Governor,REP,Greg  Abbott,4523
-Senate 21,Governor,REP,Greg Abbott,42111
-Senate 21,Governor,REP,Gregg Abbott,395
-Senate 22,Governor,,Over Votes,0
-Senate 22,Governor,,Under Votes,779
-Senate 22,Governor,DEM,Lupe  Valdez,499
-Senate 22,Governor,DEM,Lupe Valdez,40613
-Senate 22,Governor,LIB,Mark Jay Tippetts,2096
-Senate 22,Governor,REP,Greg  Abbott,3142
-Senate 22,Governor,REP,Greg Abbott,92842
-Senate 23,Governor,,OVER VOTES,0
 Senate 23,Governor,,Over Votes,49
-Senate 23,Governor,,UNDER VOTES,27
 Senate 23,Governor,,Under Votes,2273
-Senate 23,Governor,DEM,Lupe Valdez,176491
-Senate 23,Governor,LIB,Mark Jay Tippetts,4671
-Senate 23,Governor,REP,Greg Abbott,46833
-Senate 24,Governor,,Over Votes,3
-Senate 24,Governor,,Under Votes,1125
-Senate 24,Governor,DEM,Lupe  Valdez,206
-Senate 24,Governor,DEM,Lupe Valdez,51784
-Senate 24,Governor,DEM,Lupe Valdez ,657
-Senate 24,Governor,Greg Abbott,REP,4327
-Senate 24,Governor,LIB,Mark Jay Tippetts,2935
-Senate 24,Governor,LIB,Mark Jay Tippetts ,46
-Senate 24,Governor,Lupe Valdez,DEM,1349
-Senate 24,Governor,Mark Jay Tippetts ,LIB,115
-Senate 24,Governor,REP,Greg  Abbott,1790
-Senate 24,Governor,REP,Greg Abbott,125918
-Senate 24,Governor,REP,Greg Abbott ,4722
-Senate 24,Governor,REP,Gregg Abbott,3380
+Senate 23,Governor,DEM,Lupe Valdez,176391
+Senate 23,Governor,LIB,Mark Jay Tippetts,4664
+Senate 23,Governor,REP,Greg Abbott,46198
 Senate 25,Governor,,OVER VOTES,0
-Senate 25,Governor,,UNDER VOTES,1568
+Senate 25,Governor,,UNDER VOTES,1569
 Senate 25,Governor,,Under Votes,238
-Senate 25,Governor,DEM,Lupe Valdez,134618
+Senate 25,Governor,DEM,Lupe Valdez,134644
 Senate 25,Governor,LIB,Mark Jay Tippetts,3667
-Senate 25,Governor,LIB,Mark Tippetts,3595
-Senate 25,Governor,REP,Greg Abbott,233526
-Senate 26,Governor,,OVER VOTES,3
-Senate 26,Governor,,UNDER VOTES,2300
-Senate 26,Governor,DEM,Lupe Valdez,130227
-Senate 26,Governor,LIB,Mark Tippetts,3904
-Senate 26,Governor,REP,Greg Abbott,76462
-Senate 27,Governor,,Over Votes,33
-Senate 27,Governor,,Under Votes,1742
-Senate 27,Governor,DEM,Lupe Valdez,38583
-Senate 27,Governor,LIB,Mark Jay Tippetts,1022
-Senate 27,Governor,REP,Greg Abbott,32306
-Senate 28,Governor,,Cast Votes,488
-Senate 28,Governor,,Greg Abbott,331
-Senate 28,Governor,,Lupe Valdez,101
-Senate 28,Governor,,Mark Jay Tippetts,4
-Senate 28,Governor,,OVER VOTES,3
-Senate 28,Governor,,Over Votes,1
-Senate 28,Governor,,Overvotes,0
-Senate 28,Governor,,UNDER VOTES,94
-Senate 28,Governor,,Under Votes,992
-Senate 28,Governor,,Undervotes,4
-Senate 28,Governor,DEM,Lupe  Valdez,1764
-Senate 28,Governor,DEM,Lupe Valdez,38860
-Senate 28,Governor,Dem,Lupe Valdez,217
-Senate 28,Governor,LIB,Mark Jay Tippetts,3013
-Senate 28,Governor,LIB,Mark Jay Tippetts ,4
-Senate 28,Governor,LIB,Mary Jay Tippetts,23
-Senate 28,Governor,Lib,Mark Jay Tippetts,14
-Senate 28,Governor,REP,Greg  Abbott,8720
-Senate 28,Governor,REP,Greg Abbott,108552
-Senate 28,Governor,REP,Gregg Abbott,2956
-Senate 28,Governor,Rep,Greg Abbott,877
-Senate 29,Governor,DEM,Lupe Valdez,407
-Senate 29,Governor,LIB,Mark Jay Tippetts,39
-Senate 29,Governor,REP,Greg Abbott,719
+Senate 25,Governor,LIB,Mark Tippetts,3596
+Senate 25,Governor,REP,Greg Abbott,233565
 Senate 30,Governor,,Cast Votes,18860
 Senate 30,Governor,,OVER VOTES,4
 Senate 30,Governor,,Over Votes,8
@@ -955,17 +915,19 @@ Senate 31,Governor,REP,Greg Abbott,164285
 Senate 31,Governor,REP,Gregg Abbott,550
 Senate 31,Governor,REP,Over Votes,1
 Senate 31,Governor,REP,Under Votes,50
-House 1,Lieutenant Governor,DEM,Mike Collier,8754
-House 1,Lieutenant Governor,LIB,Kerry Douglas McKennon,549
-House 1,Lieutenant Governor,REP,Dan Patrick,23446
+House 1,Lieutenant Governor,,OVER VOTES,1
+House 1,Lieutenant Governor,,UNDER VOTES,205
+House 1,Lieutenant Governor,DEM,Mike Collier,14463
+House 1,Lieutenant Governor,LIB,Kerry Douglas McKennon,814
+House 1,Lieutenant Governor,REP,Dan Patrick,37625
 House 2,Lieutenant Governor,DEM,Mike Collier,12802
 House 2,Lieutenant Governor,LIB,Kerry Douglas McKennon,992
 House 2,Lieutenant Governor,REP,Dan Patrick,44203
 House 3,Lieutenant Governor,,Over Votes,0
-House 3,Lieutenant Governor,,Under Votes,351
-House 3,Lieutenant Governor,DEM,Mike Collier,13172
-House 3,Lieutenant Governor,LIB,Kerry Douglas McKennon,938
-House 3,Lieutenant Governor,REP,Dan Patrick,42435
+House 3,Lieutenant Governor,,Under Votes,397
+House 3,Lieutenant Governor,DEM,Mike Collier,15881
+House 3,Lieutenant Governor,LIB,Kerry Douglas McKennon,1087
+House 3,Lieutenant Governor,REP,Dan Patrick,47583
 House 4,Lieutenant Governor,,OVER VOTES,1
 House 4,Lieutenant Governor,,Over Votes,0
 House 4,Lieutenant Governor,,UNDER VOTES,196
@@ -976,33 +938,35 @@ House 4,Lieutenant Governor,REP,Dan Patrick,43297
 House 5,Lieutenant Governor,,Cast Votes,8786
 House 5,Lieutenant Governor,,Overvotes,0
 House 5,Lieutenant Governor,,Undervotes,38
-House 5,Lieutenant Governor,DEM,Mike Collier,14679
-House 5,Lieutenant Governor,LIB,Kerry Douglas McKennon,946
-House 5,Lieutenant Governor,REP,Dan Patrick,42084
+House 5,Lieutenant Governor,DEM,Mike  Collier,1289
+House 5,Lieutenant Governor,DEM,Mike Collier,18966
+House 5,Lieutenant Governor,LIB,Kerry Douglas McKennon,1317
+House 5,Lieutenant Governor,REP,Dan  Patrick,2544
+House 5,Lieutenant Governor,REP,Dan Patrick,58530
 House 6,Lieutenant Governor,DEM,Mike Collier,34524
 House 6,Lieutenant Governor,LIB,Kerry Douglas McKennon,2054
 House 6,Lieutenant Governor,REP,Dan Patrick,76177
 House 7,Lieutenant Governor,,Over Votes,0
-House 7,Lieutenant Governor,,Under Votes,122
-House 7,Lieutenant Governor,DEM,MIKE COLLIER,7166
-House 7,Lieutenant Governor,DEM,Mike Collier,2238
-House 7,Lieutenant Governor,LIB,KERRY DOUGLAS McKENNON,327
-House 7,Lieutenant Governor,LIB,Kerry Douglas McKennon,199
-House 7,Lieutenant Governor,REP,DAN PATRICK,11397
-House 7,Lieutenant Governor,REP,Dan Patrick,7680
+House 7,Lieutenant Governor,,Under Votes,166
+House 7,Lieutenant Governor,DEM,MIKE COLLIER,11571
+House 7,Lieutenant Governor,DEM,Mike Collier,2890
+House 7,Lieutenant Governor,LIB,KERRY DOUGLAS McKENNON,671
+House 7,Lieutenant Governor,LIB,Kerry Douglas McKennon,286
+House 7,Lieutenant Governor,REP,DAN PATRICK,23625
+House 7,Lieutenant Governor,REP,Dan Patrick,10780
 House 8,Lieutenant Governor,,OVER VOTES,0
 House 8,Lieutenant Governor,,UNDER VOTES,98
-House 8,Lieutenant Governor,DEM,Mike Collier,5635
-House 8,Lieutenant Governor,LIB,Kerry Douglas McKennon,375
-House 8,Lieutenant Governor,REP,Dan Patrick,17962
+House 8,Lieutenant Governor,DEM,Mike Collier,12186
+House 8,Lieutenant Governor,LIB,Kerry Douglas McKennon,811
+House 8,Lieutenant Governor,REP,Dan Patrick,36717
 House 9,Lieutenant Governor,,Dan Patrick,5728
 House 9,Lieutenant Governor,,Kerry Douglas McKennon,91
 House 9,Lieutenant Governor,,Mike Collier,1655
-House 9,Lieutenant Governor,,Over Votes,7
-House 9,Lieutenant Governor,,Under Votes,191
-House 9,Lieutenant Governor,DEM,Mike Collier,9510
-House 9,Lieutenant Governor,LIB,Kerry Douglas McKennon,487
-House 9,Lieutenant Governor,REP,Dan Patrick,25152
+House 9,Lieutenant Governor,,Over Votes,8
+House 9,Lieutenant Governor,,Under Votes,355
+House 9,Lieutenant Governor,DEM,Mike Collier,12633
+House 9,Lieutenant Governor,LIB,Kerry Douglas McKennon,647
+House 9,Lieutenant Governor,REP,Dan Patrick,35642
 House 10,Lieutenant Governor,,Over Votes,0
 House 10,Lieutenant Governor,,Under Votes,60
 House 10,Lieutenant Governor,DEM,Mike Collier,19542
@@ -1017,9 +981,11 @@ House 12,Lieutenant Governor,,OVER VOTES,0
 House 12,Lieutenant Governor,,Over Votes,1
 House 12,Lieutenant Governor,,UNDER VOTES,206
 House 12,Lieutenant Governor,,Under Votes,493
+House 12,Lieutenant Governor,DEM,Mike  Collier,1465
 House 12,Lieutenant Governor,DEM,Mike Collier,15544
-House 12,Lieutenant Governor,LIB,Kerry Douglas McKennon,912
-House 12,Lieutenant Governor,REP,Dan Patrick,28073
+House 12,Lieutenant Governor,LIB,Kerry Douglas McKennon,979
+House 12,Lieutenant Governor,REP,Dan  Patrick,3128
+House 12,Lieutenant Governor,REP,Dan Patrick,28076
 House 13,Lieutenant Governor,,Dan Patrick,6259
 House 13,Lieutenant Governor,,Kerry Douglas McKennon,163
 House 13,Lieutenant Governor,,Mike Collier,2194
@@ -1027,31 +993,34 @@ House 13,Lieutenant Governor,,OVER VOTES,1
 House 13,Lieutenant Governor,,Over Votes,0
 House 13,Lieutenant Governor,,UNDER VOTES,222
 House 13,Lieutenant Governor,,Under Votes,168
-House 13,Lieutenant Governor,DEM,Mike Collier,9163
-House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon,607
-House 13,Lieutenant Governor,REP,Dan Patrick,28805
+House 13,Lieutenant Governor,DEM,Mike Collier,10300
+House 13,Lieutenant Governor,DEM,Mike Collier ,3621
+House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon,710
+House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon ,225
+House 13,Lieutenant Governor,REP,Dan Patrick,35245
+House 13,Lieutenant Governor,REP,Dan Patrick ,12854
 House 14,Lieutenant Governor,,Over Votes,0
 House 14,Lieutenant Governor,,Under Votes,907
 House 14,Lieutenant Governor,DEM,Mike Collier,21804
 House 14,Lieutenant Governor,LIB,Kerry Douglas McKennon,1640
 House 14,Lieutenant Governor,REP,Dan Patrick,24661
 House 15,Lieutenant Governor,,Over Votes,1
-House 15,Lieutenant Governor,,Under Votes,704
-House 15,Lieutenant Governor,DEM,Mike Collier,21769
-House 15,Lieutenant Governor,LIB,Kerry Douglas McKennon,1479
-House 15,Lieutenant Governor,REP,Dan Patrick,45144
+House 15,Lieutenant Governor,,Under Votes,832
+House 15,Lieutenant Governor,DEM,Mike Collier,25736
+House 15,Lieutenant Governor,LIB,Kerry Douglas McKennon,1720
+House 15,Lieutenant Governor,REP,Dan Patrick,52158
 House 16,Lieutenant Governor,,Over Votes,0
-House 16,Lieutenant Governor,,Under Votes,638
-House 16,Lieutenant Governor,DEM,Mike Collier,12571
-House 16,Lieutenant Governor,LIB,Kerry Douglas McKennon,1040
-House 16,Lieutenant Governor,REP,Dan Patrick,45473
+House 16,Lieutenant Governor,,Under Votes,671
+House 16,Lieutenant Governor,DEM,Mike Collier,13244
+House 16,Lieutenant Governor,LIB,Kerry Douglas McKennon,1079
+House 16,Lieutenant Governor,REP,Dan Patrick,47958
 House 17,Lieutenant Governor,,Overvotes,0
-House 17,Lieutenant Governor,,Under Votes,62
-House 17,Lieutenant Governor,DEM,Mike Collier,19115
-House 17,Lieutenant Governor,IND,Kerry Douglas McKennon,84
+House 17,Lieutenant Governor,,Under Votes,67
+House 17,Lieutenant Governor,DEM,Mike Collier,19245
+House 17,Lieutenant Governor,IND,Kerry Douglas McKennon,87
 House 17,Lieutenant Governor,LIB,K. Douglas McKennon,93
 House 17,Lieutenant Governor,LIB,Kerry Douglas McKennon,1153
-House 17,Lieutenant Governor,REP,Dan Patrick,29151
+House 17,Lieutenant Governor,REP,Dan Patrick,29518
 House 18,Lieutenant Governor,,Over Votes,2
 House 18,Lieutenant Governor,,Under Votes,180
 House 18,Lieutenant Governor,DEM,Mike Collier,12147
@@ -1060,89 +1029,147 @@ House 18,Lieutenant Governor,LIB,Kerry McKennon,386
 House 18,Lieutenant Governor,REP,Dan Patrick,34577
 House 19,Lieutenant Governor,,Over Votes,0
 House 19,Lieutenant Governor,,Under Votes,140
-House 19,Lieutenant Governor,DEM,Mike Collier,11584
-House 19,Lieutenant Governor,LIB,Kerry Douglas McKennon,853
-House 19,Lieutenant Governor,REP,Dan Patrick,47616
+House 19,Lieutenant Governor,DEM,Mike Collier,10274
+House 19,Lieutenant Governor,LIB,Kerry Douglas McKennon,744
+House 19,Lieutenant Governor,REP,Dan Patrick,41994
 House 20,Lieutenant Governor,,Over Votes,0
-House 20,Lieutenant Governor,,Under Votes,212
-House 20,Lieutenant Governor,DEM,Mike Collier,5565
-House 20,Lieutenant Governor,LIB,Kerry Douglas McKennon,542
-House 20,Lieutenant Governor,REP,Dan Patrick,16214
+House 20,Lieutenant Governor,,Under Votes,801
+House 20,Lieutenant Governor,DEM,Mike Collier,24914
+House 20,Lieutenant Governor,LIB,Kerry Douglas McKennon,2074
+House 20,Lieutenant Governor,REP,Dan Patrick,55283
 House 21,Lieutenant Governor,,OVER VOTES,3
+House 21,Lieutenant Governor,,Over Votes,0
 House 21,Lieutenant Governor,,UNDER VOTES,245
-House 21,Lieutenant Governor,DEM,Mike Collier,5219
+House 21,Lieutenant Governor,,Under Votes,0
+House 21,Lieutenant Governor,DEM,Mike Collier,13462
+House 21,Lieutenant Governor,LIB,Kerry Douglas  McKennon,465
 House 21,Lieutenant Governor,LIB,Kerry Douglas McKennon,352
-House 21,Lieutenant Governor,REP,Dan Patrick,20590
+House 21,Lieutenant Governor,REP,Dan Patrick,42846
+House 22,Lieutenant Governor,,Over Votes,0
+House 22,Lieutenant Governor,,Under Votes,0
+House 22,Lieutenant Governor,DEM,Mike Collier,28434
+House 22,Lieutenant Governor,LIB,Kerry Douglas  McKennon,486
+House 22,Lieutenant Governor,REP,Dan Patrick,13933
+House 23,Lieutenant Governor,,Over Votes,0
+House 23,Lieutenant Governor,,Under Votes,144
+House 23,Lieutenant Governor,DEM,Mike Collier,25016
+House 23,Lieutenant Governor,LIB,Kerry Douglas McKennon,1244
+House 23,Lieutenant Governor,REP,Dan Patrick,32339
+House 24,Lieutenant Governor,DEM,Mike Collier,21070
+House 24,Lieutenant Governor,LIB,Kerry Douglas McKennon,1512
+House 24,Lieutenant Governor,REP,Dan Patrick,46994
 House 25,Lieutenant Governor,,Over Votes,0
-House 25,Lieutenant Governor,,Under Votes,319
-House 25,Lieutenant Governor,DEM,Mike Collier,12080
-House 25,Lieutenant Governor,LIB,Kerry Douglas McKennon,913
-House 25,Lieutenant Governor,REP,Dan Patrick,28285
+House 25,Lieutenant Governor,,Under Votes,522
+House 25,Lieutenant Governor,DEM,Mike Collier,15147
+House 25,Lieutenant Governor,LIB,Kerry Douglas McKennon,1095
+House 25,Lieutenant Governor,REP,Dan Patrick,35482
 House 26,Lieutenant Governor,,Over Votes,1
-House 26,Lieutenant Governor,,Under Votes,685
-House 26,Lieutenant Governor,DEM,Mike Collier,18418
-House 26,Lieutenant Governor,LIB,Kerry Douglas McKennon,658
-House 26,Lieutenant Governor,REP,Dan Patrick,20558
+House 26,Lieutenant Governor,,Under Votes,1074
+House 26,Lieutenant Governor,DEM,Mike Collier,31861
+House 26,Lieutenant Governor,LIB,Kerry Douglas McKennon,1102
+House 26,Lieutenant Governor,REP,Dan Patrick,33657
 House 27,Lieutenant Governor,,Over Votes,1
-House 27,Lieutenant Governor,,Under Votes,438
-House 27,Lieutenant Governor,DEM,Mike Collier,14514
-House 27,Lieutenant Governor,LIB,Kerry Douglas McKennon,509
-House 27,Lieutenant Governor,REP,Dan Patrick,12747
+House 27,Lieutenant Governor,,Under Votes,927
+House 27,Lieutenant Governor,DEM,Mike Collier,45617
+House 27,Lieutenant Governor,LIB,Kerry Douglas McKennon,1018
+House 27,Lieutenant Governor,REP,Dan Patrick,18455
 House 28,Lieutenant Governor,,Over Votes,0
-House 28,Lieutenant Governor,,Under Votes,25
-House 28,Lieutenant Governor,DEM,Mike Collier,900
-House 28,Lieutenant Governor,LIB,Kerry Douglas McKennon,23
-House 28,Lieutenant Governor,REP,Dan Patrick,398
+House 28,Lieutenant Governor,,Under Votes,996
+House 28,Lieutenant Governor,DEM,Mike Collier,37884
+House 28,Lieutenant Governor,LIB,Kerry Douglas McKennon,1485
+House 28,Lieutenant Governor,REP,Dan Patrick,43498
 House 29,Lieutenant Governor,,Over Votes,0
 House 29,Lieutenant Governor,,Under Votes,478
 House 29,Lieutenant Governor,DEM,Mike Collier,31425
 House 29,Lieutenant Governor,LIB,Kerry Douglas McKennon,1400
 House 29,Lieutenant Governor,REP,Dan Patrick,37212
-House 30,Lieutenant Governor,,Cast Votes:,6084
+House 30,Lieutenant Governor,,Cast Votes:,12168
+House 30,Lieutenant Governor,,OVER VOTES,0
 House 30,Lieutenant Governor,,Overvotes:,0
-House 30,Lieutenant Governor,,Undervotes:,91
-House 30,Lieutenant Governor,DEM,Mike Collier,4311
-House 30,Lieutenant Governor,LIB,Kerry Douglas,95
-House 30,Lieutenant Governor,LIB,Kerry Douglas McKennon,265
-House 30,Lieutenant Governor,REP,Dan Patrick,13360
+House 30,Lieutenant Governor,,UNDER VOTES,355
+House 30,Lieutenant Governor,,Undervotes:,182
+House 30,Lieutenant Governor,DEM,Mike Collier,14273
+House 30,Lieutenant Governor,LIB,Kerry Douglas,190
+House 30,Lieutenant Governor,LIB,Kerry Douglas McKennon,773
+House 30,Lieutenant Governor,REP,Dan Patrick,38268
 House 31,Lieutenant Governor,,Ballots Cast,3810
+House 31,Lieutenant Governor,,Dan Patrick,360
+House 31,Lieutenant Governor,,Kerry Douglas McKennon,19
+House 31,Lieutenant Governor,,Mike Collier,1033
 House 31,Lieutenant Governor,,Over Votes,0
 House 31,Lieutenant Governor,,Under Votes,640
-House 31,Lieutenant Governor,DEM,Mike Collier,15314
-House 31,Lieutenant Governor,LIB,Kerry Douglas McKennon,532
-House 31,Lieutenant Governor,REP,Dan Patrick,12078
+House 31,Lieutenant Governor,DEM,Mike  Collier,3253
+House 31,Lieutenant Governor,DEM,Mike Collier,16366
+House 31,Lieutenant Governor,LIB,Kerry Douglas McKennon,687
+House 31,Lieutenant Governor,REP,Dan  Patrick,1437
+House 31,Lieutenant Governor,REP,Dan Patrick,12490
+House 31,Lieutenant Governor,REP,Dan Patrick (Rep Lieutenant Governor),2911
+House 32,Lieutenant Governor,,Over Votes,0
+House 32,Lieutenant Governor,,Under Votes,932
+House 32,Lieutenant Governor,DEM,Mike Collier,23311
+House 32,Lieutenant Governor,LIB,Kerry Douglas McKennon,1304
+House 32,Lieutenant Governor,REP,Dan Patrick,27333
 House 33,Lieutenant Governor,,OVER VOTES,0
 House 33,Lieutenant Governor,,UNDER VOTES,971
 House 33,Lieutenant Governor,DEM,Mike Collier,30398
 House 33,Lieutenant Governor,LIB,K. Douglas McKennon,951
 House 33,Lieutenant Governor,LIB,Kerry Douglas McKennon,857
 House 33,Lieutenant Governor,REP,Dan Patrick,52178
+House 34,Lieutenant Governor,,Over Votes,0
+House 34,Lieutenant Governor,,Under Votes,844
+House 34,Lieutenant Governor,DEM,Mike Collier,21977
+House 34,Lieutenant Governor,LIB,Kerry Douglas McKennon,842
+House 34,Lieutenant Governor,REP,Dan Patrick,18295
 House 35,Lieutenant Governor,,Over Votes,3
-House 35,Lieutenant Governor,,Under Votes,506
-House 35,Lieutenant Governor,DEM,Mike Collier,7517
-House 35,Lieutenant Governor,LIB,Kerry Douglas McKennon,385
-House 35,Lieutenant Governor,REP,Dan Patrick,7120
+House 35,Lieutenant Governor,,Under Votes,991
+House 35,Lieutenant Governor,DEM,Mike Collier,19790
+House 35,Lieutenant Governor,LIB,Kerry Douglas McKennon,666
+House 35,Lieutenant Governor,REP,Dan Patrick,11416
+House 36,Lieutenant Governor,,Over Votes,2
+House 36,Lieutenant Governor,,Under Votes,710
+House 36,Lieutenant Governor,DEM,Mike Collier,22169
+House 36,Lieutenant Governor,LIB,Kerry Douglas McKennon,583
+House 36,Lieutenant Governor,REP,Dan Patrick,8528
 House 37,Lieutenant Governor,,Over Votes,5
-House 37,Lieutenant Governor,,Under Votes,1338
-House 37,Lieutenant Governor,DEM,Mike Collier,16677
-House 37,Lieutenant Governor,LIB,Kerry Douglas McKennon,839
-House 37,Lieutenant Governor,REP,Dan Patrick,9023
-House 38,Lieutenant Governor,,Over Votes,9
-House 38,Lieutenant Governor,,Under Votes,1135
-House 38,Lieutenant Governor,DEM,Mike Collier,17409
-House 38,Lieutenant Governor,LIB,Kerry Douglas McKennon,772
-House 38,Lieutenant Governor,REP,Dan Patrick,10743
+House 37,Lieutenant Governor,,Under Votes,1390
+House 37,Lieutenant Governor,DEM,Mike Collier,17482
+House 37,Lieutenant Governor,LIB,Kerry Douglas McKennon,884
+House 37,Lieutenant Governor,REP,Dan Patrick,9369
+House 38,Lieutenant Governor,,Over Votes,12
+House 38,Lieutenant Governor,,Under Votes,1273
+House 38,Lieutenant Governor,DEM,Mike Collier,20368
+House 38,Lieutenant Governor,LIB,Kerry Douglas McKennon,920
+House 38,Lieutenant Governor,REP,Dan Patrick,12124
+House 39,Lieutenant Governor,,Over Votes,0
+House 39,Lieutenant Governor,,Under Votes,871
+House 39,Lieutenant Governor,DEM,Mike Collier,21581
+House 39,Lieutenant Governor,LIB,Kerry Douglas McKennon,622
+House 39,Lieutenant Governor,REP,Dan Patrick,9503
+House 40,Lieutenant Governor,,Over Votes,0
+House 40,Lieutenant Governor,,Under Votes,734
+House 40,Lieutenant Governor,DEM,Mike Collier,20604
+House 40,Lieutenant Governor,LIB,Kerry Douglas McKennon,600
+House 40,Lieutenant Governor,REP,Dan Patrick,8345
+House 41,Lieutenant Governor,,Over Votes,0
+House 41,Lieutenant Governor,,Under Votes,714
+House 41,Lieutenant Governor,DEM,Mike Collier,23830
+House 41,Lieutenant Governor,LIB,Kerry Douglas McKennon,796
+House 41,Lieutenant Governor,REP,Dan Patrick,15677
+House 42,Lieutenant Governor,DEM,Mike Collier,23694
+House 42,Lieutenant Governor,LIB,Kerry Douglas McKennon,842
+House 42,Lieutenant Governor,REP,Dan Patrick,9275
 House 43,Lieutenant Governor,,Over Votes,4
-House 43,Lieutenant Governor,,Under Votes,393
-House 43,Lieutenant Governor,DEM,Mike  Collier,2711
-House 43,Lieutenant Governor,DEM,Mike Collier,10012
-House 43,Lieutenant Governor,LIB,Kerry Douglas McKennon,572
-House 43,Lieutenant Governor,REP,Dan  Patrick,3841
-House 43,Lieutenant Governor,REP,Dan Patrick,14135
+House 43,Lieutenant Governor,,Under Votes,435
+House 43,Lieutenant Governor,DEM,Mike  Collier,2767
+House 43,Lieutenant Governor,DEM,Mike Collier,15942
+House 43,Lieutenant Governor,LIB,Kerry Douglas McKennon,834
+House 43,Lieutenant Governor,REP,Dan  Patrick,4096
+House 43,Lieutenant Governor,REP,Dan Patrick,19462
 House 44,Lieutenant Governor,,Under Votes,636
-House 44,Lieutenant Governor,DEM,Mike Collier,18670
+House 44,Lieutenant Governor,DEM,Mike Collier,23105
+House 44,Lieutenant Governor,LIB,K. Douglas McKennon,356
 House 44,Lieutenant Governor,LIB,Kerry McKennon,1275
-House 44,Lieutenant Governor,REP,Dan Patrick,34191
+House 44,Lieutenant Governor,REP,Dan Patrick,47030
 House 45,Lieutenant Governor,DEM,Mike Collier,42380
 House 45,Lieutenant Governor,Dan Patrick,REP,4066
 House 45,Lieutenant Governor,Kerry Douglas McKennon,LIB,144
@@ -1152,31 +1179,36 @@ House 45,Lieutenant Governor,REP,Dan Patrick,34014
 House 46,Lieutenant Governor,DEM,Mike Collier,46976
 House 46,Lieutenant Governor,LIB,Kerry Douglas McKennon,1737
 House 46,Lieutenant Governor,REP,Dan Patrick,8794
-House 47,Lieutenant Governor,DEM,Mike Collier,39786
-House 47,Lieutenant Governor,LIB,Kerry Douglas McKennon,2265
-House 47,Lieutenant Governor,REP,Dan Patrick,29865
-House 48,Lieutenant Governor,DEM,Mike Collier,56467
-House 48,Lieutenant Governor,LIB,Kerry Douglas McKennon,2809
-House 48,Lieutenant Governor,REP,Dan Patrick,22960
-House 49,Lieutenant Governor,DEM,Mike Collier,74984
-House 49,Lieutenant Governor,LIB,Kerry Douglas McKennon,3067
-House 49,Lieutenant Governor,REP,Dan Patrick,14923
+House 47,Lieutenant Governor,DEM,Mike Collier,55017
+House 47,Lieutenant Governor,LIB,Kerry Douglas McKennon,3274
+House 47,Lieutenant Governor,REP,Dan Patrick,48214
+House 48,Lieutenant Governor,DEM,Mike Collier,63316
+House 48,Lieutenant Governor,LIB,Kerry Douglas McKennon,3131
+House 48,Lieutenant Governor,REP,Dan Patrick,24343
+House 49,Lieutenant Governor,DEM,Mike Collier,75992
+House 49,Lieutenant Governor,LIB,Kerry Douglas McKennon,3116
+House 49,Lieutenant Governor,REP,Dan Patrick,15114
 House 50,Lieutenant Governor,DEM,Mike Collier,49109
 House 50,Lieutenant Governor,LIB,Kerry Douglas McKennon,2272
 House 50,Lieutenant Governor,REP,Dan Patrick,20196
-House 51,Lieutenant Governor,DEM,Mike Collier,20615
-House 51,Lieutenant Governor,LIB,Kerry Douglas McKennon,830
-House 51,Lieutenant Governor,REP,Dan Patrick,2933
+House 51,Lieutenant Governor,DEM,Mike Collier,47828
+House 51,Lieutenant Governor,LIB,Kerry Douglas McKennon,2053
+House 51,Lieutenant Governor,REP,Dan Patrick,7587
+House 52,Lieutenant Governor,,Over Votes,0
+House 52,Lieutenant Governor,,Under Votes,1025
+House 52,Lieutenant Governor,DEM,Mike Collier,37443
+House 52,Lieutenant Governor,LIB,Kerry Douglas McKennon,2408
+House 52,Lieutenant Governor,REP,Dan Patrick,32150
 House 53,Lieutenant Governor,,OVER VOTES,0
 House 53,Lieutenant Governor,,Over Votes,3
 House 53,Lieutenant Governor,,UNDER VOTES,43
-House 53,Lieutenant Governor,,Under Votes,328
-House 53,Lieutenant Governor,DEM,Mike  Collier,474
-House 53,Lieutenant Governor,DEM,Mike Collier,8602
+House 53,Lieutenant Governor,,Under Votes,392
+House 53,Lieutenant Governor,DEM,Mike  Collier,899
+House 53,Lieutenant Governor,DEM,Mike Collier,19269
 House 53,Lieutenant Governor,LIB,Kerry D. McKennon,41
-House 53,Lieutenant Governor,LIB,Kerry Douglas McKennon,715
-House 53,Lieutenant Governor,REP,Dan  Patrick,1777
-House 53,Lieutenant Governor,REP,Dan Patrick,29400
+House 53,Lieutenant Governor,LIB,Kerry Douglas McKennon,1491
+House 53,Lieutenant Governor,REP,Dan  Patrick,2743
+House 53,Lieutenant Governor,REP,Dan Patrick,59726
 House 54,Lieutenant Governor,,Over Votes,4
 House 54,Lieutenant Governor,,Under Votes,369
 House 54,Lieutenant Governor,DEM,Mike Collier,22581
@@ -1197,20 +1229,30 @@ House 57,Lieutenant Governor,,UNDER VOTES,365
 House 57,Lieutenant Governor,DEM,Mike Collier,13407
 House 57,Lieutenant Governor,LIB,Kerry Douglas McKennon,740
 House 57,Lieutenant Governor,REP,Dan Patrick,37961
+House 58,Lieutenant Governor,DEM,Mike Collier,13502
+House 58,Lieutenant Governor,LIB,Kerry Douglas McKennon,1254
+House 58,Lieutenant Governor,REP,Dan Patrick,44534
+House 59,Lieutenant Governor,,Dan Patrick,2141
+House 59,Lieutenant Governor,,Kerry Douglas McKennon,60
+House 59,Lieutenant Governor,,Mike Collier,466
+House 59,Lieutenant Governor,,Over Votes,0
+House 59,Lieutenant Governor,,Under Votes,239
 House 59,Lieutenant Governor,DEM,Mike  Collier,1012
-House 59,Lieutenant Governor,DEM,Mike Collier,2572
+House 59,Lieutenant Governor,DEM,Mike Collier,8420
 House 59,Lieutenant Governor,DEM,Mike Collier ,982
-House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon,386
+House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon,863
 House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon ,90
 House 59,Lieutenant Governor,REP,Dan  Patrick,4538
-House 59,Lieutenant Governor,REP,Dan Patrick,9714
+House 59,Lieutenant Governor,REP,Dan Patrick,23892
 House 59,Lieutenant Governor,REP,Dan Patrick ,4335
 House 60,Lieutenant Governor,,Cast Votes,18796
 House 60,Lieutenant Governor,,Overvotes,0
 House 60,Lieutenant Governor,,Undervotes,172
-House 60,Lieutenant Governor,DEM,Mike Collier,7003
-House 60,Lieutenant Governor,LIB,Kerry Douglas McKennon,721
-House 60,Lieutenant Governor,REP,Dan Patrick,33212
+House 60,Lieutenant Governor,DEM,Mike  Collier,363
+House 60,Lieutenant Governor,DEM,Mike Collier,12517
+House 60,Lieutenant Governor,LIB,Kerry Douglas McKennon,1358
+House 60,Lieutenant Governor,REP,Dan  Patrick,2565
+House 60,Lieutenant Governor,REP,Dan Patrick,57588
 House 61,Lieutenant Governor,,Over Votes,0
 House 61,Lieutenant Governor,,Under Votes,949
 House 61,Lieutenant Governor,DEM,Mike Collier,13752
@@ -1229,21 +1271,21 @@ House 62,Lieutenant Governor,REP,DAN PATRICK,8292
 House 62,Lieutenant Governor,REP,Dan Patrick,30792
 House 62,Lieutenant Governor,REP,Over Votes,0
 House 62,Lieutenant Governor,REP,Under Votes,142
-House 63,Lieutenant Governor,,Over Votes,12
-House 63,Lieutenant Governor,,Under Votes,659
-House 63,Lieutenant Governor,DEM,Mike Collier,24852
-House 63,Lieutenant Governor,LIB,Kerry Douglas McKennon,1795
-House 63,Lieutenant Governor,REP,Dan Patrick,45457
+House 63,Lieutenant Governor,,Over Votes,13
+House 63,Lieutenant Governor,,Under Votes,731
+House 63,Lieutenant Governor,DEM,Mike Collier,27360
+House 63,Lieutenant Governor,LIB,Kerry Douglas McKennon,1973
+House 63,Lieutenant Governor,REP,Dan Patrick,50804
 House 64,Lieutenant Governor,,Over Votes,11
-House 64,Lieutenant Governor,,Under Votes,844
-House 64,Lieutenant Governor,DEM,Mike Collier,30779
-House 64,Lieutenant Governor,LIB,Kerry Douglas McKennon,2086
-House 64,Lieutenant Governor,REP,Dan Patrick,31930
-House 65,Lieutenant Governor,,Over Votes,14
-House 65,Lieutenant Governor,,Under Votes,592
-House 65,Lieutenant Governor,DEM,Mike Collier,29368
-House 65,Lieutenant Governor,LIB,Kerry Douglas McKennon,1583
-House 65,Lieutenant Governor,REP,Dan Patrick,27069
+House 64,Lieutenant Governor,,Under Votes,882
+House 64,Lieutenant Governor,DEM,Mike Collier,32386
+House 64,Lieutenant Governor,LIB,Kerry Douglas McKennon,2191
+House 64,Lieutenant Governor,REP,Dan Patrick,34668
+House 65,Lieutenant Governor,,Over Votes,15
+House 65,Lieutenant Governor,,Under Votes,604
+House 65,Lieutenant Governor,DEM,Mike Collier,30118
+House 65,Lieutenant Governor,LIB,Kerry Douglas McKennon,1611
+House 65,Lieutenant Governor,REP,Dan Patrick,27514
 House 66,Lieutenant Governor,,OVER VOTES,1
 House 66,Lieutenant Governor,,UNDER VOTES,1090
 House 66,Lieutenant Governor,DEM,Mike Collier,33982
@@ -1254,21 +1296,26 @@ House 67,Lieutenant Governor,,UNDER VOTES,1238
 House 67,Lieutenant Governor,DEM,Mike Collier,36330
 House 67,Lieutenant Governor,LIB,K. Douglas McKennon,1726
 House 67,Lieutenant Governor,REP,Dan Patrick,35825
+House 68,Lieutenant Governor,,Dan Patrick,605
+House 68,Lieutenant Governor,,Kerry Douglas McKennon,17
+House 68,Lieutenant Governor,,Mike Collier,281
 House 68,Lieutenant Governor,,OVER VOTES,1
 House 68,Lieutenant Governor,,Over Votes,0
 House 68,Lieutenant Governor,,UNDER VOTES,86
-House 68,Lieutenant Governor,,Under Votes,39
-House 68,Lieutenant Governor,DEM,Mike  Collier,494
-House 68,Lieutenant Governor,DEM,Mike Collier,4049
+House 68,Lieutenant Governor,,Under Votes,61
+House 68,Lieutenant Governor,DEM,Mike  Collier,944
+House 68,Lieutenant Governor,DEM,Mike Collier,5353
 House 68,Lieutenant Governor,DEM,Mike Collier ,2597
-House 68,Lieutenant Governor,Dem,Mike Colllier,305
+House 68,Lieutenant Governor,Dem,Mike Colllier,423
 House 68,Lieutenant Governor,LIB,Kerry D. McKennon,265
-House 68,Lieutenant Governor,LIB,Kerry Douglas McKennon,438
-House 68,Lieutenant Governor,Lib,Kerry Douglas McKennon,19
-House 68,Lieutenant Governor,REP,Dan  Patrick,1952
-House 68,Lieutenant Governor,REP,Dan Patrick,20208
+House 68,Lieutenant Governor,LIB,Kerry Douglas McKennon,577
+House 68,Lieutenant Governor,Lib,Kerry Douglas McKennon,25
+House 68,Lieutenant Governor,REP,Dan  Patrick,3038
+House 68,Lieutenant Governor,REP,Dan Patrick,24630
 House 68,Lieutenant Governor,REP,Dan Patrick ,11590
-House 68,Lieutenant Governor,Rep,Dan Patrick,778
+House 68,Lieutenant Governor,REP,Over Votes,0
+House 68,Lieutenant Governor,REP,Under Votes,24
+House 68,Lieutenant Governor,Rep,Dan Patrick,1027
 House 69,Lieutenant Governor,,Dan Patrick,290
 House 69,Lieutenant Governor,,Kerry Douglas McKennon,6
 House 69,Lieutenant Governor,,Mike Collier,128
@@ -1289,33 +1336,37 @@ House 70,Lieutenant Governor,REP,Dan Patrick,51946
 House 71,Lieutenant Governor,,OVER VOTES,0
 House 71,Lieutenant Governor,,Over Votes,0
 House 71,Lieutenant Governor,,UNDER VOTES,98
-House 71,Lieutenant Governor,,Under Votes,487
-House 71,Lieutenant Governor,DEM,Mike Collier,11545
-House 71,Lieutenant Governor,LIB,Kerry Douglas McKennon,1033
-House 71,Lieutenant Governor,REP,Dan Patrick,29704
-House 72,Lieutenant Governor,,Cast Votes,361
+House 71,Lieutenant Governor,,Under Votes,565
+House 71,Lieutenant Governor,DEM,Mike Collier,12587
+House 71,Lieutenant Governor,LIB,Kerry Douglas McKennon,1185
+House 71,Lieutenant Governor,REP,Dan Patrick,35744
+House 72,Lieutenant Governor,,Cast Votes,722
 House 72,Lieutenant Governor,,Over Votes,0
 House 72,Lieutenant Governor,,Overvotes,0
-House 72,Lieutenant Governor,,Under Votes,16
-House 72,Lieutenant Governor,,Undervotes,12
-House 72,Lieutenant Governor,DEM,Mike Collier,3160
-House 72,Lieutenant Governor,LIB,Kerry Douglas,8
-House 72,Lieutenant Governor,LIB,Kerry Douglas McKennon,360
-House 72,Lieutenant Governor,REP,Dan Patrick,9747
+House 72,Lieutenant Governor,,Under Votes,691
+House 72,Lieutenant Governor,,Undervotes,24
+House 72,Lieutenant Governor,DEM,Mike Collier,13783
+House 72,Lieutenant Governor,LIB,Kerry Douglas,16
+House 72,Lieutenant Governor,LIB,Kerry Douglas McKennon,1282
+House 72,Lieutenant Governor,REP,Dan Patrick,35146
 House 73,Lieutenant Governor,,OVER VOTES,0
 House 73,Lieutenant Governor,,UNDER VOTES,196
 House 73,Lieutenant Governor,DEM,Mike Collier,20659
 House 73,Lieutenant Governor,LIB,Kerry Douglas McKennon,1794
 House 73,Lieutenant Governor,LIB,Kerry Douglas Mckennon,82
 House 73,Lieutenant Governor,REP,Dan Patrick,62755
-House 74,Lieutenant Governor,DEM,Mike Collier,4315
-House 74,Lieutenant Governor,LIB,Kerry Douglas McKennon,317
-House 74,Lieutenant Governor,REP,Dan Patrick,5620
-House 80,Lieutenant Governor,DEM,Mike Collier,4893
+House 74,Lieutenant Governor,DEM,Mike  Collier,5545
+House 74,Lieutenant Governor,DEM,Mike Collier,14518
+House 74,Lieutenant Governor,LIB,Kerry Douglas McKennon,990
+House 74,Lieutenant Governor,REP,Dan  Patrick,5375
+House 74,Lieutenant Governor,REP,Dan Patrick,10805
+House 80,Lieutenant Governor,,Over Votes,2
+House 80,Lieutenant Governor,,Under Votes,178
+House 80,Lieutenant Governor,DEM,Mike Collier,20861
 House 80,Lieutenant Governor,LIB,Kerry D. McKennon,40
-House 80,Lieutenant Governor,LIB,Kerry Douglas McKennon,35
+House 80,Lieutenant Governor,LIB,Kerry Douglas McKennon,631
 House 80,Lieutenant Governor,LIB,Kerry Douglas Mckennon,66
-House 80,Lieutenant Governor,REP,Dan Patrick,3171
+House 80,Lieutenant Governor,REP,Dan Patrick,11866
 House 81,Lieutenant Governor,,Over Votes,0
 House 81,Lieutenant Governor,,Under Votes,639
 House 81,Lieutenant Governor,DEM,Mike  Collier,355
@@ -1325,26 +1376,26 @@ House 81,Lieutenant Governor,REP,Dan  Patrick,1071
 House 81,Lieutenant Governor,REP,Dan Patrick,25971
 House 82,Lieutenant Governor,,OVER VOTES,1
 House 82,Lieutenant Governor,,UNDER VOTES,22
-House 82,Lieutenant Governor,DEM,Mike Collier,10361
-House 82,Lieutenant Governor,LIB,Kerry Douglas McKennon,1144
-House 82,Lieutenant Governor,REP,Dan Patrick,34799
+House 82,Lieutenant Governor,DEM,Mike Collier,11065
+House 82,Lieutenant Governor,LIB,Kerry Douglas McKennon,1192
+House 82,Lieutenant Governor,REP,Dan Patrick,36926
 House 83,Lieutenant Governor,,OVER VOTES,1
 House 83,Lieutenant Governor,,Over Votes,1
-House 83,Lieutenant Governor,,UNDER VOTES,65
+House 83,Lieutenant Governor,,UNDER VOTES,83
 House 83,Lieutenant Governor,,Under Votes,531
-House 83,Lieutenant Governor,DEM,Mike Collier,13751
-House 83,Lieutenant Governor,LIB,Kerry Douglas McKennon,1390
-House 83,Lieutenant Governor,REP,Dan Patrick,37668
+House 83,Lieutenant Governor,DEM,Mike Collier,14618
+House 83,Lieutenant Governor,LIB,Kerry Douglas McKennon,1477
+House 83,Lieutenant Governor,REP,Dan Patrick,40156
 House 84,Lieutenant Governor,,Over Votes,0
 House 84,Lieutenant Governor,,Under Votes,684
-House 84,Lieutenant Governor,DEM,Mike Collier,19309
-House 84,Lieutenant Governor,LIB,Kerry Douglas McKennon,1522
-House 84,Lieutenant Governor,REP,Dan Patrick,25717
+House 84,Lieutenant Governor,DEM,Mike Collier,19346
+House 84,Lieutenant Governor,LIB,Kerry Douglas McKennon,1524
+House 84,Lieutenant Governor,REP,Dan Patrick,25739
 House 85,Lieutenant Governor,,Over Votes,0
-House 85,Lieutenant Governor,,Under Votes,290
-House 85,Lieutenant Governor,DEM,Mike Collier,8548
-House 85,Lieutenant Governor,LIB,Kerry Douglas McKennon,320
-House 85,Lieutenant Governor,REP,Dan Patrick,8676
+House 85,Lieutenant Governor,,Under Votes,604
+House 85,Lieutenant Governor,DEM,Mike Collier,24680
+House 85,Lieutenant Governor,LIB,Kerry Douglas McKennon,904
+House 85,Lieutenant Governor,REP,Dan Patrick,31529
 House 86,Lieutenant Governor,,Dan Patrick,2550
 House 86,Lieutenant Governor,,Kerry Douglas McKennon,75
 House 86,Lieutenant Governor,,Mike Collier,1119
@@ -1368,13 +1419,15 @@ House 88,Lieutenant Governor,,UNDER VOTES,133
 House 88,Lieutenant Governor,,Under Votes,113
 House 88,Lieutenant Governor,DEM,MIKE COLLIER,408
 House 88,Lieutenant Governor,DEM,Mike  Collier,1491
-House 88,Lieutenant Governor,DEM,Mike Collier,6467
+House 88,Lieutenant Governor,DEM,Mike Collier,7333
 House 88,Lieutenant Governor,LIB,KERRY D. MCKENNON,28
 House 88,Lieutenant Governor,LIB,Kerry Douglad McKennon,43
-House 88,Lieutenant Governor,LIB,Kerry Douglas McKennon,802
+House 88,Lieutenant Governor,LIB,Kerry Douglas McKennon,885
+House 88,Lieutenant Governor,LIB],Kerry Douglas McKennon,2
+House 88,Lieutenant Governor,OEM,Mike Collier,34
 House 88,Lieutenant Governor,REP,DAN PATRICK,1147
 House 88,Lieutenant Governor,REP,Dan  Patrick,4416
-House 88,Lieutenant Governor,REP,Dan Patrick,22385
+House 88,Lieutenant Governor,REP,Dan Patrick,25113
 House 88,Lieutenant Governor,REP,Over Votes,1
 House 88,Lieutenant Governor,REP,Under Votes,65
 House 89,Lieutenant Governor,,OVER VOTES,1
@@ -1383,10 +1436,10 @@ House 89,Lieutenant Governor,DEM,Mike Collier,31267
 House 89,Lieutenant Governor,LIB,K. Douglas McKennon,1750
 House 89,Lieutenant Governor,REP,Dan Patrick,43072
 House 90,Lieutenant Governor,,Over Votes,2
-House 90,Lieutenant Governor,,Under Votes,655
-House 90,Lieutenant Governor,DEM,Mike Collier,17788
-House 90,Lieutenant Governor,LIB,Kerry Douglas McKennon,474
-House 90,Lieutenant Governor,REP,Dan Patrick,5011
+House 90,Lieutenant Governor,,Under Votes,695
+House 90,Lieutenant Governor,DEM,Mike Collier,19525
+House 90,Lieutenant Governor,LIB,Kerry Douglas McKennon,521
+House 90,Lieutenant Governor,REP,Dan Patrick,5460
 House 91,Lieutenant Governor,,Over Votes,3
 House 91,Lieutenant Governor,,Under Votes,745
 House 91,Lieutenant Governor,DEM,Mike Collier,20402
@@ -1394,54 +1447,54 @@ House 91,Lieutenant Governor,LIB,Kerry Douglas McKennon,1392
 House 91,Lieutenant Governor,REP,Dan Patrick,33489
 House 92,Lieutenant Governor,,Over Votes,1
 House 92,Lieutenant Governor,,Under Votes,777
-House 92,Lieutenant Governor,DEM,Mike Collier,27437
+House 92,Lieutenant Governor,DEM,Mike Collier,27439
 House 92,Lieutenant Governor,LIB,Kerry Douglas McKennon,1610
 House 92,Lieutenant Governor,REP,Dan Patrick,31078
 House 93,Lieutenant Governor,,Over Votes,1
-House 93,Lieutenant Governor,,Under Votes,635
-House 93,Lieutenant Governor,DEM,Mike Collier,23331
-House 93,Lieutenant Governor,LIB,Kerry Douglas McKennon,1197
-House 93,Lieutenant Governor,REP,Dan Patrick,23807
+House 93,Lieutenant Governor,,Under Votes,728
+House 93,Lieutenant Governor,DEM,Mike Collier,26429
+House 93,Lieutenant Governor,LIB,Kerry Douglas McKennon,1409
+House 93,Lieutenant Governor,REP,Dan Patrick,30127
 House 94,Lieutenant Governor,,Over Votes,3
-House 94,Lieutenant Governor,,Under Votes,775
-House 94,Lieutenant Governor,DEM,Mike Collier,26572
-House 94,Lieutenant Governor,LIB,Kerry Douglas McKennon,1573
-House 94,Lieutenant Governor,REP,Dan Patrick,31988
+House 94,Lieutenant Governor,,Under Votes,828
+House 94,Lieutenant Governor,DEM,Mike Collier,28123
+House 94,Lieutenant Governor,LIB,Kerry Douglas McKennon,1643
+House 94,Lieutenant Governor,REP,Dan Patrick,32824
 House 95,Lieutenant Governor,,Over Votes,2
 House 95,Lieutenant Governor,,Under Votes,616
 House 95,Lieutenant Governor,DEM,Mike Collier,32590
 House 95,Lieutenant Governor,LIB,Kerry Douglas McKennon,843
 House 95,Lieutenant Governor,REP,Dan Patrick,9945
 House 96,Lieutenant Governor,,Over Votes,2
-House 96,Lieutenant Governor,,Under Votes,727
-House 96,Lieutenant Governor,DEM,Mike Collier,30724
-House 96,Lieutenant Governor,LIB,Kerry Douglas McKennon,1411
-House 96,Lieutenant Governor,REP,Dan Patrick,32501
-House 97,Lieutenant Governor,,Over Votes,1
-House 97,Lieutenant Governor,,Under Votes,817
-House 97,Lieutenant Governor,DEM,Mike Collier,26076
-House 97,Lieutenant Governor,LIB,Kerry Douglas McKennon,1485
-House 97,Lieutenant Governor,REP,Dan Patrick,30135
-House 98,Lieutenant Governor,,Over Votes,4
-House 98,Lieutenant Governor,,Under Votes,744
-House 98,Lieutenant Governor,DEM,Mike Collier,19847
-House 98,Lieutenant Governor,LIB,Kerry Douglas McKennon,1501
-House 98,Lieutenant Governor,REP,Dan Patrick,43429
-House 99,Lieutenant Governor,,Over Votes,0
-House 99,Lieutenant Governor,,Under Votes,33
-House 99,Lieutenant Governor,DEM,Mike Collier,927
-House 99,Lieutenant Governor,LIB,Kerry Douglas McKennon,44
-House 99,Lieutenant Governor,REP,Dan Patrick,796
+House 96,Lieutenant Governor,,Under Votes,730
+House 96,Lieutenant Governor,DEM,Mike Collier,30836
+House 96,Lieutenant Governor,LIB,Kerry Douglas McKennon,1415
+House 96,Lieutenant Governor,REP,Dan Patrick,32577
+House 97,Lieutenant Governor,,Over Votes,2
+House 97,Lieutenant Governor,,Under Votes,952
+House 97,Lieutenant Governor,DEM,Mike Collier,30517
+House 97,Lieutenant Governor,LIB,Kerry Douglas McKennon,1738
+House 97,Lieutenant Governor,REP,Dan Patrick,34593
+House 98,Lieutenant Governor,,Over Votes,6
+House 98,Lieutenant Governor,,Under Votes,989
+House 98,Lieutenant Governor,DEM,Mike Collier,27167
+House 98,Lieutenant Governor,LIB,Kerry Douglas McKennon,2082
+House 98,Lieutenant Governor,REP,Dan Patrick,54777
+House 99,Lieutenant Governor,,Over Votes,3
+House 99,Lieutenant Governor,,Under Votes,809
+House 99,Lieutenant Governor,DEM,Mike Collier,22277
+House 99,Lieutenant Governor,LIB,Kerry Douglas McKennon,1538
+House 99,Lieutenant Governor,REP,Dan Patrick,36059
 House 100,Lieutenant Governor,,Over Votes,8
 House 100,Lieutenant Governor,,Under Votes,687
 House 100,Lieutenant Governor,DEM,Mike Collier,32096
 House 100,Lieutenant Governor,LIB,Kerry Douglas McKennon,912
 House 100,Lieutenant Governor,REP,Dan Patrick,8263
-House 101,Lieutenant Governor,,Over Votes,1
-House 101,Lieutenant Governor,,Under Votes,246
-House 101,Lieutenant Governor,DEM,Mike Collier,9453
-House 101,Lieutenant Governor,LIB,Kerry Douglas McKennon,289
-House 101,Lieutenant Governor,REP,Dan Patrick,4041
+House 101,Lieutenant Governor,,Over Votes,3
+House 101,Lieutenant Governor,,Under Votes,641
+House 101,Lieutenant Governor,DEM,Mike Collier,29426
+House 101,Lieutenant Governor,LIB,Kerry Douglas McKennon,899
+House 101,Lieutenant Governor,REP,Dan Patrick,13001
 House 102,Lieutenant Governor,,Over Votes,7
 House 102,Lieutenant Governor,,Under Votes,939
 House 102,Lieutenant Governor,DEM,Mike Collier,31609
@@ -1462,11 +1515,11 @@ House 105,Lieutenant Governor,,Under Votes,797
 House 105,Lieutenant Governor,DEM,Mike Collier,25036
 House 105,Lieutenant Governor,LIB,Kerry Douglas McKennon,992
 House 105,Lieutenant Governor,REP,Dan Patrick,19048
-House 106,Lieutenant Governor,,Over Votes,8
-House 106,Lieutenant Governor,,Under Votes,690
-House 106,Lieutenant Governor,DEM,Mike Collier,31809
-House 106,Lieutenant Governor,LIB,Kerry Douglas McKennon,1828
-House 106,Lieutenant Governor,REP,Dan Patrick,42957
+House 106,Lieutenant Governor,,Over Votes,9
+House 106,Lieutenant Governor,,Under Votes,769
+House 106,Lieutenant Governor,DEM,Mike Collier,34943
+House 106,Lieutenant Governor,LIB,Kerry Douglas McKennon,2000
+House 106,Lieutenant Governor,REP,Dan Patrick,47673
 House 107,Lieutenant Governor,,Over Votes,3
 House 107,Lieutenant Governor,,Under Votes,781
 House 107,Lieutenant Governor,DEM,Mike Collier,28819
@@ -1513,15 +1566,15 @@ House 115,Lieutenant Governor,DEM,Mike Collier,31185
 House 115,Lieutenant Governor,LIB,Kerry Douglas McKennon,1434
 House 115,Lieutenant Governor,REP,Dan Patrick,24282
 House 116,Lieutenant Governor,,OVER VOTES,0
-House 116,Lieutenant Governor,,UNDER VOTES,646
-House 116,Lieutenant Governor,DEM,Mike Collier,30233
-House 116,Lieutenant Governor,LIB,Kerry McKennon,1185
-House 116,Lieutenant Governor,REP,Dan Patrick,14204
+House 116,Lieutenant Governor,,UNDER VOTES,669
+House 116,Lieutenant Governor,DEM,Mike Collier,31071
+House 116,Lieutenant Governor,LIB,Kerry McKennon,1217
+House 116,Lieutenant Governor,REP,Dan Patrick,14462
 House 117,Lieutenant Governor,,OVER VOTES,0
-House 117,Lieutenant Governor,,UNDER VOTES,581
-House 117,Lieutenant Governor,DEM,Mike Collier,29029
-House 117,Lieutenant Governor,LIB,Kerry McKennon,1304
-House 117,Lieutenant Governor,REP,Dan Patrick,22445
+House 117,Lieutenant Governor,,UNDER VOTES,637
+House 117,Lieutenant Governor,DEM,Mike Collier,31444
+House 117,Lieutenant Governor,LIB,Kerry McKennon,1420
+House 117,Lieutenant Governor,REP,Dan Patrick,25063
 House 118,Lieutenant Governor,,OVER VOTES,0
 House 118,Lieutenant Governor,,UNDER VOTES,652
 House 118,Lieutenant Governor,DEM,Mike Collier,23237
@@ -1539,24 +1592,24 @@ House 120,Lieutenant Governor,LIB,Kerry McKennon,981
 House 120,Lieutenant Governor,REP,Dan Patrick,14199
 House 121,Lieutenant Governor,,OVER VOTES,0
 House 121,Lieutenant Governor,,UNDER VOTES,938
-House 121,Lieutenant Governor,DEM,Mike Collier,34384
-House 121,Lieutenant Governor,LIB,Kerry McKennon,1732
+House 121,Lieutenant Governor,DEM,Mike Collier,34387
+House 121,Lieutenant Governor,LIB,Kerry McKennon,1733
 House 121,Lieutenant Governor,REP,Dan Patrick,37225
 House 122,Lieutenant Governor,,OVER VOTES,1
-House 122,Lieutenant Governor,,UNDER VOTES,959
-House 122,Lieutenant Governor,DEM,Mike Collier,38230
-House 122,Lieutenant Governor,LIB,Kerry McKennon,1971
-House 122,Lieutenant Governor,REP,Dan Patrick,54181
+House 122,Lieutenant Governor,,UNDER VOTES,961
+House 122,Lieutenant Governor,DEM,Mike Collier,38427
+House 122,Lieutenant Governor,LIB,Kerry McKennon,1979
+House 122,Lieutenant Governor,REP,Dan Patrick,54380
 House 123,Lieutenant Governor,,OVER VOTES,0
-House 123,Lieutenant Governor,,UNDER VOTES,788
-House 123,Lieutenant Governor,DEM,Mike Collier,32683
-House 123,Lieutenant Governor,LIB,Kerry McKennon,1208
-House 123,Lieutenant Governor,REP,Dan Patrick,15142
+House 123,Lieutenant Governor,,UNDER VOTES,791
+House 123,Lieutenant Governor,DEM,Mike Collier,32764
+House 123,Lieutenant Governor,LIB,Kerry McKennon,1210
+House 123,Lieutenant Governor,REP,Dan Patrick,15160
 House 124,Lieutenant Governor,,OVER VOTES,0
-House 124,Lieutenant Governor,,UNDER VOTES,581
-House 124,Lieutenant Governor,DEM,Mike Collier,29306
-House 124,Lieutenant Governor,LIB,Kerry McKennon,1161
-House 124,Lieutenant Governor,REP,Dan Patrick,16182
+House 124,Lieutenant Governor,,UNDER VOTES,589
+House 124,Lieutenant Governor,DEM,Mike Collier,29849
+House 124,Lieutenant Governor,LIB,Kerry McKennon,1183
+House 124,Lieutenant Governor,REP,Dan Patrick,16421
 House 125,Lieutenant Governor,,OVER VOTES,0
 House 125,Lieutenant Governor,,UNDER VOTES,616
 House 125,Lieutenant Governor,DEM,Mike Collier,29774
@@ -1612,6 +1665,11 @@ House 135,Lieutenant Governor,,UNDERVOTES,523
 House 135,Lieutenant Governor,DEM,Mike Collier,28581
 House 135,Lieutenant Governor,LIB,Kerry Douglas McKennon,979
 House 135,Lieutenant Governor,REP,Dan Patrick,26724
+House 136,Lieutenant Governor,,Over Votes,0
+House 136,Lieutenant Governor,,Under Votes,1023
+House 136,Lieutenant Governor,DEM,Mike Collier,42692
+House 136,Lieutenant Governor,LIB,Kerry Douglas McKennon,2790
+House 136,Lieutenant Governor,REP,Dan Patrick,33290
 House 137,Lieutenant Governor,,OVERVOTES,0
 House 137,Lieutenant Governor,,UNDERVOTES,354
 House 137,Lieutenant Governor,DEM,Mike Collier,16641
@@ -1682,14 +1740,6 @@ House 150,Lieutenant Governor,,UNDERVOTES,643
 House 150,Lieutenant Governor,DEM,Mike Collier,28962
 House 150,Lieutenant Governor,LIB,Kerry Douglas McKennon,1192
 House 150,Lieutenant Governor,REP,Dan Patrick,41050
-Senate 1,Lieutenant Governor,,Over Votes,7
-Senate 1,Lieutenant Governor,,Under Votes,313
-Senate 1,Lieutenant Governor,DEM,MIKE COLLIER,7166
-Senate 1,Lieutenant Governor,DEM,Mike Collier,71720
-Senate 1,Lieutenant Governor,LIB,KERRY DOUGLAS McKENNON,327
-Senate 1,Lieutenant Governor,LIB,Kerry Douglas McKennon,4330
-Senate 1,Lieutenant Governor,REP,DAN PATRICK,11397
-Senate 1,Lieutenant Governor,REP,Dan Patrick,175823
 Senate 2,Lieutenant Governor,,Cast Votes,8786
 Senate 2,Lieutenant Governor,,Dan Patrick,1477
 Senate 2,Lieutenant Governor,,Kerry Douglas McKennon,30
@@ -1718,29 +1768,17 @@ Senate 3,Lieutenant Governor,,Under Votes,1466
 Senate 3,Lieutenant Governor,DEM,Mike Collier,60180
 Senate 3,Lieutenant Governor,LIB,Kerry Douglas McKennon,4113
 Senate 3,Lieutenant Governor,REP,Dan Patrick,205392
-Senate 4,Lieutenant Governor,,OVERVOTES,0
-Senate 4,Lieutenant Governor,,Over Votes,1
-Senate 4,Lieutenant Governor,,UNDERVOTES,505
-Senate 4,Lieutenant Governor,,Under Votes,1425
-Senate 4,Lieutenant Governor,DEM,Mike Collier,55031
-Senate 4,Lieutenant Governor,LIB,Kerry Douglas McKennon,3728
-Senate 4,Lieutenant Governor,REP,Dan Patrick,142106
 Senate 5,Lieutenant Governor,,Dan Patrick,6259
 Senate 5,Lieutenant Governor,,Kerry Douglas McKennon,163
 Senate 5,Lieutenant Governor,,Mike Collier,2194
 Senate 5,Lieutenant Governor,,OVER VOTES,0
 Senate 5,Lieutenant Governor,,Over Votes,0
 Senate 5,Lieutenant Governor,,UNDER VOTES,352
-Senate 5,Lieutenant Governor,,Under Votes,1200
-Senate 5,Lieutenant Governor,DEM,Mike Collier,41172
-Senate 5,Lieutenant Governor,LIB,Kerry Douglas McKennon,2642
+Senate 5,Lieutenant Governor,,Under Votes,1202
+Senate 5,Lieutenant Governor,DEM,Mike Collier,41182
+Senate 5,Lieutenant Governor,LIB,Kerry Douglas McKennon,2644
 Senate 5,Lieutenant Governor,LIB,Kerry McKennon,386
-Senate 5,Lieutenant Governor,REP,Dan Patrick,74236
-Senate 6,Lieutenant Governor,,OVERVOTES,6
-Senate 6,Lieutenant Governor,,UNDERVOTES,2244
-Senate 6,Lieutenant Governor,DEM,Mike Collier,96689
-Senate 6,Lieutenant Governor,LIB,Kerry Douglas McKennon,1941
-Senate 6,Lieutenant Governor,REP,Dan Patrick,36910
+Senate 5,Lieutenant Governor,REP,Dan Patrick,74265
 Senate 7,Lieutenant Governor,,OVERVOTES,2
 Senate 7,Lieutenant Governor,,UNDERVOTES,2756
 Senate 7,Lieutenant Governor,DEM,Mike Collier,130834
@@ -1764,23 +1802,6 @@ Senate 10,Lieutenant Governor,,Under Votes,4102
 Senate 10,Lieutenant Governor,DEM,Mike Collier,147141
 Senate 10,Lieutenant Governor,LIB,Kerry Douglas McKennon,6661
 Senate 10,Lieutenant Governor,REP,Dan Patrick,136051
-Senate 11,Lieutenant Governor,,OVERVOTES,1
-Senate 11,Lieutenant Governor,,Over Votes,0
-Senate 11,Lieutenant Governor,,UNDERVOTES,913
-Senate 11,Lieutenant Governor,,Under Votes,573
-Senate 11,Lieutenant Governor,DEM,Mike Collier,73288
-Senate 11,Lieutenant Governor,LIB,Kerry Douglas McKennon,3526
-Senate 11,Lieutenant Governor,REP,Dan Patrick,102215
-Senate 12,Lieutenant Governor,,Over Votes,39
-Senate 12,Lieutenant Governor,,Under Votes,2166
-Senate 12,Lieutenant Governor,DEM,Mike Collier,93400
-Senate 12,Lieutenant Governor,LIB,Kerry Douglas McKennon,5801
-Senate 12,Lieutenant Governor,REP,Dan Patrick,125134
-Senate 13,Lieutenant Governor,,OVERVOTES,10
-Senate 13,Lieutenant Governor,,UNDERVOTES,2144
-Senate 13,Lieutenant Governor,DEM,Mike Collier,127847
-Senate 13,Lieutenant Governor,LIB,Kerry Douglas McKennon,2088
-Senate 13,Lieutenant Governor,REP,Dan Patrick,24784
 Senate 14,Lieutenant Governor,DEM,Mike Collier,272535
 Senate 14,Lieutenant Governor,LIB,Kerry Douglas McKennon,12556
 Senate 14,Lieutenant Governor,REP,Dan Patrick,102092
@@ -1801,116 +1822,18 @@ Senate 17,Lieutenant Governor,,Under Votes,1662
 Senate 17,Lieutenant Governor,DEM,Mike Collier,154453
 Senate 17,Lieutenant Governor,LIB,Kerry Douglas McKennon,5910
 Senate 17,Lieutenant Governor,REP,Dan Patrick,150408
-Senate 18,Lieutenant Governor,,Cast Votes:,6084
-Senate 18,Lieutenant Governor,,OVER VOTES,1
-Senate 18,Lieutenant Governor,,OVERVOTES,1
-Senate 18,Lieutenant Governor,,Over Votes,0
-Senate 18,Lieutenant Governor,,Overvotes,0
-Senate 18,Lieutenant Governor,,Overvotes:,0
-Senate 18,Lieutenant Governor,,UNDER VOTES,222
-Senate 18,Lieutenant Governor,,UNDERVOTES,117
-Senate 18,Lieutenant Governor,,Under Votes,230
-Senate 18,Lieutenant Governor,,Undervotes:,91
-Senate 18,Lieutenant Governor,DEM,Mike Collier,28145
-Senate 18,Lieutenant Governor,IND,Kerry Douglas McKennon,84
-Senate 18,Lieutenant Governor,LIB,K. Douglas McKennon,93
-Senate 18,Lieutenant Governor,LIB,Kerry Douglas,95
-Senate 18,Lieutenant Governor,LIB,Kerry Douglas McKennon,1369
-Senate 18,Lieutenant Governor,REP,Dan Patrick,67553
-Senate 19,Lieutenant Governor,,OVER VOTES,1
-Senate 19,Lieutenant Governor,,UNDER VOTES,1697
-Senate 19,Lieutenant Governor,DEM,Mike  Collier,222
-Senate 19,Lieutenant Governor,DEM,Mike Collier,90371
-Senate 19,Lieutenant Governor,LIB,Kerry D. McKennon,40
-Senate 19,Lieutenant Governor,LIB,Kerry Douglas McKennon,509
-Senate 19,Lieutenant Governor,LIB,Kerry Douglas Mckennon,66
-Senate 19,Lieutenant Governor,LIB,Kerry McKennon,3034
-Senate 19,Lieutenant Governor,REP,Dan  Patrick,1110
-Senate 19,Lieutenant Governor,REP,Dan Patrick,65061
-Senate 20,Lieutenant Governor,,Over Votes,4
-Senate 20,Lieutenant Governor,,Under Votes,393
-Senate 20,Lieutenant Governor,DEM,Mike Collier,5163
-Senate 20,Lieutenant Governor,LIB,Kerry Douglas McKennon,149
-Senate 20,Lieutenant Governor,REP,Dan Patrick,4263
-Senate 21,Lieutenant Governor,,Ballots Cast,3810
-Senate 21,Lieutenant Governor,,OVER VOTES,0
-Senate 21,Lieutenant Governor,,Over Votes,0
-Senate 21,Lieutenant Governor,,UNDER VOTES,39
-Senate 21,Lieutenant Governor,,Under Votes,808
-Senate 21,Lieutenant Governor,DEM,Mike  Collier,2711
-Senate 21,Lieutenant Governor,DEM,Mike Collier,39109
-Senate 21,Lieutenant Governor,LIB,Kerry Douglas McKennon,1615
-Senate 21,Lieutenant Governor,LIB,Kerry McKennon,409
-Senate 21,Lieutenant Governor,REP,Dan  Patrick,3841
-Senate 21,Lieutenant Governor,REP,Dan Patrick,38106
-Senate 22,Lieutenant Governor,,Over Votes,1
-Senate 22,Lieutenant Governor,,Under Votes,1103
-Senate 22,Lieutenant Governor,DEM,Mike  Collier,655
-Senate 22,Lieutenant Governor,DEM,Mike Collier,46802
-Senate 22,Lieutenant Governor,LIB,Kerry Douglas McKennon,3059
-Senate 22,Lieutenant Governor,REP,Dan  Patrick,2934
-Senate 22,Lieutenant Governor,REP,Dan Patrick,85084
-Senate 23,Lieutenant Governor,,OVER VOTES,0
 Senate 23,Lieutenant Governor,,Over Votes,32
-Senate 23,Lieutenant Governor,,UNDER VOTES,43
 Senate 23,Lieutenant Governor,,Under Votes,3304
-Senate 23,Lieutenant Governor,DEM,Mike Collier,183438
-Senate 23,Lieutenant Governor,LIB,Kerry Douglas McKennon,4403
-Senate 23,Lieutenant Governor,REP,Dan Patrick,39124
-Senate 24,Lieutenant Governor,,Over Votes,10
-Senate 24,Lieutenant Governor,,Under Votes,1602
-Senate 24,Lieutenant Governor,DEM,Mike  Collier,357
-Senate 24,Lieutenant Governor,DEM,Mike Collier,58205
-Senate 24,Lieutenant Governor,DEM,Mike Collier ,982
-Senate 24,Lieutenant Governor,Dan Patrick,REP,4066
-Senate 24,Lieutenant Governor,Kerry Douglas McKennon,LIB,144
-Senate 24,Lieutenant Governor,LIB,Kerry Douglas McKennon,4217
-Senate 24,Lieutenant Governor,LIB,Kerry Douglas McKennon ,90
-Senate 24,Lieutenant Governor,LIB,Kerry Douglas Mckennon,82
-Senate 24,Lieutenant Governor,Mike Collier,DEM,1579
-Senate 24,Lieutenant Governor,REP,Dan  Patrick,1604
-Senate 24,Lieutenant Governor,REP,Dan Patrick,120942
-Senate 24,Lieutenant Governor,REP,Dan Patrick ,4335
+Senate 23,Lieutenant Governor,DEM,Mike Collier,183322
+Senate 23,Lieutenant Governor,LIB,Kerry Douglas McKennon,4389
+Senate 23,Lieutenant Governor,REP,Dan Patrick,38528
 Senate 25,Lieutenant Governor,,OVER VOTES,1
-Senate 25,Lieutenant Governor,,UNDER VOTES,2356
+Senate 25,Lieutenant Governor,,UNDER VOTES,2357
 Senate 25,Lieutenant Governor,,Under Votes,410
-Senate 25,Lieutenant Governor,DEM,Mike Collier,175864
+Senate 25,Lieutenant Governor,DEM,Mike Collier,175893
 Senate 25,Lieutenant Governor,LIB,Kerry Douglas McKennon,5185
 Senate 25,Lieutenant Governor,LIB,Kerry McKennon,5186
-Senate 25,Lieutenant Governor,REP,Dan Patrick,228482
-Senate 26,Lieutenant Governor,,OVER VOTES,0
-Senate 26,Lieutenant Governor,,UNDER VOTES,2950
-Senate 26,Lieutenant Governor,DEM,Mike Collier,136399
-Senate 26,Lieutenant Governor,LIB,Kerry McKennon,5136
-Senate 26,Lieutenant Governor,REP,Dan Patrick,68411
-Senate 27,Lieutenant Governor,,Over Votes,17
-Senate 27,Lieutenant Governor,,Under Votes,3037
-Senate 27,Lieutenant Governor,DEM,Mike Collier,41667
-Senate 27,Lieutenant Governor,LIB,Kerry Douglas McKennon,2000
-Senate 27,Lieutenant Governor,REP,Dan Patrick,26965
-Senate 28,Lieutenant Governor,,Cast Votes,361
-Senate 28,Lieutenant Governor,,Dan Patrick,290
-Senate 28,Lieutenant Governor,,Kerry Douglas McKennon,6
-Senate 28,Lieutenant Governor,,Mike Collier,128
-Senate 28,Lieutenant Governor,,OVER VOTES,2
-Senate 28,Lieutenant Governor,,Over Votes,1
-Senate 28,Lieutenant Governor,,Overvotes,0
-Senate 28,Lieutenant Governor,,UNDER VOTES,185
-Senate 28,Lieutenant Governor,,Under Votes,1470
-Senate 28,Lieutenant Governor,,Undervotes,12
-Senate 28,Lieutenant Governor,DEM,Mike  Collier,2556
-Senate 28,Lieutenant Governor,DEM,Mike Collier,46587
-Senate 28,Lieutenant Governor,Dem,Mike Colllier,305
-Senate 28,Lieutenant Governor,LIB,Kerry D. McKennon,41
-Senate 28,Lieutenant Governor,LIB,Kerry Douglas,8
-Senate 28,Lieutenant Governor,LIB,Kerry Douglas McKennon,4288
-Senate 28,Lieutenant Governor,Lib,Kerry Douglas McKennon,19
-Senate 28,Lieutenant Governor,REP,Dan  Patrick,7775
-Senate 28,Lieutenant Governor,REP,Dan Patrick,101746
-Senate 28,Lieutenant Governor,Rep,Dan Patrick,778
-Senate 29,Lieutenant Governor,DEM,Mike Collier,509
-Senate 29,Lieutenant Governor,LIB,Kerry Douglas McKennon,50
-Senate 29,Lieutenant Governor,REP,Dan Patrick,600
+Senate 25,Lieutenant Governor,REP,Dan Patrick,228519
 Senate 30,Lieutenant Governor,,Cast Votes,18796
 Senate 30,Lieutenant Governor,,OVER VOTES,2
 Senate 30,Lieutenant Governor,,Over Votes,6

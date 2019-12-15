@@ -27,7 +27,7 @@ import qualified Data.Text.Encoding            as T
 import qualified Data.Char                     as TC
 import qualified Data.ByteString               as B
 import qualified Data.ByteString.Lazy          as BL
---import qualified Data.ByteString.Char8          as BC
+
 import qualified Data.Vector                   as V
 import           Data.Word                      ( Word8 )
 import           Text.Read                      ( readMaybe )
@@ -89,7 +89,7 @@ instance C.FromNamedRecord PrecinctVote where
                             <$> m .: "office"
                             <*> m .: "party"
                             <*> m .: "candidate"
-                            <*> (fmap (fromMaybe 0 . readMaybe @Int) $ m .: "votes")
+                            <*> (fmap (fromMaybe 0 . fmap round . readMaybe @Double) $ m .: "votes")
                            )
 
 fixOffice :: PrecinctVote -> PrecinctVote
@@ -121,16 +121,21 @@ gaConfig = StateConfig
   (Just "logs/GA.log")
 
 
-txConfig = StateConfig
-  (do
-    let elexFiles =
-          ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
-        backupFiles =
-          ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
-    return (elexFiles, backupFiles)
-  )
-  "results/TX_VotesByStateLegislativeDistrict.csv"
-  (Just "logs/TX.log")
+txConfig
+  = let
+      getFiles = do
+        let
+          dir = "openelections-data-tx/2018/counties/"
+          addDir f = dir ++ f
+          elexFiles =
+            ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
+        allFiles <- SD.listDirectory dir
+        let backupFiles = fmap addDir
+              $ L.filter (L.isPrefixOf "20180306__tx__primary__") allFiles
+        return (elexFiles, backupFiles)
+    in  StateConfig getFiles
+                    "results/TX_VotesByStateLegislativeDistrict.csv"
+                    (Just "logs/TX.log")
 
 iaConfig = StateConfig
   (do
@@ -139,6 +144,7 @@ iaConfig = StateConfig
         backupFiles =
           [ "openelections-data-ia/2018/20180605__ia__primary__precinct.csv"
           , "openelections-data-ia/2016/20161108__ia__general__precinct.csv"
+          , "openelections-data-ia/2014/20141104__ia__general__precinct.csv"
           ]
     return (elexFiles, backupFiles)
   )
@@ -147,7 +153,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = gaConfig
+  let stateConfig = iaConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -228,20 +234,28 @@ backfillDictionary log electionD backupD = do
     missingSenate = L.null . L.filter isSenate
     multiHouse    = (> 1) . L.length . L.filter isHouse
     multiSenate   = (> 1) . L.length . L.filter isSenate
-    addFromBackup isType (p, slds) =
+    missingMsg slds = case (missingHouse slds, missingSenate slds) of
+      (True, True) -> "missing all SLDs"
+      (True, False) ->
+        "missing state house district. Has " <> (T.pack $ show slds)
+      (False, True) ->
+        "missing state senate district. Has " <> (T.pack $ show slds)
+    addFromBackup isType (p, slds) = do
       case fmap (L.filter isType) (M.lookup p backupD) of
         Nothing -> do
           log
-            $  "Failed to find precinct=\""
+            $  "Missing/NoBackup: "
             <> (T.pack $ show p)
-            <> "\" in backup dictionary."
-          return (p, [])
+            <> " "
+            <> missingMsg slds
+          return (p, slds)
         Just [] -> do
           log
-            $  "Backup entry for precinct=\""
+            $  "Missing/EmptyBackup: "
             <> (T.pack $ show p)
-            <> "\" is also empty."
-          return (p, [])
+            <> " "
+            <> missingMsg slds
+          return (p, slds)
         Just newSLDs -> return (p, slds ++ newSLDs)
 
     findF =
@@ -264,17 +278,15 @@ backfillDictionary log electionD backupD = do
   return newSLDsByPrecinct
 
 
-parseFiles log fps = fmap V.fromList $ S.toList $ parseFiles' log fps
+goodPV (_, pv) = let hasPrecinct = precinct pv /= "" in hasPrecinct
+
+parseFiles log fps =
+  fmap (V.fromList . L.filter goodPV) $ S.toList $ parseFiles' log fps
 
 parseFiles'
   :: (T.Text -> IO ()) -> [FilePath] -> S.Serial (Maybe (SLD Int), PrecinctVote)
 parseFiles' log fps = do
   let saveErr = either log (const $ return ())
-{-      
-  saveErr <- liftIO $ case errPathM of
-    Nothing      -> return $ either (T.hPutStrLn SI.stderr) (const $ return ())
-    Just logPath -> return $ either (T.appendFile logPath) (const $ return ())
--}
   S.mapMaybe (either (const Nothing) Just)
     $ S.tap (SFL.drainBy saveErr)
     $ S.concatMap parseFile'
