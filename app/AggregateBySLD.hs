@@ -153,7 +153,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = txConfig
+  let stateConfig = gaConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -199,9 +199,10 @@ main = do
       pVsHouse      = M.differenceWith voteComp vboPrecinct vboHouse
       pVsSenate     = M.differenceWith voteComp vboPrecinct vboSenate
       houseVsSenate = M.differenceWith voteComp vboHouse vboSenate
-  log $ T.pack $ "Precinct vs House:\n" ++ show pVsHouse
-  log $ T.pack $ "Precinct vs Senate:\n" ++ show pVsSenate
-  log $ T.pack $ "House vs Senate:\n" ++ show houseVsSenate
+      prettyList    = L.intercalate "\n" . fmap show . M.toList
+  log $ T.pack $ "Precinct vs House:\n" ++ prettyList pVsHouse
+  log $ T.pack $ "Precinct vs Senate:\n" ++ prettyList pVsSenate
+  log $ T.pack $ "House vs Senate:\n" ++ prettyList houseVsSenate
   let output = vbSLDHeader <> "\n" <> T.intercalate
         "\n"
         (fmap vbSLDtoCSV $ L.sortBy outputCompare $ L.filter outputFilter
