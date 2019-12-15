@@ -132,11 +132,13 @@ txConfig =
       allPrimary2018 <- allFilesInDirWithPrefix
         "openelections-data-tx/2018/counties/"
         "20180306__tx__primary__"
+      allGeneral2014 <- allFilesInDirWithPrefix "openelections-data-tx/2014/"
+                                                "20141104__tx__general__"
       let general2018 =
             ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
           general2016 =
             ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
-      return (general2018, general2016 ++ allPrimary2018)
+      return (general2018, general2016 ++ allPrimary2018 ++ allGeneral2014)
   in  StateConfig getFiles
                   "results/TX_VotesByStateLegislativeDistrict.csv"
                   (Just "logs/TX.log")
@@ -157,7 +159,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = gaConfig
+  let stateConfig = txConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -427,6 +429,8 @@ sldsByPrecinctFM = fmap M.fromList $ MR.mapReduceFoldM
 f :: PKey -> FL.FoldM (Either T.Text) (SLD Int) (PKey, [SLD Double])
 f p = fmap (p, ) $ MR.postMapM (sldsVotesToWeights p) (FL.generalize FL.list)
 
+
+-- TODO: sum to 0 -> equal weights??
 sldsVotesToWeights :: PKey -> [SLD Int] -> Either T.Text [SLD Double]
 sldsVotesToWeights p slds = do
   let wgtError seatType p =
