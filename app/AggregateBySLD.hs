@@ -130,8 +130,13 @@ txConfig
           elexFiles =
             ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
         allFiles <- SD.listDirectory dir
-        let backupFiles = fmap addDir
-              $ L.filter (L.isPrefixOf "20180306__tx__primary__") allFiles
+        let
+          backupFiles =
+            ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
+              ++ (fmap addDir $ L.filter
+                   (L.isPrefixOf "20180306__tx__primary__")
+                   allFiles
+                 )
         return (elexFiles, backupFiles)
     in  StateConfig getFiles
                     "results/TX_VotesByStateLegislativeDistrict.csv"
@@ -153,7 +158,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = gaConfig
+  let stateConfig = txConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
