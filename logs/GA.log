@@ -1,6 +1,32 @@
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "ANDERSON"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "BALDWIN"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "BERLIN"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "BUSHVILLE"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "COLUMBIA"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "DAVIDS"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "GOLDENHILL"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "GROVERIVER"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "HOLLINGSWORTH"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "HOMER"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "POPLARSPRINGS"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "WASHINGTON"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Banks", pkPrecinct = "WILMONTS"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "ADAIRSVILLE"} missing state house district. Has [Senate 14 0.7402200488997555,Senate 52 0.2597799511002445]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "CASSVILLE"} missing state house district. Has [Senate 14 1.0]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "FOLSOM"} missing state house district. Has [Senate 14 1.0]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "KINGSTON"} missing state house district. Has [Senate 52 1.0]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "PINELOG"} missing state house district. Has [Senate 14 1.0]
+Missing/NoBackup: PKey {pkCounty = "Bartow", pkPrecinct = "WHITE"} missing state house district. Has [Senate 14 1.0]
+Missing/NoBackup: PKey {pkCounty = "Floyd", pkPrecinct = "BARKERS"} missing state house district. Has [Senate 52 1.0]
+Missing/NoBackup: PKey {pkCounty = "Floyd", pkPrecinct = "CHULIO"} missing state house district. Has [Senate 52 1.0]
+Missing/NoBackup: PKey {pkCounty = "Floyd", pkPrecinct = "ETOWAH"} missing state house district. Has [Senate 52 1.0]
+Missing/NoBackup: PKey {pkCounty = "Floyd", pkPrecinct = "HOWELL"} missing state house district. Has [Senate 52 1.0]
+Missing/NoBackup: PKey {pkCounty = "Habersham", pkPrecinct = "TOWNOFMOUNTAIRY"} missing state house district. Has [Senate 50 1.0]
+Missing/NoBackup: PKey {pkCounty = "Stephens", pkPrecinct = "SENIORCENTER"} missing state house district. Has [Senate 50 1.0]
 Precinct vs House:
-("Constitutional Amendment #5 <br>Authorizes fair allocation of sales tax proceeds to county and city school districts.",-7)
-("Governor",-4)
+("Constitutional Amendment #5 <br>Authorizes fair allocation of sales tax proceeds to county and city school districts.",33563)
+("Governor",35788)
+("Lieutenant Governor",34821)
 ("State Representative: district 174",-1)
 ("State Representative: district 175",1)
 ("State Representative: district 177",-1)
@@ -14,27 +40,32 @@ Precinct vs House:
 ("State Representative: district 44",1)
 ("State Representative: district 53",1)
 ("State Representative: district 91",1)
+("State Senator: district 14",11353)
 ("State Senator: district 27",1)
 ("State Senator: district 33",1)
 ("State Senator: district 37",1)
 ("State Senator: district 38",1)
 ("State Senator: district 45",-1)
+("State Senator: district 50",14635)
+("State Senator: district 52",7809)
 ("State Senator: district 7",1)
 ("State Senator: district 8",1)
-("U.S. Representative: district 11",-3)
+("U.S. Representative: district 11",13613)
 ("U.S. Representative: district 13",1)
+("U.S. Representative: district 14",5565)
 ("U.S. Representative: district 4",-1)
 ("U.S. Representative: district 6",1)
 ("U.S. Representative: district 7",-2)
+("U.S. Representative: district 9",16082)
 Precinct vs Senate:
 ("Governor",-2)
 ("Lieutenant Governor",1)
 ("State Senator: district 26",-1)
 ("U.S. Representative: district 8",1)
 House vs Senate:
-("Constitutional Amendment #5 <br>Authorizes fair allocation of sales tax proceeds to county and city school districts.",7)
-("Governor",2)
-("Lieutenant Governor",1)
+("Constitutional Amendment #5 <br>Authorizes fair allocation of sales tax proceeds to county and city school districts.",-33563)
+("Governor",-35790)
+("Lieutenant Governor",-34820)
 ("State Representative: district 174",1)
 ("State Representative: district 175",-1)
 ("State Representative: district 177",1)
@@ -48,17 +79,22 @@ House vs Senate:
 ("State Representative: district 44",-1)
 ("State Representative: district 53",-1)
 ("State Representative: district 91",-1)
+("State Senator: district 14",-11353)
 ("State Senator: district 26",-1)
 ("State Senator: district 27",-1)
 ("State Senator: district 33",-1)
 ("State Senator: district 37",-1)
 ("State Senator: district 38",-1)
 ("State Senator: district 45",1)
+("State Senator: district 50",-14635)
+("State Senator: district 52",-7809)
 ("State Senator: district 7",-1)
 ("State Senator: district 8",-1)
-("U.S. Representative: district 11",3)
+("U.S. Representative: district 11",-13613)
 ("U.S. Representative: district 13",-1)
+("U.S. Representative: district 14",-5565)
 ("U.S. Representative: district 4",1)
 ("U.S. Representative: district 6",-1)
 ("U.S. Representative: district 7",2)
 ("U.S. Representative: district 8",1)
+("U.S. Representative: district 9",-16082)

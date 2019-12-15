@@ -106,41 +106,40 @@ data StateConfig = StateConfig { getFilePaths :: IO ([FilePath], [FilePath])
                                , logFileM :: Maybe FilePath
                                }
 
+allFilesInDirWithPrefix :: FilePath -> String -> IO [FilePath]
+allFilesInDirWithPrefix dir prefix = do
+  let addDir x = dir ++ x
+  allFiles <- SD.listDirectory dir
+  return $ fmap addDir $ L.filter (L.isPrefixOf prefix) allFiles
+
 gaConfig = StateConfig
   (do
-    let dir = "openelections-data-ga/2018/"
-        addDir f = dir ++ f
-    allFiles <- SD.listDirectory dir
-    let elexFiles = fmap addDir
-          $ L.filter (L.isPrefixOf "20181106__ga__general__") allFiles
-        backupFiles = fmap addDir
-          $ L.filter (L.isPrefixOf "20180522__ga__primary__") allFiles
-    return (elexFiles, backupFiles)
+    allGeneral2018 <- allFilesInDirWithPrefix "openelections-data-ga/2018/"
+                                              "20181106__ga__general__"
+    allPrimary2018 <- allFilesInDirWithPrefix "openelections-data-ga/2018/"
+                                              "20181106__ga__primary__"
+    allGeneral2016 <- allFilesInDirWithPrefix "openelections-data-ga/2016/"
+                                              "20181108__ga__general__"
+    return (allGeneral2018, allPrimary2018 ++ allGeneral2016)
   )
   "results/GA_VotesByStateLegislativeDistrict.csv"
   (Just "logs/GA.log")
 
 
-txConfig
-  = let
-      getFiles = do
-        let
-          dir = "openelections-data-tx/2018/counties/"
-          addDir f = dir ++ f
-          elexFiles =
+txConfig =
+  let
+    getFiles = do
+      allPrimary2018 <- allFilesInDirWithPrefix
+        "openelections-data-tx/2018/counties/"
+        "20180306__tx__primary__"
+      let general2018 =
             ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
-        allFiles <- SD.listDirectory dir
-        let
-          backupFiles =
+          general2016 =
             ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
-              ++ (fmap addDir $ L.filter
-                   (L.isPrefixOf "20180306__tx__primary__")
-                   allFiles
-                 )
-        return (elexFiles, backupFiles)
-    in  StateConfig getFiles
-                    "results/TX_VotesByStateLegislativeDistrict.csv"
-                    (Just "logs/TX.log")
+      return (general2018, general2016 ++ allPrimary2018)
+  in  StateConfig getFiles
+                  "results/TX_VotesByStateLegislativeDistrict.csv"
+                  (Just "logs/TX.log")
 
 iaConfig = StateConfig
   (do
@@ -158,7 +157,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = txConfig
+  let stateConfig = gaConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)

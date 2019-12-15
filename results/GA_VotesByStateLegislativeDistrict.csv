@@ -38,9 +38,6 @@ House 12,Governor,REP,BRIAN KEMP,12745
 House 13,Governor,DEM,STACEY ABRAMS,5765
 House 13,Governor,LIB,TED METZ,199
 House 13,Governor,REP,BRIAN KEMP,10106
-House 14,Governor,DEM,STACEY ABRAMS,3487
-House 14,Governor,LIB,TED METZ,192
-House 14,Governor,REP,BRIAN KEMP,15782
 House 15,Governor,DEM,STACEY ABRAMS,5488
 House 15,Governor,LIB,TED METZ,225
 House 15,Governor,REP,BRIAN KEMP,14605
@@ -80,9 +77,6 @@ House 26,Governor,REP,BRIAN KEMP,21666
 House 27,Governor,DEM,STACEY ABRAMS,3512
 House 27,Governor,LIB,TED METZ,195
 House 27,Governor,REP,BRIAN KEMP,16694
-House 28,Governor,DEM,STACEY ABRAMS,2410
-House 28,Governor,LIB,TED METZ,134
-House 28,Governor,REP,BRIAN KEMP,13787
 House 29,Governor,DEM,STACEY ABRAMS,5617
 House 29,Governor,LIB,TED METZ,189
 House 29,Governor,REP,BRIAN KEMP,9801
@@ -737,8 +731,6 @@ House 12,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3240
 House 12,Lieutenant Governor,REP,GEOFF DUNCAN,12178
 House 13,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5482
 House 13,Lieutenant Governor,REP,GEOFF DUNCAN,9911
-House 14,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3578
-House 14,Lieutenant Governor,REP,GEOFF DUNCAN,15474
 House 15,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5531
 House 15,Lieutenant Governor,REP,GEOFF DUNCAN,14529
 House 16,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3162
@@ -765,8 +757,6 @@ House 26,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5639
 House 26,Lieutenant Governor,REP,GEOFF DUNCAN,21700
 House 27,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3452
 House 27,Lieutenant Governor,REP,GEOFF DUNCAN,16327
-House 28,Lieutenant Governor,DEM,SARAH RIGGS AMICO,2405
-House 28,Lieutenant Governor,REP,GEOFF DUNCAN,13364
 House 29,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5250
 House 29,Lieutenant Governor,REP,GEOFF DUNCAN,9707
 House 30,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5428
@@ -1297,8 +1287,6 @@ Senate 46,U.S. Representative: district 10,(REP,JODY HICE ,47533
 Senate 46,U.S. Representative: district 10,DEM,TABITHA A. JOHNSON-GREEN,31451
 Senate 47,U.S. Representative: district 10,(REP,JODY HICE ,23890
 Senate 47,U.S. Representative: district 10,DEM,TABITHA A. JOHNSON-GREEN,14670
-House 14,U.S. Representative: district 11,(REP,BARRY LOUDERMILK ,11121
-House 14,U.S. Representative: district 11,DEM,FLYNN D. BROADY JR,2495
 House 15,U.S. Representative: district 11,(REP,BARRY LOUDERMILK ,14708
 House 15,U.S. Representative: district 11,DEM,FLYNN D. BROADY JR,5327
 House 16,U.S. Representative: district 11,(REP,BARRY LOUDERMILK ,2695
@@ -1509,8 +1497,6 @@ House 12,U.S. Representative: district 14,(REP,TOM GRAVES ,12581
 House 12,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,3164
 House 13,U.S. Representative: district 14,(REP,TOM GRAVES ,10353
 House 13,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,5387
-House 14,U.S. Representative: district 14,(REP,TOM GRAVES ,4641
-House 14,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,924
 House 16,U.S. Representative: district 14,(REP,TOM GRAVES ,11741
 House 16,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,2703
 House 17,U.S. Representative: district 14,(REP,TOM GRAVES ,16972
@@ -1900,8 +1886,6 @@ House 26,U.S. Representative: district 9,(REP,DOUG COLLINS ,14025
 House 26,U.S. Representative: district 9,DEM,JOSH MCCALL,2899
 House 27,U.S. Representative: district 9,(REP,DOUG COLLINS ,16585
 House 27,U.S. Representative: district 9,DEM,JOSH MCCALL,3520
-House 28,U.S. Representative: district 9,(REP,DOUG COLLINS ,13623
-House 28,U.S. Representative: district 9,DEM,JOSH MCCALL,2459
 House 29,U.S. Representative: district 9,(REP,DOUG COLLINS ,9796
 House 29,U.S. Representative: district 9,DEM,JOSH MCCALL,5534
 House 30,U.S. Representative: district 9,(REP,DOUG COLLINS ,14660
