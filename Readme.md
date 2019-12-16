@@ -1,6 +1,6 @@
 # open-elections v0.1.0.0
 
-First try at parsing (openelections.net)<http://openelections.net/> data and re-aggregating
+First try at parsing [openelections.net](http://openelections.net/) data and re-aggregating
 state-wide elections 
 by state legislative district for the 2018 elections.
 
