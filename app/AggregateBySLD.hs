@@ -168,9 +168,24 @@ iaConfig = StateConfig
   (Just "logs/IA.log")
   True
 
+paConfig = StateConfig
+  (do
+    let elexFiles =
+          ["openelections-data-pa/2018/20181106__pa__general__precinct.csv"]
+        backupFiles =
+          [ "openelections-data-pa/2016/20161108__pa__general__precinct.csv"
+          , "openelections-data-pa/2014/20141104__pa__general__precinct.csv"
+          ]
+    return (elexFiles, backupFiles)
+  )
+  "results/PA_VotesByStateLegislativeDistrict.csv"
+  (Just "logs/PA.log")
+  True
+
+
 main :: IO ()
 main = do
-  let stateConfig = txConfig
+  let stateConfig = paConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
