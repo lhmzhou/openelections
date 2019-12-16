@@ -22,6 +22,7 @@ executables:
       - containers
       - directory
       - foldl
+      - fuzzyset
       - map-reduce-folds
       - streamly >= 0.7
       - text

@@ -16,6 +16,7 @@ import           Data.Maybe                     ( isJust
                                                 , fromJust
                                                 , fromMaybe
                                                 )
+import qualified Data.FuzzySet                 as FS
 import qualified Data.Bifunctor                as BF
 import           Data.Either                    ( isRight )
 import           Data.Ord                       ( Ordering )
@@ -138,7 +139,7 @@ txConfig =
             ["openelections-data-tx/2018/20181106__tx__general__precinct.csv"]
           general2016 =
             ["openelections-data-tx/2016/20161108__tx__general__precinct.csv"]
-      return (general2018, general2016 ++ allPrimary2018 ++ allGeneral2014)
+      return (general2018, allPrimary2018 ++ general2016 ++ allGeneral2014)
   in  StateConfig getFiles
                   "results/TX_VotesByStateLegislativeDistrict.csv"
                   (Just "logs/TX.log")
@@ -171,27 +172,29 @@ main = do
   (elexFiles, backupPrecFiles) <- getFilePaths stateConfig
   parsedElection'              <- parseFiles log elexFiles
   let parsedElection = fmap (\(a, b) -> (a, fixOffice b)) parsedElection'
-  parsedBackup <- parseFiles log backupPrecFiles
   putStrLn $ "constructing backup dictionary of precinct -> SLD mappings"
-  backupSLDsBP <- case FL.foldM sldsByPrecinctFM parsedBackup of
-    Left err -> E.throw $ MiscException
-      (  "Backup precinct -> SLDs dictionary build failure: "
-      <> (T.pack $ show err)
-      )
-    Right x -> return x
+    -- We do this one file at a time so we can prefer newer to older data
+    -- also might make concurrency a possibility
+  let
+    makeBackupDict fp = do
+      parsed <- parseFiles log [fp]
+      return $ FL.fold sldsByPrecinctF parsed
+    backupDictMerge slds1 slds2 =
+      let (house1, senate1) = L.partition isHouse slds1
+          (house2, senate2) = L.partition isHouse slds2
+          house             = if not (L.null house1) then house1 else house2
+          senate            = if not (L.null senate1) then senate1 else senate2
+      in  house ++ senate
+    foldDictsF =
+      FL.Fold (\m1 m2 -> M.unionWith backupDictMerge m1 m2) M.empty id
+  backupSLDsBP <- fmap (FL.fold foldDictsF)
+    $ traverse makeBackupDict backupPrecFiles
   putStrLn
     $ "Doing pass 1: sldsByPrecinct, vboPrecinct and primary precinct -> SLDs dictionary"
-  let allFM =
-        (,,)
-          <$> (FL.generalize precinctsBySLDF)
-          <*> (FL.generalize tvboFromPrecinctsF)
-          <*> sldsByPrecinctFM
-  (precinctsBySLDs, vboPrecinct, sldsByPrecinct) <-
-    case FL.foldM allFM parsedElection of
-      Left err ->
-        E.throw $ MiscException ("Pass 1 Failure: " <> (T.pack $ show err))
-      Right x -> return x
-  putStrLn $ "pass 1 complete.\npass 2: votesBySLD and vboHouse, vboSenate"
+  let allF =
+        (,,) <$> precinctsBySLDF <*> tvboFromPrecinctsF <*> sldsByPrecinctF
+      (precinctsBySLDs, vboPrecinct, sldsByPrecinct) =
+        FL.fold allF parsedElection
   putStrLn $ "Backfilling primary dictionary:"
   updatedSLDsByPrecinct <- backfillDictionary log sldsByPrecinct backupSLDsBP
   let votesBySLD =
@@ -220,15 +223,15 @@ main = do
 outputFilter :: (SLD (), CandidateVote) -> Bool
 outputFilter (_, (CandidateVote o _ _ _)) =
   let hasWord word text = not . T.null . snd $ word `T.breakOn` text
-      isGov    = hasWord "Governor" o
-      isSenate = hasWord "Senator" o && not (hasWord "State" o)
-      isHouse  = hasWord "Representative" o && not (hasWord "State" o)
-  in  isGov || isSenate || isHouse
+      isUS        = hasWord "United" o || hasWord "U.S." o
+      isGov       = hasWord "Governor" o
+      isUS_Senate = isUS && (hasWord "Senator" o || hasWord "Senate" o)
+      isUS_House  = isUS && hasWord "Representative" o
+  in  isGov || isUS_Senate || isUS_House
 
 outputCompare :: (SLD (), CandidateVote) -> (SLD (), CandidateVote) -> Ordering
 outputCompare (sldA, (CandidateVote oA nA _ _)) (sldB, (CandidateVote oB nB _ _))
   = compare oA oB <> compare sldA sldB <> compare nA nB
-
 
 backfillDictionary
   :: (T.Text -> IO ())
@@ -416,39 +419,36 @@ precinctsBySLDF = fmap (fmap Set.fromList . M.fromList) $ MR.mapReduceFold
   (MR.assign (fromJust . fst) (pKey . snd))
   (MR.foldAndLabel FL.list (\sld ps -> (sldLabel sld, ps)))
 
-sldsByPrecinctFM
-  :: FL.FoldM
-       (Either T.Text)
-       (Maybe (SLD Int), PrecinctVote)
-       (SLDsByPrecinct Double)
-sldsByPrecinctFM = fmap M.fromList $ MR.mapReduceFoldM
-  (MR.generalizeUnpack $ MR.filterUnpack (isJust . fst))
-  (MR.generalizeAssign $ MR.assign (pKey . snd) (fromJust . fst))
-  (MR.ReduceFoldM f)
+sldsByPrecinctF
+  :: FL.Fold (Maybe (SLD Int), PrecinctVote) (SLDsByPrecinct Double)
+sldsByPrecinctF = fmap M.fromList $ MR.mapReduceFold
+  (MR.filterUnpack (isJust . fst))
+  (MR.assign (pKey . snd) (fromJust . fst))
+  (MR.ReduceFold f)
 
-f :: PKey -> FL.FoldM (Either T.Text) (SLD Int) (PKey, [SLD Double])
-f p = fmap (p, ) $ MR.postMapM (sldsVotesToWeights p) (FL.generalize FL.list)
+f :: PKey -> FL.Fold (SLD Int) (PKey, [SLD Double])
+f p = fmap (\l -> (p, (sldsVotesToWeights p) l)) FL.list
 
 
 -- TODO: sum to 0 -> equal weights??
-sldsVotesToWeights :: PKey -> [SLD Int] -> Either T.Text [SLD Double]
-sldsVotesToWeights p slds = do
-  let wgtError seatType p =
-        (T.pack $ show p)
-          <> " has >1 "
-          <> seatType
-          <> " districts but weights sum to 0: "
+sldsVotesToWeights :: PKey -> [SLD Int] -> [SLD Double]
+sldsVotesToWeights p slds
+  = let
       toWeight total n = (realToFrac n) / (realToFrac total)
       weightSLDs p seatType slds = case sumDistrictData slds of
-        []  -> Right []
-        [x] -> Right [fmap (const 1) x]
-        xs  -> do
-          let t = FL.fold (FL.premap sldData FL.sum) xs
-          when (t == 0) $ Left $ wgtError seatType p <> (T.pack $ show xs)
-          return $ fmap (fmap $ toWeight t) xs
-  whSLDs <- weightSLDs p "House" $ filter isHouse slds
-  wsSLDs <- weightSLDs p "Senate" $ filter isSenate slds
-  return $ whSLDs ++ wsSLDs
+        []  -> []
+        [x] -> [fmap (const 1) x]
+        xs ->
+          let
+            t = FL.fold (FL.premap sldData FL.sum) xs
+            g =
+              if t == 0 then const (1 / realToFrac (length xs)) else toWeight t
+          in
+            fmap (fmap g) xs
+      whSLDs = weightSLDs p "House" $ filter isHouse slds
+      wsSLDs = weightSLDs p "Senate" $ filter isSenate slds
+    in
+      whSLDs ++ wsSLDs
 
 
 totalVotesByOfficeF :: FL.Fold (T.Text, Int) (M.Map T.Text Int)
