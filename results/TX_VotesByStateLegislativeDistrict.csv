@@ -22,12 +22,9 @@ House 4,Governor,REP,Greg Abbott,45952
 House 5,Governor,,Cast Votes,8814
 House 5,Governor,,Overvotes,0
 House 5,Governor,,Undervotes,14
-House 5,Governor,DEM,Lupe  Valdez,1028
-House 5,Governor,DEM,Lupe Valdez,16227
-House 5,Governor,LIB,Mark Jay Tippetts,683
-House 5,Governor,LIB,Mark Jay Tippetts ,142
-House 5,Governor,REP,Greg  Abbott,2816
-House 5,Governor,REP,Greg Abbott,53163
+House 5,Governor,DEM,Lupe Valdez,17255
+House 5,Governor,LIB,Mark Jay Tippetts,825
+House 5,Governor,REP,Greg Abbott,55979
 House 5,Governor,REP,Gregg Abbott,8777
 House 6,Governor,DEM,Lupe Valdez,31629
 House 6,Governor,LIB,Mark Jay Tippetts,1367
@@ -64,11 +61,9 @@ House 12,Governor,,OVER VOTES,1
 House 12,Governor,,Over Votes,0
 House 12,Governor,,UNDER VOTES,124
 House 12,Governor,,Under Votes,294
-House 12,Governor,DEM,Lupe  Valdez,1286
-House 12,Governor,DEM,Lupe Valdez,13699
+House 12,Governor,DEM,Lupe Valdez,14985
 House 12,Governor,LIB,Mark Jay Tippetts,576
-House 12,Governor,REP,Greg  Abbott,3344
-House 12,Governor,REP,Greg Abbott,30578
+House 12,Governor,REP,Greg Abbott,33922
 House 13,Governor,,Greg Abbott,6674
 House 13,Governor,,Lupe Valdez,1855
 House 13,Governor,,Mark Jay Tippetts,102
@@ -174,12 +169,9 @@ House 31,Governor,,Lupe Valdez,938
 House 31,Governor,,Mark Jay Tippetts,8
 House 31,Governor,,Over Votes,2
 House 31,Governor,,Under Votes,425
-House 31,Governor,DEM,Lupe  Valdez,2761
-House 31,Governor,DEM,Lupe Valdez,15066
-House 31,Governor,LIB,Mark Jay Tippetts,352
-House 31,Governor,LIB,Mark Jay Tippetts ,13
-House 31,Governor,REP,Greg  Abbott,5045
-House 31,Governor,REP,Greg Abbott,13889
+House 31,Governor,DEM,Lupe Valdez,17827
+House 31,Governor,LIB,Mark Jay Tippetts,365
+House 31,Governor,REP,Greg Abbott,18934
 House 31,Governor,REP,Gregg Abbott,1053
 House 32,Governor,,Over Votes,1
 House 32,Governor,,Under Votes,455
@@ -236,11 +228,9 @@ House 42,Governor,LIB,Mark Jay Tippetts,413
 House 42,Governor,REP,Greg Abbott,11518
 House 43,Governor,,Over Votes,1
 House 43,Governor,,Under Votes,252
-House 43,Governor,DEM,Lupe  Valdez,2248
-House 43,Governor,DEM,Lupe Valdez,14087
+House 43,Governor,DEM,Lupe Valdez,16335
 House 43,Governor,LIB,Mark Jay Tippetts,503
-House 43,Governor,REP,Greg  Abbott,4798
-House 43,Governor,REP,Greg Abbott,22092
+House 43,Governor,REP,Greg Abbott,26890
 House 44,Governor,,Under Votes,369
 House 44,Governor,DEM,Lupe Valdez,21065
 House 44,Governor,LIB,Mark Jay Tippetts,1053
@@ -249,7 +239,7 @@ House 45,Governor,DEM,Lupe Valdez,39487
 House 45,Governor,Greg Abbott,REP,4327
 House 45,Governor,LIB,Mark Jay Tippetts,2144
 House 45,Governor,Lupe Valdez,DEM,1349
-House 45,Governor,Mark Jay Tippetts ,LIB,115
+House 45,Governor,Mark Jay Tippetts,LIB,115
 House 45,Governor,REP,Greg Abbott,37895
 House 52,Governor,,Over Votes,0
 House 52,Governor,,Under Votes,616
@@ -260,13 +250,10 @@ House 53,Governor,,OVER VOTES,0
 House 53,Governor,,Over Votes,0
 House 53,Governor,,UNDER VOTES,27
 House 53,Governor,,Under Votes,325
-House 53,Governor,DEM,Lupe  Valdez,733
-House 53,Governor,DEM,Lupe Valdez,16519
-House 53,Governor,LIB,Mark Jay Tippetts,637
-House 53,Governor,LIB,Mark Jay Tippetts ,332
+House 53,Governor,DEM,Lupe Valdez,17252
+House 53,Governor,LIB,Mark Jay Tippetts,969
 House 53,Governor,LIB,Mary Jay Tippetts,23
-House 53,Governor,REP,Greg  Abbott,3020
-House 53,Governor,REP,Greg Abbott,39073
+House 53,Governor,REP,Greg Abbott,42093
 House 53,Governor,REP,Gregg Abbott,24114
 House 54,Governor,,Over Votes,3
 House 54,Governor,,Under Votes,258
@@ -297,22 +284,15 @@ House 59,Governor,,Lupe Valdez,368
 House 59,Governor,,Mark Jay Tippetts,33
 House 59,Governor,,Over Votes,0
 House 59,Governor,,Under Votes,197
-House 59,Governor,DEM,Lupe  Valdez,705
-House 59,Governor,DEM,Lupe Valdez,7122
-House 59,Governor,DEM,Lupe Valdez ,657
-House 59,Governor,LIB,Mark Jay Tippetts,535
-House 59,Governor,LIB,Mark Jay Tippetts ,46
-House 59,Governor,REP,Greg  Abbott,4932
-House 59,Governor,REP,Greg Abbott,25543
-House 59,Governor,REP,Greg Abbott ,4722
+House 59,Governor,DEM,Lupe Valdez,8484
+House 59,Governor,LIB,Mark Jay Tippetts,581
+House 59,Governor,REP,Greg Abbott,35197
 House 60,Governor,,Cast Votes,18860
 House 60,Governor,,Overvotes,0
 House 60,Governor,,Undervotes,108
-House 60,Governor,DEM,Lupe  Valdez,291
-House 60,Governor,DEM,Lupe Valdez,9890
+House 60,Governor,DEM,Lupe Valdez,10181
 House 60,Governor,LIB,Mark Jay Tippetts,803
-House 60,Governor,REP,Greg  Abbott,2649
-House 60,Governor,REP,Greg Abbott,58226
+House 60,Governor,REP,Greg Abbott,60875
 House 60,Governor,REP,Gregg Abbott,2774
 House 61,Governor,,Over Votes,0
 House 61,Governor,,Under Votes,682
@@ -364,15 +344,11 @@ House 68,Governor,,OVER VOTES,1
 House 68,Governor,,Over Votes,0
 House 68,Governor,,UNDER VOTES,37
 House 68,Governor,,Under Votes,28
-House 68,Governor,DEM,Lupe  Valdez,570
-House 68,Governor,DEM,Lupe Valdez,5852
+House 68,Governor,DEM,Lupe Valdez,6422
 House 68,Governor,Dem,Lupe Valdez,310
-House 68,Governor,LIB,Mark Jay Tippetts,527
-House 68,Governor,LIB,Mark Jay Tippetts ,11
+House 68,Governor,LIB,Mark Jay Tippetts,538
 House 68,Governor,Lib,Mark Jay Tippetts,17
-House 68,Governor,REP,Greg  Abbott,3439
-House 68,Governor,REP,Greg Abbott,26390
-House 68,Governor,REP,Greg Abbott ,12284
+House 68,Governor,REP,Greg Abbott,42113
 House 68,Governor,REP,Gregg Abbott,299
 House 68,Governor,REP,Over Votes,0
 House 68,Governor,REP,Under Votes,16
@@ -384,11 +360,9 @@ House 69,Governor,,OVER VOTES,0
 House 69,Governor,,Over Votes,0
 House 69,Governor,,UNDER VOTES,42
 House 69,Governor,,Under Votes,374
-House 69,Governor,DEM,Lupe  Valdez,217
-House 69,Governor,DEM,Lupe Valdez,9515
+House 69,Governor,DEM,Lupe Valdez,9732
 House 69,Governor,LIB,Mark Jay Tippetts,573
-House 69,Governor,REP,Greg  Abbott,866
-House 69,Governor,REP,Greg Abbott,32975
+House 69,Governor,REP,Greg Abbott,33841
 House 70,Governor,,OVER VOTES,3
 House 70,Governor,,UNDER VOTES,729
 House 70,Governor,DEM,Lupe Valdez,29576
@@ -415,11 +389,9 @@ House 73,Governor,DEM,Lupe Valdez,18028
 House 73,Governor,LIB,Mark Jay Tippetts,1359
 House 73,Governor,REP,Greg Abbott,62711
 House 73,Governor,REP,Gregg Abbott,3380
-House 74,Governor,DEM,Lupe  Valdez,5241
-House 74,Governor,DEM,Lupe Valdez,13908
+House 74,Governor,DEM,Lupe Valdez,19149
 House 74,Governor,LIB,Mark Jay Tippetts,529
-House 74,Governor,REP,Greg  Abbott,5993
-House 74,Governor,REP,Greg Abbott,12326
+House 74,Governor,REP,Greg Abbott,18319
 House 80,Governor,,Over Votes,1
 House 80,Governor,,Under Votes,111
 House 80,Governor,DEM,Lupe Valdez,19775
@@ -427,11 +399,9 @@ House 80,Governor,LIB,Mark Jay Tippetts,344
 House 80,Governor,REP,Greg Abbott,14017
 House 81,Governor,,Over Votes,1
 House 81,Governor,,Under Votes,480
-House 81,Governor,DEM,Lupe  Valdez,284
-House 81,Governor,DEM,Lupe Valdez,9588
+House 81,Governor,DEM,Lupe Valdez,9872
 House 81,Governor,LIB,Mark Jay Tippetts,504
-House 81,Governor,REP,Greg  Abbott,1150
-House 81,Governor,REP,Greg Abbott,27535
+House 81,Governor,REP,Greg Abbott,28685
 House 82,Governor,,OVER VOTES,0
 House 82,Governor,,UNDER VOTES,14
 House 82,Governor,DEM,Lupe Valdez,9414
@@ -456,14 +426,12 @@ House 85,Governor,LIB,Mark Jay Tippetts,661
 House 85,Governor,REP,Greg Abbott,33861
 House 86,Governor,,Gregg Abbott,2788
 House 86,Governor,,Lupe Valdez,957
-House 86,Governor,,Mark Jay Tippetts ,28
+House 86,Governor,,Mark Jay Tippetts,28
 House 86,Governor,,OVER VOTES,0
 House 86,Governor,,UNDER VOTES,4
-House 86,Governor,DEM,Lupe  Valdez,420
-House 86,Governor,DEM,Lupe Valdez,8380
+House 86,Governor,DEM,Lupe Valdez,8800
 House 86,Governor,LIB,Mark Jay Tippetts,757
-House 86,Governor,REP,Greg  Abbott,2359
-House 86,Governor,REP,Greg Abbott,42787
+House 86,Governor,REP,Greg Abbott,45146
 House 87,Governor,,OVER VOTES,0
 House 87,Governor,,Over Votes,0
 House 87,Governor,,UNDER VOTES,19
@@ -475,14 +443,11 @@ House 88,Governor,,OVER VOTES,0
 House 88,Governor,,Over Votes,0
 House 88,Governor,,UNDER VOTES,95
 House 88,Governor,,Under Votes,76
-House 88,Governor,DEM,Lupe  Valdez,1028
-House 88,Governor,DEM,Lupe Valdez,4944
-House 88,Governor,LIB,Mark Jay Tippetts,496
-House 88,Governor,LIB,Mark Jay Tippetts ,26
+House 88,Governor,DEM,Lupe Valdez,5972
+House 88,Governor,LIB,Mark Jay Tippetts,522
 House 88,Governor,LIB .,Mark Jay Tippetts,1
 House 88,Governor,OEM,Lupe Valdez,32
-House 88,Governor,REP,Greg  Abbott,4949
-House 88,Governor,REP,Greg Abbott,27550
+House 88,Governor,REP,Greg Abbott,32499
 House 88,Governor,REP,Gregg Abbott,550
 House 88,Governor,REP,Over Votes,1
 House 88,Governor,REP,Under Votes,50
@@ -799,8 +764,7 @@ House 150,Governor,REP,Greg Abbott,43738
 Senate 1,Governor,,Over Votes,6
 Senate 1,Governor,,Under Votes,233
 Senate 1,Governor,DEM,Lupe Valdez,63035
-Senate 1,Governor,LIB,Mark Jay Tippetts,2742
-Senate 1,Governor,LIB,Mark Jay Tippetts ,98
+Senate 1,Governor,LIB,Mark Jay Tippetts,2840
 Senate 1,Governor,REP,Greg Abbott,181275
 Senate 1,Governor,REP,Gregg Abbott,5761
 Senate 2,Governor,,Cast Votes,8814
@@ -928,17 +892,14 @@ Senate 18,Governor,LIB,Mark Jay Tippetts,1145
 Senate 18,Governor,REP,Greg Abbott,77549
 Senate 19,Governor,,OVER VOTES,1
 Senate 19,Governor,,UNDER VOTES,1291
-Senate 19,Governor,DEM,Lupe  Valdez,190
-Senate 19,Governor,DEM,Lupe Valdez,85107
+Senate 19,Governor,DEM,Lupe Valdez,85297
 Senate 19,Governor,LIB,Mark Jay Tippetts,396
 Senate 19,Governor,LIB,Mark Tippetts,2172
-Senate 19,Governor,REP,Greg  Abbott,1158
-Senate 19,Governor,REP,Greg Abbott,72217
+Senate 19,Governor,REP,Greg Abbott,73375
 Senate 20,Governor,,Over Votes,1
 Senate 20,Governor,,Under Votes,252
 Senate 20,Governor,DEM,Lupe Valdez,4868
-Senate 20,Governor,LIB,Mark Jay Tippetts,77
-Senate 20,Governor,LIB,Mark Jay Tippetts ,2
+Senate 20,Governor,LIB,Mark Jay Tippetts,79
 Senate 20,Governor,REP,Greg Abbott,5088
 Senate 20,Governor,REP,Gregg Abbott,104
 Senate 21,Governor,,Ballots Cast,3958
@@ -946,21 +907,16 @@ Senate 21,Governor,,OVER VOTES,0
 Senate 21,Governor,,Over Votes,2
 Senate 21,Governor,,UNDER VOTES,39
 Senate 21,Governor,,Under Votes,522
-Senate 21,Governor,DEM,Lupe  Valdez,2210
-Senate 21,Governor,DEM,Lupe Valdez,36536
-Senate 21,Governor,LIB,Mark Jay Tippetts,1301
-Senate 21,Governor,LIB,Mark Jay Tippetts ,1
+Senate 21,Governor,DEM,Lupe Valdez,38746
+Senate 21,Governor,LIB,Mark Jay Tippetts,1302
 Senate 21,Governor,LIB,Mark Tippetts,34
-Senate 21,Governor,REP,Greg  Abbott,4523
-Senate 21,Governor,REP,Greg Abbott,42111
+Senate 21,Governor,REP,Greg Abbott,46634
 Senate 21,Governor,REP,Gregg Abbott,395
 Senate 22,Governor,,Over Votes,0
 Senate 22,Governor,,Under Votes,779
-Senate 22,Governor,DEM,Lupe  Valdez,499
-Senate 22,Governor,DEM,Lupe Valdez,40613
+Senate 22,Governor,DEM,Lupe Valdez,41112
 Senate 22,Governor,LIB,Mark Jay Tippetts,2096
-Senate 22,Governor,REP,Greg  Abbott,3142
-Senate 22,Governor,REP,Greg Abbott,92842
+Senate 22,Governor,REP,Greg Abbott,95984
 Senate 23,Governor,,OVER VOTES,0
 Senate 23,Governor,,Over Votes,49
 Senate 23,Governor,,UNDER VOTES,27
@@ -970,17 +926,12 @@ Senate 23,Governor,LIB,Mark Jay Tippetts,4671
 Senate 23,Governor,REP,Greg Abbott,46833
 Senate 24,Governor,,Over Votes,3
 Senate 24,Governor,,Under Votes,1125
-Senate 24,Governor,DEM,Lupe  Valdez,206
-Senate 24,Governor,DEM,Lupe Valdez,51784
-Senate 24,Governor,DEM,Lupe Valdez ,657
+Senate 24,Governor,DEM,Lupe Valdez,52647
 Senate 24,Governor,Greg Abbott,REP,4327
-Senate 24,Governor,LIB,Mark Jay Tippetts,2935
-Senate 24,Governor,LIB,Mark Jay Tippetts ,46
+Senate 24,Governor,LIB,Mark Jay Tippetts,2981
 Senate 24,Governor,Lupe Valdez,DEM,1349
-Senate 24,Governor,Mark Jay Tippetts ,LIB,115
-Senate 24,Governor,REP,Greg  Abbott,1790
-Senate 24,Governor,REP,Greg Abbott,125918
-Senate 24,Governor,REP,Greg Abbott ,4722
+Senate 24,Governor,Mark Jay Tippetts,LIB,115
+Senate 24,Governor,REP,Greg Abbott,132430
 Senate 24,Governor,REP,Gregg Abbott,3380
 Senate 25,Governor,,OVER VOTES,0
 Senate 25,Governor,,UNDER VOTES,1569
@@ -1009,15 +960,12 @@ Senate 28,Governor,,Overvotes,0
 Senate 28,Governor,,UNDER VOTES,94
 Senate 28,Governor,,Under Votes,992
 Senate 28,Governor,,Undervotes,4
-Senate 28,Governor,DEM,Lupe  Valdez,1764
-Senate 28,Governor,DEM,Lupe Valdez,38860
+Senate 28,Governor,DEM,Lupe Valdez,40624
 Senate 28,Governor,Dem,Lupe Valdez,217
-Senate 28,Governor,LIB,Mark Jay Tippetts,3013
-Senate 28,Governor,LIB,Mark Jay Tippetts ,4
+Senate 28,Governor,LIB,Mark Jay Tippetts,3017
 Senate 28,Governor,LIB,Mary Jay Tippetts,23
 Senate 28,Governor,Lib,Mark Jay Tippetts,14
-Senate 28,Governor,REP,Greg  Abbott,8720
-Senate 28,Governor,REP,Greg Abbott,108552
+Senate 28,Governor,REP,Greg Abbott,117272
 Senate 28,Governor,REP,Gregg Abbott,2956
 Senate 28,Governor,Rep,Greg Abbott,877
 Senate 29,Governor,DEM,Lupe Valdez,407
@@ -1032,21 +980,17 @@ Senate 30,Governor,,Under Votes,1384
 Senate 30,Governor,,Undervotes,108
 Senate 30,Governor,DEM,Lupe Valdez,77438
 Senate 30,Governor,LIB,Mark Jay Tippetts,4923
-Senate 30,Governor,REP,Greg Abbott,237525
-Senate 30,Governor,REP,Greg Abbott ,12284
+Senate 30,Governor,REP,Greg Abbott,249809
 Senate 31,Governor,,Gregg Abbott,2788
 Senate 31,Governor,,Lupe Valdez,957
-Senate 31,Governor,,Mark Jay Tippetts ,28
+Senate 31,Governor,,Mark Jay Tippetts,28
 Senate 31,Governor,,OVER VOTES,0
 Senate 31,Governor,,Over Votes,0
 Senate 31,Governor,,UNDER VOTES,118
 Senate 31,Governor,,Under Votes,680
-Senate 31,Governor,DEM,Lupe  Valdez,704
-Senate 31,Governor,DEM,Lupe Valdez,38979
-Senate 31,Governor,LIB,Mark Jay Tippetts,2900
-Senate 31,Governor,LIB,Mark Jay Tippetts ,33
-Senate 31,Governor,REP,Greg  Abbott,3509
-Senate 31,Governor,REP,Greg Abbott,164285
+Senate 31,Governor,DEM,Lupe Valdez,39683
+Senate 31,Governor,LIB,Mark Jay Tippetts,2933
+Senate 31,Governor,REP,Greg Abbott,167794
 Senate 31,Governor,REP,Gregg Abbott,550
 Senate 31,Governor,REP,Over Votes,1
 Senate 31,Governor,REP,Under Votes,50
@@ -1073,11 +1017,9 @@ House 4,Lieutenant Governor,REP,Dan Patrick,43297
 House 5,Lieutenant Governor,,Cast Votes,8786
 House 5,Lieutenant Governor,,Overvotes,0
 House 5,Lieutenant Governor,,Undervotes,38
-House 5,Lieutenant Governor,DEM,Mike  Collier,1289
-House 5,Lieutenant Governor,DEM,Mike Collier,18966
+House 5,Lieutenant Governor,DEM,Mike Collier,20255
 House 5,Lieutenant Governor,LIB,Kerry Douglas McKennon,1317
-House 5,Lieutenant Governor,REP,Dan  Patrick,2544
-House 5,Lieutenant Governor,REP,Dan Patrick,58530
+House 5,Lieutenant Governor,REP,Dan Patrick,61074
 House 6,Lieutenant Governor,DEM,Mike Collier,34524
 House 6,Lieutenant Governor,LIB,Kerry Douglas McKennon,2054
 House 6,Lieutenant Governor,REP,Dan Patrick,76177
@@ -1116,11 +1058,9 @@ House 12,Lieutenant Governor,,OVER VOTES,0
 House 12,Lieutenant Governor,,Over Votes,1
 House 12,Lieutenant Governor,,UNDER VOTES,206
 House 12,Lieutenant Governor,,Under Votes,493
-House 12,Lieutenant Governor,DEM,Mike  Collier,1465
-House 12,Lieutenant Governor,DEM,Mike Collier,15544
+House 12,Lieutenant Governor,DEM,Mike Collier,17009
 House 12,Lieutenant Governor,LIB,Kerry Douglas McKennon,979
-House 12,Lieutenant Governor,REP,Dan  Patrick,3128
-House 12,Lieutenant Governor,REP,Dan Patrick,28076
+House 12,Lieutenant Governor,REP,Dan Patrick,31204
 House 13,Lieutenant Governor,,Dan Patrick,6259
 House 13,Lieutenant Governor,,Kerry Douglas McKennon,163
 House 13,Lieutenant Governor,,Mike Collier,2194
@@ -1128,12 +1068,9 @@ House 13,Lieutenant Governor,,OVER VOTES,1
 House 13,Lieutenant Governor,,Over Votes,0
 House 13,Lieutenant Governor,,UNDER VOTES,222
 House 13,Lieutenant Governor,,Under Votes,168
-House 13,Lieutenant Governor,DEM,Mike Collier,10300
-House 13,Lieutenant Governor,DEM,Mike Collier ,3621
-House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon,710
-House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon ,225
-House 13,Lieutenant Governor,REP,Dan Patrick,35245
-House 13,Lieutenant Governor,REP,Dan Patrick ,12854
+House 13,Lieutenant Governor,DEM,Mike Collier,13921
+House 13,Lieutenant Governor,LIB,Kerry Douglas McKennon,935
+House 13,Lieutenant Governor,REP,Dan Patrick,48099
 House 14,Lieutenant Governor,,Over Votes,0
 House 14,Lieutenant Governor,,Under Votes,907
 House 14,Lieutenant Governor,DEM,Mike Collier,21804
@@ -1177,13 +1114,12 @@ House 21,Lieutenant Governor,,Over Votes,0
 House 21,Lieutenant Governor,,UNDER VOTES,245
 House 21,Lieutenant Governor,,Under Votes,0
 House 21,Lieutenant Governor,DEM,Mike Collier,13462
-House 21,Lieutenant Governor,LIB,Kerry Douglas  McKennon,465
-House 21,Lieutenant Governor,LIB,Kerry Douglas McKennon,352
+House 21,Lieutenant Governor,LIB,Kerry Douglas McKennon,817
 House 21,Lieutenant Governor,REP,Dan Patrick,42846
 House 22,Lieutenant Governor,,Over Votes,0
 House 22,Lieutenant Governor,,Under Votes,0
 House 22,Lieutenant Governor,DEM,Mike Collier,28434
-House 22,Lieutenant Governor,LIB,Kerry Douglas  McKennon,486
+House 22,Lieutenant Governor,LIB,Kerry Douglas McKennon,486
 House 22,Lieutenant Governor,REP,Dan Patrick,13933
 House 23,Lieutenant Governor,,Over Votes,0
 House 23,Lieutenant Governor,,Under Votes,144
@@ -1233,11 +1169,9 @@ House 31,Lieutenant Governor,,Kerry Douglas McKennon,19
 House 31,Lieutenant Governor,,Mike Collier,1033
 House 31,Lieutenant Governor,,Over Votes,0
 House 31,Lieutenant Governor,,Under Votes,640
-House 31,Lieutenant Governor,DEM,Mike  Collier,3253
-House 31,Lieutenant Governor,DEM,Mike Collier,16366
+House 31,Lieutenant Governor,DEM,Mike Collier,19619
 House 31,Lieutenant Governor,LIB,Kerry Douglas McKennon,687
-House 31,Lieutenant Governor,REP,Dan  Patrick,1437
-House 31,Lieutenant Governor,REP,Dan Patrick,12490
+House 31,Lieutenant Governor,REP,Dan Patrick,13927
 House 31,Lieutenant Governor,REP,Dan Patrick (Rep Lieutenant Governor),2911
 House 32,Lieutenant Governor,,Over Votes,0
 House 32,Lieutenant Governor,,Under Votes,932
@@ -1295,11 +1229,9 @@ House 42,Lieutenant Governor,LIB,Kerry Douglas McKennon,842
 House 42,Lieutenant Governor,REP,Dan Patrick,9275
 House 43,Lieutenant Governor,,Over Votes,4
 House 43,Lieutenant Governor,,Under Votes,435
-House 43,Lieutenant Governor,DEM,Mike  Collier,2767
-House 43,Lieutenant Governor,DEM,Mike Collier,15942
+House 43,Lieutenant Governor,DEM,Mike Collier,18709
 House 43,Lieutenant Governor,LIB,Kerry Douglas McKennon,834
-House 43,Lieutenant Governor,REP,Dan  Patrick,4096
-House 43,Lieutenant Governor,REP,Dan Patrick,19462
+House 43,Lieutenant Governor,REP,Dan Patrick,23558
 House 44,Lieutenant Governor,,Under Votes,636
 House 44,Lieutenant Governor,DEM,Mike Collier,23105
 House 44,Lieutenant Governor,LIB,K. Douglas McKennon,356
@@ -1338,12 +1270,10 @@ House 53,Lieutenant Governor,,OVER VOTES,0
 House 53,Lieutenant Governor,,Over Votes,3
 House 53,Lieutenant Governor,,UNDER VOTES,43
 House 53,Lieutenant Governor,,Under Votes,392
-House 53,Lieutenant Governor,DEM,Mike  Collier,899
-House 53,Lieutenant Governor,DEM,Mike Collier,19269
+House 53,Lieutenant Governor,DEM,Mike Collier,20168
 House 53,Lieutenant Governor,LIB,Kerry D. McKennon,41
 House 53,Lieutenant Governor,LIB,Kerry Douglas McKennon,1491
-House 53,Lieutenant Governor,REP,Dan  Patrick,2743
-House 53,Lieutenant Governor,REP,Dan Patrick,59726
+House 53,Lieutenant Governor,REP,Dan Patrick,62469
 House 54,Lieutenant Governor,,Over Votes,4
 House 54,Lieutenant Governor,,Under Votes,369
 House 54,Lieutenant Governor,DEM,Mike Collier,22581
@@ -1372,22 +1302,15 @@ House 59,Lieutenant Governor,,Kerry Douglas McKennon,60
 House 59,Lieutenant Governor,,Mike Collier,466
 House 59,Lieutenant Governor,,Over Votes,0
 House 59,Lieutenant Governor,,Under Votes,239
-House 59,Lieutenant Governor,DEM,Mike  Collier,1012
-House 59,Lieutenant Governor,DEM,Mike Collier,8420
-House 59,Lieutenant Governor,DEM,Mike Collier ,982
-House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon,863
-House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon ,90
-House 59,Lieutenant Governor,REP,Dan  Patrick,4538
-House 59,Lieutenant Governor,REP,Dan Patrick,23892
-House 59,Lieutenant Governor,REP,Dan Patrick ,4335
+House 59,Lieutenant Governor,DEM,Mike Collier,10414
+House 59,Lieutenant Governor,LIB,Kerry Douglas McKennon,953
+House 59,Lieutenant Governor,REP,Dan Patrick,32765
 House 60,Lieutenant Governor,,Cast Votes,18796
 House 60,Lieutenant Governor,,Overvotes,0
 House 60,Lieutenant Governor,,Undervotes,172
-House 60,Lieutenant Governor,DEM,Mike  Collier,363
-House 60,Lieutenant Governor,DEM,Mike Collier,12517
+House 60,Lieutenant Governor,DEM,Mike Collier,12880
 House 60,Lieutenant Governor,LIB,Kerry Douglas McKennon,1358
-House 60,Lieutenant Governor,REP,Dan  Patrick,2565
-House 60,Lieutenant Governor,REP,Dan Patrick,57588
+House 60,Lieutenant Governor,REP,Dan Patrick,60153
 House 61,Lieutenant Governor,,Over Votes,0
 House 61,Lieutenant Governor,,Under Votes,949
 House 61,Lieutenant Governor,DEM,Mike Collier,13752
@@ -1438,16 +1361,12 @@ House 68,Lieutenant Governor,,OVER VOTES,1
 House 68,Lieutenant Governor,,Over Votes,0
 House 68,Lieutenant Governor,,UNDER VOTES,86
 House 68,Lieutenant Governor,,Under Votes,61
-House 68,Lieutenant Governor,DEM,Mike  Collier,944
-House 68,Lieutenant Governor,DEM,Mike Collier,5353
-House 68,Lieutenant Governor,DEM,Mike Collier ,2597
+House 68,Lieutenant Governor,DEM,Mike Collier,8894
 House 68,Lieutenant Governor,Dem,Mike Colllier,423
 House 68,Lieutenant Governor,LIB,Kerry D. McKennon,265
 House 68,Lieutenant Governor,LIB,Kerry Douglas McKennon,577
 House 68,Lieutenant Governor,Lib,Kerry Douglas McKennon,25
-House 68,Lieutenant Governor,REP,Dan  Patrick,3038
-House 68,Lieutenant Governor,REP,Dan Patrick,24630
-House 68,Lieutenant Governor,REP,Dan Patrick ,11590
+House 68,Lieutenant Governor,REP,Dan Patrick,39258
 House 68,Lieutenant Governor,REP,Over Votes,0
 House 68,Lieutenant Governor,REP,Under Votes,24
 House 68,Lieutenant Governor,Rep,Dan Patrick,1027
@@ -1458,11 +1377,9 @@ House 69,Lieutenant Governor,,OVER VOTES,1
 House 69,Lieutenant Governor,,Over Votes,0
 House 69,Lieutenant Governor,,UNDER VOTES,74
 House 69,Lieutenant Governor,,Under Votes,621
-House 69,Lieutenant Governor,DEM,Mike  Collier,319
-House 69,Lieutenant Governor,DEM,Mike Collier,11144
+House 69,Lieutenant Governor,DEM,Mike Collier,11463
 House 69,Lieutenant Governor,LIB,Kerry Douglas McKennon,1028
-House 69,Lieutenant Governor,REP,Dan  Patrick,740
-House 69,Lieutenant Governor,REP,Dan Patrick,30618
+House 69,Lieutenant Governor,REP,Dan Patrick,31358
 House 70,Lieutenant Governor,,OVER VOTES,0
 House 70,Lieutenant Governor,,UNDER VOTES,1242
 House 70,Lieutenant Governor,DEM,Mike Collier,32716
@@ -1490,11 +1407,9 @@ House 73,Lieutenant Governor,DEM,Mike Collier,20659
 House 73,Lieutenant Governor,LIB,Kerry Douglas McKennon,1794
 House 73,Lieutenant Governor,LIB,Kerry Douglas Mckennon,82
 House 73,Lieutenant Governor,REP,Dan Patrick,62755
-House 74,Lieutenant Governor,DEM,Mike  Collier,5545
-House 74,Lieutenant Governor,DEM,Mike Collier,14518
+House 74,Lieutenant Governor,DEM,Mike Collier,20063
 House 74,Lieutenant Governor,LIB,Kerry Douglas McKennon,990
-House 74,Lieutenant Governor,REP,Dan  Patrick,5375
-House 74,Lieutenant Governor,REP,Dan Patrick,10805
+House 74,Lieutenant Governor,REP,Dan Patrick,16180
 House 80,Lieutenant Governor,,Over Votes,2
 House 80,Lieutenant Governor,,Under Votes,178
 House 80,Lieutenant Governor,DEM,Mike Collier,20861
@@ -1504,11 +1419,9 @@ House 80,Lieutenant Governor,LIB,Kerry Douglas Mckennon,66
 House 80,Lieutenant Governor,REP,Dan Patrick,11866
 House 81,Lieutenant Governor,,Over Votes,0
 House 81,Lieutenant Governor,,Under Votes,639
-House 81,Lieutenant Governor,DEM,Mike  Collier,355
-House 81,Lieutenant Governor,DEM,Mike Collier,10610
+House 81,Lieutenant Governor,DEM,Mike Collier,10965
 House 81,Lieutenant Governor,LIB,Kerry Douglas McKennon,875
-House 81,Lieutenant Governor,REP,Dan  Patrick,1071
-House 81,Lieutenant Governor,REP,Dan Patrick,25971
+House 81,Lieutenant Governor,REP,Dan Patrick,27042
 House 82,Lieutenant Governor,,OVER VOTES,1
 House 82,Lieutenant Governor,,UNDER VOTES,22
 House 82,Lieutenant Governor,DEM,Mike Collier,11065
@@ -1536,11 +1449,9 @@ House 86,Lieutenant Governor,,Kerry Douglas McKennon,75
 House 86,Lieutenant Governor,,Mike Collier,1119
 House 86,Lieutenant Governor,,OVER VOTES,0
 House 86,Lieutenant Governor,,UNDER VOTES,15
-House 86,Lieutenant Governor,DEM,Mike  Collier,605
-House 86,Lieutenant Governor,DEM,Mike Collier,10346
+House 86,Lieutenant Governor,DEM,Mike Collier,10951
 House 86,Lieutenant Governor,LIB,Kerry Douglas McKennon,1265
-House 86,Lieutenant Governor,REP,Dan  Patrick,2147
-House 86,Lieutenant Governor,REP,Dan Patrick,40099
+House 86,Lieutenant Governor,REP,Dan Patrick,42246
 House 87,Lieutenant Governor,,OVER VOTES,0
 House 87,Lieutenant Governor,,Over Votes,0
 House 87,Lieutenant Governor,,UNDER VOTES,49
@@ -1553,16 +1464,14 @@ House 88,Lieutenant Governor,,Over Votes,0
 House 88,Lieutenant Governor,,UNDER VOTES,133
 House 88,Lieutenant Governor,,Under Votes,113
 House 88,Lieutenant Governor,DEM,MIKE COLLIER,408
-House 88,Lieutenant Governor,DEM,Mike  Collier,1491
-House 88,Lieutenant Governor,DEM,Mike Collier,7333
+House 88,Lieutenant Governor,DEM,Mike Collier,8824
 House 88,Lieutenant Governor,LIB,KERRY D. MCKENNON,28
 House 88,Lieutenant Governor,LIB,Kerry Douglad McKennon,43
 House 88,Lieutenant Governor,LIB,Kerry Douglas McKennon,885
 House 88,Lieutenant Governor,LIB],Kerry Douglas McKennon,2
 House 88,Lieutenant Governor,OEM,Mike Collier,34
 House 88,Lieutenant Governor,REP,DAN PATRICK,1147
-House 88,Lieutenant Governor,REP,Dan  Patrick,4416
-House 88,Lieutenant Governor,REP,Dan Patrick,25113
+House 88,Lieutenant Governor,REP,Dan Patrick,29529
 House 88,Lieutenant Governor,REP,Over Votes,1
 House 88,Lieutenant Governor,REP,Under Votes,65
 House 89,Lieutenant Governor,,OVER VOTES,1
@@ -2012,14 +1921,12 @@ Senate 18,Lieutenant Governor,LIB,Kerry Douglas McKennon,1369
 Senate 18,Lieutenant Governor,REP,Dan Patrick,72339
 Senate 19,Lieutenant Governor,,OVER VOTES,1
 Senate 19,Lieutenant Governor,,UNDER VOTES,1697
-Senate 19,Lieutenant Governor,DEM,Mike  Collier,222
-Senate 19,Lieutenant Governor,DEM,Mike Collier,90371
+Senate 19,Lieutenant Governor,DEM,Mike Collier,90593
 Senate 19,Lieutenant Governor,LIB,Kerry D. McKennon,40
 Senate 19,Lieutenant Governor,LIB,Kerry Douglas McKennon,509
 Senate 19,Lieutenant Governor,LIB,Kerry Douglas Mckennon,66
 Senate 19,Lieutenant Governor,LIB,Kerry McKennon,3034
-Senate 19,Lieutenant Governor,REP,Dan  Patrick,1110
-Senate 19,Lieutenant Governor,REP,Dan Patrick,65061
+Senate 19,Lieutenant Governor,REP,Dan Patrick,66171
 Senate 20,Lieutenant Governor,,Over Votes,4
 Senate 20,Lieutenant Governor,,Under Votes,435
 Senate 20,Lieutenant Governor,DEM,Mike Collier,5415
@@ -2030,19 +1937,15 @@ Senate 21,Lieutenant Governor,,OVER VOTES,0
 Senate 21,Lieutenant Governor,,Over Votes,0
 Senate 21,Lieutenant Governor,,UNDER VOTES,39
 Senate 21,Lieutenant Governor,,Under Votes,808
-Senate 21,Lieutenant Governor,DEM,Mike  Collier,2711
-Senate 21,Lieutenant Governor,DEM,Mike Collier,39109
+Senate 21,Lieutenant Governor,DEM,Mike Collier,41820
 Senate 21,Lieutenant Governor,LIB,Kerry Douglas McKennon,1615
 Senate 21,Lieutenant Governor,LIB,Kerry McKennon,409
-Senate 21,Lieutenant Governor,REP,Dan  Patrick,3841
-Senate 21,Lieutenant Governor,REP,Dan Patrick,38106
+Senate 21,Lieutenant Governor,REP,Dan Patrick,41947
 Senate 22,Lieutenant Governor,,Over Votes,1
 Senate 22,Lieutenant Governor,,Under Votes,1103
-Senate 22,Lieutenant Governor,DEM,Mike  Collier,655
-Senate 22,Lieutenant Governor,DEM,Mike Collier,46802
+Senate 22,Lieutenant Governor,DEM,Mike Collier,47457
 Senate 22,Lieutenant Governor,LIB,Kerry Douglas McKennon,3059
-Senate 22,Lieutenant Governor,REP,Dan  Patrick,2934
-Senate 22,Lieutenant Governor,REP,Dan Patrick,85084
+Senate 22,Lieutenant Governor,REP,Dan Patrick,88018
 Senate 23,Lieutenant Governor,,OVER VOTES,0
 Senate 23,Lieutenant Governor,,Over Votes,32
 Senate 23,Lieutenant Governor,,UNDER VOTES,43
@@ -2052,18 +1955,13 @@ Senate 23,Lieutenant Governor,LIB,Kerry Douglas McKennon,4403
 Senate 23,Lieutenant Governor,REP,Dan Patrick,39124
 Senate 24,Lieutenant Governor,,Over Votes,10
 Senate 24,Lieutenant Governor,,Under Votes,1602
-Senate 24,Lieutenant Governor,DEM,Mike  Collier,357
-Senate 24,Lieutenant Governor,DEM,Mike Collier,58205
-Senate 24,Lieutenant Governor,DEM,Mike Collier ,982
+Senate 24,Lieutenant Governor,DEM,Mike Collier,59544
 Senate 24,Lieutenant Governor,Dan Patrick,REP,4066
 Senate 24,Lieutenant Governor,Kerry Douglas McKennon,LIB,144
-Senate 24,Lieutenant Governor,LIB,Kerry Douglas McKennon,4217
-Senate 24,Lieutenant Governor,LIB,Kerry Douglas McKennon ,90
+Senate 24,Lieutenant Governor,LIB,Kerry Douglas McKennon,4307
 Senate 24,Lieutenant Governor,LIB,Kerry Douglas Mckennon,82
 Senate 24,Lieutenant Governor,Mike Collier,DEM,1579
-Senate 24,Lieutenant Governor,REP,Dan  Patrick,1604
-Senate 24,Lieutenant Governor,REP,Dan Patrick,120942
-Senate 24,Lieutenant Governor,REP,Dan Patrick ,4335
+Senate 24,Lieutenant Governor,REP,Dan Patrick,126881
 Senate 25,Lieutenant Governor,,OVER VOTES,1
 Senate 25,Lieutenant Governor,,UNDER VOTES,2357
 Senate 25,Lieutenant Governor,,Under Votes,410
@@ -2091,15 +1989,13 @@ Senate 28,Lieutenant Governor,,Overvotes,0
 Senate 28,Lieutenant Governor,,UNDER VOTES,185
 Senate 28,Lieutenant Governor,,Under Votes,1470
 Senate 28,Lieutenant Governor,,Undervotes,12
-Senate 28,Lieutenant Governor,DEM,Mike  Collier,2556
-Senate 28,Lieutenant Governor,DEM,Mike Collier,46587
+Senate 28,Lieutenant Governor,DEM,Mike Collier,49143
 Senate 28,Lieutenant Governor,Dem,Mike Colllier,305
 Senate 28,Lieutenant Governor,LIB,Kerry D. McKennon,41
 Senate 28,Lieutenant Governor,LIB,Kerry Douglas,8
 Senate 28,Lieutenant Governor,LIB,Kerry Douglas McKennon,4288
 Senate 28,Lieutenant Governor,Lib,Kerry Douglas McKennon,19
-Senate 28,Lieutenant Governor,REP,Dan  Patrick,7775
-Senate 28,Lieutenant Governor,REP,Dan Patrick,101746
+Senate 28,Lieutenant Governor,REP,Dan Patrick,109521
 Senate 28,Lieutenant Governor,Rep,Dan Patrick,778
 Senate 29,Lieutenant Governor,DEM,Mike Collier,509
 Senate 29,Lieutenant Governor,LIB,Kerry Douglas McKennon,50
@@ -2111,13 +2007,11 @@ Senate 30,Lieutenant Governor,,Overvotes,0
 Senate 30,Lieutenant Governor,,UNDER VOTES,964
 Senate 30,Lieutenant Governor,,Under Votes,2166
 Senate 30,Lieutenant Governor,,Undervotes,172
-Senate 30,Lieutenant Governor,DEM,Mike Collier,85453
-Senate 30,Lieutenant Governor,DEM,Mike Collier ,2597
+Senate 30,Lieutenant Governor,DEM,Mike Collier,88050
 Senate 30,Lieutenant Governor,LIB,K. Douglas McKennon,1293
 Senate 30,Lieutenant Governor,LIB,Kerry D. McKennon,248
 Senate 30,Lieutenant Governor,LIB,Kerry Douglas McKennon,5743
-Senate 30,Lieutenant Governor,REP,Dan Patrick,223624
-Senate 30,Lieutenant Governor,REP,Dan Patrick ,11590
+Senate 30,Lieutenant Governor,REP,Dan Patrick,235214
 Senate 31,Lieutenant Governor,,Dan Patrick,2550
 Senate 31,Lieutenant Governor,,Kerry Douglas McKennon,75
 Senate 31,Lieutenant Governor,,Mike Collier,1119
@@ -2126,15 +2020,13 @@ Senate 31,Lieutenant Governor,,Over Votes,0
 Senate 31,Lieutenant Governor,,UNDER VOTES,197
 Senate 31,Lieutenant Governor,,Under Votes,941
 Senate 31,Lieutenant Governor,DEM,MIKE COLLIER,408
-Senate 31,Lieutenant Governor,DEM,Mike  Collier,960
-Senate 31,Lieutenant Governor,DEM,Mike Collier,46940
+Senate 31,Lieutenant Governor,DEM,Mike Collier,47900
 Senate 31,Lieutenant Governor,LIB,KERRY D. MCKENNON,28
 Senate 31,Lieutenant Governor,LIB,Kerry D. McKennon,17
 Senate 31,Lieutenant Governor,LIB,Kerry Douglad McKennon,43
 Senate 31,Lieutenant Governor,LIB,Kerry Douglas McKennon,4885
 Senate 31,Lieutenant Governor,REP,DAN PATRICK,1147
-Senate 31,Lieutenant Governor,REP,Dan  Patrick,3218
-Senate 31,Lieutenant Governor,REP,Dan Patrick,153778
+Senate 31,Lieutenant Governor,REP,Dan Patrick,156996
 Senate 31,Lieutenant Governor,REP,Over Votes,1
 Senate 31,Lieutenant Governor,REP,Under Votes,65
 House 1,U.S. Senate,,OVER VOTES,0
@@ -2161,13 +2053,9 @@ House 4,U.S. Senate,REP,Ted Cruz,43862
 House 5,U.S. Senate,,Cast Votes,8812
 House 5,U.S. Senate,,Overvotes,0
 House 5,U.S. Senate,,Undervotes,26
-House 5,U.S. Senate,DEM,Beto  O'Rourke,1119
-House 5,U.S. Senate,DEM,Beto O'Rourke,18259
-House 5,U.S. Senate,LIB,Neal M.  Dikeman,24
-House 5,U.S. Senate,LIB,Neal M. Dikeman,404
-House 5,U.S. Senate,LIB,Neal M. Dikeman ,76
-House 5,U.S. Senate,REP,Ted  Cruz,2749
-House 5,U.S. Senate,REP,Ted Cruz,60184
+House 5,U.S. Senate,DEM,Beto O'Rourke,19378
+House 5,U.S. Senate,LIB,Neal M. Dikeman,504
+House 5,U.S. Senate,REP,Ted Cruz,62933
 House 6,U.S. Senate,DEM,Beto O'Rourke,35624
 House 6,U.S. Senate,LIB,Neal M. Dikeman,676
 House 6,U.S. Senate,REP,Ted Cruz,77263
@@ -2209,13 +2097,10 @@ House 12,U.S. Senate,,OVER VOTES,0
 House 12,U.S. Senate,,Over Votes,0
 House 12,U.S. Senate,,UNDER VOTES,106
 House 12,U.S. Senate,,Under Votes,340
-House 12,U.S. Senate,DEM,Beto  O'Rourke,1445
-House 12,U.S. Senate,DEM,Beto O'Rourke,15363
-House 12,U.S. Senate,LIB,Neal M  Dikeman,140
-House 12,U.S. Senate,LIB,Neal M.  Dikeman,20
-House 12,U.S. Senate,LIB,Neal M. Dikeman,194
-House 12,U.S. Senate,REP,Ted  Cruz,3215
-House 12,U.S. Senate,REP,Ted Cruz,29085
+House 12,U.S. Senate,DEM,Beto O'Rourke,16808
+House 12,U.S. Senate,LIB,Neal M Dikeman,140
+House 12,U.S. Senate,LIB,Neal M. Dikeman,214
+House 12,U.S. Senate,REP,Ted Cruz,32300
 House 13,U.S. Senate,,Beto O'Rourke,2034
 House 13,U.S. Senate,,Neal M. Dikeman,70
 House 13,U.S. Senate,,OVER VOTES,1
@@ -2224,14 +2109,13 @@ House 13,U.S. Senate,,Ted Cruz,6490
 House 13,U.S. Senate,,UNDER VOTES,106
 House 13,U.S. Senate,,Under Votes,108
 House 13,U.S. Senate,DEM,Beto O'Rourke,13301
-House 13,U.S. Senate,LIB,Neal M Dikeman,30
-House 13,U.S. Senate,LIB,Neal M Dikeman ,76
+House 13,U.S. Senate,LIB,Neal M Dikeman,106
 House 13,U.S. Senate,LIB,Neal M. Dikeman,257
 House 13,U.S. Senate,REP,Ted Cruz,49598
 House 14,U.S. Senate,,Over Votes,0
 House 14,U.S. Senate,,Under Votes,301
 House 14,U.S. Senate,DEM,Beto O'Rourke,23546
-House 14,U.S. Senate,LIB,Neal M  Dikeman,495
+House 14,U.S. Senate,LIB,Neal M Dikeman,495
 House 14,U.S. Senate,REP,Ted Cruz,24670
 House 15,U.S. Senate,,Over Votes,0
 House 15,U.S. Senate,,Under Votes,577
@@ -2328,16 +2212,11 @@ House 31,U.S. Senate,,Over Votes,12
 House 31,U.S. Senate,,Ted Cruz,410
 House 31,U.S. Senate,,Under Votes,293
 House 31,U.S. Senate,DEM,BETO O'ROURKE,397
-House 31,U.S. Senate,DEM,Beto  O'Rourke,2644
-House 31,U.S. Senate,DEM,Beto O'Rourke,7327
-House 31,U.S. Senate,DEM,Beto O'Rourke ,10937
+House 31,U.S. Senate,DEM,Beto O'Rourke,20908
 House 31,U.S. Senate,LIB,NEAL M. DIKEMAN,2
-House 31,U.S. Senate,LIB,Neal M.  Dikeman,144
-House 31,U.S. Senate,LIB,Neal M. Dikeman,213
-House 31,U.S. Senate,LIB,Neal M. Dikeman ,6
+House 31,U.S. Senate,LIB,Neal M. Dikeman,363
 House 31,U.S. Senate,REP,TED CRUZ,166
-House 31,U.S. Senate,REP,Ted  Cruz,3978
-House 31,U.S. Senate,REP,Ted Cruz,13816
+House 31,U.S. Senate,REP,Ted Cruz,17794
 House 32,U.S. Senate,,Over Votes,1
 House 32,U.S. Senate,,Under Votes,374
 House 32,U.S. Senate,DEM,Beto O'Rourke,24691
@@ -2393,12 +2272,9 @@ House 42,U.S. Senate,LIB,Neal M. Dikeman,268
 House 42,U.S. Senate,REP,Ted Cruz,9813
 House 43,U.S. Senate,,Over Votes,1
 House 43,U.S. Senate,,Under Votes,135
-House 43,U.S. Senate,DEM,Beto  O'Rourke,2811
-House 43,U.S. Senate,DEM,Beto O'Rourke,16564
-House 43,U.S. Senate,LIB,Neal M.  Dikeman,62
-House 43,U.S. Senate,LIB,Neal M. Dikeman,215
-House 43,U.S. Senate,REP,Ted  Cruz,4342
-House 43,U.S. Senate,REP,Ted Cruz,19936
+House 43,U.S. Senate,DEM,Beto O'Rourke,19375
+House 43,U.S. Senate,LIB,Neal M. Dikeman,277
+House 43,U.S. Senate,REP,Ted Cruz,24278
 House 44,U.S. Senate,,Under Votes,201
 House 44,U.S. Senate,DEM,Beto O'Rourke,24646
 House 44,U.S. Senate,LIB,Neal M. Dikeman,681
@@ -2406,7 +2282,7 @@ House 44,U.S. Senate,REP,Ted Cruz,46963
 House 45,U.S. Senate,Beto O'Rourke,DEM,1567
 House 45,U.S. Senate,DEM,Beto O'Rourke,45584
 House 45,U.S. Senate,LIB,Neal M Dikeman,854
-House 45,U.S. Senate,Neal M. Dikeman ,LIB,57
+House 45,U.S. Senate,Neal M. Dikeman,LIB,57
 House 45,U.S. Senate,REP,Ted Cruz,33308
 House 45,U.S. Senate,Ted Cruz,REP,4180
 House 46,U.S. Senate,DEM,Beto O'Rourke,49245
@@ -2436,14 +2312,10 @@ House 53,U.S. Senate,,OVER VOTES,1
 House 53,U.S. Senate,,Over Votes,0
 House 53,U.S. Senate,,UNDER VOTES,11
 House 53,U.S. Senate,,Under Votes,276
-House 53,U.S. Senate,DEM,Beto  O'Rourke,1065
-House 53,U.S. Senate,DEM,Beto O'Rourke,19581
+House 53,U.S. Senate,DEM,Beto O'Rourke,20646
 House 53,U.S. Senate,LIB,Neal M Dikeman,7
-House 53,U.S. Senate,LIB,Neal M.  Dikeman,84
-House 53,U.S. Senate,LIB,Neal M. Dikeman,370
-House 53,U.S. Senate,LIB,Neal M. Dikeman ,228
-House 53,U.S. Senate,REP,Ted  Cruz,2687
-House 53,U.S. Senate,REP,Ted Cruz,60532
+House 53,U.S. Senate,LIB,Neal M. Dikeman,682
+House 53,U.S. Senate,REP,Ted Cruz,63219
 House 54,U.S. Senate,,Over Votes,0
 House 54,U.S. Senate,,Under Votes,184
 House 54,U.S. Senate,DEM,Beto O'Rourke,23860
@@ -2473,25 +2345,16 @@ House 59,U.S. Senate,,Neal M Dikeman,26
 House 59,U.S. Senate,,Over Votes,0
 House 59,U.S. Senate,,Ted Cruz,2244
 House 59,U.S. Senate,,Under Votes,265
-House 59,U.S. Senate,DEM,Beto  O'Rourke,862
-House 59,U.S. Senate,DEM,Beto O'Rourke,8334
-House 59,U.S. Senate,DEM,Beto O'Rourke ,813
-House 59,U.S. Senate,LIB,Neal M.  Dikeman,36
-House 59,U.S. Senate,LIB,Neal M. Dikeman,284
-House 59,U.S. Senate,LIB,Neal M. Dikeman ,39
-House 59,U.S. Senate,REP,Ted  Cruz,4796
-House 59,U.S. Senate,REP,Ted Cruz,24480
-House 59,U.S. Senate,REP,Ted Cruz ,4558
+House 59,U.S. Senate,DEM,Beto O'Rourke,10009
+House 59,U.S. Senate,LIB,Neal M. Dikeman,359
+House 59,U.S. Senate,REP,Ted Cruz,33834
 House 60,U.S. Senate,,Cast Votes,18860
 House 60,U.S. Senate,,Overvotes,0
 House 60,U.S. Senate,,Undervotes,108
-House 60,U.S. Senate,DEM,Beto  O'Rourke,324
-House 60,U.S. Senate,DEM,Beto O'Rourke,11928
+House 60,U.S. Senate,DEM,Beto O'Rourke,12252
 House 60,U.S. Senate,LIB,Neal Dikeman,16
-House 60,U.S. Senate,LIB,Neal M.  Dikeman,13
-House 60,U.S. Senate,LIB,Neal M. Dikeman,430
-House 60,U.S. Senate,REP,Ted  Cruz,2627
-House 60,U.S. Senate,REP,Ted Cruz,59258
+House 60,U.S. Senate,LIB,Neal M. Dikeman,443
+House 60,U.S. Senate,REP,Ted Cruz,61885
 House 61,U.S. Senate,,Over Votes,0
 House 61,U.S. Senate,,Under Votes,1015
 House 61,U.S. Senate,DEM,Beto O'Rourke,13871
@@ -2542,17 +2405,13 @@ House 68,U.S. Senate,,Over Votes,0
 House 68,U.S. Senate,,Ted Cruz,657
 House 68,U.S. Senate,,UNDER VOTES,25
 House 68,U.S. Senate,,Under Votes,43
-House 68,U.S. Senate,DEM,Beto  O'Rourke,649
 House 68,U.S. Senate,DEM,Beto O' Rourke,2545
-House 68,U.S. Senate,DEM,Beto O'Rourke,4406
+House 68,U.S. Senate,DEM,Beto O'Rourke,5055
 House 68,U.S. Senate,Dem,Beto O'Rourke,340
-House 68,U.S. Senate,LIB,Neal M.  Dikeman,23
-House 68,U.S. Senate,LIB,Neal M. Dikeman,202
-House 68,U.S. Senate,LIB,Neal M. Dikeman ,119
+House 68,U.S. Senate,LIB,Neal M. Dikeman,344
 House 68,U.S. Senate,Lib,Neal M. Dikeman,15
 House 68,U.S. Senate,REP,Over Votes,0
-House 68,U.S. Senate,REP,Ted  Cruz,3389
-House 68,U.S. Senate,REP,Ted Cruz,38111
+House 68,U.S. Senate,REP,Ted Cruz,41500
 House 68,U.S. Senate,REP,Under Votes,10
 House 68,U.S. Senate,Rep,Ted Cruz,1139
 House 69,U.S. Senate,,Beto O'Rourke,113
@@ -2562,12 +2421,9 @@ House 69,U.S. Senate,,Over Votes,3
 House 69,U.S. Senate,,Ted Cruz,321
 House 69,U.S. Senate,,UNDER VOTES,38
 House 69,U.S. Senate,,Under Votes,387
-House 69,U.S. Senate,DEM,Beto  O'Rourke,229
-House 69,U.S. Senate,DEM,Beto O'Rourke,11050
-House 69,U.S. Senate,LIB,Neal M.  Dikeman,9
-House 69,U.S. Senate,LIB,Neal M. Dikeman,357
-House 69,U.S. Senate,REP,Ted  Cruz,855
-House 69,U.S. Senate,REP,Ted Cruz,31638
+House 69,U.S. Senate,DEM,Beto O'Rourke,11279
+House 69,U.S. Senate,LIB,Neal M. Dikeman,366
+House 69,U.S. Senate,REP,Ted Cruz,32493
 House 70,U.S. Senate,,OVER VOTES,7
 House 70,U.S. Senate,,UNDER VOTES,246
 House 70,U.S. Senate,DEM,Beto O'Rourke,35360
@@ -2596,13 +2452,10 @@ House 73,U.S. Senate,,UNDER VOTES,63
 House 73,U.S. Senate,DEM,Beto O'Rourke,21850
 House 73,U.S. Senate,LIB,Neal M. Dikeman,784
 House 73,U.S. Senate,REP,Ted Cruz,62592
-House 74,U.S. Senate,DEM,Beto  O'Rourke,5955
-House 74,U.S. Senate,DEM,Beto O'Rourke,15530
+House 74,U.S. Senate,DEM,Beto O'Rourke,21485
 House 74,U.S. Senate,LIB,Neal M Dikeman,35
-House 74,U.S. Senate,LIB,Neal M.  Dikeman,105
-House 74,U.S. Senate,LIB,Neal M. Dikeman,242
-House 74,U.S. Senate,REP,Ted  Cruz,5345
-House 74,U.S. Senate,REP,Ted Cruz,11204
+House 74,U.S. Senate,LIB,Neal M. Dikeman,347
+House 74,U.S. Senate,REP,Ted Cruz,16549
 House 80,U.S. Senate,,Over Votes,0
 House 80,U.S. Senate,,Under Votes,82
 House 80,U.S. Senate,DEM,Beto O'Rourke,21911
@@ -2611,13 +2464,10 @@ House 80,U.S. Senate,LIB,Neal M. Dikeman,249
 House 80,U.S. Senate,REP,Ted Cruz,12234
 House 81,U.S. Senate,,Over Votes,1
 House 81,U.S. Senate,,Under Votes,569
-House 81,U.S. Senate,DEM,Beto  O'Rourke,321
-House 81,U.S. Senate,DEM,Beto O'Rourke,10788
+House 81,U.S. Senate,DEM,Beto O'Rourke,11109
 House 81,U.S. Senate,LIB,Neal M Dikeman,18
-House 81,U.S. Senate,LIB,Neal M.  Dikeman,11
-House 81,U.S. Senate,LIB,Neal M. Dikeman,272
-House 81,U.S. Senate,REP,Ted  Cruz,1123
-House 81,U.S. Senate,REP,Ted Cruz,26430
+House 81,U.S. Senate,LIB,Neal M. Dikeman,283
+House 81,U.S. Senate,REP,Ted Cruz,27553
 House 82,U.S. Senate,DEM,Beto O'Rourke,11159
 House 82,U.S. Senate,LIB,Neal M Dikeman,20
 House 82,U.S. Senate,LIB,Neal M. Dikeman,385
@@ -2642,16 +2492,13 @@ House 85,U.S. Senate,LIB,Neal M Dikeman,72
 House 85,U.S. Senate,LIB,Neal M. Dikeman,281
 House 85,U.S. Senate,REP,Ted Cruz,31440
 House 86,U.S. Senate,,Beto O'Rourke,1067
-House 86,U.S. Senate,,Neal M. Dikeman ,28
+House 86,U.S. Senate,,Neal M. Dikeman,28
 House 86,U.S. Senate,,OVER VOTES,0
 House 86,U.S. Senate,,Ted Cruz,2680
 House 86,U.S. Senate,,UNDER VOTES,11
-House 86,U.S. Senate,DEM,Beto  O'Rourke,444
-House 86,U.S. Senate,DEM,Beto O'Rourke,9985
-House 86,U.S. Senate,LIB,Neal M.  Dikeman,12
-House 86,U.S. Senate,LIB,Neal M. Dikeman,375
-House 86,U.S. Senate,REP,Ted  Cruz,2358
-House 86,U.S. Senate,REP,Ted Cruz,41632
+House 86,U.S. Senate,DEM,Beto O'Rourke,10429
+House 86,U.S. Senate,LIB,Neal M. Dikeman,387
+House 86,U.S. Senate,REP,Ted Cruz,43990
 House 87,U.S. Senate,,OVER VOTES,0
 House 87,U.S. Senate,,Over Votes,0
 House 87,U.S. Senate,,UNDER VOTES,15
@@ -2666,21 +2513,16 @@ House 88,U.S. Senate,,UNDER VOTES,64
 House 88,U.S. Senate,,Under Votes,120
 House 88,U.S. Senate,DEM,BETO O'ROURKE,405
 House 88,U.S. Senate,DEM,Beta O'Rourke,82
-House 88,U.S. Senate,DEM,Beto  O'Rourke,1211
-House 88,U.S. Senate,DEM,Beto O'Rourke,5218
-House 88,U.S. Senate,DEM,Beto O'Rourke ,230
+House 88,U.S. Senate,DEM,Beto O'Rourke,6659
 House 88,U.S. Senate,L18,Neal M. Dikeman,1
 House 88,U.S. Senate,LIB,NEAL M. DIKEMAN,7
-House 88,U.S. Senate,LIB,Neal M.  Dikeman,41
-House 88,U.S. Senate,LIB,Neal M. Dikeman,235
+House 88,U.S. Senate,LIB,Neal M. Dikeman,276
 House 88,U.S. Senate,LIB,Neal M. Dikerman,10
 House 88,U.S. Senate,OEM,Seto O'Rourke,50
-House 88,U.S. Senate,OEM .  .,Beto O'Rourke,1
+House 88,U.S. Senate,OEM . .,Beto O'Rourke,1
 House 88,U.S. Senate,REP,Over Votes,1
 House 88,U.S. Senate,REP,TED CRUZ,1204
-House 88,U.S. Senate,REP,Ted  Cruz,4844
-House 88,U.S. Senate,REP,Ted Cruz,25565
-House 88,U.S. Senate,REP,Ted Cruz ,2160
+House 88,U.S. Senate,REP,Ted Cruz,32569
 House 88,U.S. Senate,REP,Under Votes,42
 House 89,U.S. Senate,,OVER VOTES,5
 House 89,U.S. Senate,,UNDER VOTES,236
@@ -3000,8 +2842,7 @@ Senate 1,U.S. Senate,DEM,Beto O'Rourke,69739
 Senate 1,U.S. Senate,LIB,NEAL M. DIKEMAN,121
 Senate 1,U.S. Senate,LIB,Neal Dikeman,31
 Senate 1,U.S. Senate,LIB,Neal M Dikeman,76
-Senate 1,U.S. Senate,LIB,Neal M. Dikeman,1323
-Senate 1,U.S. Senate,LIB,Neal M. Dikeman ,55
+Senate 1,U.S. Senate,LIB,Neal M. Dikeman,1378
 Senate 1,U.S. Senate,REP,TED CRUZ,11861
 Senate 1,U.S. Senate,REP,Ted Cruz,181509
 Senate 2,U.S. Senate,,Beto O'Rourke,354
@@ -3050,7 +2891,7 @@ Senate 5,U.S. Senate,,UNDER VOTES,173
 Senate 5,U.S. Senate,,Under Votes,1429
 Senate 5,U.S. Senate,DEM,Beto O'Rourke,142585
 Senate 5,U.S. Senate,LIB,Neal Dikeman,132
-Senate 5,U.S. Senate,LIB,Neal M  Dikeman,635
+Senate 5,U.S. Senate,LIB,Neal M Dikeman,635
 Senate 5,U.S. Senate,LIB,Neal M. Dikeman,2580
 Senate 5,U.S. Senate,REP,Ted Cruz,169919
 Senate 6,U.S. Senate,,OVERVOTES,6
@@ -3133,43 +2974,31 @@ Senate 18,U.S. Senate,LIB,Neal M. Dikeman,593
 Senate 18,U.S. Senate,REP,Ted Cruz,74315
 Senate 19,U.S. Senate,,OVER VOTES,3
 Senate 19,U.S. Senate,,UNDER VOTES,540
-Senate 19,U.S. Senate,DEM,Beto  O'Rourke,395
-Senate 19,U.S. Senate,DEM,Beto O'Rourke,96817
+Senate 19,U.S. Senate,DEM,Beto O'Rourke,97212
 Senate 19,U.S. Senate,LIB,Neal Dikeman,1234
 Senate 19,U.S. Senate,LIB,Neal M Dikeman,20
-Senate 19,U.S. Senate,LIB,Neal M.  Dikeman,60
-Senate 19,U.S. Senate,LIB,Neal M. Dikeman,235
-Senate 19,U.S. Senate,REP,Ted  Cruz,903
-Senate 19,U.S. Senate,REP,Ted Cruz,62490
+Senate 19,U.S. Senate,LIB,Neal M. Dikeman,295
+Senate 19,U.S. Senate,REP,Ted Cruz,63393
 Senate 20,U.S. Senate,,Over Votes,1
 Senate 20,U.S. Senate,,Under Votes,135
 Senate 20,U.S. Senate,DEM,Beto O'Rourke,5621
-Senate 20,U.S. Senate,LIB,Neal M. Dikeman,49
-Senate 20,U.S. Senate,LIB,Neal M. Dikeman ,3
+Senate 20,U.S. Senate,LIB,Neal M. Dikeman,52
 Senate 20,U.S. Senate,REP,Ted Cruz,4590
 Senate 21,U.S. Senate,,Ballots Cast,4113
 Senate 21,U.S. Senate,,OVER VOTES,0
 Senate 21,U.S. Senate,,Over Votes,12
 Senate 21,U.S. Senate,,UNDER VOTES,11
 Senate 21,U.S. Senate,,Under Votes,356
-Senate 21,U.S. Senate,DEM,Beto  O'Rourke,2755
-Senate 21,U.S. Senate,DEM,Beto O'Rourke,30914
-Senate 21,U.S. Senate,DEM,Beto O'Rourke ,10937
+Senate 21,U.S. Senate,DEM,Beto O'Rourke,44606
 Senate 21,U.S. Senate,LIB,Neal Dikeman,30
 Senate 21,U.S. Senate,LIB,Neal M Dikeman,268
-Senate 21,U.S. Senate,LIB,Neal M.  Dikeman,60
-Senate 21,U.S. Senate,LIB,Neal M. Dikeman,357
-Senate 21,U.S. Senate,LIB,Neal M. Dikeman ,2
-Senate 21,U.S. Senate,REP,Ted  Cruz,4079
-Senate 21,U.S. Senate,REP,Ted Cruz,38636
+Senate 21,U.S. Senate,LIB,Neal M. Dikeman,419
+Senate 21,U.S. Senate,REP,Ted Cruz,42715
 Senate 22,U.S. Senate,,Over Votes,1
 Senate 22,U.S. Senate,,Under Votes,911
-Senate 22,U.S. Senate,DEM,Beto  O'Rourke,633
-Senate 22,U.S. Senate,DEM,Beto O'Rourke,47558
-Senate 22,U.S. Senate,LIB,Neal M.  Dikeman,25
-Senate 22,U.S. Senate,LIB,Neal M. Dikeman,1029
-Senate 22,U.S. Senate,REP,Ted  Cruz,3032
-Senate 22,U.S. Senate,REP,Ted Cruz,86877
+Senate 22,U.S. Senate,DEM,Beto O'Rourke,48191
+Senate 22,U.S. Senate,LIB,Neal M. Dikeman,1054
+Senate 22,U.S. Senate,REP,Ted Cruz,89909
 Senate 23,U.S. Senate,,OVER VOTES,1
 Senate 23,U.S. Senate,,Over Votes,44
 Senate 23,U.S. Senate,,UNDER VOTES,11
@@ -3180,16 +3009,10 @@ Senate 23,U.S. Senate,REP,Ted Cruz,36615
 Senate 24,U.S. Senate,,Over Votes,1
 Senate 24,U.S. Senate,,Under Votes,954
 Senate 24,U.S. Senate,Beto O'Rourke,DEM,1567
-Senate 24,U.S. Senate,DEM,Beto  O'Rourke,229
-Senate 24,U.S. Senate,DEM,Beto O'Rourke,60116
-Senate 24,U.S. Senate,DEM,Beto O'Rourke ,813
-Senate 24,U.S. Senate,LIB,Neal M.  Dikeman,11
-Senate 24,U.S. Senate,LIB,Neal M. Dikeman,1525
-Senate 24,U.S. Senate,LIB,Neal M. Dikeman ,39
-Senate 24,U.S. Senate,Neal M. Dikeman ,LIB,57
-Senate 24,U.S. Senate,REP,Ted  Cruz,1764
-Senate 24,U.S. Senate,REP,Ted Cruz,122392
-Senate 24,U.S. Senate,REP,Ted Cruz ,4558
+Senate 24,U.S. Senate,DEM,Beto O'Rourke,61158
+Senate 24,U.S. Senate,LIB,Neal M. Dikeman,1575
+Senate 24,U.S. Senate,Neal M. Dikeman,LIB,57
+Senate 24,U.S. Senate,REP,Ted Cruz,128714
 Senate 24,U.S. Senate,Ted Cruz,REP,4180
 Senate 25,U.S. Senate,,OVER VOTES,0
 Senate 25,U.S. Senate,,UNDER VOTES,766
@@ -3220,19 +3043,15 @@ Senate 28,U.S. Senate,,Ted Cruz,321
 Senate 28,U.S. Senate,,UNDER VOTES,54
 Senate 28,U.S. Senate,,Under Votes,625
 Senate 28,U.S. Senate,,Undervotes,6
-Senate 28,U.S. Senate,DEM,Beto  O'Rourke,2022
-Senate 28,U.S. Senate,DEM,Beto O'Rourke,45041
+Senate 28,U.S. Senate,DEM,Beto O'Rourke,47063
 Senate 28,U.S. Senate,DEM,Ted Cruz,442
 Senate 28,U.S. Senate,Dem,Beto O'Rourke,238
 Senate 28,U.S. Senate,LIB,Beto O'Rourke,48
 Senate 28,U.S. Senate,LIB,Neal Dikeman,16
 Senate 28,U.S. Senate,LIB,Neal M Dikeman,15
-Senate 28,U.S. Senate,LIB,Neal M.  Dikeman,69
-Senate 28,U.S. Senate,LIB,Neal M. Dikeman,1186
-Senate 28,U.S. Senate,LIB,Neal M. Dikeman ,5
+Senate 28,U.S. Senate,LIB,Neal M. Dikeman,1260
 Senate 28,U.S. Senate,Lib,Neal M. Dikeman,12
-Senate 28,U.S. Senate,REP,Ted  Cruz,8559
-Senate 28,U.S. Senate,REP,Ted Cruz,106981
+Senate 28,U.S. Senate,REP,Ted Cruz,115540
 Senate 28,U.S. Senate,Rep,Ted Cruz,863
 Senate 29,U.S. Senate,DEM,Beto O'Rourke,466
 Senate 29,U.S. Senate,LIB,Neal M. Dikeman,28
@@ -3247,29 +3066,22 @@ Senate 30,U.S. Senate,,Undervotes,108
 Senate 30,U.S. Senate,DEM,Beto O' Rourke,2545
 Senate 30,U.S. Senate,DEM,Beto O'Rourke,88143
 Senate 30,U.S. Senate,LIB,Neal M Dikeman,332
-Senate 30,U.S. Senate,LIB,Neal M. Dikeman,2233
-Senate 30,U.S. Senate,LIB,Neal M. Dikeman ,111
+Senate 30,U.S. Senate,LIB,Neal M. Dikeman,2344
 Senate 30,U.S. Senate,REP,Ted Cruz,239160
 Senate 31,U.S. Senate,,Beto O'Rourke,1067
-Senate 31,U.S. Senate,,Neal M. Dikeman ,28
+Senate 31,U.S. Senate,,Neal M. Dikeman,28
 Senate 31,U.S. Senate,,OVER VOTES,0
 Senate 31,U.S. Senate,,Over Votes,1
 Senate 31,U.S. Senate,,Ted Cruz,2680
 Senate 31,U.S. Senate,,UNDER VOTES,90
 Senate 31,U.S. Senate,,Under Votes,755
 Senate 31,U.S. Senate,DEM,BETO O'ROURKE,405
-Senate 31,U.S. Senate,DEM,Beto  O'Rourke,765
-Senate 31,U.S. Senate,DEM,Beto O'Rourke,44574
-Senate 31,U.S. Senate,DEM,Beto O'Rourke ,230
+Senate 31,U.S. Senate,DEM,Beto O'Rourke,45569
 Senate 31,U.S. Senate,LIB,NEAL M. DIKEMAN,7
 Senate 31,U.S. Senate,LIB,Neal M Dikeman,40
-Senate 31,U.S. Senate,LIB,Neal M.  Dikeman,23
-Senate 31,U.S. Senate,LIB,Neal M. Dikeman,1530
-Senate 31,U.S. Senate,LIB,Neal M. Dikeman ,3
+Senate 31,U.S. Senate,LIB,Neal M. Dikeman,1556
 Senate 31,U.S. Senate,LIB,Neal M. Dikerman,10
 Senate 31,U.S. Senate,REP,Over Votes,1
 Senate 31,U.S. Senate,REP,TED CRUZ,1204
-Senate 31,U.S. Senate,REP,Ted  Cruz,3481
-Senate 31,U.S. Senate,REP,Ted Cruz,158402
-Senate 31,U.S. Senate,REP,Ted Cruz ,2160
+Senate 31,U.S. Senate,REP,Ted Cruz,164043
 Senate 31,U.S. Senate,REP,Under Votes,42

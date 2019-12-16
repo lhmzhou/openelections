@@ -81,15 +81,17 @@ data PKey = PKey { pkCounty :: !T.Text, pkPrecinct :: !T.Text } deriving (Show, 
 pKey :: PrecinctVote -> PKey
 pKey pv = PKey (county pv) (precinct pv)
 
+cleanTextField = T.unwords . T.words . T.strip
+
 instance C.FromNamedRecord PrecinctVote where
   parseNamedRecord m = PrecinctVote
-                       <$> m .: "county"
-                       <*> (fmap (T.filter (/= ' ') . T.toUpper) $ m .: "precinct")
+                       <$> (fmap cleanTextField $ m .: "county")
+                       <*> (fmap (cleanTextField . T.filter (/= ' ') . T.toUpper) $ m .: "precinct")
                        <*> (fmap (readMaybe @Int . L.filter TC.isDigit) $ m .: "district")
                        <*> (CandidateVote
-                            <$> m .: "office"
-                            <*> m .: "party"
-                            <*> m .: "candidate"
+                            <$> (fmap cleanTextField $ m .: "office")
+                            <*> (fmap cleanTextField $ m .: "party")
+                            <*> (fmap cleanTextField $ m .: "candidate")
                             <*> (fmap (fromMaybe 0 . fmap round . readMaybe @Double) $ m .: "votes")
                            )
 
@@ -160,7 +162,7 @@ iaConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = txConfig
+  let stateConfig = iaConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
