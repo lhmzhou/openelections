@@ -107,6 +107,7 @@ fixOffice pv@(PrecinctVote c p dM (CandidateVote o n pa v)) = case dM of
 data StateConfig = StateConfig { getFilePaths :: IO ([FilePath], [FilePath])
                                , bySLDFile :: FilePath
                                , logFileM :: Maybe FilePath
+                               , useFuzzyMatches :: Bool
                                }
 
 allFilesInDirWithPrefix :: FilePath -> String -> IO [FilePath]
@@ -115,6 +116,10 @@ allFilesInDirWithPrefix dir prefix = do
   allFiles <- SD.listDirectory dir
   return $ fmap addDir $ L.filter (L.isPrefixOf prefix) allFiles
 
+
+-- order matters in the backup dictionary.  Should something be found in
+-- an earlier and later file, the earlier file will be preferred.
+-- So put more recent data first and then add data going further back.
 gaConfig = StateConfig
   (do
     allGeneral2018 <- allFilesInDirWithPrefix "openelections-data-ga/2018/"
@@ -127,6 +132,7 @@ gaConfig = StateConfig
   )
   "results/GA_VotesByStateLegislativeDistrict.csv"
   (Just "logs/GA.log")
+  False
 
 
 txConfig =
@@ -145,6 +151,7 @@ txConfig =
   in  StateConfig getFiles
                   "results/TX_VotesByStateLegislativeDistrict.csv"
                   (Just "logs/TX.log")
+                  False
 
 iaConfig = StateConfig
   (do
@@ -159,10 +166,11 @@ iaConfig = StateConfig
   )
   "results/IA_VotesByStateLegislativeDistrict.csv"
   (Just "logs/IA.log")
+  True
 
 main :: IO ()
 main = do
-  let stateConfig = iaConfig
+  let stateConfig = txConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -198,7 +206,10 @@ main = do
       (precinctsBySLDs, vboPrecinct, sldsByPrecinct) =
         FL.fold allF parsedElection
   putStrLn $ "Backfilling primary dictionary:"
-  updatedSLDsByPrecinct <- backfillDictionary log sldsByPrecinct backupSLDsBP
+  updatedSLDsByPrecinct <- backfillDictionary log
+                                              (useFuzzyMatches stateConfig)
+                                              sldsByPrecinct
+                                              backupSLDsBP
   let votesBySLD =
         FL.fold (votesBySLDF updatedSLDsByPrecinct) (fmap snd parsedElection)
       votesF =
@@ -237,10 +248,11 @@ outputCompare (sldA, (CandidateVote oA nA _ _)) (sldB, (CandidateVote oB nB _ _)
 
 backfillDictionary
   :: (T.Text -> IO ())
+  -> Bool
   -> SLDsByPrecinct Double
   -> SLDsByPrecinct Double
   -> IO (SLDsByPrecinct Double)
-backfillDictionary log electionD backupD = do
+backfillDictionary log useFuzzy electionD backupD = do
   let
     missingHouse  = L.null . L.filter isHouse
     missingSenate = L.null . L.filter isSenate
@@ -280,14 +292,63 @@ backfillDictionary log electionD backupD = do
       FL.fold findF (M.toList electionD)
   withBackupH <- traverse (addFromBackup isHouse) needBackupH
   withBackupS <- traverse (addFromBackup isSenate) needBackupS
-  putStrLn $ "House from backup: " ++ show withBackupH
-  putStrLn $ "Senate from backup: " ++ show withBackupS
-  putStrLn $ "Multi-House: " ++ show multiH
-  putStrLn $ "Multi-Senate: " ++ show multiS
-  let fromBackupM =
-        M.unionWith (<>) (M.fromList withBackupH) (M.fromList withBackupS) -- in case same precinct is on both lists
-      newSLDsByPrecinct = M.union fromBackupM electionD -- prefer updated  
-  return newSLDsByPrecinct
+  let printList = T.intercalate "\n" . fmap (T.pack . show)
+  log $ "House from backup:\n" <> printList withBackupH
+  log $ "Senate from backup:\n" <> printList withBackupS
+  log $ "Multi-House:\n" <> printList multiH
+  log $ "Multi-Senate:\n" <> printList multiS
+
+  let
+    fromBackupM =
+      M.unionWith (<>) (M.fromList withBackupH) (M.fromList withBackupS) -- in case same precinct is on both lists
+    newSLDsByPrecinct        = M.union fromBackupM electionD -- prefer updated
+    (stillNeedH, stillNeedS) = FL.fold
+      (   (,)
+      <$> FL.prefilter (missingHouse . snd) FL.list
+      <*> FL.prefilter (missingSenate . snd) FL.list
+      )
+      (M.toList newSLDsByPrecinct)
+    filterNumberKeysAndEmptySLDs = M.filterWithKey
+      (\(PKey _ p) l ->
+        (not $ L.null l) && (not $ T.null $ T.dropWhile TC.isDigit p)
+      )
+    backupForFuzzy isType =
+      filterNumberKeysAndEmptySLDs $ fmap (L.filter isType) backupD
+    fuzzySetsByCountyH =
+      fmap FS.fromList
+        $ M.fromListWith (<>)
+        $ fmap (\(PKey c p) -> (c, [p]))
+        $ M.keys
+        $ backupForFuzzy isHouse
+    fuzzySetsByCountyS =
+      fmap FS.fromList
+        $ M.fromListWith (<>)
+        $ fmap (\(PKey c p) -> (c, [p]))
+        $ M.keys
+        $ backupForFuzzy isSenate
+    tryMatch fuzzyMap (PKey c p) = M.lookup c fuzzyMap >>= flip FS.getOne p
+    fuzzyH = filter (isJust . snd) $ zip stillNeedH $ fmap
+      (tryMatch fuzzySetsByCountyH . fst)
+      stillNeedH
+    fuzzyS = filter (isJust . snd) $ zip stillNeedS $ fmap
+      (tryMatch fuzzySetsByCountyS . fst)
+      stillNeedS
+
+    printFuzzy ((pk, _), Just fp) = (T.pack $ show pk) <> " matched " <> fp
+    printFuzzyList = T.intercalate "\n" . fmap printFuzzy
+    addFromFuzzy isType ((pk, slds), Nothing) = return (pk, slds)
+    addFromFuzzy isType ((pk@(PKey c _), slds), Just fp) =
+      fmap (\(_, slds') -> (pk, slds')) $ addFromBackup isType (PKey c fp, slds)
+  fuzzySLDsByPrecinct <- case useFuzzy of
+    False -> return M.empty
+    True  -> do
+      log $ printFuzzyList fuzzyH
+      log $ printFuzzyList fuzzyS
+      withFuzzyH <- traverse (addFromFuzzy isHouse) fuzzyH
+      withFuzzyS <- traverse (addFromFuzzy isSenate) fuzzyS
+      return $ M.unionWith (<>) (M.fromList withFuzzyH) (M.fromList withFuzzyS)
+
+  return $ M.union fuzzySLDsByPrecinct newSLDsByPrecinct
 
 
 goodPV (_, pv) = let hasPrecinct = precinct pv /= "" in hasPrecinct
