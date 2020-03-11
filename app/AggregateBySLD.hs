@@ -127,7 +127,7 @@ gaConfig = StateConfig
     allPrimary2018 <- allFilesInDirWithPrefix "openelections-data-ga/2018/"
                                               "20181106__ga__primary__"
     allGeneral2016 <- allFilesInDirWithPrefix "openelections-data-ga/2016/"
-                                              "20181108__ga__general__"
+                                              "20161108__ga__general__"
     return (allGeneral2018, allPrimary2018 ++ allGeneral2016)
   )
   "results/GA_VotesByStateLegislativeDistrict.csv"
@@ -185,7 +185,7 @@ paConfig = StateConfig
 
 main :: IO ()
 main = do
-  let stateConfig = paConfig
+  let stateConfig = gaConfig
       log         = maybe (T.hPutStrLn SI.stderr)
                           (\fp msg -> T.appendFile fp (msg <> "\n"))
                           (logFileM stateConfig)
@@ -255,7 +255,9 @@ outputFilter (_, (CandidateVote o _ _ _)) =
       isGov       = hasWord "Governor" o
       isUS_Senate = isUS && (hasWord "Senator" o || hasWord "Senate" o)
       isUS_House  = isUS && hasWord "Representative" o
-  in  isGov || isUS_Senate || isUS_House
+      isState_Senate = (not isUS) && (hasWord "Senator" o || hasWord "Senate" o)
+      isState_House = (not isUS) && hasWord "Representative" o
+  in  isGov || isUS_Senate || isUS_House || isState_Senate || isState_House
 
 outputCompare :: (SLD (), CandidateVote) -> (SLD (), CandidateVote) -> Ordering
 outputCompare (sldA, (CandidateVote oA nA _ _)) (sldB, (CandidateVote oB nB _ _))

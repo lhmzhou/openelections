@@ -38,6 +38,9 @@ House 12,Governor,REP,BRIAN KEMP,12745
 House 13,Governor,DEM,STACEY ABRAMS,5765
 House 13,Governor,LIB,TED METZ,199
 House 13,Governor,REP,BRIAN KEMP,10106
+House 14,Governor,DEM,STACEY ABRAMS,3487
+House 14,Governor,LIB,TED METZ,192
+House 14,Governor,REP,BRIAN KEMP,15782
 House 15,Governor,DEM,STACEY ABRAMS,5488
 House 15,Governor,LIB,TED METZ,225
 House 15,Governor,REP,BRIAN KEMP,14605
@@ -77,6 +80,9 @@ House 26,Governor,REP,BRIAN KEMP,21666
 House 27,Governor,DEM,STACEY ABRAMS,3512
 House 27,Governor,LIB,TED METZ,195
 House 27,Governor,REP,BRIAN KEMP,16694
+House 28,Governor,DEM,STACEY ABRAMS,2410
+House 28,Governor,LIB,TED METZ,134
+House 28,Governor,REP,BRIAN KEMP,13787
 House 29,Governor,DEM,STACEY ABRAMS,5617
 House 29,Governor,LIB,TED METZ,189
 House 29,Governor,REP,BRIAN KEMP,9801
@@ -731,6 +737,8 @@ House 12,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3240
 House 12,Lieutenant Governor,REP,GEOFF DUNCAN,12178
 House 13,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5482
 House 13,Lieutenant Governor,REP,GEOFF DUNCAN,9911
+House 14,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3578
+House 14,Lieutenant Governor,REP,GEOFF DUNCAN,15474
 House 15,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5531
 House 15,Lieutenant Governor,REP,GEOFF DUNCAN,14529
 House 16,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3162
@@ -757,6 +765,8 @@ House 26,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5639
 House 26,Lieutenant Governor,REP,GEOFF DUNCAN,21700
 House 27,Lieutenant Governor,DEM,SARAH RIGGS AMICO,3452
 House 27,Lieutenant Governor,REP,GEOFF DUNCAN,16327
+House 28,Lieutenant Governor,DEM,SARAH RIGGS AMICO,2405
+House 28,Lieutenant Governor,REP,GEOFF DUNCAN,13364
 House 29,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5250
 House 29,Lieutenant Governor,REP,GEOFF DUNCAN,9707
 House 30,Lieutenant Governor,DEM,SARAH RIGGS AMICO,5428
@@ -1173,6 +1183,2055 @@ Senate 55,Lieutenant Governor,DEM,SARAH RIGGS AMICO,63287
 Senate 55,Lieutenant Governor,REP,GEOFF DUNCAN,14243
 Senate 56,Lieutenant Governor,DEM,SARAH RIGGS AMICO,38393
 Senate 56,Lieutenant Governor,REP,GEOFF DUNCAN,40296
+House 1,State Representative: district 1,REP,COLTON MOORE,13311
+House 2,State Representative: district 1,REP,COLTON MOORE,961
+Senate 53,State Representative: district 1,REP,COLTON MOORE,14272
+House 10,State Representative: district 10,(REP,TERRY ROGERS,17158
+House 27,State Representative: district 10,(REP,TERRY ROGERS,273
+Senate 50,State Representative: district 10,(REP,TERRY ROGERS,10257
+Senate 51,State Representative: district 10,(REP,TERRY ROGERS,7174
+House 100,State Representative: district 100,(DEM,DEWEY L. MCCLAIN,10357
+House 101,State Representative: district 100,(DEM,DEWEY L. MCCLAIN,311
+Senate 5,State Representative: district 100,(DEM,DEWEY L. MCCLAIN,8603
+Senate 41,State Representative: district 100,(DEM,DEWEY L. MCCLAIN,2065
+House 96,State Representative: district 101,(DEM,SAM PARK,440
+House 96,State Representative: district 101,REP,VALERIE CLARK,126
+House 100,State Representative: district 101,(DEM,SAM PARK,237
+House 100,State Representative: district 101,REP,VALERIE CLARK,74
+House 101,State Representative: district 101,(DEM,SAM PARK,10782
+House 101,State Representative: district 101,REP,VALERIE CLARK,7827
+Senate 5,State Representative: district 101,(DEM,SAM PARK,2195
+Senate 5,State Representative: district 101,REP,VALERIE CLARK,886
+Senate 9,State Representative: district 101,(DEM,SAM PARK,1443
+Senate 9,State Representative: district 101,REP,VALERIE CLARK,1566
+Senate 45,State Representative: district 101,(DEM,SAM PARK,2884
+Senate 45,State Representative: district 101,REP,VALERIE CLARK,2391
+Senate 48,State Representative: district 101,(DEM,SAM PARK,4937
+Senate 48,State Representative: district 101,REP,VALERIE CLARK,3184
+House 97,State Representative: district 102,DEM,GREGG KENNARD,12
+House 97,State Representative: district 102,REP,PAULA HASTINGS,7
+House 98,State Representative: district 102,DEM,GREGG KENNARD,79
+House 98,State Representative: district 102,REP,PAULA HASTINGS,48
+House 102,State Representative: district 102,DEM,GREGG KENNARD,10526
+House 102,State Representative: district 102,REP,PAULA HASTINGS,9978
+Senate 9,State Representative: district 102,DEM,GREGG KENNARD,1136
+Senate 9,State Representative: district 102,REP,PAULA HASTINGS,1474
+Senate 45,State Representative: district 102,DEM,GREGG KENNARD,8411
+Senate 45,State Representative: district 102,REP,PAULA HASTINGS,7918
+Senate 48,State Representative: district 102,DEM,GREGG KENNARD,1070
+Senate 48,State Representative: district 102,REP,PAULA HASTINGS,641
+House 30,State Representative: district 103,(REP,TIMOTHY BARR,1144
+House 98,State Representative: district 103,(REP,TIMOTHY BARR,401
+House 103,State Representative: district 103,(REP,TIMOTHY BARR,19432
+House 104,State Representative: district 103,(REP,TIMOTHY BARR,535
+Senate 9,State Representative: district 103,(REP,TIMOTHY BARR,2744
+Senate 45,State Representative: district 103,(REP,TIMOTHY BARR,8690
+Senate 49,State Representative: district 103,(REP,TIMOTHY BARR,10078
+House 103,State Representative: district 104,(REP,CHUCK EFSTRATION,254
+House 103,State Representative: district 104,DEM,ANDREA STEPHENSON,281
+House 104,State Representative: district 104,(REP,CHUCK EFSTRATION,12814
+House 104,State Representative: district 104,DEM,ANDREA STEPHENSON,10766
+House 105,State Representative: district 104,(REP,CHUCK EFSTRATION,425
+House 105,State Representative: district 104,DEM,ANDREA STEPHENSON,743
+Senate 5,State Representative: district 104,(REP,CHUCK EFSTRATION,723
+Senate 5,State Representative: district 104,DEM,ANDREA STEPHENSON,2847
+Senate 9,State Representative: district 104,(REP,CHUCK EFSTRATION,5774
+Senate 9,State Representative: district 104,DEM,ANDREA STEPHENSON,5569
+Senate 45,State Representative: district 104,(REP,CHUCK EFSTRATION,6996
+Senate 45,State Representative: district 104,DEM,ANDREA STEPHENSON,3374
+House 104,State Representative: district 105,DEM,DONNA MCLEOD,563
+House 104,State Representative: district 105,REP,DONNA SHELDON,604
+House 105,State Representative: district 105,DEM,DONNA MCLEOD,13528
+House 105,State Representative: district 105,REP,DONNA SHELDON,9344
+House 114,State Representative: district 105,DEM,DONNA MCLEOD,244
+House 114,State Representative: district 105,REP,DONNA SHELDON,276
+Senate 5,State Representative: district 105,DEM,DONNA MCLEOD,3136
+Senate 5,State Representative: district 105,REP,DONNA SHELDON,863
+Senate 9,State Representative: district 105,DEM,DONNA MCLEOD,9460
+Senate 9,State Representative: district 105,REP,DONNA SHELDON,8482
+Senate 55,State Representative: district 105,DEM,DONNA MCLEOD,1739
+Senate 55,State Representative: district 105,REP,DONNA SHELDON,879
+House 94,State Representative: district 106,(REP,BRETT HARRELL,370
+House 106,State Representative: district 106,(REP,BRETT HARRELL,14603
+Senate 9,State Representative: district 106,(REP,BRETT HARRELL,9710
+Senate 55,State Representative: district 106,(REP,BRETT HARRELL,5263
+House 107,State Representative: district 107,DEM,SHELLY HUTCHINSON,12425
+House 107,State Representative: district 107,REP,JANET MIHOCI,8709
+Senate 5,State Representative: district 107,DEM,SHELLY HUTCHINSON,3545
+Senate 5,State Representative: district 107,REP,JANET MIHOCI,1539
+Senate 9,State Representative: district 107,DEM,SHELLY HUTCHINSON,6022
+Senate 9,State Representative: district 107,REP,JANET MIHOCI,6075
+Senate 41,State Representative: district 107,DEM,SHELLY HUTCHINSON,2858
+Senate 41,State Representative: district 107,REP,JANET MIHOCI,1095
+House 99,State Representative: district 108,(REP,CLAY COX,49
+House 99,State Representative: district 108,DEM,JASMINE CLARK,260
+House 108,State Representative: district 108,(REP,CLAY COX,10536
+House 108,State Representative: district 108,DEM,JASMINE CLARK,10617
+Senate 5,State Representative: district 108,(REP,CLAY COX,113
+Senate 5,State Representative: district 108,DEM,JASMINE CLARK,595
+Senate 9,State Representative: district 108,(REP,CLAY COX,8308
+Senate 9,State Representative: district 108,DEM,JASMINE CLARK,6347
+Senate 41,State Representative: district 108,(REP,CLAY COX,1366
+Senate 41,State Representative: district 108,DEM,JASMINE CLARK,3218
+Senate 55,State Representative: district 108,(REP,CLAY COX,798
+Senate 55,State Representative: district 108,DEM,JASMINE CLARK,717
+House 90,State Representative: district 109,(REP,DALE RUTLEDGE,67
+House 90,State Representative: district 109,DEM,REGINA LEWIS-WARD,373
+House 91,State Representative: district 109,(REP,DALE RUTLEDGE,197
+House 91,State Representative: district 109,DEM,REGINA LEWIS-WARD,157
+House 109,State Representative: district 109,(REP,DALE RUTLEDGE,12476
+House 109,State Representative: district 109,DEM,REGINA LEWIS-WARD,10943
+House 110,State Representative: district 109,(REP,DALE RUTLEDGE,332
+House 110,State Representative: district 109,DEM,REGINA LEWIS-WARD,361
+House 111,State Representative: district 109,(REP,DALE RUTLEDGE,783
+House 111,State Representative: district 109,DEM,REGINA LEWIS-WARD,1193
+Senate 10,State Representative: district 109,(REP,DALE RUTLEDGE,2392
+Senate 10,State Representative: district 109,DEM,REGINA LEWIS-WARD,5375
+Senate 17,State Representative: district 109,(REP,DALE RUTLEDGE,11463
+Senate 17,State Representative: district 109,DEM,REGINA LEWIS-WARD,7652
+House 5,State Representative: district 11,(REP,RICK JASPERSE,607
+House 5,State Representative: district 11,DEM,LEE A. SHIVER,97
+House 6,State Representative: district 11,(REP,RICK JASPERSE,545
+House 6,State Representative: district 11,DEM,LEE A. SHIVER,112
+House 11,State Representative: district 11,(REP,RICK JASPERSE,16660
+House 11,State Representative: district 11,DEM,LEE A. SHIVER,2703
+Senate 51,State Representative: district 11,(REP,RICK JASPERSE,7062
+Senate 51,State Representative: district 11,DEM,LEE A. SHIVER,1259
+Senate 54,State Representative: district 11,(REP,RICK JASPERSE,10750
+Senate 54,State Representative: district 11,DEM,LEE A. SHIVER,1653
+House 109,State Representative: district 110,(REP,ANDY WELCH,693
+House 110,State Representative: district 110,(REP,ANDY WELCH,12551
+House 111,State Representative: district 110,(REP,ANDY WELCH,365
+House 112,State Representative: district 110,(REP,ANDY WELCH,263
+House 113,State Representative: district 110,(REP,ANDY WELCH,379
+House 129,State Representative: district 110,(REP,ANDY WELCH,1795
+Senate 17,State Representative: district 110,(REP,ANDY WELCH,11650
+Senate 25,State Representative: district 110,(REP,ANDY WELCH,3784
+Senate 43,State Representative: district 110,(REP,ANDY WELCH,612
+House 73,State Representative: district 111,(REP,GEOFF CAUBLE,88
+House 73,State Representative: district 111,DEM,EL-MAHDI HOLLY,328
+House 109,State Representative: district 111,(REP,GEOFF CAUBLE,717
+House 109,State Representative: district 111,DEM,EL-MAHDI HOLLY,1258
+House 110,State Representative: district 111,(REP,GEOFF CAUBLE,331
+House 110,State Representative: district 111,DEM,EL-MAHDI HOLLY,34
+House 111,State Representative: district 111,(REP,GEOFF CAUBLE,11249
+House 111,State Representative: district 111,DEM,EL-MAHDI HOLLY,14523
+Senate 10,State Representative: district 111,(REP,GEOFF CAUBLE,3669
+Senate 10,State Representative: district 111,DEM,EL-MAHDI HOLLY,6377
+Senate 17,State Representative: district 111,(REP,GEOFF CAUBLE,8716
+Senate 17,State Representative: district 111,DEM,EL-MAHDI HOLLY,9766
+House 110,State Representative: district 112,(REP,DAVE BELTON,263
+House 112,State Representative: district 112,(REP,DAVE BELTON,20423
+House 113,State Representative: district 112,(REP,DAVE BELTON,226
+Senate 17,State Representative: district 112,(REP,DAVE BELTON,9349
+Senate 25,State Representative: district 112,(REP,DAVE BELTON,7740
+Senate 43,State Representative: district 112,(REP,DAVE BELTON,3823
+House 91,State Representative: district 113,(DEM,PAM DICKERSON,625
+House 110,State Representative: district 113,(DEM,PAM DICKERSON,379
+House 112,State Representative: district 113,(DEM,PAM DICKERSON,226
+House 113,State Representative: district 113,(DEM,PAM DICKERSON,17380
+Senate 17,State Representative: district 113,(DEM,PAM DICKERSON,306
+Senate 43,State Representative: district 113,(DEM,PAM DICKERSON,18304
+House 91,State Representative: district 114,(REP,TOM KIRBY,15
+House 92,State Representative: district 114,(REP,TOM KIRBY,754
+House 105,State Representative: district 114,(REP,TOM KIRBY,520
+House 114,State Representative: district 114,(REP,TOM KIRBY,17775
+House 115,State Representative: district 114,(REP,TOM KIRBY,550
+House 116,State Representative: district 114,(REP,TOM KIRBY,667
+Senate 9,State Representative: district 114,(REP,TOM KIRBY,650
+Senate 43,State Representative: district 114,(REP,TOM KIRBY,1598
+Senate 46,State Representative: district 114,(REP,TOM KIRBY,12792
+Senate 47,State Representative: district 114,(REP,TOM KIRBY,3388
+Senate 55,State Representative: district 114,(REP,TOM KIRBY,1853
+House 114,State Representative: district 115,(REP,BRUCE WILLIAMSON,550
+House 115,State Representative: district 115,(REP,BRUCE WILLIAMSON,19385
+Senate 25,State Representative: district 115,(REP,BRUCE WILLIAMSON,5085
+Senate 46,State Representative: district 115,(REP,BRUCE WILLIAMSON,14850
+House 114,State Representative: district 116,(REP,TERRY ENGLAND,667
+House 116,State Representative: district 116,(REP,TERRY ENGLAND,16513
+House 117,State Representative: district 116,(REP,TERRY ENGLAND,389
+Senate 47,State Representative: district 116,(REP,TERRY ENGLAND,17569
+House 31,State Representative: district 117,(DEM,DEBORAH GONZALEZ,209
+House 31,State Representative: district 117,REP,HOUSTON GAINES,659
+House 116,State Representative: district 117,(DEM,DEBORAH GONZALEZ,83
+House 116,State Representative: district 117,REP,HOUSTON GAINES,306
+House 117,State Representative: district 117,(DEM,DEBORAH GONZALEZ,10546
+House 117,State Representative: district 117,REP,HOUSTON GAINES,11827
+House 119,State Representative: district 117,(DEM,DEBORAH GONZALEZ,580
+House 119,State Representative: district 117,REP,HOUSTON GAINES,372
+Senate 46,State Representative: district 117,(DEM,DEBORAH GONZALEZ,10086
+Senate 46,State Representative: district 117,REP,HOUSTON GAINES,9419
+Senate 47,State Representative: district 117,(DEM,DEBORAH GONZALEZ,1332
+Senate 47,State Representative: district 117,REP,HOUSTON GAINES,3745
+House 118,State Representative: district 118,(DEM,SPENCER FRYE,15558
+Senate 46,State Representative: district 118,(DEM,SPENCER FRYE,8517
+Senate 47,State Representative: district 118,(DEM,SPENCER FRYE,7041
+House 117,State Representative: district 119,(DEM,JONATHAN WALLACE,772
+House 117,State Representative: district 119,REP,MARCUS A WIEDOWER,180
+House 119,State Representative: district 119,(DEM,JONATHAN WALLACE,11157
+House 119,State Representative: district 119,REP,MARCUS A WIEDOWER,13156
+Senate 46,State Representative: district 119,(DEM,JONATHAN WALLACE,6577
+Senate 46,State Representative: district 119,REP,MARCUS A WIEDOWER,10979
+Senate 47,State Representative: district 119,(DEM,JONATHAN WALLACE,5352
+Senate 47,State Representative: district 119,REP,MARCUS A WIEDOWER,2357
+House 12,State Representative: district 12,(REP,EDDIE LUMSDEN,13468
+House 13,State Representative: district 12,(REP,EDDIE LUMSDEN,538
+Senate 52,State Representative: district 12,(REP,EDDIE LUMSDEN,8221
+Senate 53,State Representative: district 12,(REP,EDDIE LUMSDEN,5785
+House 120,State Representative: district 120,(REP,TREY RHODES,16913
+House 120,State Representative: district 120,DEM,CHARLES "CHUCK" HOGG,7846
+House 145,State Representative: district 120,(REP,TREY RHODES,197
+House 145,State Representative: district 120,DEM,CHARLES "CHUCK" HOGG,63
+Senate 24,State Representative: district 120,(REP,TREY RHODES,6456
+Senate 24,State Representative: district 120,DEM,CHARLES "CHUCK" HOGG,3679
+Senate 25,State Representative: district 120,(REP,TREY RHODES,10654
+Senate 25,State Representative: district 120,DEM,CHARLES "CHUCK" HOGG,4230
+House 121,State Representative: district 121,(REP,BARRY FLEMING,19114
+Senate 23,State Representative: district 121,(REP,BARRY FLEMING,9784
+Senate 24,State Representative: district 121,(REP,BARRY FLEMING,9330
+House 122,State Representative: district 122,(REP,JODI LOTT,24189
+Senate 24,State Representative: district 122,(REP,JODI LOTT,24189
+House 123,State Representative: district 123,(REP,MARK NEWTON,16044
+House 123,State Representative: district 123,DEM,SCOTT RICHARD,7953
+Senate 22,State Representative: district 123,(REP,MARK NEWTON,4511
+Senate 22,State Representative: district 123,DEM,SCOTT RICHARD,2453
+Senate 23,State Representative: district 123,(REP,MARK NEWTON,6991
+Senate 23,State Representative: district 123,DEM,SCOTT RICHARD,3566
+Senate 24,State Representative: district 123,(REP,MARK NEWTON,4542
+Senate 24,State Representative: district 123,DEM,SCOTT RICHARD,1934
+House 124,State Representative: district 124,(DEM,HENRY "WAYNE" HOWARD,13099
+Senate 22,State Representative: district 124,(DEM,HENRY "WAYNE" HOWARD,11904
+Senate 23,State Representative: district 124,(DEM,HENRY "WAYNE" HOWARD,929
+Senate 24,State Representative: district 124,(DEM,HENRY "WAYNE" HOWARD,266
+House 125,State Representative: district 125,(DEM,SHEILA CLARK NELSON,13564
+Senate 22,State Representative: district 125,(DEM,SHEILA CLARK NELSON,10684
+Senate 23,State Representative: district 125,(DEM,SHEILA CLARK NELSON,2880
+House 126,State Representative: district 126,(DEM,GLORIA FRAZIER,14840
+House 126,State Representative: district 126,REP,WILLIAM HARRIS,6503
+Senate 22,State Representative: district 126,(DEM,GLORIA FRAZIER,9711
+Senate 22,State Representative: district 126,REP,WILLIAM HARRIS,1299
+Senate 23,State Representative: district 126,(DEM,GLORIA FRAZIER,5129
+Senate 23,State Representative: district 126,REP,WILLIAM HARRIS,5204
+House 127,State Representative: district 127,(DEM,BRIAN L. PRINCE,14554
+Senate 22,State Representative: district 127,(DEM,BRIAN L. PRINCE,10823
+Senate 23,State Representative: district 127,(DEM,BRIAN L. PRINCE,3731
+House 128,State Representative: district 128,(DEM,MACK JACKSON,10935
+House 128,State Representative: district 128,REP,JACKSON WILLIAMS,8196
+House 150,State Representative: district 128,(DEM,MACK JACKSON,178
+House 150,State Representative: district 128,REP,JACKSON WILLIAMS,183
+Senate 23,State Representative: district 128,(DEM,MACK JACKSON,3976
+Senate 23,State Representative: district 128,REP,JACKSON WILLIAMS,4195
+Senate 26,State Representative: district 128,(DEM,MACK JACKSON,7137
+Senate 26,State Representative: district 128,REP,JACKSON WILLIAMS,4184
+House 110,State Representative: district 129,(REP,SUSAN HOLMES,1795
+House 129,State Representative: district 129,(REP,SUSAN HOLMES,15616
+House 144,State Representative: district 129,(REP,SUSAN HOLMES,241
+Senate 18,State Representative: district 129,(REP,SUSAN HOLMES,1769
+Senate 25,State Representative: district 129,(REP,SUSAN HOLMES,12404
+Senate 26,State Representative: district 129,(REP,SUSAN HOLMES,3479
+House 12,State Representative: district 13,(REP,KATIE DEMPSEY,268
+House 12,State Representative: district 13,DEM,JOHN BURNETTE II,271
+House 13,State Representative: district 13,(REP,KATIE DEMPSEY,10061
+House 13,State Representative: district 13,DEM,JOHN BURNETTE II,4919
+Senate 52,State Representative: district 13,(REP,KATIE DEMPSEY,10329
+Senate 52,State Representative: district 13,DEM,JOHN BURNETTE II,5190
+House 73,State Representative: district 130,(REP,DAVID KNIGHT,189
+House 130,State Representative: district 130,(REP,DAVID KNIGHT,15575
+Senate 16,State Representative: district 130,(REP,DAVID KNIGHT,13742
+Senate 17,State Representative: district 130,(REP,DAVID KNIGHT,2022
+House 131,State Representative: district 131,DEM,CHRIS BENTON,5810
+House 131,State Representative: district 131,REP,KEN PULLIN,16323
+Senate 16,State Representative: district 131,DEM,CHRIS BENTON,2472
+Senate 16,State Representative: district 131,REP,KEN PULLIN,9270
+Senate 18,State Representative: district 131,DEM,CHRIS BENTON,3338
+Senate 18,State Representative: district 131,REP,KEN PULLIN,7053
+House 69,State Representative: district 132,(DEM,BOB TRAMMELL JR,3
+House 69,State Representative: district 132,REP,LEONARD GOMEZ,5
+House 70,State Representative: district 132,(DEM,BOB TRAMMELL JR,216
+House 70,State Representative: district 132,REP,LEONARD GOMEZ,65
+House 132,State Representative: district 132,(DEM,BOB TRAMMELL JR,8524
+House 132,State Representative: district 132,REP,LEONARD GOMEZ,8032
+House 133,State Representative: district 132,(DEM,BOB TRAMMELL JR,160
+House 133,State Representative: district 132,REP,LEONARD GOMEZ,52
+Senate 28,State Representative: district 132,(DEM,BOB TRAMMELL JR,3683
+Senate 28,State Representative: district 132,REP,LEONARD GOMEZ,5076
+Senate 29,State Representative: district 132,(DEM,BOB TRAMMELL JR,5220
+Senate 29,State Representative: district 132,REP,LEONARD GOMEZ,3078
+House 69,State Representative: district 133,REP,VANCE SMITH,90
+House 132,State Representative: district 133,REP,VANCE SMITH,212
+House 133,State Representative: district 133,REP,VANCE SMITH,19816
+Senate 28,State Representative: district 133,REP,VANCE SMITH,15
+Senate 29,State Representative: district 133,REP,VANCE SMITH,20103
+House 134,State Representative: district 134,(REP,RICHARD H. SMITH,15677
+House 135,State Representative: district 134,(REP,RICHARD H. SMITH,367
+House 136,State Representative: district 134,(REP,RICHARD H. SMITH,1292
+Senate 15,State Representative: district 134,(REP,RICHARD H. SMITH,2223
+Senate 29,State Representative: district 134,(REP,RICHARD H. SMITH,15113
+House 134,State Representative: district 135,(DEM,CALVIN SMYRE,367
+House 135,State Representative: district 135,(DEM,CALVIN SMYRE,7944
+House 136,State Representative: district 135,(DEM,CALVIN SMYRE,1227
+Senate 15,State Representative: district 135,(DEM,CALVIN SMYRE,8403
+Senate 29,State Representative: district 135,(DEM,CALVIN SMYRE,1135
+House 134,State Representative: district 136,(DEM,CAROLYN HUGLEY,1292
+House 135,State Representative: district 136,(DEM,CAROLYN HUGLEY,1227
+House 136,State Representative: district 136,(DEM,CAROLYN HUGLEY,11589
+House 137,State Representative: district 136,(DEM,CAROLYN HUGLEY,1163
+Senate 15,State Representative: district 136,(DEM,CAROLYN HUGLEY,11595
+Senate 29,State Representative: district 136,(DEM,CAROLYN HUGLEY,3676
+House 136,State Representative: district 137,(DEM,DEBBIE G. BUCKNER,1163
+House 137,State Representative: district 137,(DEM,DEBBIE G. BUCKNER,16020
+Senate 15,State Representative: district 137,(DEM,DEBBIE G. BUCKNER,8680
+Senate 29,State Representative: district 137,(DEM,DEBBIE G. BUCKNER,8503
+House 138,State Representative: district 138,DEM,BARDIN HOOKS,7131
+House 138,State Representative: district 138,REP,MIKE CHEOKAS,7662
+Senate 12,State Representative: district 138,DEM,BARDIN HOOKS,4071
+Senate 12,State Representative: district 138,REP,MIKE CHEOKAS,2587
+Senate 13,State Representative: district 138,DEM,BARDIN HOOKS,1016
+Senate 13,State Representative: district 138,REP,MIKE CHEOKAS,1281
+Senate 15,State Representative: district 138,DEM,BARDIN HOOKS,2044
+Senate 15,State Representative: district 138,REP,MIKE CHEOKAS,3794
+House 139,State Representative: district 139,(DEM,PATTY BENTLEY,11713
+Senate 13,State Representative: district 139,(DEM,PATTY BENTLEY,2684
+Senate 15,State Representative: district 139,(DEM,PATTY BENTLEY,5477
+Senate 18,State Representative: district 139,(DEM,PATTY BENTLEY,3552
+House 140,State Representative: district 140,(REP,ROBERT DICKEY,13629
+House 141,State Representative: district 140,(REP,ROBERT DICKEY,394
+House 147,State Representative: district 140,(REP,ROBERT DICKEY,1653
+Senate 18,State Representative: district 140,(REP,ROBERT DICKEY,14278
+Senate 20,State Representative: district 140,(REP,ROBERT DICKEY,667
+Senate 26,State Representative: district 140,(REP,ROBERT DICKEY,731
+House 140,State Representative: district 141,REP,DALE WASHBURN,394
+House 141,State Representative: district 141,REP,DALE WASHBURN,20413
+House 142,State Representative: district 141,REP,DALE WASHBURN,302
+Senate 18,State Representative: district 141,REP,DALE WASHBURN,17852
+Senate 25,State Representative: district 141,REP,DALE WASHBURN,2835
+Senate 26,State Representative: district 141,REP,DALE WASHBURN,422
+House 141,State Representative: district 142,(DEM,MIRIAM PARIS,302
+House 142,State Representative: district 142,(DEM,MIRIAM PARIS,14193
+House 143,State Representative: district 142,(DEM,MIRIAM PARIS,653
+Senate 18,State Representative: district 142,(DEM,MIRIAM PARIS,3504
+Senate 26,State Representative: district 142,(DEM,MIRIAM PARIS,11644
+House 142,State Representative: district 143,(DEM,JAMES BEVERLY,653
+House 143,State Representative: district 143,(DEM,JAMES BEVERLY,14220
+Senate 18,State Representative: district 143,(DEM,JAMES BEVERLY,2199
+Senate 25,State Representative: district 143,(DEM,JAMES BEVERLY,731
+Senate 26,State Representative: district 143,(DEM,JAMES BEVERLY,11943
+House 129,State Representative: district 144,DEM,JESSICA WALDEN,94
+House 129,State Representative: district 144,REP,DANNY MATHIS,147
+House 144,State Representative: district 144,DEM,JESSICA WALDEN,7375
+House 144,State Representative: district 144,REP,DANNY MATHIS,13863
+House 146,State Representative: district 144,DEM,JESSICA WALDEN,381
+House 146,State Representative: district 144,REP,DANNY MATHIS,815
+Senate 18,State Representative: district 144,DEM,JESSICA WALDEN,583
+Senate 18,State Representative: district 144,REP,DANNY MATHIS,1020
+Senate 20,State Representative: district 144,DEM,JESSICA WALDEN,2509
+Senate 20,State Representative: district 144,REP,DANNY MATHIS,7488
+Senate 25,State Representative: district 144,DEM,JESSICA WALDEN,164
+Senate 25,State Representative: district 144,REP,DANNY MATHIS,255
+Senate 26,State Representative: district 144,DEM,JESSICA WALDEN,4594
+Senate 26,State Representative: district 144,REP,DANNY MATHIS,6062
+House 120,State Representative: district 145,(REP,RICKY A. WILLIAMS,260
+House 145,State Representative: district 145,(REP,RICKY A. WILLIAMS,12561
+Senate 25,State Representative: district 145,(REP,RICKY A. WILLIAMS,12821
+House 144,State Representative: district 146,(REP,SHAW BLACKMON,1196
+House 146,State Representative: district 146,(REP,SHAW BLACKMON,17121
+House 147,State Representative: district 146,(REP,SHAW BLACKMON,339
+House 148,State Representative: district 146,(REP,SHAW BLACKMON,1719
+Senate 20,State Representative: district 146,(REP,SHAW BLACKMON,20375
+House 140,State Representative: district 147,(REP,HEATH CLARK,748
+House 140,State Representative: district 147,DEM,FENIKA MILLER,904
+House 146,State Representative: district 147,(REP,HEATH CLARK,252
+House 146,State Representative: district 147,DEM,FENIKA MILLER,87
+House 147,State Representative: district 147,(REP,HEATH CLARK,8787
+House 147,State Representative: district 147,DEM,FENIKA MILLER,7297
+Senate 18,State Representative: district 147,(REP,HEATH CLARK,3864
+Senate 18,State Representative: district 147,DEM,FENIKA MILLER,3000
+Senate 20,State Representative: district 147,(REP,HEATH CLARK,5465
+Senate 20,State Representative: district 147,DEM,FENIKA MILLER,4189
+Senate 26,State Representative: district 147,(REP,HEATH CLARK,458
+Senate 26,State Representative: district 147,DEM,FENIKA MILLER,1099
+House 146,State Representative: district 148,DEM,JOSHUA DERISO,444
+House 146,State Representative: district 148,REP,NOEL WILLIAMS JR,1275
+House 148,State Representative: district 148,DEM,JOSHUA DERISO,5123
+House 148,State Representative: district 148,REP,NOEL WILLIAMS JR,11382
+Senate 7,State Representative: district 148,DEM,JOSHUA DERISO,174
+Senate 7,State Representative: district 148,REP,NOEL WILLIAMS JR,968
+Senate 13,State Representative: district 148,DEM,JOSHUA DERISO,3013
+Senate 13,State Representative: district 148,REP,NOEL WILLIAMS JR,5532
+Senate 20,State Representative: district 148,DEM,JOSHUA DERISO,2380
+Senate 20,State Representative: district 148,REP,NOEL WILLIAMS JR,6157
+House 149,State Representative: district 149,(REP,JIMMY PRUETT,11860
+House 169,State Representative: district 149,(REP,JIMMY PRUETT,44
+Senate 13,State Representative: district 149,(REP,JIMMY PRUETT,5734
+Senate 19,State Representative: district 149,(REP,JIMMY PRUETT,5478
+Senate 20,State Representative: district 149,(REP,JIMMY PRUETT,692
+House 15,State Representative: district 15,REP,MATTHEW GAMBILL,15620
+House 16,State Representative: district 15,REP,MATTHEW GAMBILL,570
+Senate 14,State Representative: district 15,REP,MATTHEW GAMBILL,7775
+Senate 52,State Representative: district 15,REP,MATTHEW GAMBILL,8415
+House 128,State Representative: district 150,(REP,MATT HATCHETT,361
+House 150,State Representative: district 150,(REP,MATT HATCHETT,15958
+Senate 19,State Representative: district 150,(REP,MATT HATCHETT,1988
+Senate 20,State Representative: district 150,(REP,MATT HATCHETT,12831
+Senate 23,State Representative: district 150,(REP,MATT HATCHETT,1500
+House 151,State Representative: district 151,(REP,GERALD GREENE,10515
+House 151,State Representative: district 151,DEM,JOYCE BARLOW,8874
+House 154,State Representative: district 151,(REP,GERALD GREENE,149
+House 154,State Representative: district 151,DEM,JOYCE BARLOW,383
+Senate 11,State Representative: district 151,(REP,GERALD GREENE,2516
+Senate 11,State Representative: district 151,DEM,JOYCE BARLOW,1574
+Senate 12,State Representative: district 151,(REP,GERALD GREENE,8148
+Senate 12,State Representative: district 151,DEM,JOYCE BARLOW,7683
+House 152,State Representative: district 152,(REP,ED RYNDERS,16580
+House 152,State Representative: district 152,DEM,MARCUS BATTEN,5813
+Senate 12,State Representative: district 152,(REP,ED RYNDERS,192
+Senate 12,State Representative: district 152,DEM,MARCUS BATTEN,189
+Senate 13,State Representative: district 152,(REP,ED RYNDERS,16388
+Senate 13,State Representative: district 152,DEM,MARCUS BATTEN,5624
+House 153,State Representative: district 153,DEM,CAMIA WHITAKER HOPSON,10512
+House 153,State Representative: district 153,REP,TRACY TAYLOR,5543
+Senate 12,State Representative: district 153,DEM,CAMIA WHITAKER HOPSON,10512
+Senate 12,State Representative: district 153,REP,TRACY TAYLOR,5543
+House 151,State Representative: district 154,(DEM,WINFRED DUKES,532
+House 154,State Representative: district 154,(DEM,WINFRED DUKES,14318
+Senate 11,State Representative: district 154,(DEM,WINFRED DUKES,3291
+Senate 12,State Representative: district 154,(DEM,WINFRED DUKES,11559
+House 155,State Representative: district 155,(REP,CLAY PIRKLE,15598
+House 169,State Representative: district 155,(REP,CLAY PIRKLE,265
+House 170,State Representative: district 155,(REP,CLAY PIRKLE,83
+Senate 7,State Representative: district 155,(REP,CLAY PIRKLE,8897
+Senate 13,State Representative: district 155,(REP,CLAY PIRKLE,7049
+House 156,State Representative: district 156,(REP,GREG MORRIS,15296
+House 178,State Representative: district 156,(REP,GREG MORRIS,134
+Senate 19,State Representative: district 156,(REP,GREG MORRIS,15430
+House 157,State Representative: district 157,(REP,WILLIAM "BILL" WERKHEISER,12731
+House 178,State Representative: district 157,(REP,WILLIAM "BILL" WERKHEISER,140
+Senate 4,State Representative: district 157,(REP,WILLIAM "BILL" WERKHEISER,4982
+Senate 19,State Representative: district 157,(REP,WILLIAM "BILL" WERKHEISER,7889
+House 158,State Representative: district 158,(REP,BUTCH PARRISH,14590
+House 160,State Representative: district 158,(REP,BUTCH PARRISH,95
+Senate 4,State Representative: district 158,(REP,BUTCH PARRISH,10379
+Senate 23,State Representative: district 158,(REP,BUTCH PARRISH,4306
+House 159,State Representative: district 159,(REP,JON G. BURNS,16456
+House 160,State Representative: district 159,(REP,JON G. BURNS,237
+House 161,State Representative: district 159,(REP,JON G. BURNS,224
+Senate 4,State Representative: district 159,(REP,JON G. BURNS,12885
+Senate 23,State Representative: district 159,(REP,JON G. BURNS,4032
+House 15,State Representative: district 16,(REP,TREY KELLEY,570
+House 16,State Representative: district 16,(REP,TREY KELLEY,15147
+House 18,State Representative: district 16,(REP,TREY KELLEY,49
+Senate 31,State Representative: district 16,(REP,TREY KELLEY,12909
+Senate 52,State Representative: district 16,(REP,TREY KELLEY,2857
+House 158,State Representative: district 160,(REP,JAN TANKERSLEY,95
+House 159,State Representative: district 160,(REP,JAN TANKERSLEY,237
+House 160,State Representative: district 160,(REP,JAN TANKERSLEY,14040
+Senate 1,State Representative: district 160,(REP,JAN TANKERSLEY,3147
+Senate 4,State Representative: district 160,(REP,JAN TANKERSLEY,11225
+House 159,State Representative: district 161,(REP,BILL HITCHENS,120
+House 159,State Representative: district 161,DEM,ADAM BRIDGES,104
+House 161,State Representative: district 161,(REP,BILL HITCHENS,15454
+House 161,State Representative: district 161,DEM,ADAM BRIDGES,8869
+Senate 1,State Representative: district 161,(REP,BILL HITCHENS,3419
+Senate 1,State Representative: district 161,DEM,ADAM BRIDGES,2576
+Senate 2,State Representative: district 161,(REP,BILL HITCHENS,1782
+Senate 2,State Representative: district 161,DEM,ADAM BRIDGES,3298
+Senate 4,State Representative: district 161,(REP,BILL HITCHENS,10373
+Senate 4,State Representative: district 161,DEM,ADAM BRIDGES,3099
+House 162,State Representative: district 162,(DEM,CARL WAYNE GILLIARD,13372
+Senate 2,State Representative: district 162,(DEM,CARL WAYNE GILLIARD,13372
+House 163,State Representative: district 163,(DEM,J. CRAIG GORDON,14959
+Senate 1,State Representative: district 163,(DEM,J. CRAIG GORDON,502
+Senate 2,State Representative: district 163,(DEM,J. CRAIG GORDON,14457
+House 164,State Representative: district 164,(REP,RON STEPHENS,8634
+House 164,State Representative: district 164,DEM,ALICIA "AER" SCOTT,8098
+House 166,State Representative: district 164,(REP,RON STEPHENS,657
+House 166,State Representative: district 164,DEM,ALICIA "AER" SCOTT,322
+Senate 1,State Representative: district 164,(REP,RON STEPHENS,8640
+Senate 1,State Representative: district 164,DEM,ALICIA "AER" SCOTT,7273
+Senate 2,State Representative: district 164,(REP,RON STEPHENS,651
+Senate 2,State Representative: district 164,DEM,ALICIA "AER" SCOTT,1147
+House 165,State Representative: district 165,(DEM,MICKEY STEPHENS,15821
+House 166,State Representative: district 165,(DEM,MICKEY STEPHENS,540
+Senate 1,State Representative: district 165,(DEM,MICKEY STEPHENS,2462
+Senate 2,State Representative: district 165,(DEM,MICKEY STEPHENS,13899
+House 164,State Representative: district 166,(REP,JESSE PETREA,979
+House 165,State Representative: district 166,(REP,JESSE PETREA,540
+House 166,State Representative: district 166,(REP,JESSE PETREA,22737
+Senate 1,State Representative: district 166,(REP,JESSE PETREA,22726
+Senate 2,State Representative: district 166,(REP,JESSE PETREA,1530
+House 167,State Representative: district 167,(REP,JEFF JONES,13591
+House 167,State Representative: district 167,DEM,CEDRIC Z. KING,6431
+Senate 3,State Representative: district 167,(REP,JEFF JONES,11039
+Senate 3,State Representative: district 167,DEM,CEDRIC Z. KING,5094
+Senate 19,State Representative: district 167,(REP,JEFF JONES,2552
+Senate 19,State Representative: district 167,DEM,CEDRIC Z. KING,1337
+House 168,State Representative: district 168,(DEM,AL WILLIAMS,11947
+Senate 1,State Representative: district 168,(DEM,AL WILLIAMS,9197
+Senate 19,State Representative: district 168,(DEM,AL WILLIAMS,2750
+House 149,State Representative: district 169,(REP,DOMINIC LARICCIA,44
+House 155,State Representative: district 169,(REP,DOMINIC LARICCIA,265
+House 169,State Representative: district 169,(REP,DOMINIC LARICCIA,12628
+Senate 7,State Representative: district 169,(REP,DOMINIC LARICCIA,11388
+Senate 19,State Representative: district 169,(REP,DOMINIC LARICCIA,1549
+House 17,State Representative: district 17,DEM,RALPH MEERS,5338
+House 17,State Representative: district 17,REP,MARTIN MOMTAHAN,14121
+House 19,State Representative: district 17,DEM,RALPH MEERS,783
+House 19,State Representative: district 17,REP,MARTIN MOMTAHAN,2290
+House 67,State Representative: district 17,DEM,RALPH MEERS,104
+House 67,State Representative: district 17,REP,MARTIN MOMTAHAN,595
+Senate 30,State Representative: district 17,DEM,RALPH MEERS,274
+Senate 30,State Representative: district 17,REP,MARTIN MOMTAHAN,1575
+Senate 31,State Representative: district 17,DEM,RALPH MEERS,5951
+Senate 31,State Representative: district 17,REP,MARTIN MOMTAHAN,15431
+House 155,State Representative: district 170,(REP,PENNY HOUSTON,83
+House 170,State Representative: district 170,(REP,PENNY HOUSTON,14459
+House 172,State Representative: district 170,(REP,PENNY HOUSTON,126
+Senate 7,State Representative: district 170,(REP,PENNY HOUSTON,5710
+Senate 8,State Representative: district 170,(REP,PENNY HOUSTON,4884
+Senate 13,State Representative: district 170,(REP,PENNY HOUSTON,4074
+House 171,State Representative: district 171,(REP,JAY POWELL,13346
+House 173,State Representative: district 171,(REP,JAY POWELL,419
+Senate 11,State Representative: district 171,(REP,JAY POWELL,11021
+Senate 12,State Representative: district 171,(REP,JAY POWELL,2744
+House 170,State Representative: district 172,(REP,SAM WATSON,126
+House 172,State Representative: district 172,(REP,SAM WATSON,11920
+Senate 11,State Representative: district 172,(REP,SAM WATSON,9614
+Senate 13,State Representative: district 172,(REP,SAM WATSON,2432
+House 171,State Representative: district 173,(REP,DARLENE TAYLOR,319
+House 171,State Representative: district 173,DEM,TWITTY TITUS,100
+House 173,State Representative: district 173,(REP,DARLENE TAYLOR,11210
+House 173,State Representative: district 173,DEM,TWITTY TITUS,7289
+House 175,State Representative: district 173,(REP,DARLENE TAYLOR,70
+House 175,State Representative: district 173,DEM,TWITTY TITUS,20
+Senate 11,State Representative: district 173,(REP,DARLENE TAYLOR,11599
+Senate 11,State Representative: district 173,DEM,TWITTY TITUS,7409
+House 174,State Representative: district 174,(REP,JOHN CORBETT,13016
+House 175,State Representative: district 174,(REP,JOHN CORBETT,344
+House 176,State Representative: district 174,(REP,JOHN CORBETT,199
+House 177,State Representative: district 174,(REP,JOHN CORBETT,175
+House 180,State Representative: district 174,(REP,JOHN CORBETT,40
+Senate 3,State Representative: district 174,(REP,JOHN CORBETT,3674
+Senate 7,State Representative: district 174,(REP,JOHN CORBETT,1985
+Senate 8,State Representative: district 174,(REP,JOHN CORBETT,8114
+House 173,State Representative: district 175,(REP,JOHN LAHOOD,64
+House 173,State Representative: district 175,DEM,TREVA GEAR,27
+House 174,State Representative: district 175,(REP,JOHN LAHOOD,272
+House 174,State Representative: district 175,DEM,TREVA GEAR,72
+House 175,State Representative: district 175,(REP,JOHN LAHOOD,11856
+House 175,State Representative: district 175,DEM,TREVA GEAR,4995
+House 176,State Representative: district 175,(REP,JOHN LAHOOD,701
+House 176,State Representative: district 175,DEM,TREVA GEAR,304
+House 177,State Representative: district 175,(REP,JOHN LAHOOD,2743
+House 177,State Representative: district 175,DEM,TREVA GEAR,833
+Senate 8,State Representative: district 175,(REP,JOHN LAHOOD,13207
+Senate 8,State Representative: district 175,DEM,TREVA GEAR,5214
+Senate 11,State Representative: district 175,(REP,JOHN LAHOOD,2431
+Senate 11,State Representative: district 175,DEM,TREVA GEAR,1016
+House 174,State Representative: district 176,(REP,JASON SHAW,199
+House 175,State Representative: district 176,(REP,JASON SHAW,1006
+House 176,State Representative: district 176,(REP,JASON SHAW,11714
+House 177,State Representative: district 176,(REP,JASON SHAW,879
+House 180,State Representative: district 176,(REP,JASON SHAW,19
+Senate 7,State Representative: district 176,(REP,JASON SHAW,6568
+Senate 8,State Representative: district 176,(REP,JASON SHAW,7249
+House 174,State Representative: district 177,(DEM,DEXTER L. SHARPER,175
+House 175,State Representative: district 177,(DEM,DEXTER L. SHARPER,3576
+House 176,State Representative: district 177,(DEM,DEXTER L. SHARPER,879
+House 177,State Representative: district 177,(DEM,DEXTER L. SHARPER,6260
+Senate 8,State Representative: district 177,(DEM,DEXTER L. SHARPER,10889
+House 156,State Representative: district 178,DEM,GREG ODRISCOLL,64
+House 156,State Representative: district 178,REP,STEVEN MEEKS,70
+House 157,State Representative: district 178,DEM,GREG ODRISCOLL,19
+House 157,State Representative: district 178,REP,STEVEN MEEKS,121
+House 178,State Representative: district 178,DEM,GREG ODRISCOLL,1862
+House 178,State Representative: district 178,REP,STEVEN MEEKS,16260
+Senate 3,State Representative: district 178,DEM,GREG ODRISCOLL,540
+Senate 3,State Representative: district 178,REP,STEVEN MEEKS,5042
+Senate 7,State Representative: district 178,DEM,GREG ODRISCOLL,727
+Senate 7,State Representative: district 178,REP,STEVEN MEEKS,6039
+Senate 19,State Representative: district 178,DEM,GREG ODRISCOLL,678
+Senate 19,State Representative: district 178,REP,STEVEN MEEKS,5370
+House 179,State Representative: district 179,(REP,DON HOGAN,12337
+House 179,State Representative: district 179,DEM,JULIE JORDAN,9023
+Senate 3,State Representative: district 179,(REP,DON HOGAN,12337
+Senate 3,State Representative: district 179,DEM,JULIE JORDAN,9023
+House 16,State Representative: district 18,(REP,KEVIN COOKE,45
+House 16,State Representative: district 18,DEM,PAT RHUDY,4
+House 18,State Representative: district 18,(REP,KEVIN COOKE,13227
+House 18,State Representative: district 18,DEM,PAT RHUDY,4522
+House 68,State Representative: district 18,(REP,KEVIN COOKE,222
+House 68,State Representative: district 18,DEM,PAT RHUDY,158
+House 69,State Representative: district 18,(REP,KEVIN COOKE,72
+House 69,State Representative: district 18,DEM,PAT RHUDY,30
+Senate 30,State Representative: district 18,(REP,KEVIN COOKE,6100
+Senate 30,State Representative: district 18,DEM,PAT RHUDY,3622
+Senate 31,State Representative: district 18,(REP,KEVIN COOKE,7466
+Senate 31,State Representative: district 18,DEM,PAT RHUDY,1092
+House 174,State Representative: district 180,REP,STEVEN SAINZ,40
+House 176,State Representative: district 180,REP,STEVEN SAINZ,19
+House 180,State Representative: district 180,REP,STEVEN SAINZ,14471
+Senate 3,State Representative: district 180,REP,STEVEN SAINZ,11281
+Senate 7,State Representative: district 180,REP,STEVEN SAINZ,3249
+House 17,State Representative: district 19,DEM,ALISON FELICIANO,1068
+House 17,State Representative: district 19,REP,JOSEPH GULLETT,2006
+House 19,State Representative: district 19,DEM,ALISON FELICIANO,7226
+House 19,State Representative: district 19,REP,JOSEPH GULLETT,11515
+House 67,State Representative: district 19,DEM,ALISON FELICIANO,298
+House 67,State Representative: district 19,REP,JOSEPH GULLETT,873
+Senate 30,State Representative: district 19,DEM,ALISON FELICIANO,319
+Senate 30,State Representative: district 19,REP,JOSEPH GULLETT,937
+Senate 31,State Representative: district 19,DEM,ALISON FELICIANO,8273
+Senate 31,State Representative: district 19,REP,JOSEPH GULLETT,13457
+House 1,State Representative: district 2,(REP,STEVE TARVIN,961
+House 2,State Representative: district 2,(REP,STEVE TARVIN,15481
+Senate 53,State Representative: district 2,(REP,STEVE TARVIN,12789
+Senate 54,State Representative: district 2,(REP,STEVE TARVIN,3653
+House 20,State Representative: district 20,(REP,MICHAEL CALDWELL,17304
+House 20,State Representative: district 20,DEM,LILLIAN BURNAMAN,7348
+House 46,State Representative: district 20,(REP,MICHAEL CALDWELL,614
+House 46,State Representative: district 20,DEM,LILLIAN BURNAMAN,364
+Senate 14,State Representative: district 20,(REP,MICHAEL CALDWELL,5323
+Senate 14,State Representative: district 20,DEM,LILLIAN BURNAMAN,2596
+Senate 21,State Representative: district 20,(REP,MICHAEL CALDWELL,12595
+Senate 21,State Representative: district 20,DEM,LILLIAN BURNAMAN,5116
+House 21,State Representative: district 21,(REP,SCOT TURNER,17605
+House 21,State Representative: district 21,DEM,MELANIE WHITFIELD,6001
+House 22,State Representative: district 21,(REP,SCOT TURNER,696
+House 22,State Representative: district 21,DEM,MELANIE WHITFIELD,163
+House 23,State Representative: district 21,(REP,SCOT TURNER,812
+House 23,State Representative: district 21,DEM,MELANIE WHITFIELD,254
+House 46,State Representative: district 21,(REP,SCOT TURNER,290
+House 46,State Representative: district 21,DEM,MELANIE WHITFIELD,152
+Senate 14,State Representative: district 21,(REP,SCOT TURNER,7133
+Senate 14,State Representative: district 21,DEM,MELANIE WHITFIELD,2481
+Senate 21,State Representative: district 21,(REP,SCOT TURNER,12270
+Senate 21,State Representative: district 21,DEM,MELANIE WHITFIELD,4089
+House 21,State Representative: district 22,(REP,WES CANTRELL,626
+House 21,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,232
+House 22,State Representative: district 22,(REP,WES CANTRELL,20247
+House 22,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,6241
+House 23,State Representative: district 22,(REP,WES CANTRELL,634
+House 23,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,118
+House 24,State Representative: district 22,(REP,WES CANTRELL,2196
+House 24,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,894
+House 25,State Representative: district 22,(REP,WES CANTRELL,285
+House 25,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,135
+Senate 21,State Representative: district 22,(REP,WES CANTRELL,18259
+Senate 21,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,3947
+Senate 27,State Representative: district 22,(REP,WES CANTRELL,5728
+Senate 27,State Representative: district 22,DEM,CHARLES RAVENSCRAFT,3673
+House 21,State Representative: district 23,(REP,MANDI BALLINGER,823
+House 21,State Representative: district 23,DEM,ADAM WYNN,243
+House 22,State Representative: district 23,(REP,MANDI BALLINGER,615
+House 22,State Representative: district 23,DEM,ADAM WYNN,136
+House 23,State Representative: district 23,(REP,MANDI BALLINGER,16344
+House 23,State Representative: district 23,DEM,ADAM WYNN,5595
+Senate 14,State Representative: district 23,(REP,MANDI BALLINGER,16445
+Senate 14,State Representative: district 23,DEM,ADAM WYNN,5678
+Senate 21,State Representative: district 23,(REP,MANDI BALLINGER,1337
+Senate 21,State Representative: district 23,DEM,ADAM WYNN,296
+House 9,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,300
+House 22,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,3090
+House 24,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,18570
+House 25,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,451
+House 26,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,1235
+Senate 27,State Representative: district 24,(REP,SHERI SMALLWOOD GILLIGAN,23646
+House 22,State Representative: district 25,(REP,TODD JONES,243
+House 22,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,177
+House 24,State Representative: district 25,(REP,TODD JONES,269
+House 24,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,183
+House 25,State Representative: district 25,(REP,TODD JONES,16079
+House 25,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,8955
+House 26,State Representative: district 25,(REP,TODD JONES,1306
+House 26,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,759
+Senate 27,State Representative: district 25,(REP,TODD JONES,16441
+Senate 27,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,8545
+Senate 48,State Representative: district 25,(REP,TODD JONES,1456
+Senate 48,State Representative: district 25,DEM,ANITA HOLCOMB TUCKER,1529
+House 9,State Representative: district 26,(REP,MARC MORRIS,969
+House 24,State Representative: district 26,(REP,MARC MORRIS,1235
+House 25,State Representative: district 26,(REP,MARC MORRIS,2066
+House 26,State Representative: district 26,(REP,MARC MORRIS,20274
+Senate 27,State Representative: district 26,(REP,MARC MORRIS,23706
+Senate 51,State Representative: district 26,(REP,MARC MORRIS,838
+House 10,State Representative: district 27,(REP,LEE HAWKINS,273
+House 27,State Representative: district 27,(REP,LEE HAWKINS,16370
+House 29,State Representative: district 27,(REP,LEE HAWKINS,1305
+House 30,State Representative: district 27,(REP,LEE HAWKINS,452
+Senate 49,State Representative: district 27,(REP,LEE HAWKINS,16761
+Senate 50,State Representative: district 27,(REP,LEE HAWKINS,935
+Senate 51,State Representative: district 27,(REP,LEE HAWKINS,704
+House 27,State Representative: district 29,(REP,MATT DUBNIK,916
+House 27,State Representative: district 29,IND,NANCY STEAD,388
+House 29,State Representative: district 29,(REP,MATT DUBNIK,8357
+House 29,State Representative: district 29,IND,NANCY STEAD,3983
+House 30,State Representative: district 29,(REP,MATT DUBNIK,455
+House 30,State Representative: district 29,IND,NANCY STEAD,224
+Senate 49,State Representative: district 29,(REP,MATT DUBNIK,9728
+Senate 49,State Representative: district 29,IND,NANCY STEAD,4595
+House 3,State Representative: district 3,(REP,DEWAYNE HILL,16727
+Senate 53,State Representative: district 3,(REP,DEWAYNE HILL,16727
+House 27,State Representative: district 30,(REP,EMORY DUNAHOO JR,242
+House 27,State Representative: district 30,DEM,ALANA WATKINS,210
+House 29,State Representative: district 30,(REP,EMORY DUNAHOO JR,375
+House 29,State Representative: district 30,DEM,ALANA WATKINS,303
+House 30,State Representative: district 30,(REP,EMORY DUNAHOO JR,12856
+House 30,State Representative: district 30,DEM,ALANA WATKINS,4587
+House 103,State Representative: district 30,(REP,EMORY DUNAHOO JR,885
+House 103,State Representative: district 30,DEM,ALANA WATKINS,258
+Senate 49,State Representative: district 30,(REP,EMORY DUNAHOO JR,14150
+Senate 49,State Representative: district 30,DEM,ALANA WATKINS,5178
+Senate 50,State Representative: district 30,(REP,EMORY DUNAHOO JR,208
+Senate 50,State Representative: district 30,DEM,ALANA WATKINS,180
+House 31,State Representative: district 31,(REP,TOMMY BENTON,20412
+House 117,State Representative: district 31,(REP,TOMMY BENTON,869
+Senate 47,State Representative: district 31,(REP,TOMMY BENTON,10731
+Senate 50,State Representative: district 31,(REP,TOMMY BENTON,10550
+House 32,State Representative: district 32,(REP,ALAN POWELL,17987
+House 33,State Representative: district 32,(REP,ALAN POWELL,78
+Senate 24,State Representative: district 32,(REP,ALAN POWELL,8168
+Senate 47,State Representative: district 32,(REP,ALAN POWELL,2492
+Senate 50,State Representative: district 32,(REP,ALAN POWELL,7405
+House 32,State Representative: district 33,(REP,TOM MCCALL,78
+House 33,State Representative: district 33,(REP,TOM MCCALL,18204
+Senate 24,State Representative: district 33,(REP,TOM MCCALL,10991
+Senate 47,State Representative: district 33,(REP,TOM MCCALL,7291
+House 34,State Representative: district 34,(REP,BERT REEVES,12082
+House 34,State Representative: district 34,DEM,MATT SOUTHWELL,8645
+House 35,State Representative: district 34,(REP,BERT REEVES,429
+House 35,State Representative: district 34,DEM,MATT SOUTHWELL,462
+House 36,State Representative: district 34,(REP,BERT REEVES,415
+House 36,State Representative: district 34,DEM,MATT SOUTHWELL,83
+House 37,State Representative: district 34,(REP,BERT REEVES,555
+House 37,State Representative: district 34,DEM,MATT SOUTHWELL,674
+House 41,State Representative: district 34,(REP,BERT REEVES,23
+House 41,State Representative: district 34,DEM,MATT SOUTHWELL,43
+House 44,State Representative: district 34,(REP,BERT REEVES,77
+House 44,State Representative: district 34,DEM,MATT SOUTHWELL,60
+Senate 14,State Representative: district 34,(REP,BERT REEVES,52
+Senate 14,State Representative: district 34,DEM,MATT SOUTHWELL,41
+Senate 33,State Representative: district 34,(REP,BERT REEVES,1772
+Senate 33,State Representative: district 34,DEM,MATT SOUTHWELL,1276
+Senate 37,State Representative: district 34,(REP,BERT REEVES,11757
+Senate 37,State Representative: district 34,DEM,MATT SOUTHWELL,8651
+House 34,State Representative: district 35,(REP,ED SETZLER,467
+House 34,State Representative: district 35,DEM,SALVATORE CASTELLANA,422
+House 35,State Representative: district 35,(REP,ED SETZLER,10904
+House 35,State Representative: district 35,DEM,SALVATORE CASTELLANA,10139
+House 36,State Representative: district 35,(REP,ED SETZLER,436
+House 36,State Representative: district 35,DEM,SALVATORE CASTELLANA,201
+House 44,State Representative: district 35,(REP,ED SETZLER,8
+House 44,State Representative: district 35,DEM,SALVATORE CASTELLANA,13
+Senate 14,State Representative: district 35,(REP,ED SETZLER,1347
+Senate 14,State Representative: district 35,DEM,SALVATORE CASTELLANA,1431
+Senate 37,State Representative: district 35,(REP,ED SETZLER,10469
+Senate 37,State Representative: district 35,DEM,SALVATORE CASTELLANA,9344
+House 34,State Representative: district 36,DEM,JEN SLIPAKOFF,196
+House 34,State Representative: district 36,REP,GINNY EHRHART,302
+House 35,State Representative: district 36,DEM,JEN SLIPAKOFF,140
+House 35,State Representative: district 36,REP,GINNY EHRHART,497
+House 36,State Representative: district 36,DEM,JEN SLIPAKOFF,9993
+House 36,State Representative: district 36,REP,GINNY EHRHART,19092
+Senate 37,State Representative: district 36,DEM,JEN SLIPAKOFF,10329
+Senate 37,State Representative: district 36,REP,GINNY EHRHART,19891
+House 34,State Representative: district 37,(REP,SAM TEASLEY,624
+House 34,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,605
+House 37,State Representative: district 37,(REP,SAM TEASLEY,9756
+House 37,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,9578
+House 41,State Representative: district 37,(REP,SAM TEASLEY,870
+House 41,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,1032
+House 42,State Representative: district 37,(REP,SAM TEASLEY,254
+House 42,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,532
+House 43,State Representative: district 37,(REP,SAM TEASLEY,23
+House 43,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,33
+House 44,State Representative: district 37,(REP,SAM TEASLEY,228
+House 44,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,148
+Senate 6,State Representative: district 37,(REP,SAM TEASLEY,61
+Senate 6,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,139
+Senate 32,State Representative: district 37,(REP,SAM TEASLEY,1309
+Senate 32,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,1286
+Senate 33,State Representative: district 37,(REP,SAM TEASLEY,5935
+Senate 33,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,6792
+Senate 37,State Representative: district 37,(REP,SAM TEASLEY,4450
+Senate 37,State Representative: district 37,DEM,MARY FRANCES WILLIAMS,3711
+House 38,State Representative: district 38,(DEM,DAVID WILKERSON,18339
+House 39,State Representative: district 38,(DEM,DAVID WILKERSON,650
+House 41,State Representative: district 38,(DEM,DAVID WILKERSON,332
+Senate 33,State Representative: district 38,(DEM,DAVID WILKERSON,17434
+Senate 38,State Representative: district 38,(DEM,DAVID WILKERSON,1887
+House 38,State Representative: district 39,(DEM,ERICA THOMAS,471
+House 38,State Representative: district 39,REP,JAMES "J. W." MORROW JR,180
+House 39,State Representative: district 39,(DEM,ERICA THOMAS,15395
+House 39,State Representative: district 39,REP,JAMES "J. W." MORROW JR,2934
+House 40,State Representative: district 39,(DEM,ERICA THOMAS,307
+House 40,State Representative: district 39,REP,JAMES "J. W." MORROW JR,67
+House 53,State Representative: district 39,(DEM,ERICA THOMAS,144
+House 53,State Representative: district 39,REP,JAMES "J. W." MORROW JR,31
+House 61,State Representative: district 39,(DEM,ERICA THOMAS,290
+House 61,State Representative: district 39,REP,JAMES "J. W." MORROW JR,133
+Senate 33,State Representative: district 39,(DEM,ERICA THOMAS,3640
+Senate 33,State Representative: district 39,REP,JAMES "J. W." MORROW JR,1076
+Senate 38,State Representative: district 39,(DEM,ERICA THOMAS,12967
+Senate 38,State Representative: district 39,REP,JAMES "J. W." MORROW JR,2269
+House 4,State Representative: district 4,(REP,KASEY CARPENTER,9713
+House 6,State Representative: district 4,(REP,KASEY CARPENTER,165
+Senate 54,State Representative: district 4,(REP,KASEY CARPENTER,9878
+House 39,State Representative: district 40,DEM,ERICK E. ALLEN,218
+House 39,State Representative: district 40,REP,MATT BENTLEY,157
+House 40,State Representative: district 40,DEM,ERICK E. ALLEN,13432
+House 40,State Representative: district 40,REP,MATT BENTLEY,11284
+House 41,State Representative: district 40,DEM,ERICK E. ALLEN,300
+House 41,State Representative: district 40,REP,MATT BENTLEY,311
+House 42,State Representative: district 40,DEM,ERICK E. ALLEN,970
+House 42,State Representative: district 40,REP,MATT BENTLEY,666
+House 53,State Representative: district 40,DEM,ERICK E. ALLEN,800
+House 53,State Representative: district 40,REP,MATT BENTLEY,611
+Senate 6,State Representative: district 40,DEM,ERICK E. ALLEN,10772
+Senate 6,State Representative: district 40,REP,MATT BENTLEY,8743
+Senate 38,State Representative: district 40,DEM,ERICK E. ALLEN,4947
+Senate 38,State Representative: district 40,REP,MATT BENTLEY,4286
+House 34,State Representative: district 41,(DEM,MICHAEL SMITH,60
+House 34,State Representative: district 41,REP,DEANNA HARRIS,7
+House 37,State Representative: district 41,(DEM,MICHAEL SMITH,1320
+House 37,State Representative: district 41,REP,DEANNA HARRIS,582
+House 38,State Representative: district 41,(DEM,MICHAEL SMITH,239
+House 38,State Representative: district 41,REP,DEANNA HARRIS,93
+House 40,State Representative: district 41,(DEM,MICHAEL SMITH,408
+House 40,State Representative: district 41,REP,DEANNA HARRIS,202
+House 41,State Representative: district 41,(DEM,MICHAEL SMITH,9354
+House 41,State Representative: district 41,REP,DEANNA HARRIS,3859
+House 42,State Representative: district 41,(DEM,MICHAEL SMITH,293
+House 42,State Representative: district 41,REP,DEANNA HARRIS,116
+Senate 6,State Representative: district 41,(DEM,MICHAEL SMITH,1276
+Senate 6,State Representative: district 41,REP,DEANNA HARRIS,519
+Senate 33,State Representative: district 41,(DEM,MICHAEL SMITH,9036
+Senate 33,State Representative: district 41,REP,DEANNA HARRIS,3462
+Senate 37,State Representative: district 41,(DEM,MICHAEL SMITH,386
+Senate 37,State Representative: district 41,REP,DEANNA HARRIS,387
+Senate 38,State Representative: district 41,(DEM,MICHAEL SMITH,975
+Senate 38,State Representative: district 41,REP,DEANNA HARRIS,490
+House 37,State Representative: district 42,(DEM,TERI ANULEWICZ,786
+House 40,State Representative: district 42,(DEM,TERI ANULEWICZ,1635
+House 41,State Representative: district 42,(DEM,TERI ANULEWICZ,408
+House 42,State Representative: district 42,(DEM,TERI ANULEWICZ,8962
+House 43,State Representative: district 42,(DEM,TERI ANULEWICZ,1038
+Senate 6,State Representative: district 42,(DEM,TERI ANULEWICZ,9308
+Senate 32,State Representative: district 42,(DEM,TERI ANULEWICZ,796
+Senate 33,State Representative: district 42,(DEM,TERI ANULEWICZ,2657
+Senate 38,State Representative: district 42,(DEM,TERI ANULEWICZ,69
+House 37,State Representative: district 43,(REP,SHARON COOPER,14
+House 37,State Representative: district 43,DEM,LUISA WAKEMAN,42
+House 42,State Representative: district 43,(REP,SHARON COOPER,411
+House 42,State Representative: district 43,DEM,LUISA WAKEMAN,627
+House 43,State Representative: district 43,(REP,SHARON COOPER,12434
+House 43,State Representative: district 43,DEM,LUISA WAKEMAN,11401
+House 45,State Representative: district 43,(REP,SHARON COOPER,262
+House 45,State Representative: district 43,DEM,LUISA WAKEMAN,260
+Senate 6,State Representative: district 43,(REP,SHARON COOPER,1101
+Senate 6,State Representative: district 43,DEM,LUISA WAKEMAN,2740
+Senate 32,State Representative: district 43,(REP,SHARON COOPER,9581
+Senate 32,State Representative: district 43,DEM,LUISA WAKEMAN,7234
+Senate 33,State Representative: district 43,(REP,SHARON COOPER,2440
+Senate 33,State Representative: district 43,DEM,LUISA WAKEMAN,2356
+House 34,State Representative: district 44,(REP,DON L. PARSONS,46
+House 34,State Representative: district 44,DEM,CHINITA ALLEN,91
+House 35,State Representative: district 44,(REP,DON L. PARSONS,7
+House 35,State Representative: district 44,DEM,CHINITA ALLEN,14
+House 37,State Representative: district 44,(REP,DON L. PARSONS,231
+House 37,State Representative: district 44,DEM,CHINITA ALLEN,145
+House 44,State Representative: district 44,(REP,DON L. PARSONS,12769
+House 44,State Representative: district 44,DEM,CHINITA ALLEN,10426
+House 45,State Representative: district 44,(REP,DON L. PARSONS,279
+House 45,State Representative: district 44,DEM,CHINITA ALLEN,190
+House 46,State Representative: district 44,(REP,DON L. PARSONS,838
+House 46,State Representative: district 44,DEM,CHINITA ALLEN,555
+Senate 14,State Representative: district 44,(REP,DON L. PARSONS,3253
+Senate 14,State Representative: district 44,DEM,CHINITA ALLEN,2365
+Senate 32,State Representative: district 44,(REP,DON L. PARSONS,9764
+Senate 32,State Representative: district 44,DEM,CHINITA ALLEN,7330
+Senate 37,State Representative: district 44,(REP,DON L. PARSONS,1153
+Senate 37,State Representative: district 44,DEM,CHINITA ALLEN,1727
+House 43,State Representative: district 45,(REP,MATT DOLLAR,308
+House 43,State Representative: district 45,DEM,ESSENCE JOHNSON,213
+House 44,State Representative: district 45,(REP,MATT DOLLAR,288
+House 44,State Representative: district 45,DEM,ESSENCE JOHNSON,181
+House 45,State Representative: district 45,(REP,MATT DOLLAR,16407
+House 45,State Representative: district 45,DEM,ESSENCE JOHNSON,11287
+Senate 32,State Representative: district 45,(REP,MATT DOLLAR,15896
+Senate 32,State Representative: district 45,DEM,ESSENCE JOHNSON,9574
+Senate 56,State Representative: district 45,(REP,MATT DOLLAR,1107
+Senate 56,State Representative: district 45,DEM,ESSENCE JOHNSON,2107
+House 20,State Representative: district 46,(REP,JOHN CARSON,645
+House 20,State Representative: district 46,DEM,KARÍN SANDIFORD,334
+House 21,State Representative: district 46,(REP,JOHN CARSON,324
+House 21,State Representative: district 46,DEM,KARÍN SANDIFORD,118
+House 44,State Representative: district 46,(REP,JOHN CARSON,789
+House 44,State Representative: district 46,DEM,KARÍN SANDIFORD,603
+House 46,State Representative: district 46,(REP,JOHN CARSON,15708
+House 46,State Representative: district 46,DEM,KARÍN SANDIFORD,9734
+Senate 14,State Representative: district 46,(REP,JOHN CARSON,405
+Senate 14,State Representative: district 46,DEM,KARÍN SANDIFORD,410
+Senate 21,State Representative: district 46,(REP,JOHN CARSON,3273
+Senate 21,State Representative: district 46,DEM,KARÍN SANDIFORD,1695
+Senate 32,State Representative: district 46,(REP,JOHN CARSON,11274
+Senate 32,State Representative: district 46,DEM,KARÍN SANDIFORD,7297
+Senate 56,State Representative: district 46,(REP,JOHN CARSON,2514
+Senate 56,State Representative: district 46,DEM,KARÍN SANDIFORD,1387
+House 47,State Representative: district 47,(REP,JAN JONES,16718
+House 47,State Representative: district 47,DEM,ANDREA NUGENT,10403
+Senate 21,State Representative: district 47,(REP,JAN JONES,8060
+Senate 21,State Representative: district 47,DEM,ANDREA NUGENT,5558
+Senate 56,State Representative: district 47,(REP,JAN JONES,8658
+Senate 56,State Representative: district 47,DEM,ANDREA NUGENT,4845
+House 48,State Representative: district 48,(REP,BETTY PRICE,10952
+House 48,State Representative: district 48,DEM,MARY ROBICHAUX,11102
+Senate 56,State Representative: district 48,(REP,BETTY PRICE,10952
+Senate 56,State Representative: district 48,DEM,MARY ROBICHAUX,11102
+House 49,State Representative: district 49,(REP,CHARLES E. "CHUCK" MARTIN,13334
+House 49,State Representative: district 49,DEM,KRISHAN A. BRALLEY,11268
+Senate 21,State Representative: district 49,(REP,CHARLES E. "CHUCK" MARTIN,6168
+Senate 21,State Representative: district 49,DEM,KRISHAN A. BRALLEY,4711
+Senate 48,State Representative: district 49,(REP,CHARLES E. "CHUCK" MARTIN,284
+Senate 48,State Representative: district 49,DEM,KRISHAN A. BRALLEY,382
+Senate 56,State Representative: district 49,(REP,CHARLES E. "CHUCK" MARTIN,6882
+Senate 56,State Representative: district 49,DEM,KRISHAN A. BRALLEY,6175
+House 5,State Representative: district 5,(REP,JOHN MEADOWS,12312
+House 5,State Representative: district 5,DEM,BRIAN ROSSER,2816
+House 11,State Representative: district 5,(REP,JOHN MEADOWS,602
+House 11,State Representative: district 5,DEM,BRIAN ROSSER,103
+Senate 52,State Representative: district 5,(REP,JOHN MEADOWS,8063
+Senate 52,State Representative: district 5,DEM,BRIAN ROSSER,2125
+Senate 54,State Representative: district 5,(REP,JOHN MEADOWS,4851
+Senate 54,State Representative: district 5,DEM,BRIAN ROSSER,794
+House 50,State Representative: district 50,DEM,ANGELIKA KAUSCHE,11015
+House 50,State Representative: district 50,REP,KELLY STEWART,10698
+Senate 48,State Representative: district 50,DEM,ANGELIKA KAUSCHE,10340
+Senate 48,State Representative: district 50,REP,KELLY STEWART,9764
+Senate 56,State Representative: district 50,DEM,ANGELIKA KAUSCHE,675
+Senate 56,State Representative: district 50,REP,KELLY STEWART,934
+House 51,State Representative: district 51,DEM,JOSH MCLAURIN,12531
+House 51,State Representative: district 51,REP,ALEX B. KAUFMAN,11767
+Senate 40,State Representative: district 51,DEM,JOSH MCLAURIN,2203
+Senate 40,State Representative: district 51,REP,ALEX B. KAUFMAN,3167
+Senate 56,State Representative: district 51,DEM,JOSH MCLAURIN,10328
+Senate 56,State Representative: district 51,REP,ALEX B. KAUFMAN,8600
+House 52,State Representative: district 52,(REP,DEBORAH SILCOX,14018
+House 52,State Representative: district 52,DEM,SHEA ROBERTS,12796
+Senate 6,State Representative: district 52,(REP,DEBORAH SILCOX,8568
+Senate 6,State Representative: district 52,DEM,SHEA ROBERTS,6941
+Senate 32,State Representative: district 52,(REP,DEBORAH SILCOX,4730
+Senate 32,State Representative: district 52,DEM,SHEA ROBERTS,4630
+Senate 56,State Representative: district 52,(REP,DEBORAH SILCOX,720
+Senate 56,State Representative: district 52,DEM,SHEA ROBERTS,1225
+House 39,State Representative: district 53,(DEM,SHEILA JONES,175
+House 40,State Representative: district 53,(DEM,SHEILA JONES,1410
+House 53,State Representative: district 53,(DEM,SHEILA JONES,18446
+Senate 6,State Representative: district 53,(DEM,SHEILA JONES,6488
+Senate 38,State Representative: district 53,(DEM,SHEILA JONES,13544
+House 54,State Representative: district 54,(REP,BETH BESKIN,14179
+House 54,State Representative: district 54,DEM,BETSY HOLLAND,15186
+Senate 6,State Representative: district 54,(REP,BETH BESKIN,8026
+Senate 6,State Representative: district 54,DEM,BETSY HOLLAND,6628
+Senate 38,State Representative: district 54,(REP,BETH BESKIN,1219
+Senate 38,State Representative: district 54,DEM,BETSY HOLLAND,964
+Senate 39,State Representative: district 54,(REP,BETH BESKIN,4934
+Senate 39,State Representative: district 54,DEM,BETSY HOLLAND,7594
+House 55,State Representative: district 55,(DEM,MARIE R. METZE,23310
+Senate 38,State Representative: district 55,(DEM,MARIE R. METZE,16617
+Senate 39,State Representative: district 55,(DEM,MARIE R. METZE,6693
+House 56,State Representative: district 56,(DEM,"ABLE" MABLE THOMAS,16311
+Senate 36,State Representative: district 56,(DEM,"ABLE" MABLE THOMAS,1800
+Senate 38,State Representative: district 56,(DEM,"ABLE" MABLE THOMAS,1988
+Senate 39,State Representative: district 56,(DEM,"ABLE" MABLE THOMAS,12523
+House 57,State Representative: district 57,(DEM,PAT GARDNER,24886
+Senate 36,State Representative: district 57,(DEM,PAT GARDNER,15355
+Senate 38,State Representative: district 57,(DEM,PAT GARDNER,242
+Senate 39,State Representative: district 57,(DEM,PAT GARDNER,9289
+House 58,State Representative: district 58,(DEM,PARK CANNON,23663
+Senate 36,State Representative: district 58,(DEM,PARK CANNON,20856
+Senate 39,State Representative: district 58,(DEM,PARK CANNON,2807
+House 59,State Representative: district 59,(DEM,DAVID DREYER,20727
+Senate 36,State Representative: district 59,(DEM,DAVID DREYER,20727
+House 4,State Representative: district 6,(REP,JASON T. RIDLEY,165
+House 6,State Representative: district 6,(REP,JASON T. RIDLEY,12772
+House 11,State Representative: district 6,(REP,JASON T. RIDLEY,657
+Senate 54,State Representative: district 6,(REP,JASON T. RIDLEY,13594
+House 60,State Representative: district 60,(DEM,KIM SCHOFIELD,16108
+Senate 34,State Representative: district 60,(DEM,KIM SCHOFIELD,3983
+Senate 36,State Representative: district 60,(DEM,KIM SCHOFIELD,5916
+Senate 39,State Representative: district 60,(DEM,KIM SCHOFIELD,6209
+House 39,State Representative: district 61,(DEM,ROGER BRUCE,423
+House 61,State Representative: district 61,(DEM,ROGER BRUCE,19620
+Senate 33,State Representative: district 61,(DEM,ROGER BRUCE,1962
+Senate 35,State Representative: district 61,(DEM,ROGER BRUCE,6797
+Senate 38,State Representative: district 61,(DEM,ROGER BRUCE,9519
+Senate 39,State Representative: district 61,(DEM,ROGER BRUCE,1765
+House 62,State Representative: district 62,(DEM,WILLIAM K. BODDIE JR,23748
+House 66,State Representative: district 62,(DEM,WILLIAM K. BODDIE JR,211
+Senate 35,State Representative: district 62,(DEM,WILLIAM K. BODDIE JR,17718
+Senate 36,State Representative: district 62,(DEM,WILLIAM K. BODDIE JR,1222
+Senate 39,State Representative: district 62,(DEM,WILLIAM K. BODDIE JR,5019
+House 63,State Representative: district 63,(DEM,DEBRA BAZEMORE,20030
+House 64,State Representative: district 63,(DEM,DEBRA BAZEMORE,512
+House 72,State Representative: district 63,(DEM,DEBRA BAZEMORE,330
+Senate 16,State Representative: district 63,(DEM,DEBRA BAZEMORE,2133
+Senate 34,State Representative: district 63,(DEM,DEBRA BAZEMORE,7396
+Senate 36,State Representative: district 63,(DEM,DEBRA BAZEMORE,266
+Senate 39,State Representative: district 63,(DEM,DEBRA BAZEMORE,7844
+Senate 44,State Representative: district 63,(DEM,DEBRA BAZEMORE,3233
+House 63,State Representative: district 64,(DEM,DERRICK L. JACKSON,512
+House 64,State Representative: district 64,(DEM,DERRICK L. JACKSON,20645
+Senate 16,State Representative: district 64,(DEM,DERRICK L. JACKSON,2203
+Senate 34,State Representative: district 64,(DEM,DERRICK L. JACKSON,6521
+Senate 35,State Representative: district 64,(DEM,DERRICK L. JACKSON,5955
+Senate 36,State Representative: district 64,(DEM,DERRICK L. JACKSON,1139
+Senate 39,State Representative: district 64,(DEM,DERRICK L. JACKSON,5339
+House 65,State Representative: district 65,(DEM,SHARON BEASLEY-TEAGUE,21189
+Senate 28,State Representative: district 65,(DEM,SHARON BEASLEY-TEAGUE,755
+Senate 35,State Representative: district 65,(DEM,SHARON BEASLEY-TEAGUE,20077
+Senate 39,State Representative: district 65,(DEM,SHARON BEASLEY-TEAGUE,357
+House 62,State Representative: district 66,(DEM,KIMBERLY ALEXANDER,211
+House 66,State Representative: district 66,(DEM,KIMBERLY ALEXANDER,17223
+Senate 30,State Representative: district 66,(DEM,KIMBERLY ALEXANDER,3584
+Senate 35,State Representative: district 66,(DEM,KIMBERLY ALEXANDER,13850
+House 17,State Representative: district 67,(REP,MICAH GRAVLEY,699
+House 19,State Representative: district 67,(REP,MICAH GRAVLEY,1170
+House 67,State Representative: district 67,(REP,MICAH GRAVLEY,15160
+Senate 30,State Representative: district 67,(REP,MICAH GRAVLEY,15094
+Senate 31,State Representative: district 67,(REP,MICAH GRAVLEY,1267
+Senate 35,State Representative: district 67,(REP,MICAH GRAVLEY,668
+House 18,State Representative: district 68,(REP,J. COLLINS,380
+House 68,State Representative: district 68,(REP,J. COLLINS,17766
+Senate 28,State Representative: district 68,(REP,J. COLLINS,3141
+Senate 30,State Representative: district 68,(REP,J. COLLINS,15005
+House 18,State Representative: district 69,(REP,RANDY NIX,103
+House 69,State Representative: district 69,(REP,RANDY NIX,17862
+House 132,State Representative: district 69,(REP,RANDY NIX,8
+House 133,State Representative: district 69,(REP,RANDY NIX,90
+Senate 28,State Representative: district 69,(REP,RANDY NIX,7833
+Senate 29,State Representative: district 69,(REP,RANDY NIX,1097
+Senate 30,State Representative: district 69,(REP,RANDY NIX,9133
+House 7,State Representative: district 7,(REP,DAVID RALSTON,21058
+House 7,State Representative: district 7,DEM,RICK D. DAY,3909
+Senate 51,State Representative: district 7,(REP,DAVID RALSTON,21058
+Senate 51,State Representative: district 7,DEM,RICK D. DAY,3909
+House 70,State Representative: district 70,(REP,LYNN SMITH,16644
+House 71,State Representative: district 70,(REP,LYNN SMITH,1548
+House 132,State Representative: district 70,(REP,LYNN SMITH,281
+Senate 28,State Representative: district 70,(REP,LYNN SMITH,18473
+House 70,State Representative: district 71,(REP,DAVID STOVER,1008
+House 70,State Representative: district 71,DEM,TOM THOMASON,540
+House 71,State Representative: district 71,(REP,DAVID STOVER,17670
+House 71,State Representative: district 71,DEM,TOM THOMASON,5687
+House 72,State Representative: district 71,(REP,DAVID STOVER,1012
+House 72,State Representative: district 71,DEM,TOM THOMASON,538
+Senate 16,State Representative: district 71,(REP,DAVID STOVER,1199
+Senate 16,State Representative: district 71,DEM,TOM THOMASON,919
+Senate 28,State Representative: district 71,(REP,DAVID STOVER,18491
+Senate 28,State Representative: district 71,DEM,TOM THOMASON,5846
+House 63,State Representative: district 72,(REP,JOSH BONNER,330
+House 71,State Representative: district 72,(REP,JOSH BONNER,1549
+House 72,State Representative: district 72,(REP,JOSH BONNER,22550
+Senate 16,State Representative: district 72,(REP,JOSH BONNER,19339
+Senate 28,State Representative: district 72,(REP,JOSH BONNER,5090
+House 73,State Representative: district 73,(REP,KAREN MATHIAK,16605
+House 111,State Representative: district 73,(REP,KAREN MATHIAK,416
+House 130,State Representative: district 73,(REP,KAREN MATHIAK,189
+Senate 10,State Representative: district 73,(REP,KAREN MATHIAK,523
+Senate 16,State Representative: district 73,(REP,KAREN MATHIAK,12114
+Senate 17,State Representative: district 73,(REP,KAREN MATHIAK,4573
+House 74,State Representative: district 74,(DEM,VALENCIA STOVALL,14243
+House 76,State Representative: district 74,(DEM,VALENCIA STOVALL,289
+House 77,State Representative: district 74,(DEM,VALENCIA STOVALL,1
+Senate 34,State Representative: district 74,(DEM,VALENCIA STOVALL,13245
+Senate 44,State Representative: district 74,(DEM,VALENCIA STOVALL,1288
+House 75,State Representative: district 75,(DEM,MIKE GLANTON,16814
+House 78,State Representative: district 75,(DEM,MIKE GLANTON,1003
+Senate 34,State Representative: district 75,(DEM,MIKE GLANTON,6429
+Senate 44,State Representative: district 75,(DEM,MIKE GLANTON,11388
+House 74,State Representative: district 76,(DEM,SANDRA GIVENS SCOTT,289
+House 76,State Representative: district 76,(DEM,SANDRA GIVENS SCOTT,19637
+House 90,State Representative: district 76,(DEM,SANDRA GIVENS SCOTT,424
+Senate 10,State Representative: district 76,(DEM,SANDRA GIVENS SCOTT,7243
+Senate 44,State Representative: district 76,(DEM,SANDRA GIVENS SCOTT,13107
+House 74,State Representative: district 77,(DEM,RHONDA BURNOUGH,1
+House 77,State Representative: district 77,(DEM,RHONDA BURNOUGH,15479
+Senate 34,State Representative: district 77,(DEM,RHONDA BURNOUGH,15480
+House 75,State Representative: district 78,(DEM,DEMETRIUS DOUGLAS,1003
+House 78,State Representative: district 78,(DEM,DEMETRIUS DOUGLAS,18344
+Senate 10,State Representative: district 78,(DEM,DEMETRIUS DOUGLAS,4904
+Senate 44,State Representative: district 78,(DEM,DEMETRIUS DOUGLAS,14443
+House 79,State Representative: district 79,DEM,MICHAEL S. WILENSKY,11847
+House 79,State Representative: district 79,REP,KEN WRIGHT,10507
+House 80,State Representative: district 79,DEM,MICHAEL S. WILENSKY,348
+House 80,State Representative: district 79,REP,KEN WRIGHT,96
+House 81,State Representative: district 79,DEM,MICHAEL S. WILENSKY,246
+House 81,State Representative: district 79,REP,KEN WRIGHT,67
+Senate 40,State Representative: district 79,DEM,MICHAEL S. WILENSKY,12441
+Senate 40,State Representative: district 79,REP,KEN WRIGHT,10670
+House 8,State Representative: district 8,(REP,MATT GURTLER,23974
+Senate 50,State Representative: district 8,(REP,MATT GURTLER,11382
+Senate 51,State Representative: district 8,(REP,MATT GURTLER,12592
+House 79,State Representative: district 80,(REP,MEAGAN HANSON,165
+House 79,State Representative: district 80,DEM,MATTHEW WILSON,279
+House 80,State Representative: district 80,(REP,MEAGAN HANSON,11045
+House 80,State Representative: district 80,DEM,MATTHEW WILSON,11992
+House 81,State Representative: district 80,(REP,MEAGAN HANSON,94
+House 81,State Representative: district 80,DEM,MATTHEW WILSON,120
+House 82,State Representative: district 80,(REP,MEAGAN HANSON,85
+House 82,State Representative: district 80,DEM,MATTHEW WILSON,187
+Senate 6,State Representative: district 80,(REP,MEAGAN HANSON,2406
+Senate 6,State Representative: district 80,DEM,MATTHEW WILSON,2377
+Senate 32,State Representative: district 80,(REP,MEAGAN HANSON,691
+Senate 32,State Representative: district 80,DEM,MATTHEW WILSON,866
+Senate 40,State Representative: district 80,(REP,MEAGAN HANSON,6863
+Senate 40,State Representative: district 80,DEM,MATTHEW WILSON,6905
+Senate 42,State Representative: district 80,(REP,MEAGAN HANSON,1429
+Senate 42,State Representative: district 80,DEM,MATTHEW WILSON,2430
+House 79,State Representative: district 81,(DEM,SCOTT HOLCOMB,226
+House 79,State Representative: district 81,REP,ELLEN DIEHL,88
+House 80,State Representative: district 81,(DEM,SCOTT HOLCOMB,129
+House 80,State Representative: district 81,REP,ELLEN DIEHL,84
+House 81,State Representative: district 81,(DEM,SCOTT HOLCOMB,10042
+House 81,State Representative: district 81,REP,ELLEN DIEHL,5674
+House 82,State Representative: district 81,(DEM,SCOTT HOLCOMB,286
+House 82,State Representative: district 81,REP,ELLEN DIEHL,135
+House 87,State Representative: district 81,(DEM,SCOTT HOLCOMB,289
+House 87,State Representative: district 81,REP,ELLEN DIEHL,187
+House 88,State Representative: district 81,(DEM,SCOTT HOLCOMB,332
+House 88,State Representative: district 81,REP,ELLEN DIEHL,166
+Senate 5,State Representative: district 81,(DEM,SCOTT HOLCOMB,782
+Senate 5,State Representative: district 81,REP,ELLEN DIEHL,292
+Senate 40,State Representative: district 81,(DEM,SCOTT HOLCOMB,10216
+Senate 40,State Representative: district 81,REP,ELLEN DIEHL,5900
+Senate 41,State Representative: district 81,(DEM,SCOTT HOLCOMB,21
+Senate 41,State Representative: district 81,REP,ELLEN DIEHL,7
+Senate 42,State Representative: district 81,(DEM,SCOTT HOLCOMB,285
+Senate 42,State Representative: district 81,REP,ELLEN DIEHL,135
+House 80,State Representative: district 82,(DEM,MARY MARGARET OLIVER,272
+House 81,State Representative: district 82,(DEM,MARY MARGARET OLIVER,421
+House 82,State Representative: district 82,(DEM,MARY MARGARET OLIVER,16947
+House 86,State Representative: district 82,(DEM,MARY MARGARET OLIVER,375
+Senate 40,State Representative: district 82,(DEM,MARY MARGARET OLIVER,424
+Senate 42,State Representative: district 82,(DEM,MARY MARGARET OLIVER,17591
+House 83,State Representative: district 83,DEM,BECKY EVANS,25187
+Senate 10,State Representative: district 83,DEM,BECKY EVANS,4690
+Senate 42,State Representative: district 83,DEM,BECKY EVANS,12760
+Senate 44,State Representative: district 83,DEM,BECKY EVANS,7737
+House 84,State Representative: district 84,(DEM,RENITTA SHANNON,25965
+House 85,State Representative: district 84,(DEM,RENITTA SHANNON,73
+Senate 10,State Representative: district 84,(DEM,RENITTA SHANNON,13193
+Senate 42,State Representative: district 84,(DEM,RENITTA SHANNON,12845
+House 84,State Representative: district 85,(DEM,KARLA DRENNER,73
+House 85,State Representative: district 85,(DEM,KARLA DRENNER,17896
+House 86,State Representative: district 85,(DEM,KARLA DRENNER,524
+House 87,State Representative: district 85,(DEM,KARLA DRENNER,51
+Senate 10,State Representative: district 85,(DEM,KARLA DRENNER,3330
+Senate 41,State Representative: district 85,(DEM,KARLA DRENNER,6126
+Senate 42,State Representative: district 85,(DEM,KARLA DRENNER,9088
+House 82,State Representative: district 86,(DEM,MICHELE HENSON,375
+House 85,State Representative: district 86,(DEM,MICHELE HENSON,524
+House 86,State Representative: district 86,(DEM,MICHELE HENSON,18184
+House 87,State Representative: district 86,(DEM,MICHELE HENSON,153
+Senate 41,State Representative: district 86,(DEM,MICHELE HENSON,11347
+Senate 42,State Representative: district 86,(DEM,MICHELE HENSON,4959
+Senate 55,State Representative: district 86,(DEM,MICHELE HENSON,2930
+House 81,State Representative: district 87,DEM,VIOLA DAVIS,476
+House 85,State Representative: district 87,DEM,VIOLA DAVIS,51
+House 86,State Representative: district 87,DEM,VIOLA DAVIS,153
+House 87,State Representative: district 87,DEM,VIOLA DAVIS,19845
+House 88,State Representative: district 87,DEM,VIOLA DAVIS,932
+House 92,State Representative: district 87,DEM,VIOLA DAVIS,11
+Senate 10,State Representative: district 87,DEM,VIOLA DAVIS,11
+Senate 40,State Representative: district 87,DEM,VIOLA DAVIS,1524
+Senate 41,State Representative: district 87,DEM,VIOLA DAVIS,12769
+Senate 55,State Representative: district 87,DEM,VIOLA DAVIS,7164
+House 81,State Representative: district 88,(DEM,BILLY MITCHELL,497
+House 87,State Representative: district 88,(DEM,BILLY MITCHELL,932
+House 88,State Representative: district 88,(DEM,BILLY MITCHELL,17345
+Senate 40,State Representative: district 88,(DEM,BILLY MITCHELL,2125
+Senate 41,State Representative: district 88,(DEM,BILLY MITCHELL,8834
+Senate 55,State Representative: district 88,(DEM,BILLY MITCHELL,7815
+House 89,State Representative: district 89,(DEM,BEE NGUYEN,27810
+Senate 42,State Representative: district 89,(DEM,BEE NGUYEN,11892
+Senate 44,State Representative: district 89,(DEM,BEE NGUYEN,15918
+House 9,State Representative: district 9,(REP,KEVIN TANNER,19221
+House 24,State Representative: district 9,(REP,KEVIN TANNER,300
+House 26,State Representative: district 9,(REP,KEVIN TANNER,969
+Senate 27,State Representative: district 9,(REP,KEVIN TANNER,1614
+Senate 51,State Representative: district 9,(REP,KEVIN TANNER,18876
+House 76,State Representative: district 90,(DEM,PAM STEPHENSON,161
+House 76,State Representative: district 90,REP,TAKOSHA SWAN,263
+House 90,State Representative: district 90,(DEM,PAM STEPHENSON,20495
+House 90,State Representative: district 90,REP,TAKOSHA SWAN,4966
+House 109,State Representative: district 90,(DEM,PAM STEPHENSON,382
+House 109,State Representative: district 90,REP,TAKOSHA SWAN,57
+Senate 10,State Representative: district 90,(DEM,PAM STEPHENSON,16203
+Senate 10,State Representative: district 90,REP,TAKOSHA SWAN,4105
+Senate 17,State Representative: district 90,(DEM,PAM STEPHENSON,1432
+Senate 17,State Representative: district 90,REP,TAKOSHA SWAN,1079
+Senate 43,State Representative: district 90,(DEM,PAM STEPHENSON,3403
+Senate 43,State Representative: district 90,REP,TAKOSHA SWAN,102
+House 91,State Representative: district 91,(DEM,VERNON JONES,19679
+House 92,State Representative: district 91,(DEM,VERNON JONES,654
+House 109,State Representative: district 91,(DEM,VERNON JONES,355
+House 113,State Representative: district 91,(DEM,VERNON JONES,625
+House 114,State Representative: district 91,(DEM,VERNON JONES,15
+Senate 10,State Representative: district 91,(DEM,VERNON JONES,2086
+Senate 17,State Representative: district 91,(DEM,VERNON JONES,1602
+Senate 43,State Representative: district 91,(DEM,VERNON JONES,17641
+House 87,State Representative: district 92,(DEM,DOREEN CARTER,11
+House 91,State Representative: district 92,(DEM,DOREEN CARTER,654
+House 92,State Representative: district 92,(DEM,DOREEN CARTER,14677
+House 94,State Representative: district 92,(DEM,DOREEN CARTER,150
+House 114,State Representative: district 92,(DEM,DOREEN CARTER,754
+Senate 10,State Representative: district 92,(DEM,DOREEN CARTER,3420
+Senate 43,State Representative: district 92,(DEM,DOREEN CARTER,12660
+Senate 55,State Representative: district 92,(DEM,DOREEN CARTER,166
+House 93,State Representative: district 93,(DEM,DARSHUN KENDRICK,22576
+House 94,State Representative: district 93,(DEM,DARSHUN KENDRICK,645
+Senate 43,State Representative: district 93,(DEM,DARSHUN KENDRICK,2228
+Senate 55,State Representative: district 93,(DEM,DARSHUN KENDRICK,20993
+House 92,State Representative: district 94,(DEM,KAREN BENNETT,150
+House 93,State Representative: district 94,(DEM,KAREN BENNETT,645
+House 94,State Representative: district 94,(DEM,KAREN BENNETT,19819
+House 106,State Representative: district 94,(DEM,KAREN BENNETT,370
+Senate 9,State Representative: district 94,(DEM,KAREN BENNETT,731
+Senate 41,State Representative: district 94,(DEM,KAREN BENNETT,2089
+Senate 43,State Representative: district 94,(DEM,KAREN BENNETT,180
+Senate 55,State Representative: district 94,(DEM,KAREN BENNETT,17984
+House 95,State Representative: district 95,(REP,SCOTT HILTON,11086
+House 95,State Representative: district 95,DEM,BETH MOORE,11699
+House 96,State Representative: district 95,(REP,SCOTT HILTON,236
+House 96,State Representative: district 95,DEM,BETH MOORE,230
+House 97,State Representative: district 95,(REP,SCOTT HILTON,120
+House 97,State Representative: district 95,DEM,BETH MOORE,172
+Senate 5,State Representative: district 95,(REP,SCOTT HILTON,602
+Senate 5,State Representative: district 95,DEM,BETH MOORE,588
+Senate 40,State Representative: district 95,(REP,SCOTT HILTON,5399
+Senate 40,State Representative: district 95,DEM,BETH MOORE,5983
+Senate 48,State Representative: district 95,(REP,SCOTT HILTON,4470
+Senate 48,State Representative: district 95,DEM,BETH MOORE,5071
+Senate 56,State Representative: district 95,(REP,SCOTT HILTON,971
+Senate 56,State Representative: district 95,DEM,BETH MOORE,459
+House 95,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,466
+House 96,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,9476
+House 97,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,302
+House 101,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,566
+Senate 5,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,4083
+Senate 48,State Representative: district 96,(DEM,PEDRO "PETE" MARIN,6727
+House 95,State Representative: district 97,DEM,AISHA YAQOOB,145
+House 95,State Representative: district 97,REP,BONNIE RICH,146
+House 96,State Representative: district 97,DEM,AISHA YAQOOB,132
+House 96,State Representative: district 97,REP,BONNIE RICH,170
+House 97,State Representative: district 97,DEM,AISHA YAQOOB,10317
+House 97,State Representative: district 97,REP,BONNIE RICH,13142
+House 98,State Representative: district 97,DEM,AISHA YAQOOB,91
+House 98,State Representative: district 97,REP,BONNIE RICH,71
+House 102,State Representative: district 97,DEM,AISHA YAQOOB,11
+House 102,State Representative: district 97,REP,BONNIE RICH,9
+Senate 45,State Representative: district 97,DEM,AISHA YAQOOB,3860
+Senate 45,State Representative: district 97,REP,BONNIE RICH,6188
+Senate 48,State Representative: district 97,DEM,AISHA YAQOOB,6836
+Senate 48,State Representative: district 97,REP,BONNIE RICH,7350
+House 97,State Representative: district 98,(REP,DAVID CLARK,162
+House 98,State Representative: district 98,(REP,DAVID CLARK,16839
+House 102,State Representative: district 98,(REP,DAVID CLARK,127
+House 103,State Representative: district 98,(REP,DAVID CLARK,401
+Senate 45,State Representative: district 98,(REP,DAVID CLARK,17529
+House 99,State Representative: district 99,(DEM,BRENDA LOPEZ ROMERO,7052
+House 108,State Representative: district 99,(DEM,BRENDA LOPEZ ROMERO,310
+Senate 5,State Representative: district 99,(DEM,BRENDA LOPEZ ROMERO,6075
+Senate 41,State Representative: district 99,(DEM,BRENDA LOPEZ ROMERO,1287
+House 160,State Senator: district 1,(REP,BEN WATSON,2771
+House 160,State Senator: district 1,DEM,SANDRA WORKMAN,862
+House 161,State Senator: district 1,(REP,BEN WATSON,3477
+House 161,State Senator: district 1,DEM,SANDRA WORKMAN,2533
+House 163,State Senator: district 1,(REP,BEN WATSON,486
+House 163,State Senator: district 1,DEM,SANDRA WORKMAN,303
+House 164,State Senator: district 1,(REP,BEN WATSON,8782
+House 164,State Senator: district 1,DEM,SANDRA WORKMAN,7315
+House 165,State Senator: district 1,(REP,BEN WATSON,2640
+House 165,State Senator: district 1,DEM,SANDRA WORKMAN,1227
+House 166,State Senator: district 1,(REP,BEN WATSON,19774
+House 166,State Senator: district 1,DEM,SANDRA WORKMAN,7901
+House 168,State Senator: district 1,(REP,BEN WATSON,4386
+House 168,State Senator: district 1,DEM,SANDRA WORKMAN,7117
+Senate 1,State Senator: district 1,(REP,BEN WATSON,42200
+Senate 1,State Senator: district 1,DEM,SANDRA WORKMAN,27138
+Senate 2,State Senator: district 1,(REP,BEN WATSON,95
+Senate 2,State Senator: district 1,DEM,SANDRA WORKMAN,67
+Senate 19,State Senator: district 1,(REP,BEN WATSON,21
+Senate 19,State Senator: district 1,DEM,SANDRA WORKMAN,53
+House 73,State Senator: district 10,(DEM,EMANUEL JONES,548
+House 76,State Senator: district 10,(DEM,EMANUEL JONES,7111
+House 78,State Senator: district 10,(DEM,EMANUEL JONES,4924
+House 83,State Senator: district 10,(DEM,EMANUEL JONES,4679
+House 84,State Senator: district 10,(DEM,EMANUEL JONES,13241
+House 85,State Senator: district 10,(DEM,EMANUEL JONES,3343
+House 87,State Senator: district 10,(DEM,EMANUEL JONES,11
+House 90,State Senator: district 10,(DEM,EMANUEL JONES,17708
+House 91,State Senator: district 10,(DEM,EMANUEL JONES,2095
+House 92,State Senator: district 10,(DEM,EMANUEL JONES,3416
+House 109,State Senator: district 10,(DEM,EMANUEL JONES,6330
+House 111,State Senator: district 10,(DEM,EMANUEL JONES,7958
+Senate 10,State Senator: district 10,(DEM,EMANUEL JONES,71353
+Senate 55,State Senator: district 10,(DEM,EMANUEL JONES,11
+House 151,State Senator: district 11,(REP,DEAN BURKE,2972
+House 154,State Senator: district 11,(REP,DEAN BURKE,4472
+House 171,State Senator: district 11,(REP,DEAN BURKE,11022
+House 172,State Senator: district 11,(REP,DEAN BURKE,9503
+House 173,State Senator: district 11,(REP,DEAN BURKE,14253
+House 175,State Senator: district 11,(REP,DEAN BURKE,2783
+Senate 11,State Senator: district 11,(REP,DEAN BURKE,45005
+House 138,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,4784
+House 151,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,11664
+House 152,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,253
+House 153,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,13266
+House 154,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,11552
+House 171,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,2988
+Senate 12,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,44399
+Senate 13,State Senator: district 12,(DEM,FREDDIE POWELL SIMS,108
+House 138,State Senator: district 13,(REP,GREG KIRK,1719
+House 139,State Senator: district 13,(REP,GREG KIRK,2554
+House 148,State Senator: district 13,(REP,GREG KIRK,6546
+House 149,State Senator: district 13,(REP,GREG KIRK,5595
+House 152,State Senator: district 13,(REP,GREG KIRK,18722
+House 155,State Senator: district 13,(REP,GREG KIRK,7008
+House 170,State Senator: district 13,(REP,GREG KIRK,4059
+House 172,State Senator: district 13,(REP,GREG KIRK,2446
+Senate 7,State Senator: district 13,(REP,GREG KIRK,125
+Senate 12,State Senator: district 13,(REP,GREG KIRK,108
+Senate 13,State Senator: district 13,(REP,GREG KIRK,48416
+House 14,State Senator: district 14,(REP,BRUCE THOMPSON,9105
+House 14,State Senator: district 14,DEM,RACHEL A. KINSEY,2248
+House 15,State Senator: district 14,(REP,BRUCE THOMPSON,7161
+House 15,State Senator: district 14,DEM,RACHEL A. KINSEY,2903
+House 20,State Senator: district 14,(REP,BRUCE THOMPSON,5294
+House 20,State Senator: district 14,DEM,RACHEL A. KINSEY,2633
+House 21,State Senator: district 14,(REP,BRUCE THOMPSON,7119
+House 21,State Senator: district 14,DEM,RACHEL A. KINSEY,2519
+House 23,State Senator: district 14,(REP,BRUCE THOMPSON,16389
+House 23,State Senator: district 14,DEM,RACHEL A. KINSEY,5813
+House 34,State Senator: district 14,(REP,BRUCE THOMPSON,33
+House 34,State Senator: district 14,DEM,RACHEL A. KINSEY,60
+House 35,State Senator: district 14,(REP,BRUCE THOMPSON,1298
+House 35,State Senator: district 14,DEM,RACHEL A. KINSEY,1474
+House 44,State Senator: district 14,(REP,BRUCE THOMPSON,3201
+House 44,State Senator: district 14,DEM,RACHEL A. KINSEY,2430
+House 46,State Senator: district 14,(REP,BRUCE THOMPSON,483
+House 46,State Senator: district 14,DEM,RACHEL A. KINSEY,332
+Senate 14,State Senator: district 14,(REP,BRUCE THOMPSON,48137
+Senate 14,State Senator: district 14,DEM,RACHEL A. KINSEY,19472
+Senate 21,State Senator: district 14,(REP,BRUCE THOMPSON,526
+Senate 21,State Senator: district 14,DEM,RACHEL A. KINSEY,173
+Senate 32,State Senator: district 14,(REP,BRUCE THOMPSON,696
+Senate 32,State Senator: district 14,DEM,RACHEL A. KINSEY,506
+Senate 37,State Senator: district 14,(REP,BRUCE THOMPSON,40
+Senate 37,State Senator: district 14,DEM,RACHEL A. KINSEY,73
+Senate 52,State Senator: district 14,(REP,BRUCE THOMPSON,684
+Senate 52,State Senator: district 14,DEM,RACHEL A. KINSEY,188
+House 134,State Senator: district 15,(DEM,ED HARBISON,2176
+House 135,State Senator: district 15,(DEM,ED HARBISON,8568
+House 136,State Senator: district 15,(DEM,ED HARBISON,11627
+House 137,State Senator: district 15,(DEM,ED HARBISON,8524
+House 138,State Senator: district 15,(DEM,ED HARBISON,3558
+House 139,State Senator: district 15,(DEM,ED HARBISON,5258
+Senate 15,State Senator: district 15,(DEM,ED HARBISON,38550
+Senate 29,State Senator: district 15,(DEM,ED HARBISON,1161
+House 63,State Senator: district 16,(REP,MARTY HARBIN,1439
+House 63,State Senator: district 16,DEM,BILL LIGHTLE,1510
+House 64,State Senator: district 16,(REP,MARTY HARBIN,2630
+House 64,State Senator: district 16,DEM,BILL LIGHTLE,1239
+House 71,State Senator: district 16,(REP,MARTY HARBIN,1448
+House 71,State Senator: district 16,DEM,BILL LIGHTLE,920
+House 72,State Senator: district 16,(REP,MARTY HARBIN,16544
+House 72,State Senator: district 16,DEM,BILL LIGHTLE,6846
+House 73,State Senator: district 16,(REP,MARTY HARBIN,3970
+House 73,State Senator: district 16,DEM,BILL LIGHTLE,5401
+House 73,State Senator: district 16,R,M. HARBIN,6289
+House 130,State Senator: district 16,(REP,MARTY HARBIN,3061
+House 130,State Senator: district 16,DEM,BILL LIGHTLE,6455
+House 130,State Senator: district 16,R,M. HARBIN,8589
+House 131,State Senator: district 16,(REP,MARTY HARBIN,9231
+House 131,State Senator: district 16,DEM,BILL LIGHTLE,2487
+Senate 16,State Senator: district 16,(REP,MARTY HARBIN,38323
+Senate 16,State Senator: district 16,DEM,BILL LIGHTLE,24858
+Senate 16,State Senator: district 16,R,M. HARBIN,14878
+House 73,State Senator: district 17,(REP,BRIAN STRICKLAND,3102
+House 73,State Senator: district 17,DEM,PHYLLIS D. HATCHER,3780
+House 90,State Senator: district 17,(REP,BRIAN STRICKLAND,1141
+House 90,State Senator: district 17,DEM,PHYLLIS D. HATCHER,1407
+House 91,State Senator: district 17,(REP,BRIAN STRICKLAND,1257
+House 91,State Senator: district 17,DEM,PHYLLIS D. HATCHER,1107
+House 109,State Senator: district 17,(REP,BRIAN STRICKLAND,11960
+House 109,State Senator: district 17,DEM,PHYLLIS D. HATCHER,7770
+House 110,State Senator: district 17,(REP,BRIAN STRICKLAND,8625
+House 110,State Senator: district 17,DEM,PHYLLIS D. HATCHER,7521
+House 111,State Senator: district 17,(REP,BRIAN STRICKLAND,8721
+House 111,State Senator: district 17,DEM,PHYLLIS D. HATCHER,9880
+House 112,State Senator: district 17,(REP,BRIAN STRICKLAND,8100
+House 112,State Senator: district 17,DEM,PHYLLIS D. HATCHER,3242
+House 113,State Senator: district 17,(REP,BRIAN STRICKLAND,200
+House 113,State Senator: district 17,DEM,PHYLLIS D. HATCHER,213
+House 130,State Senator: district 17,(REP,BRIAN STRICKLAND,1260
+House 130,State Senator: district 17,DEM,PHYLLIS D. HATCHER,2168
+Senate 17,State Senator: district 17,(REP,BRIAN STRICKLAND,44366
+Senate 17,State Senator: district 17,DEM,PHYLLIS D. HATCHER,37088
+House 129,State Senator: district 18,(REP,JOHN F. KENNEDY,1746
+House 131,State Senator: district 18,(REP,JOHN F. KENNEDY,8440
+House 139,State Senator: district 18,(REP,JOHN F. KENNEDY,2521
+House 140,State Senator: district 18,(REP,JOHN F. KENNEDY,14062
+House 141,State Senator: district 18,(REP,JOHN F. KENNEDY,17957
+House 142,State Senator: district 18,(REP,JOHN F. KENNEDY,4367
+House 143,State Senator: district 18,(REP,JOHN F. KENNEDY,2354
+House 144,State Senator: district 18,(REP,JOHN F. KENNEDY,1178
+House 147,State Senator: district 18,(REP,JOHN F. KENNEDY,5310
+Senate 18,State Senator: district 18,(REP,JOHN F. KENNEDY,55126
+Senate 20,State Senator: district 18,(REP,JOHN F. KENNEDY,1257
+Senate 25,State Senator: district 18,(REP,JOHN F. KENNEDY,981
+Senate 26,State Senator: district 18,(REP,JOHN F. KENNEDY,571
+House 149,State Senator: district 19,(REP,BLAKE TILLERY,5481
+House 150,State Senator: district 19,(REP,BLAKE TILLERY,1987
+House 156,State Senator: district 19,(REP,BLAKE TILLERY,15503
+House 157,State Senator: district 19,(REP,BLAKE TILLERY,7952
+House 167,State Senator: district 19,(REP,BLAKE TILLERY,3114
+House 168,State Senator: district 19,(REP,BLAKE TILLERY,2141
+House 169,State Senator: district 19,(REP,BLAKE TILLERY,1594
+House 178,State Senator: district 19,(REP,BLAKE TILLERY,5642
+Senate 1,State Senator: district 19,(REP,BLAKE TILLERY,73
+Senate 19,State Senator: district 19,(REP,BLAKE TILLERY,43341
+House 161,State Senator: district 2,(DEM,LESTER G. JACKSON III,4097
+House 162,State Senator: district 2,(DEM,LESTER G. JACKSON III,13499
+House 163,State Senator: district 2,(DEM,LESTER G. JACKSON III,14709
+House 164,State Senator: district 2,(DEM,LESTER G. JACKSON III,1436
+House 165,State Senator: district 2,(DEM,LESTER G. JACKSON III,14131
+House 166,State Senator: district 2,(DEM,LESTER G. JACKSON III,1695
+Senate 1,State Senator: district 2,(DEM,LESTER G. JACKSON III,162
+Senate 2,State Senator: district 2,(DEM,LESTER G. JACKSON III,49405
+House 140,State Senator: district 20,(REP,LARRY WALKER,571
+House 144,State Senator: district 20,(REP,LARRY WALKER,8529
+House 146,State Senator: district 20,(REP,LARRY WALKER,20043
+House 147,State Senator: district 20,(REP,LARRY WALKER,7483
+House 148,State Senator: district 20,(REP,LARRY WALKER,7399
+House 149,State Senator: district 20,(REP,LARRY WALKER,697
+House 150,State Senator: district 20,(REP,LARRY WALKER,12766
+Senate 18,State Senator: district 20,(REP,LARRY WALKER,1257
+Senate 20,State Senator: district 20,(REP,LARRY WALKER,55775
+Senate 26,State Senator: district 20,(REP,LARRY WALKER,456
+House 20,State Senator: district 21,(REP,BRANDON BEACH,12451
+House 20,State Senator: district 21,DEM,NICOLE B. NASH,5292
+House 21,State Senator: district 21,(REP,BRANDON BEACH,12210
+House 21,State Senator: district 21,DEM,NICOLE B. NASH,4149
+House 22,State Senator: district 21,(REP,BRANDON BEACH,18202
+House 22,State Senator: district 21,DEM,NICOLE B. NASH,3997
+House 23,State Senator: district 21,(REP,BRANDON BEACH,1353
+House 23,State Senator: district 21,DEM,NICOLE B. NASH,284
+House 46,State Senator: district 21,(REP,BRANDON BEACH,3225
+House 46,State Senator: district 21,DEM,NICOLE B. NASH,1759
+House 47,State Senator: district 21,(REP,BRANDON BEACH,7995
+House 47,State Senator: district 21,DEM,NICOLE B. NASH,5644
+House 49,State Senator: district 21,(REP,BRANDON BEACH,6118
+House 49,State Senator: district 21,DEM,NICOLE B. NASH,4776
+Senate 14,State Senator: district 21,(REP,BRANDON BEACH,485
+Senate 14,State Senator: district 21,DEM,NICOLE B. NASH,213
+Senate 21,State Senator: district 21,(REP,BRANDON BEACH,60808
+Senate 21,State Senator: district 21,DEM,NICOLE B. NASH,25554
+Senate 56,State Senator: district 21,(REP,BRANDON BEACH,261
+Senate 56,State Senator: district 21,DEM,NICOLE B. NASH,134
+House 123,State Senator: district 22,(DEM,HAROLD V. JONES II,4664
+House 124,State Senator: district 22,(DEM,HAROLD V. JONES II,11868
+House 125,State Senator: district 22,(DEM,HAROLD V. JONES II,10844
+House 126,State Senator: district 22,(DEM,HAROLD V. JONES II,10239
+House 127,State Senator: district 22,(DEM,HAROLD V. JONES II,10893
+Senate 22,State Senator: district 22,(DEM,HAROLD V. JONES II,48508
+House 121,State Senator: district 23,(REP,JESSE STONE,9764
+House 123,State Senator: district 23,(REP,JESSE STONE,8498
+House 124,State Senator: district 23,(REP,JESSE STONE,878
+House 125,State Senator: district 23,(REP,JESSE STONE,3414
+House 126,State Senator: district 23,(REP,JESSE STONE,7309
+House 127,State Senator: district 23,(REP,JESSE STONE,3494
+House 128,State Senator: district 23,(REP,JESSE STONE,5700
+House 150,State Senator: district 23,(REP,JESSE STONE,1403
+House 158,State Senator: district 23,(REP,JESSE STONE,4303
+House 159,State Senator: district 23,(REP,JESSE STONE,3983
+Senate 23,State Senator: district 23,(REP,JESSE STONE,48732
+Senate 24,State Senator: district 23,(REP,JESSE STONE,14
+House 32,State Senator: district 24,(REP,LEE ANDERSON,7940
+House 33,State Senator: district 24,(REP,LEE ANDERSON,10743
+House 120,State Senator: district 24,(REP,LEE ANDERSON,7625
+House 121,State Senator: district 24,(REP,LEE ANDERSON,9341
+House 122,State Senator: district 24,(REP,LEE ANDERSON,23933
+House 123,State Senator: district 24,(REP,LEE ANDERSON,5294
+House 124,State Senator: district 24,(REP,LEE ANDERSON,266
+Senate 23,State Senator: district 24,(REP,LEE ANDERSON,14
+Senate 24,State Senator: district 24,(REP,LEE ANDERSON,65128
+House 110,State Senator: district 25,(REP,BURT JONES,3800
+House 112,State Senator: district 25,(REP,BURT JONES,7810
+House 115,State Senator: district 25,(REP,BURT JONES,5085
+House 120,State Senator: district 25,(REP,BURT JONES,12118
+House 129,State Senator: district 25,(REP,BURT JONES,12317
+House 141,State Senator: district 25,(REP,BURT JONES,2824
+House 143,State Senator: district 25,(REP,BURT JONES,724
+House 144,State Senator: district 25,(REP,BURT JONES,373
+House 145,State Senator: district 25,(REP,BURT JONES,12628
+Senate 18,State Senator: district 25,(REP,BURT JONES,981
+Senate 25,State Senator: district 25,(REP,BURT JONES,56658
+Senate 26,State Senator: district 25,(REP,BURT JONES,40
+House 128,State Senator: district 26,(DEM,DAVID E. LUCAS SR,8337
+House 129,State Senator: district 26,(DEM,DAVID E. LUCAS SR,3078
+House 140,State Senator: district 26,(DEM,DAVID E. LUCAS SR,717
+House 141,State Senator: district 26,(DEM,DAVID E. LUCAS SR,541
+House 142,State Senator: district 26,(DEM,DAVID E. LUCAS SR,12176
+House 143,State Senator: district 26,(DEM,DAVID E. LUCAS SR,11953
+House 144,State Senator: district 26,(DEM,DAVID E. LUCAS SR,6735
+House 147,State Senator: district 26,(DEM,DAVID E. LUCAS SR,1523
+Senate 18,State Senator: district 26,(DEM,DAVID E. LUCAS SR,571
+Senate 20,State Senator: district 26,(DEM,DAVID E. LUCAS SR,456
+Senate 25,State Senator: district 26,(DEM,DAVID E. LUCAS SR,40
+Senate 26,State Senator: district 26,(DEM,DAVID E. LUCAS SR,43994
+House 9,State Senator: district 27,DEM,STEVE SMITH,325
+House 9,State Senator: district 27,REP,GREG DOLEZAL,1482
+House 22,State Senator: district 27,DEM,STEVE SMITH,3838
+House 22,State Senator: district 27,REP,GREG DOLEZAL,6191
+House 24,State Senator: district 27,DEM,STEVE SMITH,6699
+House 24,State Senator: district 27,REP,GREG DOLEZAL,20348
+House 25,State Senator: district 27,DEM,STEVE SMITH,8546
+House 25,State Senator: district 27,REP,GREG DOLEZAL,17007
+House 26,State Senator: district 27,DEM,STEVE SMITH,5475
+House 26,State Senator: district 27,REP,GREG DOLEZAL,21025
+Senate 27,State Senator: district 27,DEM,STEVE SMITH,24770
+Senate 27,State Senator: district 27,REP,GREG DOLEZAL,65486
+Senate 51,State Senator: district 27,DEM,STEVE SMITH,113
+Senate 51,State Senator: district 27,REP,GREG DOLEZAL,568
+House 65,State Senator: district 28,(REP,MATT BRASS,912
+House 68,State Senator: district 28,(REP,MATT BRASS,3130
+House 69,State Senator: district 28,(REP,MATT BRASS,7863
+House 70,State Senator: district 28,(REP,MATT BRASS,17939
+House 71,State Senator: district 28,(REP,MATT BRASS,21207
+House 72,State Senator: district 28,(REP,MATT BRASS,5019
+House 132,State Senator: district 28,(REP,MATT BRASS,6799
+House 133,State Senator: district 28,(REP,MATT BRASS,18
+Senate 28,State Senator: district 28,(REP,MATT BRASS,62467
+Senate 29,State Senator: district 28,(REP,MATT BRASS,18
+Senate 30,State Senator: district 28,(REP,MATT BRASS,402
+House 69,State Senator: district 29,DEM,VALERIE HASKINS,558
+House 69,State Senator: district 29,REP,RANDY ROBERTSON,870
+House 132,State Senator: district 29,DEM,VALERIE HASKINS,5033
+House 132,State Senator: district 29,REP,RANDY ROBERTSON,3446
+House 133,State Senator: district 29,DEM,VALERIE HASKINS,6197
+House 133,State Senator: district 29,REP,RANDY ROBERTSON,17458
+House 134,State Senator: district 29,DEM,VALERIE HASKINS,6497
+House 134,State Senator: district 29,REP,RANDY ROBERTSON,11991
+House 135,State Senator: district 29,DEM,VALERIE HASKINS,498
+House 135,State Senator: district 29,REP,RANDY ROBERTSON,939
+House 136,State Senator: district 29,DEM,VALERIE HASKINS,2315
+House 136,State Senator: district 29,REP,RANDY ROBERTSON,2607
+House 137,State Senator: district 29,DEM,VALERIE HASKINS,4839
+House 137,State Senator: district 29,REP,RANDY ROBERTSON,6838
+Senate 15,State Senator: district 29,DEM,VALERIE HASKINS,465
+Senate 15,State Senator: district 29,REP,RANDY ROBERTSON,695
+Senate 28,State Senator: district 29,DEM,VALERIE HASKINS,4
+Senate 28,State Senator: district 29,REP,RANDY ROBERTSON,13
+Senate 29,State Senator: district 29,DEM,VALERIE HASKINS,25468
+Senate 29,State Senator: district 29,REP,RANDY ROBERTSON,43441
+House 167,State Senator: district 3,(REP,WILLIAM T. LIGON JR,11336
+House 167,State Senator: district 3,DEM,JERROLD DAGEN,4804
+House 174,State Senator: district 3,(REP,WILLIAM T. LIGON JR,3159
+House 174,State Senator: district 3,DEM,JERROLD DAGEN,1452
+House 178,State Senator: district 3,(REP,WILLIAM T. LIGON JR,5047
+House 178,State Senator: district 3,DEM,JERROLD DAGEN,539
+House 179,State Senator: district 3,(REP,WILLIAM T. LIGON JR,13051
+House 179,State Senator: district 3,DEM,JERROLD DAGEN,8269
+House 180,State Senator: district 3,(REP,WILLIAM T. LIGON JR,9597
+House 180,State Senator: district 3,DEM,JERROLD DAGEN,4882
+Senate 3,State Senator: district 3,(REP,WILLIAM T. LIGON JR,42075
+Senate 3,State Senator: district 3,DEM,JERROLD DAGEN,19938
+Senate 7,State Senator: district 3,(REP,WILLIAM T. LIGON JR,115
+Senate 7,State Senator: district 3,DEM,JERROLD DAGEN,8
+House 17,State Senator: district 30,(REP,MICHAEL DUGAN,1722
+House 18,State Senator: district 30,(REP,MICHAEL DUGAN,7763
+House 19,State Senator: district 30,(REP,MICHAEL DUGAN,1164
+House 66,State Senator: district 30,(REP,MICHAEL DUGAN,3749
+House 67,State Senator: district 30,(REP,MICHAEL DUGAN,14869
+House 68,State Senator: district 30,(REP,MICHAEL DUGAN,14829
+House 69,State Senator: district 30,(REP,MICHAEL DUGAN,9203
+Senate 28,State Senator: district 30,(REP,MICHAEL DUGAN,402
+Senate 30,State Senator: district 30,(REP,MICHAEL DUGAN,51317
+Senate 31,State Senator: district 30,(REP,MICHAEL DUGAN,1580
+House 16,State Senator: district 31,(REP,BILL HEATH,12630
+House 17,State Senator: district 31,(REP,BILL HEATH,17217
+House 18,State Senator: district 31,(REP,BILL HEATH,7597
+House 19,State Senator: district 31,(REP,BILL HEATH,16329
+House 67,State Senator: district 31,(REP,BILL HEATH,1175
+Senate 30,State Senator: district 31,(REP,BILL HEATH,1580
+Senate 31,State Senator: district 31,(REP,BILL HEATH,53368
+House 37,State Senator: district 32,(REP,KAY KIRKPATRICK,1247
+House 37,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,1261
+House 42,State Senator: district 32,(REP,KAY KIRKPATRICK,225
+House 42,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,571
+House 43,State Senator: district 32,(REP,KAY KIRKPATRICK,9651
+House 43,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,6959
+House 44,State Senator: district 32,(REP,KAY KIRKPATRICK,9645
+House 44,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,7509
+House 45,State Senator: district 32,(REP,KAY KIRKPATRICK,15491
+House 45,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,10068
+House 46,State Senator: district 32,(REP,KAY KIRKPATRICK,11299
+House 46,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,7350
+House 52,State Senator: district 32,(REP,KAY KIRKPATRICK,4640
+House 52,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,4690
+House 80,State Senator: district 32,(REP,KAY KIRKPATRICK,672
+House 80,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,880
+Senate 6,State Senator: district 32,(REP,KAY KIRKPATRICK,286
+Senate 6,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,412
+Senate 14,State Senator: district 32,(REP,KAY KIRKPATRICK,657
+Senate 14,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,546
+Senate 32,State Senator: district 32,(REP,KAY KIRKPATRICK,51475
+Senate 32,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,37747
+Senate 33,State Senator: district 32,(REP,KAY KIRKPATRICK,452
+Senate 33,State Senator: district 32,DEM,CHRISTINE TRIEBSCH,583
+House 34,State Senator: district 33,(DEM,MICHAEL RHETT,1998
+House 37,State Senator: district 33,(DEM,MICHAEL RHETT,9691
+House 38,State Senator: district 33,(DEM,MICHAEL RHETT,17340
+House 39,State Senator: district 33,(DEM,MICHAEL RHETT,4273
+House 41,State Senator: district 33,(DEM,MICHAEL RHETT,10441
+House 42,State Senator: district 33,(DEM,MICHAEL RHETT,2492
+House 43,State Senator: district 33,(DEM,MICHAEL RHETT,3586
+House 61,State Senator: district 33,(DEM,MICHAEL RHETT,1902
+Senate 6,State Senator: district 33,(DEM,MICHAEL RHETT,842
+Senate 32,State Senator: district 33,(DEM,MICHAEL RHETT,1033
+Senate 33,State Senator: district 33,(DEM,MICHAEL RHETT,48804
+Senate 37,State Senator: district 33,(DEM,MICHAEL RHETT,738
+Senate 38,State Senator: district 33,(DEM,MICHAEL RHETT,307
+House 60,State Senator: district 34,(DEM,VALENCIA SEAY,3888
+House 60,State Senator: district 34,REP,TOMMY SMITH,470
+House 63,State Senator: district 34,(DEM,VALENCIA SEAY,6375
+House 63,State Senator: district 34,REP,TOMMY SMITH,3109
+House 64,State Senator: district 34,(DEM,VALENCIA SEAY,5428
+House 64,State Senator: district 34,REP,TOMMY SMITH,3474
+House 74,State Senator: district 34,(DEM,VALENCIA SEAY,12816
+House 74,State Senator: district 34,REP,TOMMY SMITH,1384
+House 75,State Senator: district 34,(DEM,VALENCIA SEAY,6261
+House 75,State Senator: district 34,REP,TOMMY SMITH,573
+House 77,State Senator: district 34,(DEM,VALENCIA SEAY,15116
+House 77,State Senator: district 34,REP,TOMMY SMITH,1309
+Senate 34,State Senator: district 34,(DEM,VALENCIA SEAY,49884
+Senate 34,State Senator: district 34,REP,TOMMY SMITH,10319
+House 61,State Senator: district 35,(DEM,DONZELLA JAMES,6813
+House 62,State Senator: district 35,(DEM,DONZELLA JAMES,17762
+House 64,State Senator: district 35,(DEM,DONZELLA JAMES,5989
+House 65,State Senator: district 35,(DEM,DONZELLA JAMES,20172
+House 66,State Senator: district 35,(DEM,DONZELLA JAMES,13825
+House 67,State Senator: district 35,(DEM,DONZELLA JAMES,716
+Senate 35,State Senator: district 35,(DEM,DONZELLA JAMES,65277
+House 56,State Senator: district 36,(DEM,NAN ORROCK,1814
+House 57,State Senator: district 36,(DEM,NAN ORROCK,15315
+House 58,State Senator: district 36,(DEM,NAN ORROCK,20934
+House 59,State Senator: district 36,(DEM,NAN ORROCK,20764
+House 60,State Senator: district 36,(DEM,NAN ORROCK,5892
+House 62,State Senator: district 36,(DEM,NAN ORROCK,1213
+House 63,State Senator: district 36,(DEM,NAN ORROCK,261
+House 64,State Senator: district 36,(DEM,NAN ORROCK,1133
+Senate 36,State Senator: district 36,(DEM,NAN ORROCK,67326
+House 34,State Senator: district 37,(REP,LINDSEY TIPPINS,11735
+House 34,State Senator: district 37,DEM,ANDY CLARK,8724
+House 35,State Senator: district 37,(REP,LINDSEY TIPPINS,10414
+House 35,State Senator: district 37,DEM,ANDY CLARK,9430
+House 36,State Senator: district 37,(REP,LINDSEY TIPPINS,20489
+House 36,State Senator: district 37,DEM,ANDY CLARK,9897
+House 37,State Senator: district 37,(REP,LINDSEY TIPPINS,4168
+House 37,State Senator: district 37,DEM,ANDY CLARK,3725
+House 41,State Senator: district 37,(REP,LINDSEY TIPPINS,448
+House 41,State Senator: district 37,DEM,ANDY CLARK,329
+House 44,State Senator: district 37,(REP,LINDSEY TIPPINS,1209
+House 44,State Senator: district 37,DEM,ANDY CLARK,1693
+Senate 14,State Senator: district 37,(REP,LINDSEY TIPPINS,59
+Senate 14,State Senator: district 37,DEM,ANDY CLARK,55
+Senate 33,State Senator: district 37,(REP,LINDSEY TIPPINS,241
+Senate 33,State Senator: district 37,DEM,ANDY CLARK,497
+Senate 37,State Senator: district 37,(REP,LINDSEY TIPPINS,48164
+Senate 37,State Senator: district 37,DEM,ANDY CLARK,33246
+House 38,State Senator: district 38,(DEM,HORACENA TATE,1507
+House 38,State Senator: district 38,REP,TRAVIS KLAVOHN,839
+House 39,State Senator: district 38,(DEM,HORACENA TATE,12781
+House 39,State Senator: district 38,REP,TRAVIS KLAVOHN,2381
+House 40,State Senator: district 38,(DEM,HORACENA TATE,5401
+House 40,State Senator: district 38,REP,TRAVIS KLAVOHN,3919
+House 41,State Senator: district 38,(DEM,HORACENA TATE,875
+House 41,State Senator: district 38,REP,TRAVIS KLAVOHN,586
+House 42,State Senator: district 38,(DEM,HORACENA TATE,45
+House 42,State Senator: district 38,REP,TRAVIS KLAVOHN,34
+House 53,State Senator: district 38,(DEM,HORACENA TATE,12797
+House 53,State Senator: district 38,REP,TRAVIS KLAVOHN,1573
+House 54,State Senator: district 38,(DEM,HORACENA TATE,1066
+House 54,State Senator: district 38,REP,TRAVIS KLAVOHN,1061
+House 55,State Senator: district 38,(DEM,HORACENA TATE,15922
+House 55,State Senator: district 38,REP,TRAVIS KLAVOHN,2226
+House 56,State Senator: district 38,(DEM,HORACENA TATE,1989
+House 56,State Senator: district 38,REP,TRAVIS KLAVOHN,52
+House 57,State Senator: district 38,(DEM,HORACENA TATE,246
+House 57,State Senator: district 38,REP,TRAVIS KLAVOHN,6
+House 61,State Senator: district 38,(DEM,HORACENA TATE,9645
+House 61,State Senator: district 38,REP,TRAVIS KLAVOHN,215
+Senate 6,State Senator: district 38,(DEM,HORACENA TATE,916
+Senate 6,State Senator: district 38,REP,TRAVIS KLAVOHN,555
+Senate 33,State Senator: district 38,(DEM,HORACENA TATE,232
+Senate 33,State Senator: district 38,REP,TRAVIS KLAVOHN,75
+Senate 38,State Senator: district 38,(DEM,HORACENA TATE,61127
+Senate 38,State Senator: district 38,REP,TRAVIS KLAVOHN,12262
+House 54,State Senator: district 39,(DEM,NIKEMA WILLIAMS,9274
+House 55,State Senator: district 39,(DEM,NIKEMA WILLIAMS,6704
+House 56,State Senator: district 39,(DEM,NIKEMA WILLIAMS,12625
+House 57,State Senator: district 39,(DEM,NIKEMA WILLIAMS,9283
+House 58,State Senator: district 39,(DEM,NIKEMA WILLIAMS,2825
+House 60,State Senator: district 39,(DEM,NIKEMA WILLIAMS,6199
+House 61,State Senator: district 39,(DEM,NIKEMA WILLIAMS,1768
+House 62,State Senator: district 39,(DEM,NIKEMA WILLIAMS,5027
+House 63,State Senator: district 39,(DEM,NIKEMA WILLIAMS,7881
+House 64,State Senator: district 39,(DEM,NIKEMA WILLIAMS,5344
+House 65,State Senator: district 39,(DEM,NIKEMA WILLIAMS,363
+Senate 39,State Senator: district 39,(DEM,NIKEMA WILLIAMS,67293
+House 157,State Senator: district 4,(REP,JACK HILL,5298
+House 158,State Senator: district 4,(REP,JACK HILL,10443
+House 159,State Senator: district 4,(REP,JACK HILL,12916
+House 160,State Senator: district 4,(REP,JACK HILL,11350
+House 161,State Senator: district 4,(REP,JACK HILL,11758
+Senate 4,State Senator: district 4,(REP,JACK HILL,51765
+House 51,State Senator: district 40,(REP,FRAN MILLAR,3200
+House 51,State Senator: district 40,DEM,SALLY HARRELL,2206
+House 79,State Senator: district 40,(REP,FRAN MILLAR,11399
+House 79,State Senator: district 40,DEM,SALLY HARRELL,11811
+House 80,State Senator: district 40,(REP,FRAN MILLAR,6578
+House 80,State Senator: district 40,DEM,SALLY HARRELL,7219
+House 81,State Senator: district 40,(REP,FRAN MILLAR,6320
+House 81,State Senator: district 40,DEM,SALLY HARRELL,10212
+House 82,State Senator: district 40,(REP,FRAN MILLAR,141
+House 82,State Senator: district 40,DEM,SALLY HARRELL,284
+House 87,State Senator: district 40,(REP,FRAN MILLAR,454
+House 87,State Senator: district 40,DEM,SALLY HARRELL,1259
+House 88,State Senator: district 40,(REP,FRAN MILLAR,472
+House 88,State Senator: district 40,DEM,SALLY HARRELL,1861
+House 95,State Senator: district 40,(REP,FRAN MILLAR,5278
+House 95,State Senator: district 40,DEM,SALLY HARRELL,6104
+Senate 40,State Senator: district 40,(REP,FRAN MILLAR,33629
+Senate 40,State Senator: district 40,DEM,SALLY HARRELL,40519
+Senate 41,State Senator: district 40,(REP,FRAN MILLAR,73
+Senate 41,State Senator: district 40,DEM,SALLY HARRELL,154
+Senate 42,State Senator: district 40,(REP,FRAN MILLAR,140
+Senate 42,State Senator: district 40,DEM,SALLY HARRELL,283
+House 81,State Senator: district 41,(DEM,STEVE HENSON,30
+House 85,State Senator: district 41,(DEM,STEVE HENSON,6129
+House 86,State Senator: district 41,(DEM,STEVE HENSON,11381
+House 87,State Senator: district 41,(DEM,STEVE HENSON,12772
+House 88,State Senator: district 41,(DEM,STEVE HENSON,9070
+House 94,State Senator: district 41,(DEM,STEVE HENSON,2088
+House 99,State Senator: district 41,(DEM,STEVE HENSON,1296
+House 100,State Senator: district 41,(DEM,STEVE HENSON,2080
+House 107,State Senator: district 41,(DEM,STEVE HENSON,3258
+House 108,State Senator: district 41,(DEM,STEVE HENSON,3739
+Senate 5,State Senator: district 41,(DEM,STEVE HENSON,331
+Senate 9,State Senator: district 41,(DEM,STEVE HENSON,98
+Senate 40,State Senator: district 41,(DEM,STEVE HENSON,227
+Senate 41,State Senator: district 41,(DEM,STEVE HENSON,50657
+Senate 42,State Senator: district 41,(DEM,STEVE HENSON,530
+House 80,State Senator: district 42,(DEM,ELENA PARENT,3161
+House 81,State Senator: district 42,(DEM,ELENA PARENT,420
+House 82,State Senator: district 42,(DEM,ELENA PARENT,17450
+House 83,State Senator: district 42,(DEM,ELENA PARENT,12709
+House 84,State Senator: district 42,(DEM,ELENA PARENT,12955
+House 85,State Senator: district 42,(DEM,ELENA PARENT,9076
+House 86,State Senator: district 42,(DEM,ELENA PARENT,4969
+House 89,State Senator: district 42,(DEM,ELENA PARENT,11842
+Senate 40,State Senator: district 42,(DEM,ELENA PARENT,424
+Senate 41,State Senator: district 42,(DEM,ELENA PARENT,530
+Senate 42,State Senator: district 42,(DEM,ELENA PARENT,71485
+Senate 44,State Senator: district 42,(DEM,ELENA PARENT,143
+House 90,State Senator: district 43,(DEM,TONYA P. ANDERSON,3432
+House 91,State Senator: district 43,(DEM,TONYA P. ANDERSON,18048
+House 92,State Senator: district 43,(DEM,TONYA P. ANDERSON,12654
+House 93,State Senator: district 43,(DEM,TONYA P. ANDERSON,2239
+House 94,State Senator: district 43,(DEM,TONYA P. ANDERSON,180
+House 110,State Senator: district 43,(DEM,TONYA P. ANDERSON,738
+House 112,State Senator: district 43,(DEM,TONYA P. ANDERSON,2822
+House 113,State Senator: district 43,(DEM,TONYA P. ANDERSON,18548
+House 114,State Senator: district 43,(DEM,TONYA P. ANDERSON,1491
+Senate 43,State Senator: district 43,(DEM,TONYA P. ANDERSON,59967
+Senate 55,State Senator: district 43,(DEM,TONYA P. ANDERSON,185
+House 63,State Senator: district 44,(DEM,GAIL DAVENPORT,3241
+House 74,State Senator: district 44,(DEM,GAIL DAVENPORT,1297
+House 75,State Senator: district 44,(DEM,GAIL DAVENPORT,11465
+House 76,State Senator: district 44,(DEM,GAIL DAVENPORT,13185
+House 78,State Senator: district 44,(DEM,GAIL DAVENPORT,14614
+House 83,State Senator: district 44,(DEM,GAIL DAVENPORT,7687
+House 89,State Senator: district 44,(DEM,GAIL DAVENPORT,15971
+Senate 42,State Senator: district 44,(DEM,GAIL DAVENPORT,143
+Senate 44,State Senator: district 44,(DEM,GAIL DAVENPORT,67317
+House 97,State Senator: district 45,(REP,RENEE S. UNTERMAN,6134
+House 97,State Senator: district 45,DEM,JANA RODGERS,4014
+House 98,State Senator: district 45,(REP,RENEE S. UNTERMAN,13807
+House 98,State Senator: district 45,DEM,JANA RODGERS,9048
+House 101,State Senator: district 45,(REP,RENEE S. UNTERMAN,2415
+House 101,State Senator: district 45,DEM,JANA RODGERS,2862
+House 102,State Senator: district 45,(REP,RENEE S. UNTERMAN,7959
+House 102,State Senator: district 45,DEM,JANA RODGERS,8441
+House 103,State Senator: district 45,(REP,RENEE S. UNTERMAN,7136
+House 103,State Senator: district 45,DEM,JANA RODGERS,4171
+House 104,State Senator: district 45,(REP,RENEE S. UNTERMAN,6862
+House 104,State Senator: district 45,DEM,JANA RODGERS,3502
+Senate 9,State Senator: district 45,(REP,RENEE S. UNTERMAN,597
+Senate 9,State Senator: district 45,DEM,JANA RODGERS,518
+Senate 45,State Senator: district 45,(REP,RENEE S. UNTERMAN,43716
+Senate 45,State Senator: district 45,DEM,JANA RODGERS,31519
+House 114,State Senator: district 46,(REP,BILL COWSERT,11513
+House 114,State Senator: district 46,DEM,MARISUE HILLIARD,3313
+House 115,State Senator: district 46,(REP,BILL COWSERT,13341
+House 115,State Senator: district 46,DEM,MARISUE HILLIARD,4055
+House 117,State Senator: district 46,(REP,BILL COWSERT,9244
+House 117,State Senator: district 46,DEM,MARISUE HILLIARD,10196
+House 118,State Senator: district 46,(REP,BILL COWSERT,2049
+House 118,State Senator: district 46,DEM,MARISUE HILLIARD,7600
+House 119,State Senator: district 46,(REP,BILL COWSERT,11461
+House 119,State Senator: district 46,DEM,MARISUE HILLIARD,6078
+Senate 46,State Senator: district 46,(REP,BILL COWSERT,47608
+Senate 46,State Senator: district 46,DEM,MARISUE HILLIARD,31242
+House 31,State Senator: district 47,(REP,FRANK GINN,9582
+House 31,State Senator: district 47,DEM,DAWN JOHNSON,2080
+House 32,State Senator: district 47,(REP,FRANK GINN,2400
+House 32,State Senator: district 47,DEM,DAWN JOHNSON,332
+House 33,State Senator: district 47,(REP,FRANK GINN,6667
+House 33,State Senator: district 47,DEM,DAWN JOHNSON,2121
+House 114,State Senator: district 47,(REP,FRANK GINN,2893
+House 114,State Senator: district 47,DEM,DAWN JOHNSON,1313
+House 116,State Senator: district 47,(REP,FRANK GINN,15559
+House 116,State Senator: district 47,DEM,DAWN JOHNSON,4850
+House 117,State Senator: district 47,(REP,FRANK GINN,3937
+House 117,State Senator: district 47,DEM,DAWN JOHNSON,1266
+House 118,State Senator: district 47,(REP,FRANK GINN,2521
+House 118,State Senator: district 47,DEM,DAWN JOHNSON,5999
+House 119,State Senator: district 47,(REP,FRANK GINN,2460
+House 119,State Senator: district 47,DEM,DAWN JOHNSON,5258
+Senate 47,State Senator: district 47,(REP,FRANK GINN,44688
+Senate 47,State Senator: district 47,DEM,DAWN JOHNSON,22841
+Senate 50,State Senator: district 47,(REP,FRANK GINN,1331
+Senate 50,State Senator: district 47,DEM,DAWN JOHNSON,378
+House 25,State Senator: district 48,DEM,ZAHRA KARINSHAK,1518
+House 25,State Senator: district 48,REP,MATT REEVES,1479
+House 49,State Senator: district 48,DEM,ZAHRA KARINSHAK,380
+House 49,State Senator: district 48,REP,MATT REEVES,288
+House 50,State Senator: district 48,DEM,ZAHRA KARINSHAK,10171
+House 50,State Senator: district 48,REP,MATT REEVES,9936
+House 95,State Senator: district 48,DEM,ZAHRA KARINSHAK,5041
+House 95,State Senator: district 48,REP,MATT REEVES,4493
+House 96,State Senator: district 48,DEM,ZAHRA KARINSHAK,5371
+House 96,State Senator: district 48,REP,MATT REEVES,3176
+House 97,State Senator: district 48,DEM,ZAHRA KARINSHAK,6940
+House 97,State Senator: district 48,REP,MATT REEVES,7421
+House 101,State Senator: district 48,DEM,ZAHRA KARINSHAK,4965
+House 101,State Senator: district 48,REP,MATT REEVES,3255
+House 102,State Senator: district 48,DEM,ZAHRA KARINSHAK,1054
+House 102,State Senator: district 48,REP,MATT REEVES,662
+Senate 48,State Senator: district 48,DEM,ZAHRA KARINSHAK,35440
+Senate 48,State Senator: district 48,REP,MATT REEVES,30710
+House 27,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,16536
+House 29,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,12366
+House 30,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,16727
+House 103,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,9980
+Senate 49,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,55230
+Senate 50,State Senator: district 49,(REP,CECIL T. "BUTCH" MILLER,379
+House 81,State Senator: district 5,DEM,SHEIKH RAHMAN,895
+House 95,State Senator: district 5,DEM,SHEIKH RAHMAN,947
+House 96,State Senator: district 5,DEM,SHEIKH RAHMAN,3985
+House 99,State Senator: district 5,DEM,SHEIKH RAHMAN,6066
+House 100,State Senator: district 5,DEM,SHEIKH RAHMAN,8746
+House 101,State Senator: district 5,DEM,SHEIKH RAHMAN,2575
+House 104,State Senator: district 5,DEM,SHEIKH RAHMAN,3124
+House 105,State Senator: district 5,DEM,SHEIKH RAHMAN,3398
+House 107,State Senator: district 5,DEM,SHEIKH RAHMAN,4022
+House 108,State Senator: district 5,DEM,SHEIKH RAHMAN,671
+Senate 5,State Senator: district 5,DEM,SHEIKH RAHMAN,34098
+Senate 41,State Senator: district 5,DEM,SHEIKH RAHMAN,331
+House 8,State Senator: district 50,(REP,JOHN K. WILKINSON,11636
+House 10,State Senator: district 50,(REP,JOHN K. WILKINSON,13205
+House 27,State Senator: district 50,(REP,JOHN K. WILKINSON,895
+House 28,State Senator: district 50,(REP,JOHN K. WILKINSON,14635
+House 30,State Senator: district 50,(REP,JOHN K. WILKINSON,337
+House 31,State Senator: district 50,(REP,JOHN K. WILKINSON,10835
+House 32,State Senator: district 50,(REP,JOHN K. WILKINSON,7428
+Senate 47,State Senator: district 50,(REP,JOHN K. WILKINSON,1709
+Senate 49,State Senator: district 50,(REP,JOHN K. WILKINSON,379
+Senate 50,State Senator: district 50,(REP,JOHN K. WILKINSON,56883
+House 7,State Senator: district 51,(REP,STEVE GOOCH,22132
+House 8,State Senator: district 51,(REP,STEVE GOOCH,12835
+House 9,State Senator: district 51,(REP,STEVE GOOCH,18642
+House 10,State Senator: district 51,(REP,STEVE GOOCH,7171
+House 11,State Senator: district 51,(REP,STEVE GOOCH,7329
+House 26,State Senator: district 51,(REP,STEVE GOOCH,906
+House 27,State Senator: district 51,(REP,STEVE GOOCH,699
+Senate 27,State Senator: district 51,(REP,STEVE GOOCH,680
+Senate 51,State Senator: district 51,(REP,STEVE GOOCH,69034
+Senate 54,State Senator: district 51,(REP,STEVE GOOCH,0
+House 5,State Senator: district 52,(REP,CHUCK HUFSTETLER,8021
+House 5,State Senator: district 52,DEM,EVAN ROSS,2168
+House 12,State Senator: district 52,(REP,CHUCK HUFSTETLER,7351
+House 12,State Senator: district 52,DEM,EVAN ROSS,1856
+House 13,State Senator: district 52,(REP,CHUCK HUFSTETLER,10510
+House 13,State Senator: district 52,DEM,EVAN ROSS,5275
+House 14,State Senator: district 52,(REP,CHUCK HUFSTETLER,6542
+House 14,State Senator: district 52,DEM,EVAN ROSS,1267
+House 15,State Senator: district 52,(REP,CHUCK HUFSTETLER,7393
+House 15,State Senator: district 52,DEM,EVAN ROSS,2516
+House 16,State Senator: district 52,(REP,CHUCK HUFSTETLER,2675
+House 16,State Senator: district 52,DEM,EVAN ROSS,500
+Senate 14,State Senator: district 52,(REP,CHUCK HUFSTETLER,649
+Senate 14,State Senator: district 52,DEM,EVAN ROSS,223
+Senate 52,State Senator: district 52,(REP,CHUCK HUFSTETLER,41816
+Senate 52,State Senator: district 52,DEM,EVAN ROSS,13330
+Senate 54,State Senator: district 52,(REP,CHUCK HUFSTETLER,27
+Senate 54,State Senator: district 52,DEM,EVAN ROSS,29
+House 1,State Senator: district 53,(REP,JEFF MULLIS,14055
+House 2,State Senator: district 53,(REP,JEFF MULLIS,12627
+House 3,State Senator: district 53,(REP,JEFF MULLIS,16694
+House 12,State Senator: district 53,(REP,JEFF MULLIS,5792
+Senate 53,State Senator: district 53,(REP,JEFF MULLIS,49168
+House 2,State Senator: district 54,(REP,CHUCK PAYNE,3386
+House 2,State Senator: district 54,DEM,MICHAEL S. MORGAN,724
+House 4,State Senator: district 54,(REP,CHUCK PAYNE,8099
+House 4,State Senator: district 54,DEM,MICHAEL S. MORGAN,4030
+House 5,State Senator: district 54,(REP,CHUCK PAYNE,4908
+House 5,State Senator: district 54,DEM,MICHAEL S. MORGAN,751
+House 6,State Senator: district 54,(REP,CHUCK PAYNE,12388
+House 6,State Senator: district 54,DEM,MICHAEL S. MORGAN,2935
+House 11,State Senator: district 54,(REP,CHUCK PAYNE,10797
+House 11,State Senator: district 54,DEM,MICHAEL S. MORGAN,1670
+Senate 51,State Senator: district 54,(REP,CHUCK PAYNE,0
+Senate 51,State Senator: district 54,DEM,MICHAEL S. MORGAN,0
+Senate 52,State Senator: district 54,(REP,CHUCK PAYNE,51
+Senate 52,State Senator: district 54,DEM,MICHAEL S. MORGAN,5
+Senate 54,State Senator: district 54,(REP,CHUCK PAYNE,39527
+Senate 54,State Senator: district 54,DEM,MICHAEL S. MORGAN,10105
+House 86,State Senator: district 55,(DEM,GLORIA S. BUTLER,2825
+House 86,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,214
+House 87,State Senator: district 55,(DEM,GLORIA S. BUTLER,7003
+House 87,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,326
+House 88,State Senator: district 55,(DEM,GLORIA S. BUTLER,7755
+House 88,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,431
+House 92,State Senator: district 55,(DEM,GLORIA S. BUTLER,162
+House 92,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,3
+House 93,State Senator: district 55,(DEM,GLORIA S. BUTLER,19633
+House 93,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,4234
+House 94,State Senator: district 55,(DEM,GLORIA S. BUTLER,16950
+House 94,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,3326
+House 105,State Senator: district 55,(DEM,GLORIA S. BUTLER,1715
+House 105,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,884
+House 106,State Senator: district 55,(DEM,GLORIA S. BUTLER,5913
+House 106,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,3319
+House 108,State Senator: district 55,(DEM,GLORIA S. BUTLER,738
+House 108,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,765
+House 114,State Senator: district 55,(DEM,GLORIA S. BUTLER,2045
+House 114,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,1137
+Senate 9,State Senator: district 55,(DEM,GLORIA S. BUTLER,331
+Senate 9,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,234
+Senate 10,State Senator: district 55,(DEM,GLORIA S. BUTLER,11
+Senate 10,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,0
+Senate 43,State Senator: district 55,(DEM,GLORIA S. BUTLER,181
+Senate 43,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,4
+Senate 55,State Senator: district 55,(DEM,GLORIA S. BUTLER,64216
+Senate 55,State Senator: district 55,REP,ANNETTE DAVIS JACKSON,14401
+House 45,State Senator: district 56,(REP,JOHN ALBERS,1108
+House 45,State Senator: district 56,DEM,ELLYN JEAGER,2120
+House 46,State Senator: district 56,(REP,JOHN ALBERS,2533
+House 46,State Senator: district 56,DEM,ELLYN JEAGER,1365
+House 47,State Senator: district 56,(REP,JOHN ALBERS,8738
+House 47,State Senator: district 56,DEM,ELLYN JEAGER,4828
+House 48,State Senator: district 56,(REP,JOHN ALBERS,11494
+House 48,State Senator: district 56,DEM,ELLYN JEAGER,10578
+House 49,State Senator: district 56,(REP,JOHN ALBERS,6837
+House 49,State Senator: district 56,DEM,ELLYN JEAGER,6244
+House 50,State Senator: district 56,(REP,JOHN ALBERS,950
+House 50,State Senator: district 56,DEM,ELLYN JEAGER,656
+House 51,State Senator: district 56,(REP,JOHN ALBERS,8527
+House 51,State Senator: district 56,DEM,ELLYN JEAGER,10423
+House 52,State Senator: district 56,(REP,JOHN ALBERS,702
+House 52,State Senator: district 56,DEM,ELLYN JEAGER,1242
+House 95,State Senator: district 56,(REP,JOHN ALBERS,985
+House 95,State Senator: district 56,DEM,ELLYN JEAGER,446
+Senate 21,State Senator: district 56,(REP,JOHN ALBERS,256
+Senate 21,State Senator: district 56,DEM,ELLYN JEAGER,138
+Senate 56,State Senator: district 56,(REP,JOHN ALBERS,41618
+Senate 56,State Senator: district 56,DEM,ELLYN JEAGER,37764
+House 37,State Senator: district 6,(DEM,JEN JORDAN,153
+House 37,State Senator: district 6,REP,LEAH ALDRIDGE,40
+House 40,State Senator: district 6,(DEM,JEN JORDAN,11837
+House 40,State Senator: district 6,REP,LEAH ALDRIDGE,8163
+House 41,State Senator: district 6,(DEM,JEN JORDAN,1312
+House 41,State Senator: district 6,REP,LEAH ALDRIDGE,568
+House 42,State Senator: district 6,(DEM,JEN JORDAN,7841
+House 42,State Senator: district 6,REP,LEAH ALDRIDGE,2478
+House 43,State Senator: district 6,(DEM,JEN JORDAN,2988
+House 43,State Senator: district 6,REP,LEAH ALDRIDGE,881
+House 52,State Senator: district 6,(DEM,JEN JORDAN,7540
+House 52,State Senator: district 6,REP,LEAH ALDRIDGE,8072
+House 53,State Senator: district 6,(DEM,JEN JORDAN,5217
+House 53,State Senator: district 6,REP,LEAH ALDRIDGE,3300
+House 54,State Senator: district 6,(DEM,JEN JORDAN,7234
+House 54,State Senator: district 6,REP,LEAH ALDRIDGE,7462
+House 80,State Senator: district 6,(DEM,JEN JORDAN,2546
+House 80,State Senator: district 6,REP,LEAH ALDRIDGE,2248
+Senate 6,State Senator: district 6,(DEM,JEN JORDAN,44455
+Senate 6,State Senator: district 6,REP,LEAH ALDRIDGE,32416
+Senate 32,State Senator: district 6,(DEM,JEN JORDAN,590
+Senate 32,State Senator: district 6,REP,LEAH ALDRIDGE,108
+Senate 33,State Senator: district 6,(DEM,JEN JORDAN,698
+Senate 33,State Senator: district 6,REP,LEAH ALDRIDGE,144
+Senate 38,State Senator: district 6,(DEM,JEN JORDAN,924
+Senate 38,State Senator: district 6,REP,LEAH ALDRIDGE,545
+House 148,State Senator: district 7,(REP,TYLER HARPER,1029
+House 155,State Senator: district 7,(REP,TYLER HARPER,9001
+House 169,State Senator: district 7,(REP,TYLER HARPER,11608
+House 170,State Senator: district 7,(REP,TYLER HARPER,5642
+House 174,State Senator: district 7,(REP,TYLER HARPER,2009
+House 176,State Senator: district 7,(REP,TYLER HARPER,6624
+House 178,State Senator: district 7,(REP,TYLER HARPER,6296
+House 180,State Senator: district 7,(REP,TYLER HARPER,3278
+Senate 3,State Senator: district 7,(REP,TYLER HARPER,123
+Senate 7,State Senator: district 7,(REP,TYLER HARPER,45240
+Senate 13,State Senator: district 7,(REP,TYLER HARPER,125
+House 170,State Senator: district 8,(REP,ELLIS BLACK,4847
+House 174,State Senator: district 8,(REP,ELLIS BLACK,8096
+House 175,State Senator: district 8,(REP,ELLIS BLACK,14898
+House 176,State Senator: district 8,(REP,ELLIS BLACK,4696
+House 176,State Senator: district 8,R,E. BLACK,2209
+House 177,State Senator: district 8,(REP,ELLIS BLACK,8307
+Senate 8,State Senator: district 8,(REP,ELLIS BLACK,40845
+Senate 8,State Senator: district 8,R,E. BLACK,2209
+House 94,State Senator: district 9,(REP,P. K. MARTIN IV,409
+House 94,State Senator: district 9,DEM,CHERYLE R. MOSES,620
+House 101,State Senator: district 9,(REP,P. K. MARTIN IV,1558
+House 101,State Senator: district 9,DEM,CHERYLE R. MOSES,1457
+House 102,State Senator: district 9,(REP,P. K. MARTIN IV,1466
+House 102,State Senator: district 9,DEM,CHERYLE R. MOSES,1146
+House 103,State Senator: district 9,(REP,P. K. MARTIN IV,1986
+House 103,State Senator: district 9,DEM,CHERYLE R. MOSES,1430
+House 104,State Senator: district 9,(REP,P. K. MARTIN IV,6296
+House 104,State Senator: district 9,DEM,CHERYLE R. MOSES,5186
+House 105,State Senator: district 9,(REP,P. K. MARTIN IV,8467
+House 105,State Senator: district 9,DEM,CHERYLE R. MOSES,9747
+House 106,State Senator: district 9,(REP,P. K. MARTIN IV,7292
+House 106,State Senator: district 9,DEM,CHERYLE R. MOSES,7195
+House 107,State Senator: district 9,(REP,P. K. MARTIN IV,6217
+House 107,State Senator: district 9,DEM,CHERYLE R. MOSES,5887
+House 108,State Senator: district 9,(REP,P. K. MARTIN IV,8346
+House 108,State Senator: district 9,DEM,CHERYLE R. MOSES,6217
+House 114,State Senator: district 9,(REP,P. K. MARTIN IV,366
+House 114,State Senator: district 9,DEM,CHERYLE R. MOSES,362
+Senate 9,State Senator: district 9,(REP,P. K. MARTIN IV,41423
+Senate 9,State Senator: district 9,DEM,CHERYLE R. MOSES,38448
+Senate 41,State Senator: district 9,(REP,P. K. MARTIN IV,54
+Senate 41,State Senator: district 9,DEM,CHERYLE R. MOSES,45
+Senate 45,State Senator: district 9,(REP,P. K. MARTIN IV,687
+Senate 45,State Senator: district 9,DEM,CHERYLE R. MOSES,428
+Senate 55,State Senator: district 9,(REP,P. K. MARTIN IV,239
+Senate 55,State Senator: district 9,DEM,CHERYLE R. MOSES,326
 House 157,U.S. Representative: district 1,(REP,EARL L. "BUDDY" CARTER,4193
 House 157,U.S. Representative: district 1,DEM,LISA M. RING,1327
 House 159,U.S. Representative: district 1,(REP,EARL L. "BUDDY" CARTER,881
@@ -1287,6 +3346,8 @@ Senate 46,U.S. Representative: district 10,(REP,JODY HICE,47533
 Senate 46,U.S. Representative: district 10,DEM,TABITHA A. JOHNSON-GREEN,31451
 Senate 47,U.S. Representative: district 10,(REP,JODY HICE,23890
 Senate 47,U.S. Representative: district 10,DEM,TABITHA A. JOHNSON-GREEN,14670
+House 14,U.S. Representative: district 11,(REP,BARRY LOUDERMILK,11121
+House 14,U.S. Representative: district 11,DEM,FLYNN D. BROADY JR,2495
 House 15,U.S. Representative: district 11,(REP,BARRY LOUDERMILK,14708
 House 15,U.S. Representative: district 11,DEM,FLYNN D. BROADY JR,5327
 House 16,U.S. Representative: district 11,(REP,BARRY LOUDERMILK,2695
@@ -1497,6 +3558,8 @@ House 12,U.S. Representative: district 14,(REP,TOM GRAVES,12581
 House 12,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,3164
 House 13,U.S. Representative: district 14,(REP,TOM GRAVES,10353
 House 13,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,5387
+House 14,U.S. Representative: district 14,(REP,TOM GRAVES,4641
+House 14,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,924
 House 16,U.S. Representative: district 14,(REP,TOM GRAVES,11741
 House 16,U.S. Representative: district 14,DEM,STEVEN LAMAR FOSTER,2703
 House 17,U.S. Representative: district 14,(REP,TOM GRAVES,16972
@@ -1886,6 +3949,8 @@ House 26,U.S. Representative: district 9,(REP,DOUG COLLINS,14025
 House 26,U.S. Representative: district 9,DEM,JOSH MCCALL,2899
 House 27,U.S. Representative: district 9,(REP,DOUG COLLINS,16585
 House 27,U.S. Representative: district 9,DEM,JOSH MCCALL,3520
+House 28,U.S. Representative: district 9,(REP,DOUG COLLINS,13623
+House 28,U.S. Representative: district 9,DEM,JOSH MCCALL,2459
 House 29,U.S. Representative: district 9,(REP,DOUG COLLINS,9796
 House 29,U.S. Representative: district 9,DEM,JOSH MCCALL,5534
 House 30,U.S. Representative: district 9,(REP,DOUG COLLINS,14660
